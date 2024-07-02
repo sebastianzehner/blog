@@ -1,6 +1,6 @@
-baseURL = ''
+baseURL = 'https://sebastianzehner.netlify.app/'
 languageCode = 'en-us'
-title = 'sebastianzehner'
+title = 'sebastianzehner.com'
 theme = 'PaperMod'
 
 enableEmoji = true
