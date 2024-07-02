@@ -30,7 +30,7 @@ Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum 
 
 Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
 
-{{< imgur id="OIIJQ47" >}}
+{{< imgur id="OIIJQ47" context="true" >}}
 
 Ihre Praxis für Schmerztherapie ist übrigens auch über Google Maps zu finden und Stefanie wird sich sicherlich über eine Rezension von ihren zufriedenen Kunden freuen:
 
@@ -46,7 +46,7 @@ Das passt uns gerade sehr gut und ansonsten sind wir am Optimieren für die Bew�
 
 Ich darf als nächstes die Außenbeleuchtung um den Raum herum montieren, da haben wir die gleichen Wandleuchten wie im Inneren. Ich muss uns zudem noch weitere Elektro- und Netzwerkkabel kaufen. Wir haben bisher noch keine Netzwerkleitung bis zum Raum verlegt, das muss ich selbst machen und auch die Elektroleitungen für die Außenbeleuchtung am Weg entlang bis zur Terrassenverlängerung. Erst danach werde ich die Lampen dafür bauen. Das Material für die Lampen habe ich zum größten Teil allerdings schon hier. Das wird nochmal viel Arbeit werden.
 
-{{< imgur id="OIIJQ47" >}}
+{{< imgur id="OIIJQ47" context="false" >}}
 
 ## Neuer Hasenstall aus Holz
 
