@@ -1,0 +1,76 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'sebastianzehner'
+theme = 'PaperMod'
+
+enableEmoji = true
+
+[params]
+    ShowBreadCrumbs = true
+    ShowShareButtons = true
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+
+[params.homeInfoParams]
+    title = 'Hello my friend...'
+    content = 'Welcome to my blog. Here you will find a lot of cool information about a lot of cool stuff.'
+    [[params.socialIcons]]
+        name = 'facebook'
+        url = 'https://www.facebook.com/sebastianzehner83'
+    [[params.socialIcons]]
+        name = 'youtube'
+        url = 'https://www.youtube.com/@SebastianZehner'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 1
+    [languages.en.menus]
+        [[languages.en.menus.main]]
+            name = 'Home'
+            pageRef = '/'
+            weight = 10
+        [[languages.en.menus.main]]
+            identifier = 'categories'
+            name = 'Categories'
+            pageRef = '/categories/'
+            weight = 20
+        [[languages.en.menus.main]]
+            identifier = 'tags'
+            name = 'Tags'
+            pageRef = '/tags/'
+            weight = 30
+        [[languages.en.menus.main]]
+            identifier = 'archives'
+            name = 'Archives'
+            pageRef = '/archives/'
+            weight = 40
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = 'Deutsch'
+    weight = 2
+    [languages.de.menus]
+        [[languages.de.menus.main]]
+            name = 'Start'
+            pageRef = '/'
+            weight = 10
+        [[languages.de.menus.main]]
+            identifier = 'categories'
+            name = 'Kategorien'
+            pageRef = '/categories/'
+            weight = 20
+        [[languages.de.menus.main]]
+            identifier = 'tags'
+            name = 'Tags'
+            pageRef = '/tags/'
+            weight = 30
+        #[[languages.de.menus.main]]
+            #identifier = 'archives'
+            #name = 'Archiv'
+            #pageRef = '/archives/'
+            #weight = 40
+
+#Archives not available with multilingual. Same as categories and tags. How to fix?
