@@ -30,7 +30,7 @@ Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum 
 
 Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
 
-{{< imgur id="OIIJQ47" context="true" >}}
+{{< imgur id="OIIJQ47" context="" >}}
 
 Ihre Praxis für Schmerztherapie ist übrigens auch über Google Maps zu finden und Stefanie wird sich sicherlich über eine Rezension von ihren zufriedenen Kunden freuen:
 
