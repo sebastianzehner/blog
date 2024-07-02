@@ -46,7 +46,7 @@ Das passt uns gerade sehr gut und ansonsten sind wir am Optimieren für die Bew�
 
 Ich darf als nächstes die Außenbeleuchtung um den Raum herum montieren, da haben wir die gleichen Wandleuchten wie im Inneren. Ich muss uns zudem noch weitere Elektro- und Netzwerkkabel kaufen. Wir haben bisher noch keine Netzwerkleitung bis zum Raum verlegt, das muss ich selbst machen und auch die Elektroleitungen für die Außenbeleuchtung am Weg entlang bis zur Terrassenverlängerung. Erst danach werde ich die Lampen dafür bauen. Das Material für die Lampen habe ich zum größten Teil allerdings schon hier. Das wird nochmal viel Arbeit werden.
 
-{{< imgur2 id="4WjAvAB" context="false" >}}
+{{< imgur id="4WjAvAB" context="false" >}}
 
 ## Neuer Hasenstall aus Holz
 
