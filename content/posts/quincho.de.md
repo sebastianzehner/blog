@@ -12,7 +12,7 @@ categories = ['Paraguay', 'Einfaches Leben', 'Auswandern']
     author = 'Sebastian Zehner'
 
 [cover]
-    image = 'https://i.imgur.com/yozFdy9.jpeg'
+    image = 'https://i.imgur.com/L1gg1ff.jpeg'
     alt = 'Beitragsbild von Quincho und Behandlungsraum sind fertig'
     #caption = 'This is the caption'
     relative = false
