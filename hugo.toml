@@ -9,11 +9,14 @@ enableEmoji = true
 [params]
     ShowBreadCrumbs = true
     ShowShareButtons = true
+    ShowCodeCopyButtons = true
     #ShowReadingTime = true
     #ShowPostNavLinks = false
 
     defaultTheme = 'auto'
     disableThemeToggle = false
+
+    goatcounter = 'sebastianzehner'
 
 [params.homeInfoParams]
     title = 'Hi there... :wave:'

@@ -8,9 +8,12 @@ draft = false
 tags = ['Hugo', 'PaperMod', 'Webseite']
 categories = ['Technik', 'Einfaches Leben']
 
+ShowToc = true
+TocOpen = false
+#ShowBreadCrumbs = true
+
 [params]
     author = 'Sebastian Zehner'
-    ShowBreadCrumbs = true
     #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
     ShowReadingTime = true
     ShowPostNavLinks = false    
