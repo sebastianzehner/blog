@@ -16,7 +16,7 @@ enableEmoji = true
     defaultTheme = 'auto'
     disableThemeToggle = false
 
-    goatcounter = 'sebastianzehner'
+    goatcounter = 'stats'
 
 [params.homeInfoParams]
     title = 'Hi there... :wave:'
