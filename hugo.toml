@@ -1,5 +1,5 @@
-#baseURL = 'https://sebastianzehner.com'
-baseURL = 'localhost' #testing at local server
+baseURL = 'https://sebastianzehner.com'
+#baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
 title = 'sebastianzehner.com'
 theme = 'PaperMod'
