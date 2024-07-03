@@ -1,5 +1,5 @@
 +++
-title = 'Buscar'
+title = 'Search'
 #date = ...
 draft = false
 layout = 'search'
