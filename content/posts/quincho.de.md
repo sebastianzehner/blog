@@ -17,7 +17,6 @@ categories = ['Paraguay', 'Einfaches Leben', 'Auswandern']
     #caption = 'This is the caption'
     relative = false
     responsiveImages = false
-
 +++
 
 Unser Quincho ist mittlerweile fertiggestellt und auch der Behandlungsraum von Stefanie ist einsatzbereit. Es fehlen noch ein paar Kleinigkeiten aber dazu gleich mehr. Die Zeit vergeht hier wie immer sehr schnell und es sind wieder einige Monate vergangen.
@@ -26,15 +25,15 @@ Stefanie hat mit dem neuen Raum jetzt noch mehr Termine als vorher. Im letzten J
 
 ## Behandlungsraum für Schmerztherapie
 
-Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du hier.
+Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du [hier](https://meinlifestylebusiness.com/der-neue-weg-von-unserem-haus-zum-quincho-ist-fertig/).
 
-Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
+Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden oder einfach nur eine entspannende Massage haben möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
 
 {{< imgur id="OIIJQ47" context="true" >}}
 
 Ihre Praxis für Schmerztherapie ist übrigens auch über Google Maps zu finden und Stefanie wird sich sicherlich über eine Rezension von ihren zufriedenen Kunden freuen:
 
-#Google Maps Bild einfügen
+#Google Maps Standort einbetten
 
 ## Quincho und Außenküche fertigstellen
 
@@ -54,13 +53,13 @@ Wir haben natürlich unseren bestellten Hasenstall zwischenzeitlich geliefert be
 
 Kein Sturm hat ihn bisher umgeworfen und die Höhe ist auch ideal um Zugang zu den Hasen zu bekommen. Fremde Tiere haben somit auch keine Chance zu unseren Hasen zu gelangen. Beim Rasenmähen werden sie meistens freigelassen und sie dürfen bei unserer Terrasse am Haus hoppeln, damit sie keine Angst vom lauten Rasenmäher bekommen.
 
-#Bilder von imgur einblenden
+{{< imgur id="cJfh2Nu" context="false" >}}
 
 ## Weitere Arbeiten am Grundstück
 
 Die Dachverlängerung beim Carport wurde von mir erneut angefragt und wir erhalten nun bald ein Angebot von einem anderen Baumeister. Leider hatten wir bei unser ersten Anfrage nach drei Monaten immer noch kein Angebot erhalten. Ich gehe davon aus, dass der zweite Anlauf nun besser funktioniert und zügiger abläuft. Wir brauchen unsere Dachverlängerung schon ziemlich dringend, da unser Carport mittlerweile sehr zugestellt ist.
 
-Ich baue dort normalerweise sehr gerne meine Möbel, weil das viel angenehmer ist als in der Werkstatt und momentan ist das kaum möglich. Sobald die Dachverlängerung fertiggestellt ist, kann ich mir wieder mehr Platz verschaffen und es sind auch alle Fahrzeuge und Gegenstände vor der starken Sonneneinstrahlung und dem Regen geschützt. Ich werde weiter berichten.
+Ich baue dort normalerweise sehr gerne meine Möbel, weil das viel angenehmer ist als in der Werkstatt und momentan ist das kaum möglich. Sobald die Dachverlängerung fertiggestellt ist, kann ich mir wieder mehr Platz verschaffen und es sind auch alle Fahrzeuge und Gegenstände vor der starken Sonneneinstrahlung und dem Regen geschützt. Ich werde weiter berichten und macht es gut bis dahin.
 
 Liebe Grüße
 Sebastian

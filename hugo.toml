@@ -9,7 +9,7 @@ enableEmoji = true
     ShowBreadCrumbs = true
     ShowShareButtons = true
     ShowReadingTime = true
-    ShowPostNavLinks = true
+    ShowPostNavLinks = false
 
 [params.homeInfoParams]
     title = 'Hello my friend...'
