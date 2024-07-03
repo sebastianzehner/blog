@@ -1,4 +1,5 @@
-baseURL = 'https://sebastianzehner.com'
+#baseURL = 'https://sebastianzehner.com'
+baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
 title = 'sebastianzehner.com'
 theme = 'PaperMod'
@@ -8,15 +9,21 @@ enableEmoji = true
 [params]
     ShowBreadCrumbs = true
     ShowShareButtons = true
-    ShowReadingTime = true
-    ShowPostNavLinks = false
+    #ShowReadingTime = true
+    #ShowPostNavLinks = false
+
+    defaultTheme = 'auto'
+    disableThemeToggle = false
 
 [params.homeInfoParams]
-    title = 'Hello my friend...'
-    content = 'Welcome to my blog. Here you will find a lot of cool information about a lot of cool stuff.'
+    title = 'Hi there... :wave:'
+    content = 'Welcome to my personal website. This is my minimalistic blog where I share projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life. You will find more about me [here](/about/). The standard language is English but you can switch to German or Spanish with only one click.'
     [[params.socialIcons]]
         name = 'facebook'
         url = 'https://www.facebook.com/sebastianzehner83'
+    [[params.socialIcons]]
+        name = 'instagram'
+        url = 'https://www.instagram.com/sebastianzehner/'
     [[params.socialIcons]]
         name = 'youtube'
         url = 'https://www.youtube.com/@SebastianZehner'
@@ -48,6 +55,10 @@ defaultContentLanguageInSubdir = true
             name = 'Archives'
             pageRef = '/archives/'
             weight = 40
+        [[languages.en.menus.main]]
+            name = 'About'
+            pageRef = '/about/'
+            weight = 50
   [languages.de]
     languageCode = 'de-DE'
     languageName = 'Deutsch'
@@ -67,10 +78,36 @@ defaultContentLanguageInSubdir = true
             name = 'Tags'
             pageRef = '/tags/'
             weight = 30
-        #[[languages.de.menus.main]]
-            #identifier = 'archives'
-            #name = 'Archiv'
-            #pageRef = '/archives/'
-            #weight = 40
+        [[languages.de.menus.main]]
+            identifier = 'archives'
+            name = 'Archiv'
+            pageRef = '/archives/'
+            weight = 40
+  [languages.es]
+    languageCode = 'es-ES'
+    languageName = 'Español'
+    weight = 3
+    [languages.es.menus]
+        [[languages.es.menus.main]]
+            name = 'Inicio'
+            pageRef = '/'
+            weight = 10
+        [[languages.es.menus.main]]
+            identifier = 'categories'
+            name = 'Categorías'
+            pageRef = '/categories/'
+            weight = 20
+        [[languages.es.menus.main]]
+            identifier = 'tags'
+            name = 'Tags'
+            pageRef = '/tags/'
+            weight = 30
+        [[languages.es.menus.main]]
+            identifier = 'archives'
+            name = 'Archivo'
+            pageRef = '/archives/'
+            weight = 40
+
 
 #Archives not available with multilingual. Same as categories and tags. How to fix?
+#Archives are multilingual! It works fine.
