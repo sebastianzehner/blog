@@ -29,7 +29,7 @@
 
 .logo a:hover {
     transition: 0.15s;
-    color: grey;
+    color: #d4b680;
 }
 
 .logo a img, .logo a svg {
@@ -82,7 +82,7 @@ body:not(.dark) #sun {
 
 #menu a:hover {
     transition: 0.15s;
-    color: grey;
+    color: #d4b680;
 }
 
 #menu .active {
