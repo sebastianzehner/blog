@@ -6,6 +6,9 @@ theme = 'PaperMod'
 
 enableEmoji = true
 
+[outputs]
+    home = [ "HTML", "RSS", "JSON" ]
+
 [params]
     ShowBreadCrumbs = true
     ShowShareButtons = true
