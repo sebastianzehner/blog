@@ -37,7 +37,7 @@ I also installed the lighting on the roof and walls as well as curtain rails and
 
 Her pain therapy practice can also be found via Google Maps and Stefanie will certainly be pleased to receive a review from her satisfied customers:
 
-{{< maps source="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.251457220461!2d-56.35200445421604!3d-26.310640458413058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94591ba447cf0fef%3A0x5a736e0e019f0061!2sNaturaflair%20-%20Stefanie%20J%C3%A4ger!5e1!3m2!1sde!2spy!4v1673883812720!5m2!1sde!2spy" >}}
+{{< maps source="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.251457220461!2d-56.35200445421604!3d-26.310640458413058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94591ba447cf0fef%3A0x5a736e0e019f0061!2sNaturaflair%20-%20Stefanie%20J%C3%A4ger!5e1!3m2!1sde!2spy!4v1673883812720!5m2!1sde!2spy" width="784" height="450" >}}
 
 ## Finishing the quincho and outdoor kitchen
 

@@ -137,6 +137,5 @@ defaultContentLanguageInSubdir = true
             pageRef = '/search/'
             weight = 60
 
-
 #Archives not available with multilingual. Same as categories and tags. How to fix?
 #Archives are multilingual! It works fine.

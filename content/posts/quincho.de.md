@@ -37,7 +37,7 @@ Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen monti
 
 Ihre Praxis für Schmerztherapie ist übrigens auch über Google Maps zu finden und Stefanie wird sich sicherlich über eine Rezension von ihren zufriedenen Kunden freuen:
 
-{{< maps source="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.251457220461!2d-56.35200445421604!3d-26.310640458413058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94591ba447cf0fef%3A0x5a736e0e019f0061!2sNaturaflair%20-%20Stefanie%20J%C3%A4ger!5e1!3m2!1sde!2spy!4v1673883812720!5m2!1sde!2spy" >}}
+{{< maps source="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.251457220461!2d-56.35200445421604!3d-26.310640458413058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94591ba447cf0fef%3A0x5a736e0e019f0061!2sNaturaflair%20-%20Stefanie%20J%C3%A4ger!5e1!3m2!1sde!2spy!4v1673883812720!5m2!1sde!2spy" width="784" height="450" >}}
 
 ## Quincho und Außenküche fertigstellen
 
