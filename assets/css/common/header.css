@@ -80,6 +80,11 @@ body:not(.dark) #sun {
     font-size: 16px;
 }
 
+#menu a:hover {
+    transition: 0.15s;
+    color: grey;
+}
+
 #menu .active {
     font-weight: 500;
     border-bottom: 2px solid currentColor;
@@ -105,4 +110,20 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+svg:hover {
+    transition: 0.15s;
+}
+
+.social-icons a:nth-child(1) svg:hover{
+    color: #3b5998 !important;
+}
+
+.social-icons a:nth-child(2) svg:hover {
+    color: #C13584 !important;
+}
+
+.social-icons a:nth-child(3) svg:hover {
+    color: #CD201F !important;
 }
