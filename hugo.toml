@@ -1,10 +1,15 @@
 baseURL = 'https://sebastianzehner.com'
 #baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
-title = ':earth_americas: sebastianzehner'
+title = 'Sebastian Zehner'
 theme = 'PaperMod'
 
 enableEmoji = true
+
+enableGitInfo = true
+
+[frontmatter]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [outputs]
     home = [ "HTML", "RSS", "JSON" ]
@@ -13,8 +18,7 @@ enableEmoji = true
     ShowBreadCrumbs = true
     ShowShareButtons = true
     ShowCodeCopyButtons = true
-    #ShowReadingTime = true
-    #ShowPostNavLinks = false
+    ShowPostNavLinks = true
 
     defaultTheme = 'auto'
     disableThemeToggle = false

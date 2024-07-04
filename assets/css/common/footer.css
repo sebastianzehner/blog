@@ -1,7 +1,9 @@
 .footer,
 .top-link {
     font-size: 12px;
-    color: var(--secondary);
+    /*color: var(--secondary);*/
+    /*color: #a0ce4e;*/
+    color: #333333;
 }
 
 .footer {
@@ -23,12 +25,15 @@
 }
 
 .footer a {
-    color: inherit;
-    border-bottom: 1px solid var(--secondary);
+    /*color: inherit;*/
+    color: #333333;
+    /*border-bottom: 1px solid var(--secondary);*/
+    border-bottom: 1px solid #333333;
 }
 
 .footer a:hover {
-    border-bottom: 1px solid var(--primary);
+    /*border-bottom: 1px solid var(--primary);*/
+    border-bottom: 1px solid #FFF;
 }
 
 .top-link {
@@ -52,7 +57,8 @@
 
 .footer a:hover,
 .top-link:hover {
-    color: var(--primary);
+    /*color: var(--primary);*/
+    color: #FFF;
 }
 
 .top-link:focus,

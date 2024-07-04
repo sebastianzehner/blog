@@ -1,21 +1,22 @@
 +++
-title = 'Mein erster Beitrag auf meiner neuen minimalistischen und kostenlosen Webseite'
-#description = 'This is my first post on this new website'
+title = 'Meine neue minimalistische und kostenlose Webseite'
+description = 'Dies ist mein erster neuer Beitrag auf dieser Webseite.'
 summary = 'Gestern dachte ich, dass sich an meiner alten Webseite etwas ändern muss. Ich hatte seit Jahren einen WordPress-Blog und mein letzter Beitrag wurde vor einem Jahr geschrieben.'
-date = 2024-07-03T16:30:00-04:00
-lastmod = 2024-07-03T16:30:00-04:00
+date = 2024-07-03T15:30:00-04:00
+lastmod = 2024-07-04
 draft = false
 tags = ['Hugo', 'PaperMod', 'Webseite']
 categories = ['Technik', 'Einfaches Leben']
 
 ShowToc = true
-TocOpen = false
-#ShowBreadCrumbs = true
+TocOpen = true
+#ShowBreadCrumbs = true #set in config file
 
 [params]
     author = 'Sebastian Zehner'
     #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
     ShowReadingTime = true
+    ShowWordCount = true
     ShowPostNavLinks = false    
 
 [cover]
