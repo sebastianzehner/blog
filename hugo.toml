@@ -1,7 +1,7 @@
 baseURL = 'https://sebastianzehner.com'
 #baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
-title = 'sebastianzehner.com'
+title = ':earth_americas: sebastianzehner'
 theme = 'PaperMod'
 
 enableEmoji = true
@@ -22,7 +22,7 @@ enableEmoji = true
     goatcounter = 'stats'
 
 [params.homeInfoParams]
-    title = 'Hi there... :wave:'
+    title = 'Hi there... :raising_hand:'
     content = 'Welcome to my personal website. This is my minimalistic blog where I share projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life. You will find more about me [here](/about/). The standard language is English but you can switch to German or Spanish with only one click.'
     [[params.socialIcons]]
         name = 'facebook'
