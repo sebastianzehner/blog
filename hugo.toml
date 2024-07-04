@@ -91,6 +91,15 @@ defaultContentLanguageInSubdir = true
             name = 'Archiv'
             pageRef = '/archives/'
             weight = 40
+        [[languages.de.menus.main]]
+            name = 'Über'
+            pageRef = '/about/'
+            weight = 50
+        [[languages.de.menus.main]]
+            identifier = 'search'
+            name = 'Suche'
+            pageRef = '/search/'
+            weight = 60
   [languages.es]
     languageCode = 'es-ES'
     languageName = 'Español'
@@ -115,6 +124,15 @@ defaultContentLanguageInSubdir = true
             name = 'Archivo'
             pageRef = '/archives/'
             weight = 40
+        [[languages.es.menus.main]]
+            name = 'Acerca'
+            pageRef = '/about/'
+            weight = 50
+        [[languages.es.menus.main]]
+            identifier = 'search'
+            name = 'Buscar'
+            pageRef = '/search/'
+            weight = 60
 
 
 #Archives not available with multilingual. Same as categories and tags. How to fix?

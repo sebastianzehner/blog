@@ -51,8 +51,18 @@ body.dark #moon {
     display: none;
 }
 
+#moon:hover {
+    transition: 0.15s;
+    color: deepskyblue;
+}
+
 body:not(.dark) #sun {
     display: none;
+}
+
+#sun:hover {
+    transition: 0.15s;
+    color: gold;
 }
 
 #menu {
