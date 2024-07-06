@@ -6,7 +6,7 @@
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
-    border-top: 2px solid #d4b680;
+    border-top: 3px solid #d4b680;
 }
 
 .nav a {
