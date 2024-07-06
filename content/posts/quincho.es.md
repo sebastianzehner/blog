@@ -1,12 +1,15 @@
 +++
 title = 'Quincho y sala de tratamientos están listos'
-#description = 'Una descripcion'
+#description = 'Una breve descripción bajo el título.'
 summary = 'Nuestro quincho ya está terminado y la sala de tratamiento de Stefanie también está lista para su uso. Todavía faltan algunas pequeñas cosas, pero hablaremos de eso en un momento. Como siempre aquí el tiempo pasa muy rápido y han vuelto a pasar unos meses.'
 date = 2023-01-16T15:51:42-04:00
 #lastmod = 2024-07-01T15:55:42-04:00
 draft = false
 tags = ['Quincho', 'Terapia del dolor']
 categories = ['Paraguay', 'Vida sencilla', 'Emigrar']
+
+ShowToc = true
+TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'

@@ -2,8 +2,8 @@
 title = 'My new minimalistic and free website'
 description = 'This is my first new post on this website.'
 summary = 'Yesterday, I thought that something has to change with my old website. I had a wordpress blog since years and my last post was written one year ago.'
-date = 2024-07-03
-lastmod = 2024-07-04
+date = 2024-07-03T10:00:47-04:00 #Ctrl+Shift+I to insert date and time
+lastmod = 2024-07-04T08:01:01-04:00 #If empty then GitHub Time will be used
 draft = false
 tags = ['Hugo', 'PaperMod', 'Website']
 categories = ['Tech', 'Simple Life']

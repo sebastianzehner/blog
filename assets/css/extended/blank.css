@@ -3,6 +3,15 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+body {
+    font-family: Roboto, "Roboto Mono";
+   }
+  code, pre, samp, kbd, tt {
+    font-family: "Roboto Mono", monospace !important;
+    overflow: auto;
+  }
+
 :root {
     --nav-width: 1440px; /* standard 1380px */
     --main-width: 750px;
@@ -22,7 +31,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .toc-container.wide {
     position: absolute;
-    height: 100%;
+    /*height: 100%; /* standard */
+    height: calc(100% - var(--footer-height)); /* calculate height 100% minus footer height then the border came not into the footer */
     border-right: 1px solid var(--border);
     left: calc((var(--toc-width) + var(--gap)) * -1);
     top: calc(var(--gap) * 2);
@@ -54,8 +64,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 }
 
 .active {
-    font-size: 110%;
+    /*font-size: 110%;*/
     font-weight: 600;
+    color: #d4b680;
 }
 
 .toc ul {

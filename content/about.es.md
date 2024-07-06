@@ -1,7 +1,7 @@
 +++
-title = 'About Me'
-description = 'Who is Sebastian Zehner?'
-summary = 'That`s me!'
+title = 'Sobre'
+#description = 'A short description'
+summary = 'Ese soy yo.!'
 #date = 2023-01-16T15:51:42-04:00
 #lastmod = 2024-07-01T15:55:42-04:00
 draft = false
@@ -23,8 +23,4 @@ draft = false
     #responsiveImages = false
 +++
 
-Sebastian is German and moved to Paraguay in 2019. He has been living there ever since.
-
-
-
- 
+Sebastián es alemán y se mudó a Paraguay en 2019. Desde entonces vive allí.

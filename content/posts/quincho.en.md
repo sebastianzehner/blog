@@ -1,12 +1,15 @@
 +++
 title = 'Quincho and treatment room are finished'
-#description = 'A short description'
+#description = 'A short description under the title.'
 summary = 'Our quincho is now finished and Stefanie`s treatment room is also operational. A handful of little things are still missing, but more on that in a moment. As always, time passes very quickly here and another few months have passed.'
 date = 2023-01-16T15:51:42-04:00
 #lastmod = 2024-07-01T15:55:42-04:00
 draft = false
 tags = ['Quincho', 'Pain therapy']
 categories = ['Paraguay', 'Simple Life', 'Emigrate']
+
+ShowToc = true
+TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
