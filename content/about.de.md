@@ -5,16 +5,12 @@ summary = 'Herzlich willkommen auf meinem persönlichen Blog. Mein Name ist Seba
 date = 2023-02-06T12:21:42-04:00
 lastmod = 2024-07-05T21:46:54-04:00
 draft = false
-#tags = ['Quincho', 'Pain therapy']
-#categories = ['Paraguay', 'Simple Life', 'Emigrate']
 
 ShowToc = true
 TocOpen = true
 
 [params]
-    #author = 'Sebastian Zehner'
     ShowBreadCrumbs = false
-    #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
     ShowReadingTime = true
     ShowWordCount = true
     ShowPostNavLinks = false

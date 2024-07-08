@@ -1,5 +1,5 @@
-baseURL = 'https://sebastianzehner.com'
-#baseURL = 'localhost' #testing at local server
+#baseURL = 'https://sebastianzehner.com'
+baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
 title = 'sebastianzehner'
 theme = 'PaperMod'
@@ -28,7 +28,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
     defaultTheme = 'auto'
     disableThemeToggle = false
 
-    goatcounter = 'stats'
+    #goatcounter = 'stats'
 
 [params.homeInfoParams]
     title = ':raising_hand: Hi there...'
