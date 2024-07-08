@@ -1,0 +1,44 @@
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+<style>
+:root {
+    --cactus-text-color--soft: hsl(0, 0%, 60%);
+    --cactus-background-color--strong: hsl(0, 0%, 98%);
+    --cactus-border-color: hsl(0, 0%, 85%);
+    --cactus-box-shadow-color: hsl(0, 0%, 20%, 0.3);
+    --cactus-button-text-color: inherit;
+    --cactus-button-color: hsl(0, 0%, 80%);
+    --cactus-button-color--strong: hsl(0, 0%, 75%);
+    --cactus-button-color--stronger: hsl(0, 0%, 70%);
+    --cactus-login-form-text-color: inherit;
+    /* unchanged variables */
+    --cactus-border-width: 1px;
+    --cactus-border-radius: 0.4em;
+    --cactus-text-color: inherit;
+    --cactus-background-color: transparent;
+    --cactus-error-color: red;
+}
+
+.dark {
+    --cactus-text-color--soft: hsl(0, 0%, 50%);
+    --cactus-background-color--strong: hsl(0, 0%, 10%);
+    --cactus-border-color: hsl(0, 0%, 20%);
+    --cactus-box-shadow-color: hsl(0, 0%, 10%, 1);
+    --cactus-button-text-color: hsl(0, 0%, 80%);
+    --cactus-button-color: hsl(0, 0%, 25%);
+    --cactus-button-color--strong: hsl(0, 0%, 30%);
+    --cactus-button-color--stronger: hsl(0, 0%, 35%);
+    --cactus-login-form-text-color: hsl(0, 0%, 80%);
+}
+</style>
+<br>
+<div id="comment-section"></div>
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "sebastianzehner",
+  commentSectionId: "{{ index .Params 0 }}"
+})
+</script>

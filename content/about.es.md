@@ -33,3 +33,6 @@ TocOpen = true
 |Bienvenido a mi blog personal. Me llamo Sebastian Zehner y soy el fundador y propietario de sebastianzehner.com|![Sebastian](/img/galleries/about/sebastian.webp)|
 
 La traducción se publicará próximamente.
+
+{{< chat testroom >}}
+
