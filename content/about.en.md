@@ -44,14 +44,14 @@ In 2016, my girlfriend at this time (now wife) and I still enjoyed driving our s
 |-------------|-------------:|
 |![Caravan 1](/img/galleries/about/wohnwagen-1.webp)![Garden 1](/img/galleries/about/garten-1.webp)|![Caravan 2](/img/galleries/about/wohnwagen-2.webp)![Garden 2](/img/galleries/about/garten-2.webp)|
 
-Ich habe einige Blogbeiträge über unsere Reisen mit den Wohnwagen geschrieben aber auch von unserem Garten und wie dieser entstanden ist. Anfang 2015 war unser Gartenhaus weitestgehend fertiggestellt und wir haben uns an die Arbeit gemacht den Garten aufzubauen.
-
-- [Camping mit Wohnwagen in Cavallino bei Venedig](https://meinlifestylebusiness.com/camping-in-cavallino-treporti-bei-venedig-italien/)
-- [Unser kleiner T@b 320 Offroad Wohnwagen](https://meinlifestylebusiness.com/wie-wir-zu-unserem-wohnwagen-tb-320-offroad-gekommen-sind/)
-- [Unser Gartenhaus mit fertiggestellter Terrassenüberdachung](https://meinlifestylebusiness.com/terrassenueberdachung-fertiggestellt-garten-news-33/)
-- [Unser eigener Garten in einer privaten Kleingartenanlage](https://meinlifestylebusiness.com/raus-aus-dem-alltag-hinein-in-die-natur-garten-news-1-2/)
-
 I've written a few blog posts about our travels with the caravan, but also about our garden and how it was developed. At the beginning of 2015, our garden house was largely finished and we started to build the garden.
+
+- [Camping with caravan in Cavallino near Venice](https://meinlifestylebusiness.com/camping-in-cavallino-treporti-bei-venedig-italien/)
+- [Our little T@b 320 off-road caravan](https://meinlifestylebusiness.com/wie-wir-zu-unserem-wohnwagen-tb-320-offroad-gekommen-sind/)
+- [Our garden house with completed patio roofing](https://meinlifestylebusiness.com/terrassenueberdachung-fertiggestellt-garten-news-33/)
+- [Our own garden on a private allotment site](https://meinlifestylebusiness.com/raus-aus-dem-alltag-hinein-in-die-natur-garten-news-1-2/)
+
+I would be glad if my story inspires you to find new methods to create a better life, to have more time for the people and things that are really important to you and to just do what you personally enjoy.
 
 But before I tell you how I and our team make money online, I want to take the opportunity to tell you how I came to build an internet and lifestyle business and how I want to help and empower other people to do the same.
 
@@ -63,71 +63,70 @@ I was then offered a permanent position at the company where I successfully comp
 
 During this phase, I thought about what I wanted to do next as a professional. In short, I thought about becoming self-employed and started looking for the right business opportunity. As I came from the consumer electronics sector for development and customer support and my former work colleague was also looking for a new challenge, we came together and founded a GbR.
 
-Unsere Aufgabe war es seitdem den Kunden Antennenanlagen anzubieten und vor Ort zu installieren, weiter haben wir IT-Lösungen und Gebäudeautomatisierungen angeboten und sehr erfolgreich umgesetzt. Das Geschäft lief wirklich gut, allerdings wurde mir nach zwei Jahren klar, dass es so nicht weitergehen kann. Wir arbeiteten ununterbrochen, Tag und Nacht, sogar am Wochenende und es war immer unsere Arbeitskraft gefordert. Sobald man sich hier als Experte positioniert hat, wird es auch schwer dies mit eigenen Mitarbeitern weiterzuführen, schließlich musste man doch immer selbst vor Ort sein. Ich sah zu dieser Zeit keine andere Möglichkeit und bin erst mal wieder in ein festes Arbeitsverhältnis gewechselt und arbeite von nun an bei einem Medizintechnik Unternehmen in der Qualitätssicherung.
+Since then, our task has been to offer customers antenna systems and install them on site, and we have also offered and very successfully implemented IT solutions and building automation. Business was going really well, but after two years I realized that it couldn't go on like this. We were working non-stop, day and night, even at weekends, and our manpower was always in demand. As soon as you have positioned yourself as an expert here, it becomes difficult to continue this with your own employees, as you always had to be on site yourself. I didn't see any other option at the time and switched back to permanent employment and now worked in quality assurance at a medical technology company.
 
-Mir war natürlich bewusst, dass ich jetzt viel weniger verdienen und eine 40-Stunden Woche haben werde, in der ich immer für das Unternehmen bereit stehen muss, um die Aufgaben zu erledigen, die mir durch den Arbeitsvertrag zugeteilt worden waren.
+Of course, I was aware that I would now earn much less and have a 40-hour week in which I would always have to be available for the company to do the tasks assigned to me in my employment contract.
 
-Würde ich dies bis zu meinem Rentenalter weiterführen, sehe meine Zukunft wahrscheinlich weniger entspannt aus, denn ich erwarte einfach mehr von meinem Leben. Daher beschloss ich, nebenberuflich wieder in die Selbständigkeit zu gehen und diesmal das Geschäft allerdings komplett anders aufzubauen. Zuvor hatte ich zu diesem Thema das Buch [Die 4-Stunden Woche: Mehr Zeit, mehr Geld, mehr Leben](https://amzn.to/3HXmAFN) von Timothy Ferriss gelesen, in dem ich zum ersten Mal etwas über die Automatisierung des eigenen Unternehmens erfahren habe.
+If I were to continue doing this until retirement age, my future would probably look less relaxed because I just expect more from my life. That's why I decided to go back to self-employment on a part-time basis, but this time to set up the business completely differently. I had previously read the book [The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich](https://amzn.to/3HXmAFN) by Timothy Ferriss, in which I learned about automating your own business for the first time.
 
-Das war für mich so faszinierend, dass ich den selben Weg einschlagen wollte. Nur welche Geschäftsidee passt hier am besten rein? Ich müsste ein eigenes Produkt entwickeln und dieses vermarkten. Doch was könnte ich in der kurzen Zeit entwickeln und fällt mir überhaupt ein passendes Produkt ein? Für mich war klar, dass es vorerst eine andere Lösung geben muss.
+I was so fascinated by this that I wanted to follow the same path. But which business idea would fit in best? I would have to develop my own product and sell it. But what could I develop in the short time available and could I even find a product that would fit? It was clear to me that there had to be another solution for the time being.
 
-Dadurch fand ich eine Möglichkeit, die für mich professionell und einfach genial ist, um in der heutigen Zeit ein Geschäft im Internet aufzubauen. Die Lösungen heißen Affiliate Marketing, Internet Marketing, Video Marketing, Attraction Marketing und Blogging. Insgesamt also eine moderne Marketing Strategie, mit der es möglich ist, mehrere passive Einkommen aufzubauen, ohne etwas direkt verkaufen zu müssen.
+As a result, I found a way that is professional and simple genius for me to build a business on the Internet in this day and age. The solutions are called affiliate marketing, internet marketing, video marketing, attraction marketing and blogging. All in all, a modern marketing strategy that makes it possible to build up several passive incomes without having to sell anything directly.
 
-## Wann kamen die ersten Erfolge?
+## When were the first successes?
 
-Bisher lief mein Lifestyle Business hauptsächlich nebenberuflich und ich hatte immer noch den Hauptjob bei einem Medizintechnik Unternehmen in der Qualitätssicherung. Dieser wurde mir allerdings von Zeit zu Zeit immer unangenehmer und stressiger, vor allem wegen dem schlechten Arbeitsklima. Ich kündigte also zum ersten Mal in meinem Leben einen "sicheren" Job, ohne einen anderen Job zu haben. Das war für mich ein großer und ungewohnter Schritt aber es tat sehr gut und war wichtig für meine weitere Entwicklung. Ich war schon fast soweit komplett aufzuhören und überhaupt keinen Job mehr anzunehmen.
+So far, my lifestyle business has mainly been part-time and I still had my main job at a medical technology company in quality assurance. However, this was becoming increasingly unpleasant and stressful from time to time, mainly because of the poor working atmosphere. So, for the first time in my life, I quit a " safe" job without having another job. It was a big and unfamiliar step for me, but it felt really good and was important for my further development. I was almost ready to quit completely and not take another job at all.
 
-Es kam allerdings doch nochmal eine interessante Gelegenheit für einen Job, den ich 2016 angefangen habe. Dort war es allerdings anders als bisher. Ich war in einem kleinen Familienbetrieb angestellt und hatte quasi eine ganze Abteilung für mich alleine. Ich habe dort Alarmanlagen, Videoüberwachung und digitale Zutrittskontrollen geplant und installiert. Ich war bei den Kunden vor Ort, habe sie beraten, Angebote geschrieben, die Anlagen bestellt und installiert, Rechnungen geschrieben und die Wartungen durchgeführt. Es war ein sehr interessanter Job und ich hatte viel gelernt und Spaß dabei. Wahrscheinlich wäre ich heute noch dort, wenn sich nicht doch noch etwas drastisches in meinem Leben verändert hätte aber dazu später mehr.
+However, there was another interesting opportunity for a job that I started in 2016. But it was different than before. I was employed in a small family business and basically had an entire department for myself. I planned and installed alarm systems, video surveillance and digital access control. I was on site with the customers, advised them, wrote offers, ordered and installed the systems, wrote invoices and did the maintenance. It was a very interesting job and I learned a lot and had fun along the process. I would probably still be there today if something drastic hadn't changed in my life, but more about that later.
 
-Anfang 2017 bin ich zu meinen ersten Kryptowährungen gekommen und seitdem sehr begeistert davon. Das war wohl auch der Durchbruch für mein Lifestyle Business und 2017 war außerdem ein sehr ereignisreiches Jahr für mich und meine Familie. Unsere Tochter kam zur Welt, wir haben nach 16 Jahren geheiratet, wir haben uns ein großes Wohnmobil gekauft, wir haben über das Auswandern nachgedacht und unsere erste Reise nach Südamerika geplant.
+I got my first cryptocurrencies at the beginning of 2017 and have been very enthusiastic about them ever since. That was probably also the breakthrough for my lifestyle business and 2017 was also a very eventful year for me and my family. Our daughter was born, we got married after 16 years, we bought a large motorhome, we thought about emigrating and planned our first trip to South America.
 
 |             |              |
 |-------------|-------------:|
 |![Sofia 1](/img/galleries/about/sofia-1.webp)|![Sofia 2](/img/galleries/about/sofia-2.webp)|
 
-## Neue Pläne für die Zukunft
+## New plans for the future
 
-Nach einem sehr erfolgreichen Jahr kam 2018 der Einbruch am Kryptomarkt. Ich war noch sehr frisch und unerfahren auf diesem Gebiet aber ich bin trotzdem ruhig geblieben und habe einfach abgewartet. Im März 2018 sind wir drei nach Paraguay geflogen und haben die Cedula und Daueraufenthaltsgenehmigung beantragt. Wir waren uns noch nicht sicher, ob wir tatsächlich auswandern werden aber wir schauten uns einfach mal eine zu dem Zeitpunkt neu entstehende Siedlung in Paraguay an.
+After a very successful year, the crypto market collapsed in 2018. I was still very new and inexperienced in this area, but I stayed calm and just stayed calm. In March 2018, all three of us flew to Paraguay and applied for the cedula and permanent residence permit. We weren't yet sure whether we would actually emigrate, but we took a look at a new settlement that was being built in Paraguay at this time.
 
-Wir hatten doch erst unser neues großes Wohnmobil gekauft und wollten damit auch noch einige Reisen erleben, dennoch war der Wunsch auszuwandern und woanders neu anzufangen groß. Zurück in Deutschland machten wir uns einen Plan. Wir beschlossen tatsächlich auszuwandern, unsere Wohnung und unseren Garten zu verkaufen.
+We had just bought our new large motorhome and wanted to experience a few more trips with it, but the desire to emigrate and start somewhere new was still strong. Back in Germany, we made a plan. We actually decided to emigrate and sell our apartment and garden.
 
-Das Wohnmobil wollten wir nicht sofort verkaufen, außerdem war meine Frau nochmal schwanger und wir wollten unser zweites Kind auch noch in Deutschland bekommen, da mit der ersten Geburt alles wunderbar verlief. Unser Plan war nun die Wohnung zu verkaufen aber noch so lange dort wohnen zu dürfen, bis wir ungefähr zwei bis drei Monate nach der Geburt ins Wohnmobil ziehen und für ein halbes Jahr eine Reise durch Europa machen werden.
+We didn't want to sell the motorhome straight away, plus my wife was pregnant again and we wanted to get our second child in Germany too, as everything went so well with the first birth. Our plan now was to sell the apartment but to be allowed to live there until we move into the motorhome about two to three months after the birth and go on a trip through Europe for six months.
 
-Ich habe also wieder meinen festen Job gekündigt, der mir sogar sehr viel Spaß bereitet hatte aber für ein neues Leben in Paraguay blieb mir keine andere Wahl. Nach der Geburt unseres Sohnes im Februar 2019 ging ich in Elternzeit und kehrte im Anschluss nicht mehr zurück. Seit diesem Zeitpunkt habe ich also keinen Job und auch kein festes Einkommen mehr. Dies war für mich früher unvorstellbar gewesen aber jetzt leben wir schon seit einigen Jahren so und irgendwie scheint es zu funktionieren. Wir haben inzwischen Juli 2024 und in dieser Zeit sind tatsächlich über fünf Jahre vergangen.
+So I quit my regular job again, which I had actually really enjoyed, but I had no other choice when it came to a new life in Paraguay. After the birth of our son in February 2019, I went on parental leave and never returned. Since then, I haven't had a job or a stable income. This was unimaginable for me before, but we've been living like this for a few years now and somehow it seems to be working. It's now July 2024 and over five years have actually passed in that time.
 
-Unser damaliger Plan war perfekt und wir blieben noch für einen Monat in Münster auf einem Campingplatz, um uns von unseren liebsten und langjährigen Freunden verabschieden zu können. Im Anschluss begann unsere Abschiedstour über Belgien nach Frankreich. Ziel war für uns die Algarve in Portugal und somit fuhren wir weiter über Spanien, immer an der Küste entlang. Später ging es weiter über Gibraltar an der Küste im Süden zurück nach Deutschland. Ich habe ein paar Blogartikel über unsere Wohnmobilreise geschrieben.
+Our plan at the beginning was perfect and we stayed on a campsite in Münster for a month to say goodbye to our dearest and long-time friends. We then began our final tour via Belgium to France. Our destination was the Algarve in Portugal and so we drove on through Spain, always along the coast. Later we continued via Gibraltar along the coast in the south back to Germany. I wrote a few blog articles about our motorhome trip.
 
-- [Camping mit dem Wohnmobil durch Spanien und Portugal](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-2/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-3/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-4/)
+- [Camping with a motorhome through Spain and Portugal](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/)
+- [Camping with a motorhome through Spain and Portugal Part 2](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-2/)
+- [Camping with a motorhome through Spain and Portugal Part 3](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-3/)
+- [Camping with a motorhome through Spain and Portugal Part 4](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-4/)
 
 |             |              |
 |-------------|-------------:|
 |![Camping 1](/img/galleries/about/camping-1.webp)![Camping 3](/img/galleries/about/camping-3.webp)![Camping 4](/img/galleries/about/camping-4.webp)|![Camping 2](/img/galleries/about/camping-2.webp)![Camping 5](/img/galleries/about/camping-5.webp)![Camping 6](/img/galleries/about/camping-6.webp)|
 
-## Auswandern nach Paraguay
+## Move to Paraguay
 
-Zurück in Deutschland verkauften wir unser Wohnmobil und flogen nach Paraguay. Nun leben wir seit November 2019 in Paraguay und haben unser eigenes Paradies in einer geschlossenen Siedlung geschaffen. Ich habe bereits einige Blogartikel über die Entstehung geschrieben und werde sicherlich noch weitere Artikel über unser Leben in Paraguay schreiben. Es wird weitere Details darüber geben, warum wir ausgewandert sind und Deutschland verlassen haben.
+Back in Germany, we sold our motorhome and flew to Paraguay. We have now been living in Paraguay since November 2019 and have created our own paradise in a gated community. I have already written a few blog articles about the development and will certainly write more articles about our life in Paraguay. There will be more details about why we moved and left Germany.
 
-- [Grundstück Paraguay](https://meinlifestylebusiness.com/update-von-unserem-grundstueck-und-haus-in-paraguay/)
-- [Hausbau Paraguay 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
-- [Hausbau Paraguay 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
-- [Hausbau Paraguay 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
-- [Quincho und Behandlungsraum](/de/posts/quincho/)
+- [Our property in Paraguay](https://meinlifestylebusiness.com/update-von-unserem-grundstueck-und-haus-in-paraguay/)
+- [Building a house in Paraguay Part 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
+- [Building a house in Paraguay Part 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
+- [Building a house in Paraguay Part 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
+- [Quincho and treatment room](/de/posts/quincho/)
 
-Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren eigenen Behandlungsraum für Schmerztherapie. Ich habe eine Holzwerkstatt und baue unsere Möbel selbst. Hier vor Ort leben wir alle Freiheiten und ich habe die Möglichkeit weiterhin Online über das Internet arbeiten zu können. Ich werde dir jetzt an dieser Stelle natürlich nichts verkaufen aber vielleicht inspiriere ich dich hiermit und Du packst deinen Mut, um dein Leben entsprechend in eine andere und positive Richtung zu lenken?
+We now have our own property and house here and Stefanie even has her own treatment room for pain therapy. I have a woodworking shop and build our own furniture. We have all the freedom we need here on site and I will be able to continue working online over the internet. Of course, I'm not going to sell you anything at this point, but maybe I'll inspire you and you'll pluck up the courage to change your life in a different and positive direction?
 
 |             |              |
 |-------------|-------------:|
-|![Flughafen](/img/galleries/about/flughafen.webp)![Haus](/img/galleries/about/haus.webp)|![Pira Tava](/img/galleries/about/pira-tava.webp)![Quincho](/img/galleries/about/quincho.webp)|
+|![Airport](/img/galleries/about/flughafen.webp)![House](/img/galleries/about/haus.webp)|![Pira Tava](/img/galleries/about/pira-tava.webp)![Quincho](/img/galleries/about/quincho.webp)|
 
-Solltest Du schon soweit sein und alles läuft perfekt in deinem Leben, dann freut es mich natürlich sehr, wenn ich dich mit unseren Beiträgen trotzdem inspirieren und vor allem unterhalten kann. Hier findest Du alle Blogartikel zu unserem Leben in Paraguay.
+If you are already settled and everything is going perfectly in your life, then I am of course very glad if I can still inspire and above all entertain you with our articles. You can find all blog articles about our life in Paraguay here.
 
-- [Auswandern](/de/categories/auswandern/)
 - [Paraguay](/de/categories/paraguay/)
 
-Liebe Grüße
+Kind regards
 Sebastian
 
 {{< chat about >}}
