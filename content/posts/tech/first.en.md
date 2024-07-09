@@ -13,7 +13,7 @@ TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
-    ShowPageViews = true  
+    ShowPageViews = true
 
 [cover]
     image = '/img/first.webp'
