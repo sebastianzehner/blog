@@ -128,3 +128,7 @@ svg:hover {
 .social-icons a:nth-child(3) svg:hover {
     color: #CD201F !important;
 }
+
+.social-icons a:nth-child(4) svg:hover {
+    color: #d4b680 !important;
+}

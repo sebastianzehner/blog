@@ -11,7 +11,7 @@ enableGitInfo = true
 googlefonts = [
     "Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic",
     "Roboto+Mono:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic"
-] # I am note shure if this works correctly
+] #I am note shure if this works correctly
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
@@ -22,17 +22,24 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 [params]
     ShowBreadCrumbs = true
     ShowShareButtons = true
+    ShareButtons = ["facebook", "x", "telegram", "whatsapp"]
     ShowCodeCopyButtons = true
-    ShowPostNavLinks = true
+    ShowPostNavLinks = false
+    ShowReadingTime = true
+    ShowWordCount = true
+    ShowRssButtonInSectionTermList = true
 
     defaultTheme = 'auto'
     disableThemeToggle = false
 
+    #mainSections = ["posts"] #If you have not set this config parameter in site config, it will default to the section with the most pages.
+
     goatcounter = 'stats'
 
 [params.homeInfoParams]
-    title = ':raising_hand: Hi there...'
-    content = 'Welcome to my personal website. This is my minimalistic blog where I share projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life. You will find more about me at about :point_up: The standard language is English but you can switch to German or Spanish with only one click for the translated version of my website. Have fun and :walking: through my blog.'
+    title = '''Hey, I'm Sebastian :wave:'''
+    #content = '**test** und *test* > blockquote  und so weiter `code` linie --- und noch was? # Heading'
+    content = 'Welcome to my personal website. This is my minimalistic blog where I share projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life. You will find more about me :point_up: The standard language is English but you can switch to German or Spanish for the translated version. Have fun and :walking: through my blog.'
     [[params.socialIcons]]
         name = 'facebook'
         url = 'https://www.facebook.com/sebastianzehner83'
@@ -42,6 +49,9 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
     [[params.socialIcons]]
         name = 'youtube'
         url = 'https://www.youtube.com/@SebastianZehner'
+    [[params.socialIcons]]
+        name = 'matrix'
+        url = 'https://matrix.to/#/@sebastianzehner:matrix.org'
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true

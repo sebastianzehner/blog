@@ -17,11 +17,12 @@ TocOpen = true
     ShowPageViews = true
 
 [cover]
-    #image = '/img/quincho.webp'
-    #alt = 'Post image from Quincho and treatment room are finished'
+    image = '/img/about.webp'
+    alt = 'Sobre Mí'
+    hidden = true
     #caption = 'This is the caption'
-    #relative = false
-    #responsiveImages = false
+    relative = false
+    responsiveImages = false
 +++
 
 |   |   |
@@ -110,7 +111,7 @@ De vuelta en Alemania, vendimos nuestra autocaravana y volamos a Paraguay. Ahora
 - [Construcción de una casa en Paraguay Parte 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
 - [Construcción de una casa en Paraguay Parte 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
 - [Construcción de una casa en Paraguay Parte 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
-- [Quincho y sala de tratamiento](/de/posts/quincho/)
+- [Quincho y sala de tratamiento](/es/posts/paraguay/quincho/)
 
 Ahora tenemos nuestra propia propiedad y casa aquí y Stefanie incluso tiene su propia sala de tratamiento para la terapia del dolor. Tengo un taller de carpintería y construyo nuestros propios muebles. Tenemos toda la libertad que necesitamos aquí en el sitio y voy a ser capaz de seguir trabajando en línea a través de Internet. Por supuesto, no voy a venderte nada en este momento, pero tal vez te inspire y te armes de valor para cambiar tu vida en una dirección diferente y positiva?
 
@@ -120,7 +121,7 @@ Ahora tenemos nuestra propia propiedad y casa aquí y Stefanie incluso tiene su 
 
 Si ya estás establecido y todo va perfectamente en tu vida, entonces por supuesto me alegro mucho si todavía puedo inspirarte y sobre todo entretenerte con nuestros artículos. Puedes encontrar todos los artículos del blog sobre nuestra vida en Paraguay aquí.
 
-- [Paraguay](/de/categories/paraguay/)
+- [Paraguay](/es/categories/paraguay/)
 
 Saludos cordiales
 Sebastian

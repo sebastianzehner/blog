@@ -3,20 +3,16 @@ title = 'Quincho and treatment room are finished'
 #description = 'A short description under the title.'
 summary = 'Our quincho is now finished and Stefanie`s treatment room is also operational. A handful of little things are still missing, but more on that in a moment. As always, time passes very quickly here and another few months have passed.'
 date = 2023-01-16T15:51:42-04:00
-#lastmod = 2024-07-01T15:55:42-04:00
+lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['Quincho', 'Pain therapy']
-categories = ['Paraguay', 'Simple Life', 'Emigrate']
+tags = ['quincho', 'pain therapy', 'simple life', 'emigrate']
+categories = ['Paraguay']
 
 ShowToc = true
 TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
-    ShowBreadCrumbs = true
-    ShowShareButtons = true
-    ShowReadingTime = true
-    ShowPostNavLinks = false
 
 [cover]
     image = '/img/quincho.webp'
@@ -32,11 +28,13 @@ With her new room, Stefanie now has even more appointments than before. Last yea
 
 ## Treatment room for pain therapy
 
-Once the quincho was almost finished, we first furnished the room. Stefanie of course set up her massage table and planned the furniture herself. A shelf with a ladder and a desk with wooden stands. She painted everything herself and I'll be finishing the shelves and table top for her soon. You can find the latest building progress [here](https://meinlifestylebusiness.com/der-neue-weg-von-unserem-haus-zum-quincho-ist-fertig/).
+Once the quincho was almost finished, we first furnished the room. Stefanie of course set up her massage table and planned the furniture herself. A shelf with a ladder and a desk with wooden stands. She painted everything herself and I'll be finishing the shelves and table top for her soon. You can find the latest building progress [here](/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 I also installed the lighting on the roof and walls as well as curtain rails and hung the curtains. This means that her treatment room was ready for use very quickly. She now does up to 4 treatments a day, whereas she used to limit herself to just 2 treatments a day. However, the new residents are quickly spreading the word and Stefanie regularly receives new requests, as everyone with pain wants to be treated by her or simply have a relaxing massage. Here are a few pictures of the Quincho and the treatment room:
 
-{{< imgur id="OIIJQ47" context="true" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 1](/img/galleries/quincho/quincho-1.webp)![Quincho 3](/img/galleries/quincho/quincho-3.webp)|![Quincho 2](/img/galleries/quincho/quincho-2.webp)![Quincho 4](/img/galleries/quincho/quincho-4.webp)|
 
 Her pain therapy practice can also be found via Google Maps and Stefanie will certainly be pleased to receive a review from her satisfied customers:
 
@@ -52,7 +50,9 @@ That suits us just fine and otherwise we are optimizing the watering. We have a 
 
 My next job is to install the outdoor lighting around the room, where we have the same wall lights as inside. I also need to buy more electrical and network cables. We haven't laid any network cables to the room yet, so I'll have to do that myself, as well as the electrical cables for the outdoor lighting along the path to the patio extension. Only then will I build the lamps for it. However, I already have most of the material for the lamps here. That will be a lot of work again.
 
-{{< imgur id="4WjAvAB" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 5](/img/galleries/quincho/quincho-5.webp)![Quincho 7](/img/galleries/quincho/quincho-7.webp)|![Quincho 6](/img/galleries/quincho/quincho-6.webp)![Quincho 8](/img/galleries/quincho/quincho-8.webp)|
 
 ## New wooden rabbit hutch
 
@@ -60,7 +60,9 @@ Of course, we have now received the rabbit hutch we ordered and our two rabbits 
 
 No storm has blown it over yet and the height is also perfect for accessing the rabbits. Foreign animals therefore have no chance of getting to our rabbits. When we mow the lawn, they are usually left free and are allowed to hop around our patio by the house so that they are not scared of the noisy lawnmower.
 
-{{< imgur id="cJfh2Nu" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 9](/img/galleries/quincho/quincho-9.webp)|![Quincho 10](/img/galleries/quincho/quincho-10.webp)|
 
 ## Further work on the property
 
@@ -70,3 +72,6 @@ I usually like to build my furniture there because it's much more comfortable th
 
 Kind regards
 Sebastian
+
+{{< chat quincho >}}
+

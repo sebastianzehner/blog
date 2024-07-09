@@ -17,11 +17,12 @@ TocOpen = true
     ShowPageViews = true
 
 [cover]
-    #image = '/img/quincho.webp'
-    #alt = 'Post image from Quincho and treatment room are finished'
+    image = '/img/about.webp'
+    alt = 'Über mich'
+    hidden = true
     #caption = 'This is the caption'
-    #relative = false
-    #responsiveImages = false
+    relative = false
+    responsiveImages = false
 +++
 
 |   |   |
@@ -110,7 +111,7 @@ Zurück in Deutschland verkauften wir unser Wohnmobil und flogen nach Paraguay. 
 - [Hausbau Paraguay 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
 - [Hausbau Paraguay 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
 - [Hausbau Paraguay 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
-- [Quincho und Behandlungsraum](/de/posts/quincho/)
+- [Quincho und Behandlungsraum](/de/posts/paraguay/quincho/)
 
 Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren eigenen Behandlungsraum für Schmerztherapie. Ich habe eine Holzwerkstatt und baue unsere Möbel selbst. Hier vor Ort leben wir alle Freiheiten und ich habe die Möglichkeit weiterhin Online über das Internet arbeiten zu können. Ich werde dir jetzt an dieser Stelle natürlich nichts verkaufen aber vielleicht inspiriere ich dich hiermit und Du packst deinen Mut, um dein Leben entsprechend in eine andere und positive Richtung zu lenken?
 
@@ -120,7 +121,6 @@ Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren
 
 Solltest Du schon soweit sein und alles läuft perfekt in deinem Leben, dann freut es mich natürlich sehr, wenn ich dich mit unseren Beiträgen trotzdem inspirieren und vor allem unterhalten kann. Hier findest Du alle Blogartikel zu unserem Leben in Paraguay.
 
-- [Auswandern](/de/categories/auswandern/)
 - [Paraguay](/de/categories/paraguay/)
 
 Liebe Grüße

@@ -3,20 +3,16 @@ title = 'Quincho und Behandlungsraum sind fertig'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Unser Quincho ist mittlerweile fertiggestellt und auch der Behandlungsraum von Stefanie ist einsatzbereit. Es fehlen noch ein paar Kleinigkeiten aber dazu gleich mehr. Die Zeit vergeht hier wie immer sehr schnell und es sind wieder einige Monate vergangen.'
 date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time
-#lastmod = 2024-07-01T15:55:42-04:00
+lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['Quincho', 'Schmerztherapie']
-categories = ['Paraguay', 'Einfaches Leben', 'Auswandern']
+tags = ['Quincho', 'Schmerztherapie', 'Einfaches Leben', 'Auswandern']
+categories = ['Paraguay']
 
 ShowToc = true
 TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
-    ShowBreadCrumbs = true
-    ShowShareButtons = true
-    ShowReadingTime = true
-    ShowPostNavLinks = false
 
 [cover]
     image = '/img/quincho.webp'
@@ -32,11 +28,13 @@ Stefanie hat mit dem neuen Raum jetzt noch mehr Termine als vorher. Im letzten J
 
 ## Behandlungsraum für Schmerztherapie
 
-Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du [hier](https://meinlifestylebusiness.com/der-neue-weg-von-unserem-haus-zum-quincho-ist-fertig/).
+Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du [hier](/de/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden oder einfach nur eine entspannende Massage haben möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
 
-{{< imgur id="OIIJQ47" context="true" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 1](/img/galleries/quincho/quincho-1.webp)![Quincho 3](/img/galleries/quincho/quincho-3.webp)|![Quincho 2](/img/galleries/quincho/quincho-2.webp)![Quincho 4](/img/galleries/quincho/quincho-4.webp)|
 
 Ihre Praxis für Schmerztherapie ist übrigens auch über Google Maps zu finden und Stefanie wird sich sicherlich über eine Rezension von ihren zufriedenen Kunden freuen:
 
@@ -52,7 +50,9 @@ Das passt uns gerade sehr gut und ansonsten sind wir am Optimieren für die Bew�
 
 Ich darf als nächstes die Außenbeleuchtung um den Raum herum montieren, da haben wir die gleichen Wandleuchten wie im Inneren. Ich muss uns zudem noch weitere Elektro- und Netzwerkkabel kaufen. Wir haben bisher noch keine Netzwerkleitung bis zum Raum verlegt, das muss ich selbst machen und auch die Elektroleitungen für die Außenbeleuchtung am Weg entlang bis zur Terrassenverlängerung. Erst danach werde ich die Lampen dafür bauen. Das Material für die Lampen habe ich zum größten Teil allerdings schon hier. Das wird nochmal viel Arbeit werden.
 
-{{< imgur id="4WjAvAB" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 5](/img/galleries/quincho/quincho-5.webp)![Quincho 7](/img/galleries/quincho/quincho-7.webp)|![Quincho 6](/img/galleries/quincho/quincho-6.webp)![Quincho 8](/img/galleries/quincho/quincho-8.webp)|
 
 ## Neuer Hasenstall aus Holz
 
@@ -60,7 +60,9 @@ Wir haben natürlich unseren bestellten Hasenstall zwischenzeitlich geliefert be
 
 Kein Sturm hat ihn bisher umgeworfen und die Höhe ist auch ideal um Zugang zu den Hasen zu bekommen. Fremde Tiere haben somit auch keine Chance zu unseren Hasen zu gelangen. Beim Rasenmähen werden sie meistens freigelassen und sie dürfen bei unserer Terrasse am Haus hoppeln, damit sie keine Angst vom lauten Rasenmäher bekommen.
 
-{{< imgur id="cJfh2Nu" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 9](/img/galleries/quincho/quincho-9.webp)|![Quincho 10](/img/galleries/quincho/quincho-10.webp)|
 
 ## Weitere Arbeiten am Grundstück
 
@@ -70,3 +72,6 @@ Ich baue dort normalerweise sehr gerne meine Möbel, weil das viel angenehmer is
 
 Liebe Grüße
 Sebastian
+
+{{< chat quincho >}}
+

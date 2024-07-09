@@ -3,20 +3,16 @@ title = 'Quincho y sala de tratamientos están listos'
 #description = 'Una breve descripción bajo el título.'
 summary = 'Nuestro quincho ya está terminado y la sala de tratamiento de Stefanie también está lista para su uso. Todavía faltan algunas pequeñas cosas, pero hablaremos de eso en un momento. Como siempre aquí el tiempo pasa muy rápido y han vuelto a pasar unos meses.'
 date = 2023-01-16T15:51:42-04:00
-#lastmod = 2024-07-01T15:55:42-04:00
+lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['Quincho', 'Terapia del dolor']
-categories = ['Paraguay', 'Vida sencilla', 'Emigrar']
+tags = ['quincho', 'terapia del dolor', 'vida sencilla', 'emigrar']
+categories = ['Paraguay']
 
 ShowToc = true
 TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
-    ShowBreadCrumbs = true
-    ShowShareButtons = true
-    ShowReadingTime = true
-    ShowPostNavLinks = false
 
 [cover]
     image = '/img/quincho.webp'
@@ -32,11 +28,13 @@ Con el nuevo espacio, Stefanie tiene ahora aún más citas que antes. El año pa
 
 ## Sala de tratamiento para terapia del dolor.
 
-Una vez que el quincho estuvo casi terminado, primero organizamos la habitación. Por supuesto, Stefanie instaló su tumbona y planificó ella misma los muebles. Una estantería con escalera y un escritorio con caballetes de madera. Ella pintó todo ella misma y pronto terminaré los estantes y la mesa para ella. Puede encontrar los últimos avances de la construcción [aquí](https://meinlifestylebusiness.com/der-neue-weg-von-unserem-haus-zum-quincho-ist-fertig/).
+Una vez que el quincho estuvo casi terminado, primero organizamos la habitación. Por supuesto, Stefanie instaló su tumbona y planificó ella misma los muebles. Una estantería con escalera y un escritorio con caballetes de madera. Ella pintó todo ella misma y pronto terminaré los estantes y la mesa para ella. Puede encontrar los últimos avances de la construcción [aquí](/es/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 También instalé la iluminación en el techo y la pared, así como barras de cortina y colgué las cortinas. Esto significó que su sala de tratamiento estuvo lista para su uso muy rápidamente. Ahora realiza hasta 4 tratamientos al día, mientras que antes se limitaba a sólo 2 tratamientos al día. Sin embargo, rápidamente se corre la voz entre los nuevos colonos y Stefanie recibe periódicamente nuevas solicitudes, porque todos los que sufren quieren que ella los trate o simplemente quieren un masaje relajante. Aquí algunas fotos del Quincho y la sala de tratamientos:
 
-{{< imgur id="OIIJQ47" context="true" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 1](/img/galleries/quincho/quincho-1.webp)![Quincho 3](/img/galleries/quincho/quincho-3.webp)|![Quincho 2](/img/galleries/quincho/quincho-2.webp)![Quincho 4](/img/galleries/quincho/quincho-4.webp)|
 
 Por cierto, su consulta de terapia del dolor también se puede encontrar en Google Maps y Stefanie seguramente estará encantada de recibir reseñas de sus clientes satisfechos:
 
@@ -52,7 +50,9 @@ Eso nos conviene muy bien en este momento y, por lo demás, estamos optimizando 
 
 A continuación puedo instalar la iluminación exterior alrededor de la habitación, tenemos los mismos apliques que en el interior. También tengo que comprarnos más cables eléctricos y de red. Todavía no hemos tendido el cable de red hasta la habitación, lo tengo que hacer yo mismo y también los cables eléctricos para la iluminación exterior a lo largo del camino hacia la ampliación de la terraza. Sólo entonces le construiré las lámparas. Sin embargo, ya tengo aquí la mayor parte del material para las lámparas. Será mucho trabajo nuevamente.
 
-{{< imgur id="4WjAvAB" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 5](/img/galleries/quincho/quincho-5.webp)![Quincho 7](/img/galleries/quincho/quincho-7.webp)|![Quincho 6](/img/galleries/quincho/quincho-6.webp)![Quincho 8](/img/galleries/quincho/quincho-8.webp)|
 
 ## Conejera de madera nueva.
 
@@ -60,7 +60,9 @@ Por supuesto, ya nos entregaron la conejera que pedimos y nuestros dos conejos p
 
 Hasta el momento ninguna tormenta lo ha derribado y la altura también es ideal para acceder a los conejos. Esto significa que los animales extraños no tienen ninguna posibilidad de llegar a nuestros conejos. Cuando cortamos el césped, normalmente los soltamos y les permitimos saltar por nuestro patio para que no se asusten con el ruidoso cortacésped.
 
-{{< imgur id="cJfh2Nu" context="false" >}}
+|             |              |
+|-------------|-------------:|
+|![Quincho 9](/img/galleries/quincho/quincho-9.webp)|![Quincho 10](/img/galleries/quincho/quincho-10.webp)|
 
 ## Trabajos adicionales en la propiedad.
 
@@ -69,4 +71,7 @@ Volví a preguntar sobre la ampliación del techo de la cochera y pronto recibir
 Normalmente disfruto construyendo mis muebles allí porque es mucho más agradable que en el taller y en este momento eso es casi imposible. Una vez terminada la ampliación del techo, puedo volver a crear más espacio y todos los vehículos y objetos estarán protegidos de la fuerte luz solar y de la lluvia. Seguiré informando y cuidándome hasta entonces.
 
 Saludos
-Sebastian.
+Sebastian
+
+{{< chat quincho >}}
+

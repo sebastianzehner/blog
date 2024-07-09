@@ -2,22 +2,17 @@
 title = 'Mi nuevo sitio web minimalista y gratuito'
 description = 'Este es mi primer nuevo post en este sitio web.'
 summary = 'Ayer pensé que algo tenía que cambiar en mi antigua página web. Tenía un blog wordpress desde hace años y mi último post fue escrito hace un año.'
-date = 2024-07-03
-lastmod = 2024-07-04
+date = 2024-07-08T16:20:40-04:00
+lastmod = 2024-07-08T16:20:40-04:00
 draft = false
-tags = ['Hugo', 'PaperMod', 'sitio web']
-categories = ['tecnología', 'vida sencilla']
+tags = ['hugo', 'PaperMod', 'sitio web', 'vida sencilla']
+categories = ['Tecnología']
 
 ShowToc = true
 TocOpen = true
-#ShowBreadCrumbs = true #set in config file
 
 [params]
-    author = 'Sebastian Zehner'
-    #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowPostNavLinks = false    
+    author = 'Sebastian Zehner' 
 
 [cover]
     image = '/img/first.webp'
@@ -46,3 +41,6 @@ Tengo muchas más ideas para desarrollar este sitio web con un poco más de mate
 
 Saludos
 Sebastian
+
+{{< chat firstpost >}}
+

@@ -2,22 +2,17 @@
 title = 'Meine neue minimalistische und kostenlose Webseite'
 description = 'Dies ist mein erster neuer Beitrag auf dieser Webseite.'
 summary = 'Gestern dachte ich, dass sich an meiner alten Webseite etwas ändern muss. Ich hatte seit Jahren einen WordPress-Blog und mein letzter Beitrag wurde vor einem Jahr geschrieben.'
-date = 2024-07-03T15:30:00-04:00
-lastmod = 2024-07-04
+date = 2024-07-08T16:20:40-04:00
+lastmod = 2024-07-08T16:20:40-04:00
 draft = false
-tags = ['Hugo', 'PaperMod', 'Webseite']
-categories = ['Technik', 'Einfaches Leben']
+tags = ['Hugo', 'PaperMod', 'Webseite', 'Einfaches Leben']
+categories = ['Technik']
 
 ShowToc = true
 TocOpen = true
-#ShowBreadCrumbs = true #set in config file
 
 [params]
     author = 'Sebastian Zehner'
-    #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowPostNavLinks = false    
 
 [cover]
     image = '/img/first.webp'
@@ -42,7 +37,10 @@ Ich bin froh über diese Entscheidung, denn jetzt habe ich eine neue moderne und
 
 ## Was steht als nächstes auf dieser neuen Webseite an?
 
-Ich habe noch viel mehr Ideen, um diese Webseite weiterzuentwickeln, mit ein bisschen mehr technischem Zeugs, aber ich werde sie immer einfach halten. In Zukunft werde ich genau über diesen technischen Bereich und andere Projekte wie KI-Inhalte oder unsere netzunabhängige Solaranlage schreiben, die ich in den nächsten Monaten bauen werde. Auch werde ich weiterhin über unser schönes Leben in Paraguay schreiben. Wir leben in einer sicheren Gated Community namens El Paraiso Verde. Seid sicher, dass ich gerne all mein Wissen mit den Menschen im World Wide Web teilen möchte. Das ist genug für heute, denke ich :grins:
+Ich habe noch viel mehr Ideen, um diese Webseite weiterzuentwickeln, mit ein bisschen mehr technischem Zeugs, aber ich werde sie immer einfach halten. In Zukunft werde ich genau über diesen technischen Bereich und andere Projekte wie KI-Inhalte oder unsere netzunabhängige Solaranlage schreiben, die ich in den nächsten Monaten bauen werde. Auch werde ich weiterhin über unser schönes Leben in Paraguay schreiben. Wir leben in einer sicheren Gated Community namens El Paraiso Verde. Seid sicher, dass ich gerne all mein Wissen mit den Menschen im World Wide Web teilen möchte. Das ist genug für heute, denke ich :grin:
 
 Liebe Grüße
 Sebastian
+
+{{< chat firstpost >}}
+

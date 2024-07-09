@@ -85,6 +85,7 @@
 
 .post-content a:hover {
     box-shadow: 0 1px 0;
+    /*background-color: #d4b680;*/
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
