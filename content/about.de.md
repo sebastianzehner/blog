@@ -111,7 +111,7 @@ Zurück in Deutschland verkauften wir unser Wohnmobil und flogen nach Paraguay. 
 - [Hausbau Paraguay 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
 - [Hausbau Paraguay 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
 - [Hausbau Paraguay 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
-- [Quincho und Behandlungsraum](/de/posts/paraguay/quincho/)
+- [Quincho und Behandlungsraum](/de/posts/quincho/)
 
 Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren eigenen Behandlungsraum für Schmerztherapie. Ich habe eine Holzwerkstatt und baue unsere Möbel selbst. Hier vor Ort leben wir alle Freiheiten und ich habe die Möglichkeit weiterhin Online über das Internet arbeiten zu können. Ich werde dir jetzt an dieser Stelle natürlich nichts verkaufen aber vielleicht inspiriere ich dich hiermit und Du packst deinen Mut, um dein Leben entsprechend in eine andere und positive Richtung zu lenken?
 

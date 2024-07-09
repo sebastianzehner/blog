@@ -13,6 +13,7 @@ TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
+    ShowPageViews = true
 
 [cover]
     image = '/img/quincho.webp'
@@ -28,7 +29,7 @@ Con el nuevo espacio, Stefanie tiene ahora aún más citas que antes. El año pa
 
 ## Sala de tratamiento para terapia del dolor.
 
-Una vez que el quincho estuvo casi terminado, primero organizamos la habitación. Por supuesto, Stefanie instaló su tumbona y planificó ella misma los muebles. Una estantería con escalera y un escritorio con caballetes de madera. Ella pintó todo ella misma y pronto terminaré los estantes y la mesa para ella. Puede encontrar los últimos avances de la construcción [aquí](/es/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
+Una vez que el quincho estuvo casi terminado, primero organizamos la habitación. Por supuesto, Stefanie instaló su tumbona y planificó ella misma los muebles. Una estantería con escalera y un escritorio con caballetes de madera. Ella pintó todo ella misma y pronto terminaré los estantes y la mesa para ella. Puede encontrar los últimos avances de la construcción [aquí](/es/posts/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 También instalé la iluminación en el techo y la pared, así como barras de cortina y colgué las cortinas. Esto significó que su sala de tratamiento estuvo lista para su uso muy rápidamente. Ahora realiza hasta 4 tratamientos al día, mientras que antes se limitaba a sólo 2 tratamientos al día. Sin embargo, rápidamente se corre la voz entre los nuevos colonos y Stefanie recibe periódicamente nuevas solicitudes, porque todos los que sufren quieren que ella los trate o simplemente quieren un masaje relajante. Aquí algunas fotos del Quincho y la sala de tratamientos:
 

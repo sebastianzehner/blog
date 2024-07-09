@@ -115,7 +115,7 @@ Back in Germany, we sold our motorhome and flew to Paraguay. We have now been li
 - [Building a house in Paraguay Part 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
 - [Building a house in Paraguay Part 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
 - [Building a house in Paraguay Part 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
-- [Quincho and treatment room](/posts/paraguay/quincho/)
+- [Quincho and treatment room](/posts/quincho/)
 
 We now have our own property and house here and Stefanie even has her own treatment room for pain therapy. I have a woodworking shop and build our own furniture. We have all the freedom we need here on site and I will be able to continue working online over the internet. Of course, I'm not going to sell you anything at this point, but maybe I'll inspire you and you'll pluck up the courage to change your life in a different and positive direction?
 

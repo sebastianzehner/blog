@@ -13,6 +13,7 @@ TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
+    ShowPageViews = true
 
 [cover]
     image = '/img/quincho.webp'
@@ -28,7 +29,7 @@ With her new room, Stefanie now has even more appointments than before. Last yea
 
 ## Treatment room for pain therapy
 
-Once the quincho was almost finished, we first furnished the room. Stefanie of course set up her massage table and planned the furniture herself. A shelf with a ladder and a desk with wooden stands. She painted everything herself and I'll be finishing the shelves and table top for her soon. You can find the latest building progress [here](/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
+Once the quincho was almost finished, we first furnished the room. Stefanie of course set up her massage table and planned the furniture herself. A shelf with a ladder and a desk with wooden stands. She painted everything herself and I'll be finishing the shelves and table top for her soon. You can find the latest building progress [here](/posts/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 I also installed the lighting on the roof and walls as well as curtain rails and hung the curtains. This means that her treatment room was ready for use very quickly. She now does up to 4 treatments a day, whereas she used to limit herself to just 2 treatments a day. However, the new residents are quickly spreading the word and Stefanie regularly receives new requests, as everyone with pain wants to be treated by her or simply have a relaxing massage. Here are a few pictures of the Quincho and the treatment room:
 

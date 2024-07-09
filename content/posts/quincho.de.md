@@ -13,6 +13,7 @@ TocOpen = true
 
 [params]
     author = 'Sebastian Zehner'
+    ShowPageViews = true
 
 [cover]
     image = '/img/quincho.webp'
@@ -28,7 +29,7 @@ Stefanie hat mit dem neuen Raum jetzt noch mehr Termine als vorher. Im letzten J
 
 ## Behandlungsraum für Schmerztherapie
 
-Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du [hier](/de/posts/paraguay/the-new-path-from-our-house-to-the-quincho-is-finished/).
+Nachdem das Quincho weitestgehend fertiggestellt war, haben wir zuerst den Raum eingerichtet. Stefanie hat natürlich ihre Liege aufgestellt und selbst Möbel geplant. Ein Regal mit einer Leiter und ein Schreibtisch mit Böcken aus Holz. Sie hat alles selbst lackiert und ich mache ihr demnächst die Regalbretter und Tischplatte fertig. Den letzten Baufortschritt findest Du [hier](/de/posts/the-new-path-from-our-house-to-the-quincho-is-finished/).
 
 Ich habe zudem die Beleuchtung an der Decke und Wand sowie Gardinenstangen montiert und die Vorhänge aufgehängt. Somit war ihr Behandlungsraum auch sehr schnell einsatzbereit. Sie macht inzwischen bis zu 4 Behandlungen am Tag, da hatte sie sich früher auf nur 2 Behandlungen am Tag beschränkt gehabt. Jedoch spricht sich das auch bei den neuen Siedlern sehr schnell herum und Stefanie bekommt regelmäßig neue Anfragen, da jeder mit Schmerzen von ihr behandelt werden oder einfach nur eine entspannende Massage haben möchte. Hier ein paar Bilder vom Quincho und dem Behandlungsraum:
 
