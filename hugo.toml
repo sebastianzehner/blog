@@ -15,7 +15,6 @@ googlefonts = [
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
-ShowPageViews = true
 
 [outputs]
     home = [ "HTML", "RSS", "JSON" ]
