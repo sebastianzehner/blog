@@ -15,6 +15,7 @@ googlefonts = [
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
+ShowPageViews = true
 
 [outputs]
     home = [ "HTML", "RSS", "JSON" ]
@@ -27,7 +28,6 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
     ShowPostNavLinks = false
     ShowReadingTime = true
     ShowWordCount = true
-    ShowPageViews = true
     ShowRssButtonInSectionTermList = true
 
     defaultTheme = 'auto'
