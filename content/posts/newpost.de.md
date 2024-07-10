@@ -26,3 +26,5 @@ TocOpen = true
 
 Hier Text
 
+{{< chat testroom >}}
+

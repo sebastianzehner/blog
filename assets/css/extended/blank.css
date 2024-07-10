@@ -7,6 +7,17 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 body {
     font-family: Roboto, "Roboto Mono";
    }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: Serif;
+    color: #333333;
+   }
+
+  .dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6 {
+    font-family: Serif;
+    color: #d4b680;
+   }
+
   code, pre, samp, kbd, tt {
     font-family: "Roboto Mono", monospace !important;
     overflow: auto;
