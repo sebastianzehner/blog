@@ -8,6 +8,8 @@ enableEmoji = true
 
 enableGitInfo = true
 
+
+
 [privacy]
   [privacy.youtube]
     disable = false
