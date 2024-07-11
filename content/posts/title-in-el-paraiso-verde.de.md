@@ -1,6 +1,6 @@
 +++
 title = 'Titel im El Paraiso Verde'
-description = 'Haben wir inzwischen einen Titel für unser Grundstück?'
+#description = 'Haben wir inzwischen einen Titel für unser Grundstück?'
 summary = 'Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.'
 date = 2024-07-10T22:04:08-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2024-07-10T22:04:08-04:00
@@ -26,7 +26,7 @@ TocOpen = true
 
 Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.
 
-### Wie lief das Prozedere ab und warum hat das alles so lange gedauert?
+### Wie lief das Prozedere ab und warum hat das so lange gedauert?
 
 Wir selbst haben nie daran gezweifelt und inzwischen tatsächlich den Titel für unser Grundstück im El Paraiso Verde in den eigenen Händen. Gerüchte halten in der Regel nicht lange und dann kommt die Wahrheit ans Licht.
 
