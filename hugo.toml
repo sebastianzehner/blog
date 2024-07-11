@@ -1,7 +1,7 @@
 baseURL = 'https://sebastianzehner.com'
 #baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
-title = 'sebastianzehner'
+title = 'Blog von Sebastian Zehner'
 theme = 'PaperMod'
 
 enableEmoji = true
@@ -36,7 +36,10 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
     ShowWordCount = true
     ShowPageViews = true
     ShowRssButtonInSectionTermList = true
-    label.icon = "android-chrome-192x192.png"
+
+    label.icon = "/img/sz-light.png"
+    label.text = "-"
+    label.iconHeight = "50"
 
     defaultTheme = 'auto'
     disableThemeToggle = false

@@ -91,9 +91,11 @@
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
+            document.getElementById("siteLogo").src = "/img/sz-light.png"; /*my light logo*/
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
+            document.getElementById("siteLogo").src = "/img/sz-dark.png"; /*my dark logo*/
         }
     })
 

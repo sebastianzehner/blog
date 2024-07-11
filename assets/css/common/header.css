@@ -26,16 +26,18 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+    color: transparent;
 }
 
 .logo a:hover {
     transition: 0.15s;
-    color: #d4b680;
+    color: transparent;
 }
 
 .logo a img, .logo a svg {
     display: inline;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
+    vertical-align: bottom;
     pointer-events: none;
     transform: translate(0, -10%);
     border-radius: 6px;
@@ -107,6 +109,28 @@ body:not(.dark) #sun {
     margin: auto 3px;
     font-size: 16px;
     font-weight: 500;
+    color: var(--primary);
+}
+
+.lang-switch a:hover {
+    margin: auto 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #d4b680;
+}
+
+.dark .lang-switch a {
+    margin: auto 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.dark .lang-switch a:hover {
+    margin: auto 3px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #d4b680;
 }
 
 .logo-switches {
