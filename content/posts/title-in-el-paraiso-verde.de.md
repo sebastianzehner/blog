@@ -112,7 +112,7 @@ Das gesamte Siedlungsgebiet hat demnach immer Zona 22, Manzana 54 und Lote 2. Pi
 
 Nachdem wir unseren Titel beim Notar beantragt und für die Übertragung zusammen mit Dr. Erwin Annau unterschrieben haben, sind auch unsere beiden Namen bei Catastro für unser Grundstück eingetragen worden.
 
-Die Größe des Grundstücks ist ebenfalls zu erkennen und stimmt auch mit der Vermessung und dem Kaufvertrag überein. Glück gehabt :cold_sweat:
+Die Größe des Grundstücks ist ebenfalls zu erkennen und stimmt auch mit der Vermessung und dem Kaufvertrag überein.
 
 Außerdem ist erkennbar, dass unser Grundstück am 05.12.2023 bei Catastro aktualisiert/angelegt wurde. Davor war es überhaupt nicht möglich gewesen einen Titel zu übertragen.
 
@@ -132,7 +132,7 @@ Wichtig war uns der Titel überhaupt nicht, doch jetzt sind wir trotzdem froh, d
 
 Es kam noch irgendwo die Frage auf, ob unsere Titel überhaupt echt sind oder ob wir beschränkte Titel hätten, vielleicht zu dünnes Papier verwendet oder sonst irgendwelche Einschränkungen?
 
-Dazu kann ich nur sagen, dass ich unseren Titel auch bei der Staatsanwaltschaft gezeigt habe und wenn irgendjemand glaubt, dass dieser nicht echt sei, soll er das woanders klären aber uns damit bitte in Ruhe lassen :joy:
+Dazu kann ich sagen, dass ich unseren Titel einfach mal bei der Staatsanwaltschaft gezeigt habe und wenn irgendjemand glaubt, dass dieser nicht echt sei, soll er das woanders klären aber uns damit bitte in Ruhe lassen :joy:
 
 Es gibt natürlich Unterschiede bei den jeweiligen Titeln. Manche haben irgendwo in Paraguay ein ländliches Grundstück mit einer Padrón Nummer und ohne Gemeinschaftsflächen. Das ist vielleicht sogar die einfachste Art einen Titel hier in Paraguay zu bekommen.
 
