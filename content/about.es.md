@@ -41,12 +41,14 @@ En 2016, mi novia en ese momento (ahora esposa) y yo todavía disfrutábamos bas
 |-------------|-------------:|
 |![Caravana 1](/img/galleries/about/wohnwagen-1.webp)![Jardín 1](/img/galleries/about/garten-1.webp)|![Caravana 2](/img/galleries/about/wohnwagen-2.webp)![Jardín 2](/img/galleries/about/garten-2.webp)|
 
-He escrito algunas entradas en el blog sobre nuestros viajes con la caravana, pero también sobre nuestro jardín y cómo se desarrolló. A principios de 2015, nuestra casa de jardín estaba en gran parte terminada y empezamos a construir el jardín.
+Por aquel entonces, escribía algunas entradas en el blog sobre nuestros viajes con la caravana, pero también sobre nuestro jardín y cómo surgió. Incluso tuvimos nuestra propia serie de noticias sobre el jardín con 35 episodios.
 
-- [Camping con caravana en Cavallino, cerca de Venecia](https://meinlifestylebusiness.com/camping-in-cavallino-treporti-bei-venedig-italien/)
-- [Nuestra pequeña caravana todoterreno T@b 320](https://meinlifestylebusiness.com/wie-wir-zu-unserem-wohnwagen-tb-320-offroad-gekommen-sind/)
-- [Nuestra casa-jardín con la cubierta del patio terminada](https://meinlifestylebusiness.com/terrassenueberdachung-fertiggestellt-garten-news-33/)
-- [Nuestro propio jardín en un huerto privado](https://meinlifestylebusiness.com/raus-aus-dem-alltag-hinein-in-die-natur-garten-news-1-2/)
+A principios de 2015, nuestra caseta de jardín estaba prácticamente terminada y nos pusimos manos a la obra para construir el jardín. Sin embargo, no he trasladado las entradas anteriores a 2019 a mi nuevo blog.
+
+- Camping con caravana en Cavallino, cerca de Venecia
+- Nuestra pequeña caravana todoterreno T@b 320
+- Nuestra casa-jardín con la cubierta del patio terminada
+- Nuestro propio jardín en un huerto privado
 
 Me encantaría que mi historia te inspirara a encontrar nuevos métodos para crear una vida mejor, para tener más tiempo para las personas y las cosas que son realmente importantes para ti y para hacer simplemente lo que personalmente te gusta.
 
@@ -94,10 +96,10 @@ Así que volví a dejar mi trabajo habitual, que en realidad me había gustado m
 
 Nuestro plan al principio fue perfecto y nos quedamos en un camping en Münster durante un mes para despedirnos de nuestros amigos más queridos y de toda la vida. A continuación, iniciamos nuestro último viaje a través de Bélgica hasta Francia. Nuestro destino era el Algarve, en Portugal, así que seguimos por España, siempre bordeando la costa. Después continuamos vía Gibraltar por la costa del sur de vuelta a Alemania. Escribí algunos artículos en el blog sobre nuestro viaje en autocaravana.
 
-- [Camping en autocaravana por España y Portugal](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/)
-- [Camping en autocaravana por España y Portugal Parte 2](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-2/)
-- [Camping en autocaravana por España y Portugal Parte 3](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-3/)
-- [Camping en autocaravana por España y Portugal Parte 4](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-4/)
+- [Camping en autocaravana por España y Portugal Parte 1](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1)
+- [Camping en autocaravana por España y Portugal Parte 2](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2)
+- [Camping en autocaravana por España y Portugal Parte 3](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3)
+- [Camping en autocaravana por España y Portugal Parte 4](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4)
 
 |             |              |
 |-------------|-------------:|

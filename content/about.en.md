@@ -5,16 +5,12 @@ summary = 'Welcome to my personal blog. My name is Sebastian Zehner and I am the
 date = 2023-02-06T12:21:42-04:00
 lastmod = 2024-07-08T00:37:47-04:00
 draft = false
-#tags = ['Quincho', 'Pain therapy']
-#categories = ['Paraguay', 'Simple Life', 'Emigrate']
 
 ShowToc = true
 TocOpen = true
 
 [params]
-    #author = 'Sebastian Zehner'
     ShowBreadCrumbs = false
-    #ShowShareButtons = true #only works in the hugo.toml file for all posts and websites
     ShowReadingTime = true
     ShowWordCount = true
     ShowPostNavLinks = false
@@ -45,12 +41,14 @@ In 2016, my girlfriend at this time (now wife) and I still enjoyed driving our s
 |-------------|-------------:|
 |![Caravan 1](/img/galleries/about/wohnwagen-1.webp)![Garden 1](/img/galleries/about/garten-1.webp)|![Caravan 2](/img/galleries/about/wohnwagen-2.webp)![Garden 2](/img/galleries/about/garten-2.webp)|
 
-I've written a few blog posts about our travels with the caravan, but also about our garden and how it was developed. At the beginning of 2015, our garden house was largely finished and we started to build the garden.
+In the past, I wrote a few blog posts about our travels with the caravan, but also about our garden and how it was created. There was even a garden news series about it with 35 episodes.
 
-- [Camping with caravan in Cavallino near Venice](https://meinlifestylebusiness.com/camping-in-cavallino-treporti-bei-venedig-italien/)
-- [Our little T@b 320 off-road caravan](https://meinlifestylebusiness.com/wie-wir-zu-unserem-wohnwagen-tb-320-offroad-gekommen-sind/)
-- [Our garden house with completed patio roofing](https://meinlifestylebusiness.com/terrassenueberdachung-fertiggestellt-garten-news-33/)
-- [Our own garden on a private allotment site](https://meinlifestylebusiness.com/raus-aus-dem-alltag-hinein-in-die-natur-garten-news-1-2/)
+At the beginning of 2015, our garden house was almost finished and we started to build the garden. However, I haven't moved the posts older than 2019 to my new blog.
+
+- Camping with caravan in Cavallino near Venice
+- Our little T@b 320 off-road caravan
+- Our garden house with completed patio roofing
+- Our own garden on a private allotment site
 
 I would be glad if my story inspires you to find new methods to create a better life, to have more time for the people and things that are really important to you and to just do what you personally enjoy.
 
@@ -98,10 +96,10 @@ So I quit my regular job again, which I had actually really enjoyed, but I had n
 
 Our plan at the beginning was perfect and we stayed on a campsite in Münster for a month to say goodbye to our dearest and long-time friends. We then began our final tour via Belgium to France. Our destination was the Algarve in Portugal and so we drove on through Spain, always along the coast. Later we continued via Gibraltar along the coast in the south back to Germany. I wrote a few blog articles about our motorhome trip.
 
-- [Camping with a motorhome through Spain and Portugal](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/)
-- [Camping with a motorhome through Spain and Portugal Part 2](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-2/)
-- [Camping with a motorhome through Spain and Portugal Part 3](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-3/)
-- [Camping with a motorhome through Spain and Portugal Part 4](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-4/)
+- [Camping with a motorhome through Spain and Portugal Part 1](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1/)
+- [Camping with a motorhome through Spain and Portugal Part 2](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/)
+- [Camping with a motorhome through Spain and Portugal Part 3](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3/)
+- [Camping with a motorhome through Spain and Portugal Part 4](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4/)
 
 |             |              |
 |-------------|-------------:|

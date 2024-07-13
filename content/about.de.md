@@ -41,12 +41,14 @@ Meine damalige Freundin (inzwischen Ehefrau) und ich fuhren 2016 noch sehr oft u
 |-------------|-------------:|
 |![Wohnwagen 1](/img/galleries/about/wohnwagen-1.webp)![Garten 1](/img/galleries/about/garten-1.webp)|![Wohnwagen 2](/img/galleries/about/wohnwagen-2.webp)![Garten 2](/img/galleries/about/garten-2.webp)|
 
-Ich habe einige Blogbeiträge über unsere Reisen mit den Wohnwagen geschrieben aber auch von unserem Garten und wie dieser entstanden ist. Anfang 2015 war unser Gartenhaus weitestgehend fertiggestellt und wir haben uns an die Arbeit gemacht den Garten aufzubauen.
+Ich habe damals einige Blogbeiträge über unsere Reisen mit den Wohnwagen geschrieben aber auch von unserem Garten und wie dieser entstanden ist. Es gab darüber sogar eine eigene Garten News Serie mit 35 Folgen.
 
-- [Camping mit Wohnwagen in Cavallino bei Venedig](https://meinlifestylebusiness.com/camping-in-cavallino-treporti-bei-venedig-italien/)
-- [Unser kleiner T@b 320 Offroad Wohnwagen](https://meinlifestylebusiness.com/wie-wir-zu-unserem-wohnwagen-tb-320-offroad-gekommen-sind/)
-- [Unser Gartenhaus mit fertiggestellter Terrassenüberdachung](https://meinlifestylebusiness.com/terrassenueberdachung-fertiggestellt-garten-news-33/)
-- [Unser eigener Garten in einer privaten Kleingartenanlage](https://meinlifestylebusiness.com/raus-aus-dem-alltag-hinein-in-die-natur-garten-news-1-2/)
+Anfang 2015 war unser Gartenhaus weitestgehend fertiggestellt und wir haben uns an die Arbeit gemacht den Garten aufzubauen. Ich habe allerdings die Beiträge älter als 2019 nicht auf meinen neuen Blog umgezogen.
+
+- Camping mit Wohnwagen in Cavallino bei Venedig
+- Unser kleiner T@b 320 Offroad Wohnwagen
+- Unser Gartenhaus mit fertiggestellter Terrassenüberdachung
+- Unser eigener Garten in einer privaten Kleingartenanlage
 
 Ich freue mich, wenn dich meine Geschichte inspirieren kann, um neue Wege zu finden, ein besseres Leben zu führen, mehr Zeit zu haben für die Menschen und Dinge, die dir wirklich wichtig sind und einfach das zu tun, was dir persönlich Freude bereitet.
 
@@ -94,10 +96,10 @@ Ich habe also wieder meinen festen Job gekündigt, der mir sogar sehr viel Spaß
 
 Unser damaliger Plan war perfekt und wir blieben noch für einen Monat in Münster auf einem Campingplatz, um uns von unseren liebsten und langjährigen Freunden verabschieden zu können. Im Anschluss begann unsere Abschiedstour über Belgien nach Frankreich. Ziel war für uns die Algarve in Portugal und somit fuhren wir weiter über Spanien, immer an der Küste entlang. Später ging es weiter über Gibraltar an der Küste im Süden zurück nach Deutschland. Ich habe ein paar Blogartikel über unsere Wohnmobilreise geschrieben.
 
-- [Camping mit dem Wohnmobil durch Spanien und Portugal](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-2/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-3/)
-- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal-teil-4/)
+- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1)
+- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2)
+- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3)
+- [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4)
 
 |             |              |
 |-------------|-------------:|
