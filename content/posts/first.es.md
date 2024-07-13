@@ -5,7 +5,7 @@ summary = 'Ayer pensé que algo tenía que cambiar en mi antigua página web. Te
 date = 2024-07-08T16:20:40-04:00
 lastmod = 2024-07-08T16:20:40-04:00
 draft = false
-tags = ['hugo', 'PaperMod', 'sitio web', 'vida sencilla']
+tags = ['#hugo', '#PaperMod', '#sitioweb', '#vidasencilla']
 categories = ['Tecnología']
 
 ShowToc = true

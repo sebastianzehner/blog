@@ -107,10 +107,10 @@ Unser damaliger Plan war perfekt und wir blieben noch für einen Monat in Münst
 
 Zurück in Deutschland verkauften wir unser Wohnmobil und flogen nach Paraguay. Nun leben wir seit November 2019 in Paraguay und haben unser eigenes Paradies in einer geschlossenen Siedlung geschaffen. Ich habe bereits einige Blogartikel über die Entstehung geschrieben und werde sicherlich noch weitere Artikel über unser Leben in Paraguay schreiben. Es wird weitere Details darüber geben, warum wir ausgewandert sind und Deutschland verlassen haben.
 
-- [Grundstück Paraguay](https://meinlifestylebusiness.com/update-von-unserem-grundstueck-und-haus-in-paraguay/)
-- [Hausbau Paraguay 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
-- [Hausbau Paraguay 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
-- [Hausbau Paraguay 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
+- [Grundstück Paraguay](/de/posts/update-from-our-property-and-house-in-paraguay/)
+- [Hausbau Paraguay 1](/de/posts/house-construction-in-paraguay-part-1/)
+- [Hausbau Paraguay 2](/de/posts/house-construction-in-paraguay-part-2/)
+- [Hausbau Paraguay 3](/de/posts/house-construction-in-paraguay-part-3/)
 - [Quincho und Behandlungsraum](/de/posts/quincho/)
 
 Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren eigenen Behandlungsraum für Schmerztherapie. Ich habe eine Holzwerkstatt und baue unsere Möbel selbst. Hier vor Ort leben wir alle Freiheiten und ich habe die Möglichkeit weiterhin Online über das Internet arbeiten zu können. Ich werde dir jetzt an dieser Stelle natürlich nichts verkaufen aber vielleicht inspiriere ich dich hiermit und Du packst deinen Mut, um dein Leben entsprechend in eine andere und positive Richtung zu lenken?
@@ -121,6 +121,7 @@ Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren
 
 Solltest Du schon soweit sein und alles läuft perfekt in deinem Leben, dann freut es mich natürlich sehr, wenn ich dich mit unseren Beiträgen trotzdem inspirieren und vor allem unterhalten kann. Hier findest Du alle Blogartikel zu unserem Leben in Paraguay.
 
+- [El Paraiso Verde](/de/tags/el-paraiso-verde/)
 - [Paraguay](/de/categories/paraguay/)
 
 Liebe Grüße

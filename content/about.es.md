@@ -107,10 +107,10 @@ Nuestro plan al principio fue perfecto y nos quedamos en un camping en Münster 
 
 De vuelta en Alemania, vendimos nuestra autocaravana y volamos a Paraguay. Ahora vivimos en Paraguay desde noviembre de 2019 y hemos creado nuestro propio paraíso en una urbanización cerrada. Ya he escrito algunos artículos de blog sobre el desarrollo y seguramente escribiré más artículos sobre nuestra vida en Paraguay. Habrá más detalles sobre por qué nos mudamos y dejamos Alemania.
 
-- [Nuestra propiedad en Paraguay](https://meinlifestylebusiness.com/update-von-unserem-grundstueck-und-haus-in-paraguay/)
-- [Construcción de una casa en Paraguay Parte 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
-- [Construcción de una casa en Paraguay Parte 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
-- [Construcción de una casa en Paraguay Parte 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
+- [Nuestra propiedad en Paraguay](/es/posts/update-from-our-property-and-house-in-paraguay/)
+- [Construcción de una casa en Paraguay Parte 1](/es/posts/house-construction-in-paraguay-part-1/)
+- [Construcción de una casa en Paraguay Parte 2](/es/posts/house-construction-in-paraguay-part-2/)
+- [Construcción de una casa en Paraguay Parte 3](/es/posts/house-construction-in-paraguay-part-3/)
 - [Quincho y sala de tratamiento](/es/posts/quincho/)
 
 Ahora tenemos nuestra propia propiedad y casa aquí y Stefanie incluso tiene su propia sala de tratamiento para la terapia del dolor. Tengo un taller de carpintería y construyo nuestros propios muebles. Tenemos toda la libertad que necesitamos aquí en el sitio y voy a ser capaz de seguir trabajando en línea a través de Internet. Por supuesto, no voy a venderte nada en este momento, pero tal vez te inspire y te armes de valor para cambiar tu vida en una dirección diferente y positiva?
@@ -121,6 +121,7 @@ Ahora tenemos nuestra propia propiedad y casa aquí y Stefanie incluso tiene su 
 
 Si ya estás establecido y todo va perfectamente en tu vida, entonces por supuesto me alegro mucho si todavía puedo inspirarte y sobre todo entretenerte con nuestros artículos. Puedes encontrar todos los artículos del blog sobre nuestra vida en Paraguay aquí.
 
+- [El Paraiso Verde](/es/tags/el-paraiso-verde/)
 - [Paraguay](/es/categories/paraguay/)
 
 Saludos cordiales

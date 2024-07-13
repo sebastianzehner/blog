@@ -5,7 +5,7 @@ summary = 'Yesterday, I thought that something has to change with my old website
 date = 2024-07-08T16:20:40-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2024-07-08T16:20:40-04:00 #If empty then GitHub Time will be used
 draft = false
-tags = ['hugo', 'PaperMod', 'website', 'simple life']
+tags = ['#hugo', '#PaperMod', '#website', '#simplelife']
 categories = ['Tech']
 
 ShowToc = true

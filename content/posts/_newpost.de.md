@@ -5,7 +5,7 @@ summary = 'Zusammenfassung'
 date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2023-01-16T15:51:42-04:00
 draft = true #Entwurf wird noch nicht veröffentlicht
-tags = ['Quincho', 'Schmerztherapie', 'Einfaches Leben', 'Auswandern']
+tags = ['Quincho', 'Schmerztherapie', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
 ShowToc = true

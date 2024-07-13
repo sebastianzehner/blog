@@ -5,7 +5,7 @@ summary = 'Hier mal eine kleine Zusammenfassung, was ich letztes Jahr alles für
 date = 2022-05-07T12:32:00-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2022-05-07T12:32:00-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Quincho', 'Schmerztherapie', 'Holzwerkstatt', 'Küche', 'Auswandern', 'Garten']
+tags = ['El Paraiso Verde', 'Quincho', 'Schmerztherapie', 'Holzwerkstatt', 'Küche', 'Auswandern', 'Garten']
 categories = ['Paraguay']
 
 ShowToc = true

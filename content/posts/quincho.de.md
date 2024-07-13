@@ -5,7 +5,7 @@ summary = 'Unser Quincho ist mittlerweile fertiggestellt und auch der Behandlung
 date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['Quincho', 'Schmerztherapie', 'Einfaches Leben', 'Auswandern']
+tags = ['El Paraiso Verde', 'Quincho', 'Schmerztherapie', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
 ShowToc = true

@@ -111,10 +111,10 @@ Our plan at the beginning was perfect and we stayed on a campsite in Münster fo
 
 Back in Germany, we sold our motorhome and flew to Paraguay. We have now been living in Paraguay since November 2019 and have created our own paradise in a gated community. I have already written a few blog articles about the development and will certainly write more articles about our life in Paraguay. There will be more details about why we moved and left Germany.
 
-- [Our property in Paraguay](https://meinlifestylebusiness.com/update-von-unserem-grundstueck-und-haus-in-paraguay/)
-- [Building a house in Paraguay Part 1](https://meinlifestylebusiness.com/hausbau-in-paraguay/)
-- [Building a house in Paraguay Part 2](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-2/)
-- [Building a house in Paraguay Part 3](https://meinlifestylebusiness.com/hausbau-in-paraguay-teil-3/)
+- [Our property in Paraguay](/posts/update-from-our-property-and-house-in-paraguay/)
+- [Building a house in Paraguay Part 1](/posts/house-construction-in-paraguay-part-1/)
+- [Building a house in Paraguay Part 2](/posts/house-construction-in-paraguay-part-2/)
+- [Building a house in Paraguay Part 3](/posts/house-construction-in-paraguay-part-3/)
 - [Quincho and treatment room](/posts/quincho/)
 
 We now have our own property and house here and Stefanie even has her own treatment room for pain therapy. I have a woodworking shop and build our own furniture. We have all the freedom we need here on site and I will be able to continue working online over the internet. Of course, I'm not going to sell you anything at this point, but maybe I'll inspire you and you'll pluck up the courage to change your life in a different and positive direction?
@@ -125,6 +125,7 @@ We now have our own property and house here and Stefanie even has her own treatm
 
 If you are already settled and everything is going perfectly in your life, then I am of course very glad if I can still inspire and above all entertain you with our articles. You can find all blog articles about our life in Paraguay here.
 
+- [El Paraiso Verde](/tags/el-paraiso-verde/)
 - [Paraguay](/categories/paraguay/)
 
 Kind regards

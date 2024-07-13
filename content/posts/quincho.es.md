@@ -5,7 +5,7 @@ summary = 'Nuestro quincho ya está terminado y la sala de tratamiento de Stefan
 date = 2023-01-16T15:51:42-04:00
 lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['quincho', 'terapia del dolor', 'vida sencilla', 'emigrar']
+tags = ['#quincho', '#terapiadeldolor', '#vidasencilla', '#emigrar']
 categories = ['Paraguay']
 
 ShowToc = true

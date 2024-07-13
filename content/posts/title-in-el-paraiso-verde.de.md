@@ -38,7 +38,7 @@ Wir haben Ende 2017 über das Internet vom El Paraiso Verde erfahren und den Kon
 
 Wir waren zuvor noch nie in Paraguay und wir haben unser Grundstück auch nicht selbst ausgesucht. Es wurde uns zugeteilt und zu der Zeit gab es gerade diese neuen Anastacia Circle Grundstücke mit jeweils 2500qm. Solch ein Grundstück haben wir einfach gekauft aber wir hätten vor Ort auch noch tauschen können.
 
-Als wir zur Info-Woche vor Ort waren, konnten wir unser Grundstück leider nicht besichtigen, da überhaut keine Straße dorthin führte. Es mussten im Siedlungsgebiet erstmal noch die ganzen Straßen gebaut werden. Wir hatten weiterhin die Option das Grundstück jederzeit zu tauschen.
+Als wir zur Info-Woche vor Ort waren, konnten wir unser Grundstück leider nicht besichtigen, da überhaut keine Straße dorthin führte. Es mussten im Siedlungsgebiet erst mal noch die ganzen Straßen gebaut werden. Wir hatten weiterhin die Option das Grundstück jederzeit zu tauschen.
 
 Überwiesen hatten wir den Betrag im Vorfeld und es gab auch keinen Termin beim Notar. Wir hätten ursprünglich nur Nutzungsrechte an unserem Grundstück bekommen und genauso war das damals auch gedacht gewesen. Für uns war das soweit in Ordnung, weil wir in Deutschland auch schon ein Gartengrundstück mit Nutzungsrechten hatten und dieses sogar teurer war.
 
@@ -66,11 +66,11 @@ Dies war für uns ebenfalls in Ordnung, weil wir im Vertrauen sind und das alles
 
 ## Die Aufteilung des Siedlungsgebiets
 
-Es gibt aktuell ca. 1711 Titel im El Paraiso Verde und um überhaupt einmal dahinzukommen waren viele Zwischenschritte notwendig. Ich versuche das hier noch einmal aus der Vergangenheit nachzuerzählen. Vielleicht finde ich irgendwann auch nochmal ein paar ältere Screenshots und würde diese hier nachreichen.
+Es gibt aktuell ca. 1711 Titel im El Paraiso Verde und um überhaupt erst mal da hinzukommen waren viele Zwischenschritte notwendig. Ich versuche das hier noch einmal aus der Vergangenheit nachzuerzählen. Vielleicht finde ich irgendwann auch nochmal ein paar ältere Screenshots und würde diese hier nachreichen.
 
 Zu dem Zeitpunkt als wir den notariellen Kaufvertrag unterschrieben haben, war das Siedlungsgebiet noch aufgeteilt über drei einzeln titulierte Grundstücke.
 
-Das ist aber noch nicht alles gewesen, denn diese drei Grundstücke gehören unterschiedlichen Gemeinden an. Ein Teil davon gehört zu Maciel und ein anderer Teil zu Caazapa. Der nächste Schritt war gewesen, diese drei einzelnen Grundstücke zu einem großen Grundstück zusammenzulegen.
+Das ist aber noch nicht alles gewesen, denn diese drei Grundstücke gehören unterschiedlichen Gemeinden an. Ein Teil davon gehört zu Maciel und ein anderer Teil zu Caazapá. Der nächste Schritt war gewesen, diese drei einzelnen Grundstücke zu einem großen Grundstück zusammenzulegen.
 
 Alleine das hat schon wieder eine sehr lange Zeit benötigt. Das Urteil bezüglich der Zusammenlegung der 3 Liegenschaften in eine Liegenschaft wurde nach Verhandlung am 27. Dezember 2018 und Entscheidung am 28. Dezember 2018 zum 11. Oktober 2019 veröffentlicht.
 
@@ -84,13 +84,13 @@ Ich muss mal schauen, ob ich davon noch irgendwo Bilder finde. Ich möchte das j
 
 Das sind die heute bekannten Sektionen A und B, eine davon ist das Siedlungsgebiet und die andere ist außerhalb vom Siedlungsgebiet mit den Weiden und auch Pira Tava gehört dazu.
 
-Im Juli 2023 hat der Gemeinderat von Maciel das Prozedere (den administrativen Ablauf) für die Grundbuchseintragung aller Siedler genehmigt. Das Siedlungsgebiet hat heute allerdings keine Padrón Nummer mehr. Warum denn das?
+Im Juli 2023 hat der Gemeinderat von Maciel das Prozedere (den administrativen Ablauf) für die Grundbucheintragung aller Siedler genehmigt. Das Siedlungsgebiet hat heute allerdings keine Padrón Nummer mehr. Warum denn das?
 
 ## Was ist der Unterschied zwischen Cuentas Rurales und Cuentas Corrientes?
 
 Ab dieser Stelle möchte ich kurz etwas mehr ins Detail gehen, wie das [Catastro](https://www.catastro.gov.py/) in Paraguay funktioniert bzw. die jeweiligen Grundstücke im Land aufteilt. Zumindest nach meinem Verständnis, weil ich diesen Prozess in den letzten beiden Jahren etwas intensiver verfolgt habe. 
 
-Grundlegend ist das El Paraiso Verde eine Stadtentwicklung und daher hat das Siedlungsgebiet ein laufendes Konto (Cuentas Corrientes) beim nationalen Katasterdienst (Catastro) und keine Padrón Nummer wie die ländlichen Konten (Cuentas Rurales).
+Grundlegend ist das El Paraiso Verde eine Stadtentwicklung und daher hat das Siedlungsgebiet ein laufendes Konto (Cuentas Corrientes) beim nationalen Kataster (Catastro) und keine Padrón Nummer wie die ländlichen Konten (Cuentas Rurales).
 
 Das ist so bei jeder Stadt in Paraguay. Zu erkennen an der speziellen Nummerierung von den Grundstücken und in der Map bei Catastro haben die Grundstücke der Städte eine andere Farbe.
 
@@ -136,15 +136,15 @@ Dazu kann ich sagen, dass ich unseren Titel einfach mal bei der Staatsanwaltscha
 
 Es gibt natürlich Unterschiede bei den jeweiligen Titeln. Manche haben irgendwo in Paraguay ein ländliches Grundstück mit einer Padrón Nummer und ohne Gemeinschaftsflächen. Das ist vielleicht sogar die einfachste Art einen Titel hier in Paraguay zu bekommen.
 
-Wir haben hier ein städtisches Grundstück, welches einer Eigentümergemeinschaft gehört und die Eigentumsverhältnisse entsprechend dem jeweiligen privaten Grundstück und den restlichen gemeinschaftlich genutzen Flächen auf dem gesamten Grundstück vom Siedlungsgebiet geregelt werden müssen.
+Wir haben hier ein städtisches Grundstück, welches einer Eigentümergemeinschaft gehört und die Eigentumsverhältnisse entsprechend dem jeweiligen privaten Grundstück und den restlichen gemeinschaftlich genutzten Flächen auf dem gesamten Grundstück vom Siedlungsgebiet geregelt werden müssen.
 
 Dies wird ermöglicht über das sogenannte horizontale Eigentum (Propiedad Horizontal), welches sich auf eine Reihe von Regeln bezieht, die die Aufteilung und Organisation verschiedener Grundstücke infolge der Trennung eines Gemeinschaftsgrundstücks regeln.
 
-Das horizontale Eigentum selbst ist kein bestimmtes Grundstück, sondern ein System, das die Art und Weise der Aufteilung von Grundstücken und das Verhältnis zwischen den Eigentümern des Privateigentums und des von einem Grundstück abgetrennten Gemeinschaftseigentums regelt. Das Horizontaleigentum ermöglicht die Organisation von Miteigentümern und die Aufrechterhaltung des Gemeinschaftseigentums. [*Quelle*](https://es.wikipedia.org/wiki/Propiedad_horizontal)
+Das horizontale Eigentum selbst ist kein bestimmtes Grundstück, sondern ein System, das die Art und Weise der Aufteilung von Grundstücken und das Verhältnis zwischen den Eigentümern des Privateigentums und des von einem Grundstück abgetrennten Gemeinschaftseigentums regelt. Das horizontale Eigentum ermöglicht die Organisation von Miteigentümern und die Aufrechterhaltung des Gemeinschaftseigentums. [*Quelle*](https://es.wikipedia.org/wiki/Propiedad_horizontal)
 
 Es gibt also für jedes Grundstück auch den passenden Titel, wie es das Gesetz in Paraguay eben vorschreibt. Man muss sich nur etwas damit beschäftigen, was natürlich Zeit kostet aber hier hast du jetzt zumindest eine kleine Zusammenfassung von mir erhalten.
 
-Hier kannst du dir jetzt erstmal ein Youtube Video von mir ansehen. Ich bin mit meiner Drohne über das El Paraiso geflogen und es gibt ein paar schöne Bilder aus der Vogelperspektive vom Siedlungsgebiet im April 2024.
+Hier kannst du dir jetzt erst mal ein Youtube Video von mir ansehen. Ich bin mit meiner Drohne über das El Paraiso geflogen und es gibt ein paar schöne Bilder aus der Vogelperspektive vom Siedlungsgebiet im April 2024.
 
 {{< youtube 769DhjsyDOs >}}
 
@@ -158,7 +158,7 @@ Wir haben die Erfahrungen schon gemacht und hinter uns gebracht, die fast JEDER 
 
 Diese Lösung wurde nötig, da eine solche Krise wesentlich schneller kommen kann, als hier die Bewerber über die Info-Woche zu Siedlern gemacht werden können.
 
-Wir leben allerdings auch unabhängig davon sehr gerne im El Paraiso Verde und sind glücklich uns hier seit November 2019 ein eigenes grünes Paradies aufgebaut zu haben. Schau dir gerne auch meine anderen Blogartikel hier an, beispielswiese wie wir hier angefangen haben mit dem Hausbau.
+Wir leben allerdings auch unabhängig davon sehr gerne im El Paraiso Verde und sind glücklich uns hier seit November 2019 ein eigenes grünes Paradies aufgebaut zu haben. Schau dir gerne auch meine anderen Blogartikel hier an, beispielsweise wie wir hier angefangen haben mit dem Hausbau.
 
 Du kannst über die Webseite vom [El Paraiso Verde](https://paraiso-verde.com/kontakt/) mit einem Berater Kontakt aufnehmen!
 

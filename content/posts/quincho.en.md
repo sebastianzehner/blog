@@ -5,7 +5,7 @@ summary = 'Our quincho is now finished and Stefanie`s treatment room is also ope
 date = 2023-01-16T15:51:42-04:00
 lastmod = 2023-01-16T15:51:42-04:00
 draft = false
-tags = ['quincho', 'pain therapy', 'simple life', 'emigrate']
+tags = ['#elparaisoverde', '#quincho', '#paintherapy', '#simplelife', '#emigrate']
 categories = ['Paraguay']
 
 ShowToc = true
