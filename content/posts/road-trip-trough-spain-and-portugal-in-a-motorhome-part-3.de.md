@@ -120,7 +120,7 @@ Unverschämt ist auch der Preis mit ACSI Card 20 Euro und für unsere zwei Jahre
 
 Als nächstes fahren wir definitiv noch einen Campingplatz in Spanien an, bleiben für maximal eine Woche und dann fahren wir weiter nach Frankreich. Vielleicht gibt es noch einen Zwischenstopp auf einem Stellplatz, das entscheiden wir dann spontan. 
 
-n Frankreich werden wir wahrscheinlich die Schwester von Stefanie auf einem Campingplatz treffen und mit ihnen gemeinsam den Urlaub verbringen. Der geht bis Ende September und danach fahren wir zurück nach Deutschland, sicherlich nicht am Stück und mit ein oder zwei Zwischenstopps auf Stellplätzen.
+In Frankreich werden wir wahrscheinlich die Schwester von Stefanie auf einem Campingplatz treffen und mit ihnen gemeinsam den Urlaub verbringen. Der geht bis Ende September und danach fahren wir zurück nach Deutschland, sicherlich nicht am Stück und mit ein oder zwei Zwischenstopps auf Stellplätzen.
 
 In Deutschland angekommen werden wir unser Wohnmobil verkaufen. Ich habe bereits die Anzeige auf mobile.de online. Sobald das Wohnmobil verkauft ist beginnt unsere nächste große Reise aber dazu später mehr. Ich werde sicherlich noch einen Teil 4 zum Abschluss unsere Spanien und Portugal Reise schreiben.
 

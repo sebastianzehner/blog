@@ -1,5 +1,5 @@
-baseURL = 'https://sebastianzehner.com'
-#baseURL = 'localhost' #testing at local server
+#baseURL = 'https://sebastianzehner.com'
+baseURL = 'localhost' #testing at local server
 languageCode = 'en-us'
 title = 'Sebastian Zehner'
 summary = 'This is my personal blog and I am writing about projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life.'
@@ -47,7 +47,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
     #mainSections = ["posts"] #If you have not set this config parameter in site config, it will default to the section with the most pages.
 
-    goatcounter = 'stats'
+    #goatcounter = 'stats'
 
 [params.homeInfoParams]
     title = '''Hey, I'm Sebastian :wave:'''

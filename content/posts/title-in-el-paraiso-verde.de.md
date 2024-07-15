@@ -144,7 +144,7 @@ Das horizontale Eigentum selbst ist kein bestimmtes Grundstück, sondern ein Sys
 
 Es gibt also für jedes Grundstück auch den passenden Titel, wie es das Gesetz in Paraguay eben vorschreibt. Man muss sich nur etwas damit beschäftigen, was natürlich Zeit kostet aber hier hast du jetzt zumindest eine kleine Zusammenfassung von mir erhalten.
 
-Hier kannst du dir jetzt erst mal ein Youtube Video von mir ansehen. Ich bin mit meiner Drohne über das El Paraiso geflogen und es gibt ein paar schöne Bilder aus der Vogelperspektive vom Siedlungsgebiet im April 2024.
+Hier kannst du dir jetzt erst mal ein Youtube Video von mir ansehen. Ich bin mit meiner Drohne über das El Paraiso Verde geflogen und es gibt ein paar schöne Bilder aus der Vogelperspektive vom Siedlungsgebiet im April 2024.
 
 {{< youtube 769DhjsyDOs >}}
 
