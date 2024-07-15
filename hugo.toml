@@ -52,7 +52,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 [params.homeInfoParams]
     title = '''Hey, I'm Sebastian :wave:'''
     #content = '**test** und *test* > blockquote  und so weiter `code` linie --- und noch was? # Heading'
-    content = 'Welcome to my personal website. This is my minimalistic blog where I share projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life. You will find more about me :point_up: The standard language is English but you can switch to German or Spanish for the translated version. Have fun and :walking: through my blog.'
+    content = '''Welcome to my personal website. This is my minimalistic blog where I share projects I've been working on and what I learn along the way. I also share some private experiences or adventures of my life. You'll find more about me in the menu :point_up: The standard language is English but you can switch to German or Spanish for the translated version. Have fun and :walking: through my blog. | --> *I'm still in progress with translation!*'''
     [[params.socialIcons]]
         name = 'facebook'
         url = 'https://www.facebook.com/sebastianzehner83'
