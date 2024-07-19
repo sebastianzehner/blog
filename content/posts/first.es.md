@@ -6,7 +6,7 @@ date = 2024-07-08T16:20:40-04:00
 lastmod = 2024-07-08T16:20:40-04:00
 draft = false
 tags = ['hugo', 'PaperMod', 'sitio web', 'vida sencilla']
-categories = ['Tecnología']
+categories = ['Tech']
 
 ShowToc = true
 TocOpen = true
@@ -18,6 +18,7 @@ TocOpen = true
 [cover]
     image = '/img/first.webp'
     alt = 'Un hombre sentado frente al ordenador para escribir algunos posts.'
+    hidden = true
     #caption = 'This is the caption'
     relative = false
     responsiveImages = false

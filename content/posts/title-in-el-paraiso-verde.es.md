@@ -26,7 +26,7 @@ TocOpen = true
 
 Después de varios años de rumores de que no teníamos título y que nunca conseguiríamos un título para nuestra propiedad, hoy me gustaría entrar en más detalles sobre nuestro título.
 
-### ¿Cómo funcionó el proceso y por qué tardó tanto?
+## ¿Cómo ha funcionado el procedimiento?
 
 Nunca lo dudamos y ahora tenemos el título de nuestra propiedad en El Paraíso Verde en nuestras propias manos. Los rumores no suelen durar mucho y luego sale la verdad.
 

@@ -26,7 +26,7 @@ TocOpen = true
 
 Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.
 
-### Wie lief das Prozedere ab und warum hat das so lange gedauert?
+## Wie lief das Prozedere ab?
 
 Wir selbst haben nie daran gezweifelt und inzwischen tatsächlich den Titel für unser Grundstück im El Paraiso Verde in den eigenen Händen. Gerüchte halten in der Regel nicht lange und dann kommt die Wahrheit ans Licht.
 

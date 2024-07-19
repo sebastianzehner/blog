@@ -18,6 +18,7 @@ TocOpen = true
 [cover]
     image = '/img/first.webp'
     alt = 'A man sitting in front of the computer to write some posts.'
+    hidden = true
     #caption = 'This is the caption'
     relative = false
     responsiveImages = false

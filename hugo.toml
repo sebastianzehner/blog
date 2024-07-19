@@ -5,21 +5,16 @@ title = 'Sebastian Zehner'
 summary = 'This is my personal blog and I am writing about projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life.'
 theme = 'PaperMod'
 
+goatcounter = 'stats'
+
 enableEmoji = true
 
 enableGitInfo = true
-
-
 
 [privacy]
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
-googlefonts = [
-    "Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic",
-    "Roboto+Mono:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic"
-] #I am note shure if this works correctly
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
@@ -44,10 +39,6 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
     defaultTheme = 'auto'
     disableThemeToggle = false
-
-    #mainSections = ["posts"] #If you have not set this config parameter in site config, it will default to the section with the most pages.
-
-    goatcounter = 'stats'
 
 [params.homeInfoParams]
     title = '''Hey, I'm Sebastian :wave:'''

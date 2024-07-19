@@ -26,7 +26,7 @@ TocOpen = true
 
 After several years of rumors that we had no title and that we would never get a title for our property, I would like to go into more detail about our title today.
 
-### How did the process work and why did it take so long?
+## How did the procedure work?
 
 We never doubted it ourselves and now actually have the title to our property in El Paraiso Verde in our own hands. Rumors usually don't last long and then the truth comes out.
 

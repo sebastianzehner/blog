@@ -4,8 +4,11 @@
 }
 
 .post-title {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     font-size: 40px;
+    letter-spacing: -0.05em; /* pimped */
+    word-spacing: -0.1em; /* pimped */
+    line-height: 1.4; /* pimped */
 }
 
 .post-description {
@@ -40,21 +43,30 @@
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    margin: 24px 0 16px;
+    margin: 24px 0 8px;
 }
 
 .post-content h1 {
     margin: 40px auto 32px;
     font-size: 40px;
+    letter-spacing: -0.05em; /* pimped */
+    word-spacing: -0.1em; /* pimped */
+    line-height: 1.4; /* pimped */
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
+    margin: 32px auto 10px;
     font-size: 32px;
+    letter-spacing: -0.05em; /* pimped */
+    word-spacing: -0.1em; /* pimped */
+    line-height: 1.4; /* pimped */
 }
 
 .post-content h3 {
     font-size: 24px;
+    letter-spacing: -0.05em; /* pimped */
+    word-spacing: -0.1em; /* pimped */
+    line-height: 1.4; /* pimped */
 }
 
 .post-content h4 {
