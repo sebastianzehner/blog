@@ -14,14 +14,6 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
-
-[cover]
-    image = '/img/how-I-paid-for-my-domain-with-cryptocurrency.webp'
-    alt = 'Featured image from How I paid for my domain with cryptocurrency'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
 +++
 
 In today's digital world, domains are an essential part of any website. But what if you have the flexibility to pay for your domain with cryptocurrency? In this blog post, I share my experience with Hostinger and why I can recommend this provider to you.
@@ -30,7 +22,7 @@ In today's digital world, domains are an essential part of any website. But what
 
 Ever since I registered my first domain with Hostinger, I have been impressed with the ease of use and variety of payment options. I recently renewed the term of my domain for 3 years and paid the fee with Tron (TRX). This was not only easy and fast, but also a cost-effective and convenient solution for me.
 
-My domain [sebastianzehner.com](sebastianzehner.com) is of course registered via Hostinger and I have extensive DNS setting options there, so this domain will continue to work here with my free website configuration via Netlify with Hugo and the PaperMod theme. I only pay for the domain with an annual fee of $15.99 and can therefore run my personal blog on the internet.
+My domain [sebastianzehner.com](https://sebastianzehner.com) is of course registered via Hostinger and I have extensive DNS setting options there, so this domain will continue to work here with my free website configuration via Netlify with Hugo and the PaperMod theme. I only pay for the domain with an annual fee of $15.99 and can therefore run my personal blog on the internet.
 
 ## Why Hostinger?
 

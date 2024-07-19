@@ -14,14 +14,6 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
-
-[cover]
-    image = '/img/how-I-paid-for-my-domain-with-cryptocurrency.webp'
-    alt = 'Beitragsbild von Wie ich meine Domain mit Kryptowährung bezahlt habe'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
 +++
 
 In der heutigen digitalen Welt sind Domains ein wesentlicher Bestandteil jeder Webseite. Doch was, wenn man die Flexibilität hat, seine Domain mit Kryptowährung zu bezahlen? In diesem Artikel erzähle ich von meinen Erfahrungen mit Hostinger und warum ich dir diesen Anbieter weiterempfehlen kann.
@@ -30,7 +22,7 @@ In der heutigen digitalen Welt sind Domains ein wesentlicher Bestandteil jeder W
 
 Seit ich meine erste Domain bei Hostinger registriert habe, war ich von der Benutzerfreundlichkeit und den vielfältigen Zahlungsmöglichkeiten beeindruckt. Vor kurzem habe ich die Laufzeit meiner Domain um 3 Jahre verlängert und die Gebühr mit Tron (TRX) bezahlt. Dies war nicht nur einfach und schnell, sondern auch eine kostengünstige und bequeme Lösung für mich.
 
-Meine Domain [sebastianzehner.com](sebastianzehner.com) ist selbstverständlich über Hostinger registriert und ich habe dort umfangreiche DNS Einstellmöglichkeiten, sodass diese Domain auch weiterhin hier mit meiner kostenlosen Konfiguration der Webseite über Netlify mit Hugo und dem PaperMod Theme funktioniert. Ich bezahle nur die Domain mit einer jährlichen Gebühr von $15.99 und kann somit meinen persönlichen Blog im Internet betreiben.
+Meine Domain [sebastianzehner.com](https://sebastianzehner.com) ist selbstverständlich über Hostinger registriert und ich habe dort umfangreiche DNS Einstellmöglichkeiten, sodass diese Domain auch weiterhin hier mit meiner kostenlosen Konfiguration der Webseite über Netlify mit Hugo und dem PaperMod Theme funktioniert. Ich bezahle nur die Domain mit einer jährlichen Gebühr von $15.99 und kann somit meinen persönlichen Blog im Internet betreiben.
 
 ## Warum Hostinger?
 
