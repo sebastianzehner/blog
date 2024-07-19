@@ -5,8 +5,6 @@ title = 'Sebastian Zehner'
 summary = 'This is my personal blog and I am writing about projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life.'
 theme = 'PaperMod'
 
-goatcounter = 'stats'
-
 enableEmoji = true
 
 enableGitInfo = true
@@ -39,6 +37,8 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
     defaultTheme = 'auto'
     disableThemeToggle = false
+
+    goatcounter = 'stats'
 
 [params.homeInfoParams]
     title = '''Hey, I'm Sebastian :wave:'''
