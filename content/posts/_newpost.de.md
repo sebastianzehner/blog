@@ -2,7 +2,7 @@
 title = 'Titel'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Zusammenfassung'
-date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time
+date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
 lastmod = 2023-01-16T15:51:42-04:00
 draft = true #Entwurf wird noch nicht veröffentlicht
 tags = ['Quincho', 'Schmerztherapie', 'Simple Life', 'Auswandern']
@@ -27,4 +27,3 @@ TocOpen = true
 Hier Text
 
 {{< chat testroom >}}
-
