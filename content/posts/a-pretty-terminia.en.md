@@ -34,7 +34,21 @@ I will uninstall fish because I am using zsh-autosuggestions and zsh-syntax-high
 
 ## Starship
 
-I will uninstall starship because I am using the powerlevel10k theme.
+I will uninstall starship because I am using the powerlevel10k theme. No, I want to use starship because powerlevel10k is outdated with no support and starship is nice with support and updates. I am using the Gruvbox Rainbow Preset.
+
+### Installation
+
+```
+curl -sS https://starship.rs/install.sh | sh
+```
+
+### Setup Wezterm shell to use Starship
+
+```
+# ~/.zshrc
+
+eval "$(starship init zsh)"
+```
 
 [Link](https://starship.rs/)
 
