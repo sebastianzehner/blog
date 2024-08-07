@@ -2,10 +2,10 @@
 title = 'Titel'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Zusammenfassung'
-date = 2023-01-16T15:51:42-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2023-01-16T15:51:42-04:00
+date = 2024-08-07T19:46:19-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+lastmod = 2024-08-07T19:46:28-04:00
 draft = true #Entwurf wird noch nicht veröffentlicht
-tags = ['Quincho', 'Schmerztherapie', 'Simple Life', 'Auswandern']
+tags = ['Quincho', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
 ShowToc = true
