@@ -155,7 +155,7 @@ Ich habe einige Änderungen für die Verschlüsselung vorgenommen, da meine Inst
 
 Damit kann ich meine eigenen Zertifikate installieren und die Laufwerke für die dynamische Konfiguration und mein Zertifikat mit Schlüsseldatei einbinden.
 
-Ich habe in der Vergangenheit einen [Blogpost](/de/posts/how-to-build-a-minimalistic-and-self-hosted-website-for-free/) geschrieben und beschrieben, wie ich meine eigenen SSL-Zertifikate mit OpenSSL für lokale Webdienste signiere.
+Ich habe in der Vergangenheit einen [Blogpost](/de/posts/how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services/) geschrieben und beschrieben, wie ich meine eigenen SSL-Zertifikate mit OpenSSL für lokale Webdienste signiere.
 
 Bei dem Mixpost Conatiner habe ich auch eine zweite Domain für den externen Zugriff hinzugefügt. `APP_DOMAIN` ist also meine lokale Domain und `APP_DOMAIN_WEB` ist meine externe Domain.
 

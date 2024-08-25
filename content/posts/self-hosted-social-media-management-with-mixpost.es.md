@@ -155,7 +155,7 @@ He hecho algunos cambios para el cifrado ya que mi instalación es local y no pu
 
 Esto me permite instalar mis propios certificados y montar las unidades para la configuración dinámica y mi certificado con archivo de claves.
 
-He escrito un [blogpost](/es/posts/how-to-build-a-minimalistic-and-self-hosted-website-for-free/) en el pasado describiendo como firmo mis propios certificados SSL con OpenSSL para servicios web locales.
+He escrito un [blogpost](/es/posts/how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services/) en el pasado describiendo como firmo mis propios certificados SSL con OpenSSL para servicios web locales.
 
 También añadí un segundo dominio para el acceso externo al Mixpost Conatiner. Así que `APP_DOMAIN` es mi dominio local y `APP_DOMAIN_WEB` es mi dominio externo.
 

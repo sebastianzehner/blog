@@ -155,9 +155,9 @@ I did some changes for the encryption because my installation is local and I can
 
 Then I am able to install my own certificates and mount the volumes for dynamic configuration and my cert with key files.
 
-I wrote a [blog post](/posts/how-to-build-a-minimalistic-and-self-hosted-website-for-free/) in the past and described how I sign my own SSL certificates with OpenSSL for local web services.
+I wrote a [blog post](/posts/how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services/) in the past and described how I sign my own SSL certificates with OpenSSL for local web services.
 
-At the Mixpost conatiner I also added a secont Domain for external access. So APP_DOMAIN is my local domain and APP_DOMAIN_WEB is my external domain.
+At the Mixpost container I also added a second Domain for external access. So APP_DOMAIN is my local domain and APP_DOMAIN_WEB is my external domain.
 
 My .env file:
 
@@ -205,7 +205,7 @@ With this setup I am able to access the Mixpost dashboard with my local domain a
 
 ## Cloudflare Zero Trust Tunnel
 
-First I connected my new domain with Cloudflare and created a tunnel to route to my local Mixpost dashboard. I also installed the connector on my virtual maschine and the setup was really easy with only one docker container more.
+First I connected my new domain with Cloudflare and created a tunnel to route to my local Mixpost dashboard. I also installed the connector on my virtual machine and the setup was really easy with only one docker container more.
 
 SSL certificates are automatically configured from Cloudflare and the HTTPS connection works, if I said to Cloudflare to ignore the local certificate.
 
@@ -217,7 +217,7 @@ In the self-hosted Mixpost Lite version only connections with Facebook Pages, X 
 
 I configured all possible connections with my social media accounts and tested a few posts. Single posts and multi posts using three platforms at the same time and all worked as aspected. It's allowed to create different versions in one post and that's nice because X only allows 280 characters and others 500 or 5000 characters.
 
-I also want to use Youtube, TikTok, Instagram and Pinterest with Mixpost. Therefore I have to buy the Pro licence. I will do this later.
+I also want to use Youtube, TikTok, Instagram and Pinterest with Mixpost. Therefore I have to buy the Pro license. I will do this later.
 
 ## Backup the MySQL database
 
@@ -243,7 +243,7 @@ To restore the database use following command:
 cat backup.sql | docker exec -i CONTAINERNAME /usr/bin/mysql -u root --password=ROOTPASSWORD DATABASENAME
 ```
 
-or if compressd than this command:
+or if compressed than this command:
 
 ```BASH
 zcat backup.sql.gz | docker exec -i CONTAINERNAME /usr/bin/mysql -u root --password=ROOTPASSWORD DATABASENAME
@@ -251,7 +251,7 @@ zcat backup.sql.gz | docker exec -i CONTAINERNAME /usr/bin/mysql -u root --passw
 
 ## Whats next?
 
-Next I want to create a new virtual machine and restore the Mixpost installion to prove if everything works as aspected.
+Next I want to create a new virtual machine and restore the Mixpost installation to prove if everything works as aspected.
 
 Then I will buy the Pro version and upgrade my local installation.
 
