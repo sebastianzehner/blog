@@ -6,8 +6,8 @@ date = 2024-11-01T09:09:38-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2024-11-01T09:55:38-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
-ShowToc = true
-TocOpen = true
+ShowToc = false
+TocOpen = false
 
 [params]
     author = 'Sebastian Zehner'
@@ -25,6 +25,8 @@ TocOpen = true
     relative = false
     responsiveImages = false
 +++
+
+### Dein neues Leben in Freiheit und Harmonie mit der Natur
 
 {{< youtube pyr-XFXfhq4 >}}
 
