@@ -6,8 +6,8 @@ date = 2024-11-07T09:12:38-04:00 #Ctrl+Shift+I to insert date and time
 lastmod = 2024-11-07T12:55:38-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
-ShowToc = true
-TocOpen = true
+ShowToc = false
+TocOpen = false
 
 [params]
     author = 'Sebastian Zehner'
@@ -34,7 +34,7 @@ TocOpen = true
 
 {{< epv_formular_en >}}
 
-### El Paraiso Verde - Your new life in freedom and harmony with nature
+## El Paraiso Verde - Your new life in freedom and harmony with nature
 
 Imagine a place where people from all over the world come together to live in harmony with nature - free, independent, and guided by their own ideals.
 

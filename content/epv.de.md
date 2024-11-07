@@ -34,7 +34,7 @@ TocOpen = false
 
 {{< epv_formular_de >}}
 
-### El Paraiso Verde - Dein neues Leben in Freiheit und Harmonie mit der Natur
+## El Paraiso Verde - Dein neues Leben in Freiheit und Harmonie mit der Natur
 
 Stelle dir einen Ort vor, an dem Menschen aus der ganzen Welt zusammenkommen, um in Harmonie mit der Natur zu leben - frei, unabhängig und nach ihren eigenen Vorstellungen.
 
