@@ -34,4 +34,22 @@ TocOpen = false
 
 {{< epv_formular_de >}}
 
+### El Paraiso Verde - Dein neues Leben in Freiheit und Harmonie mit der Natur
+
+Stelle dir einen Ort vor, an dem Menschen aus der ganzen Welt zusammenkommen, um in Harmonie mit der Natur zu leben - frei, unabhängig und nach ihren eigenen Vorstellungen.
+
+El Paraiso Verde in Paraguay bietet dir genau das: Ein einzigartiges Gemeinschaftsprojekt auf rund 15 Quadratkilometern unberührter Natur, in einer sicheren Gated Community.
+
+In El Paraiso Verde gestaltest du dein Leben ohne äußere Einschränkungen. Deine Kinder können nach deinen Werten aufwachsen, eingehüllt in eine Atmosphäre, die Wohlbefinden und eine tiefe Verbindung zur Natur fördert.
+
+Sie bauen ihre eigenen Lebensmittel an, nutzen erneuerbare Energien und schaffen einen Ort, der körperliches und geistiges Wohlbefinden in den Mittelpunkt stellt.
+
+Kannst du dir vorstellen, an solch einem Ort zu leben?
+
+Bist du bereit, deine Freiheit zurückzugewinnen und den nächsten Schritt zu gehen?
+
+Wir schicken dir gerne mehr Informationen zu, wenn du zu diesen Fragen eine Antwort für dein Leben suchst. Bitte nutze dafür das Formular unterhalb von diesem Video.
+
+Vielleicht sehen wir uns dann schon bald - in El Paraiso Verde.
+
 <!-- {{< chat testroom >}} -->
