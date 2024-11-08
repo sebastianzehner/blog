@@ -2,8 +2,8 @@
 title = 'El Paraiso Verde'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Puedes imaginar vivir en un lugar así y estás listo para recuperar tu libertad y dar el siguiente paso? Con gusto te enviaremos más información si estás buscando respuestas a estas preguntas en tu vida. Solo utiliza el formulario debajo de este video.'
-date = 2024-11-07T22:09:38-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-11-07T22:55:38-04:00
+date = 2024-11-07T20:09:38-04:00 #Ctrl+Shift+I to insert date and time
+lastmod = 2024-11-07T20:09:38-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
 ShowToc = false
