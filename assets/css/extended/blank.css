@@ -147,12 +147,14 @@ tt {
 /* Mautic Form CSS*/
 
 .mauticform_wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 10px auto;
 }
 .mauticform-innerform {
+  font-weight: normal;
 }
 .mauticform-post-success {
+  font-weight: normal;
 }
 .mauticform-name {
   font-weight: bold;
@@ -208,18 +210,22 @@ tt {
   box-sizing: border-box;
 }
 .mauticform-checkboxgrp-row {
+  font-weight: normal;
 }
 .mauticform-checkboxgrp-label {
   font-weight: normal;
 }
 .mauticform-checkboxgrp-checkbox {
+  font-weight: normal;
 }
 .mauticform-radiogrp-row {
+  font-weight: normal;
 }
 .mauticform-radiogrp-label {
   font-weight: normal;
 }
 .mauticform-radiogrp-radio {
+  font-weight: normal;
 }
 .mauticform-button-wrapper .mauticform-button.btn-default,
 .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default {
@@ -239,7 +245,7 @@ tt {
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 1.3856;
   border-radius: 3px;
   -webkit-user-select: none;
