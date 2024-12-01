@@ -1,7 +1,14 @@
-<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
-<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+<script
+  type="text/javascript"
+  src="https://gateway.pinata.cloud/ipfs/QmSiWN27KZZ1XE32jKwifBnS3nWTUcFGNArKzur2nmDgoL/v0.13.0/cactus.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://gateway.pinata.cloud/ipfs/QmSiWN27KZZ1XE32jKwifBnS3nWTUcFGNArKzur2nmDgoL/v0.13.0/style.css"
+  type="text/css"
+/>
 <style>
-:root {
+  :root {
     --cactus-text-color--soft: hsl(0, 0%, 60%);
     --cactus-background-color--strong: hsl(0, 0%, 98%);
     --cactus-border-color: hsl(0, 0%, 85%);
@@ -17,9 +24,9 @@
     --cactus-text-color: inherit;
     --cactus-background-color: transparent;
     --cactus-error-color: red;
-}
+  }
 
-.dark {
+  .dark {
     --cactus-text-color--soft: hsl(0, 0%, 50%);
     --cactus-background-color--strong: hsl(0, 0%, 10%);
     --cactus-border-color: hsl(0, 0%, 20%);
@@ -29,16 +36,17 @@
     --cactus-button-color--strong: hsl(0, 0%, 30%);
     --cactus-button-color--stronger: hsl(0, 0%, 35%);
     --cactus-login-form-text-color: hsl(0, 0%, 80%);
-}
+  }
 </style>
-<br>
+<br />
 <div id="comment-section"></div>
 <script>
-initComments({
-  node: document.getElementById("comment-section"),
-  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
-  serverName: "cactus.chat",
-  siteName: "sebastianzehner",
-  commentSectionId: "{{ index .Params 0 }}"
-})
+  initComments({
+    node: document.getElementById("comment-section"),
+    defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+    serverName: "cactus.chat",
+    siteName: "sebastianzehner",
+    commentSectionId: "{{ index .Params 0 }}",
+  });
 </script>
+
