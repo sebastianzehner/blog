@@ -5,123 +5,256 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 */
 
 body {
-    font-family: 'Recursive', monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings: "MONO" 0.75;
-   }
+  font-family: "Recursive", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "MONO" 0.75;
+}
 
-   h1 {
-    font-family: 'Recursive', monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings: "MONO" 0.5, "CRSV" 0.5;
-    color: #333333;
-   }
+h1 {
+  font-family: "Recursive", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 0.5,
+    "CRSV" 0.5;
+  color: #333333;
+}
 
-  h2,h3,h4,h5,h6 {
-    font-family: 'Recursive', monospace;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings: "MONO" 0.5, "CRSV" 0.5;
-    color: #333333;
-   }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Recursive", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 0.5,
+    "CRSV" 0.5;
+  color: #333333;
+}
 
-   .dark h1 {
-    color: #d4b680;
-   }
+.dark h1 {
+  color: #d4b680;
+}
 
-  .dark h2,.dark h3,.dark h4,.dark h5,.dark h6 {
-    color: #d4b680;
-   }
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #d4b680;
+}
 
-  code, pre, samp, kbd, tt {
-    font-family: "Recursive", monospace !important;
-    overflow: auto;
-  }
+code,
+pre,
+samp,
+kbd,
+tt {
+  font-family: "Recursive", monospace !important;
+  overflow: auto;
+}
 
 :root {
-    --nav-width: 1440px; /* standard 1380px */
-    --main-width: 750px;
-    /*--article-width: 650px;*/
-    /*--toc-width: 300px;*/
-    --article-width: 650px;
-    --toc-width: 300px;
+  --nav-width: 1440px; /* standard 1380px */
+  --main-width: 750px;
+  /*--article-width: 650px;*/
+  /*--toc-width: 300px;*/
+  --article-width: 650px;
+  --toc-width: 300px;
 }
 
 .toc {
-    margin: 0 2px 40px 2px;
-    border: 1px solid var(--border);
-    background: var(--entry);
-    border-radius: var(--radius);
-    padding: 0.4em;
+  margin: 0 2px 40px 2px;
+  border: 1px solid var(--border);
+  background: var(--entry);
+  border-radius: var(--radius);
+  padding: 0.4em;
 }
 
 .toc-container.wide {
-    position: absolute;
-    /*height: 100%; /* standard */
-    height: calc(100% - var(--footer-height)); /* calculate height 100% minus footer height then the border came not into the footer */
-    border-right: 1px solid var(--border);
-    left: calc((var(--toc-width) + var(--gap)) * -1);
-    top: calc(var(--gap) * 2);
-    width: var(--toc-width);
+  position: absolute;
+  /*height: 100%; /* standard */
+  height: calc(
+    100% - var(--footer-height)
+  ); /* calculate height 100% minus footer height then the border came not into the footer */
+  border-right: 1px solid var(--border);
+  left: calc((var(--toc-width) + var(--gap)) * -1);
+  top: calc(var(--gap) * 2);
+  width: var(--toc-width);
 }
 
 .wide .toc {
-    position: sticky;
-    top: var(--gap);
-    border: unset;
-    background: unset;
-    border-radius: unset;
-    width: 100%;
-    margin: 0 2px 40px 2px;
+  position: sticky;
+  top: var(--gap);
+  border: unset;
+  background: unset;
+  border-radius: unset;
+  width: 100%;
+  margin: 0 2px 40px 2px;
 }
 
 .toc details summary {
-    cursor: zoom-in;
-    margin-inline-start: 20px;
-    padding: 12px 0;
+  cursor: zoom-in;
+  margin-inline-start: 20px;
+  padding: 12px 0;
 }
 
 .toc details[open] summary {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .toc-container.wide .toc .inner {
-    margin: 0;
+  margin: 0;
 }
 
 .active {
-    /*font-size: 110%;*/
-    font-weight: 600;
-    color: #d4b680;
+  /*font-size: 110%;*/
+  font-weight: 600;
+  color: #d4b680;
 }
 
 .toc ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .toc .inner {
-    margin: 0 0 0 20px;
-    padding: 0px 15px 15px 20px;
-    font-size: 16px;
+  margin: 0 0 0 20px;
+  padding: 0px 15px 15px 20px;
+  font-size: 16px;
 }
 
 .toc li ul {
-    margin-inline-start: calc(var(--gap) * 0.5);
-    list-style-type: none;
+  margin-inline-start: calc(var(--gap) * 0.5);
+  list-style-type: none;
 }
 
 .toc li {
-    list-style: none;
-    font-size: 0.95rem;
-    padding-bottom: 5px;
+  list-style: none;
+  font-size: 0.95rem;
+  padding-bottom: 5px;
 }
 
 .toc li a:hover {
-    /*color: var(--secondary);*/
-    color: #d4b680;
+  /*color: var(--secondary);*/
+  color: #d4b680;
 }
+
+/* Mautic Form CSS*/
+
+.mauticform_wrapper {
+  max-width: 600px;
+  margin: 10px auto;
+}
+.mauticform-innerform {
+}
+.mauticform-post-success {
+}
+.mauticform-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 3px;
+}
+.mauticform-description {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.mauticform-error {
+  margin-bottom: 10px;
+  color: red;
+}
+.mauticform-message {
+  margin-bottom: 10px;
+  color: green;
+}
+.mauticform-row {
+  display: block;
+  margin-bottom: 20px;
+}
+.mauticform-label {
+  font-size: 1.1em;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.mauticform-row.mauticform-required .mauticform-label:after {
+  color: #e32;
+  content: " *";
+  display: inline;
+}
+.mauticform-helpmessage {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+.mauticform-errormsg {
+  display: block;
+  color: red;
+  margin-top: 2px;
+}
+.mauticform-selectbox,
+.mauticform-input,
+.mauticform-textarea {
+  width: 100%;
+  padding: 0.5em 0.5em;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 0px 0px 0px #fff inset;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.mauticform-checkboxgrp-row {
+}
+.mauticform-checkboxgrp-label {
+  font-weight: normal;
+}
+.mauticform-checkboxgrp-checkbox {
+}
+.mauticform-radiogrp-row {
+}
+.mauticform-radiogrp-label {
+  font-weight: normal;
+}
+.mauticform-radiogrp-radio {
+}
+.mauticform-button-wrapper .mauticform-button.btn-default,
+.mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default {
+  color: #5d6c7c;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+.mauticform-button-wrapper .mauticform-button,
+.mauticform-pagebreak-wrapper .mauticform-pagebreak {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.3856;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mauticform-button-wrapper .mauticform-button.btn-default[disabled],
+.mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+.mauticform-pagebreak-wrapper .mauticform-button-wrapper {
+  display: inline;
+}
+
