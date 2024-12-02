@@ -65,7 +65,7 @@ Die blühende Gemeinschaft umfasst bereits über 100 fertiggestellte Häuser, w�
 Highlights dieser Gated Community:
 
 - **Freiheit für Familien:** Unsere Kinder wachsen in einer sicheren, freien Umgebung auf, entdecken täglich Neues in der Natur und lernen mindestens zwei Sprachen.
-- **Vielfalt und Respekt:** Die einzige Einschränkung ist der Respekt vor anderen und ihrem Leben: „Was du nicht willst, das man dir tut, das füge auch keinem anderen zu.“
+- **Individualität und Respekt:** Die einzige Einschränkung ist der Respekt vor anderen und ihrem Leben: „Was du nicht willst, das man dir tut, das füge auch keinem anderen zu.“
 - **Gemeinschaftsgefühl:** Wir haben viele neue Freunde kennengelernt, die unsere Werte und Visionen teilen.
 - **Vision für die Zukunft:** El Paraiso Verde verkörpert John Lennons „Imagine“ – ein Leben in Liebe, Frieden, Respekt und Harmonie.
 

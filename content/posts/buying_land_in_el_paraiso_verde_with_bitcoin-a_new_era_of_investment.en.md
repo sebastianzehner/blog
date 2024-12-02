@@ -65,7 +65,7 @@ The thriving community already includes over 100 completed houses, while almost 
 Highlights of this gated community:
 
 - **Freedom for families:** Our children grow up in a safe, free environment, discover new things in nature every day and learn at least two languages.
-- **Diversity and respect:** The only restriction is respect for others and their lives: “Do not do to others what you would not want done to yourself.”
+- **Individuality and respect:** The only restriction is respect for others and their lives: “Do not do to others what you would not want done to yourself.”
 - **Sense of community:** We have met many new friends who share our values and vision.
 - **Vision for the future:** El Paraiso Verde embodies John Lennon's “Imagine” - a life of love, peace, respect and harmony.
 

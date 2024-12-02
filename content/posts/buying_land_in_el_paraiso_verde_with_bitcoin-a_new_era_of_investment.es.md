@@ -65,7 +65,7 @@ La próspera comunidad ya cuenta con más de 100 viviendas terminadas, mientras 
 Lo más destacado de esta comunidad cerrada:
 
 - **Libertad para las familias:** Nuestros hijos crecen en un entorno seguro y libre, descubren cosas nuevas en la naturaleza cada día y aprenden al menos dos idiomas.
-- **Diversidad y respeto:** La única restricción es el respeto a los demás y a sus vidas: "No hagas a los demás lo que no quieras que te hagan a ti".
+- **Individualidad y respeto:** La única restricción es el respeto a los demás y a sus vidas: "No hagas a los demás lo que no quieras que te hagan a ti".
 - **Sentido de comunidad:** Hemos conocido a muchos nuevos amigos que comparten nuestros valores y nuestra visión.
 - **Visión para el futuro:** El Paraíso Verde personifica "Imagine" de John Lennon: una vida de amor, paz, respeto y armonía.
 
