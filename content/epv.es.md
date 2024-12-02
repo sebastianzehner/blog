@@ -32,7 +32,7 @@ TocOpen = false
 
 ---
 
-{{< epv_formular_es >}}
+{{< epv_form_es >}}
 
 ## El Paraíso Verde - Su nueva vida en libertad y armonía con la naturaleza
 
