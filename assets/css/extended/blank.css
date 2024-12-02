@@ -65,7 +65,7 @@ tt {
   /*--article-width: 650px;*/
   /*--toc-width: 300px;*/
   --article-width: 650px;
-  --toc-width: 300px;
+  --toc-width: 330px; /* last 300px */
 }
 
 .toc {
@@ -263,4 +263,3 @@ tt {
 .mauticform-pagebreak-wrapper .mauticform-button-wrapper {
   display: inline;
 }
-
