@@ -68,29 +68,18 @@ defaultContentLanguageInSubdir = true
             pageRef = '/'
             weight = 10
         [[languages.en.menus.main]]
-            identifier = 'categories'
-            name = 'Categories'
-            pageRef = '/categories/'
+            name = 'Overview'
+            pageRef = '/overview/'
             weight = 20
         [[languages.en.menus.main]]
-            identifier = 'tags'
-            name = 'Tags'
-            pageRef = '/tags/'
-            weight = 30
-        [[languages.en.menus.main]]
-            identifier = 'archives'
-            name = 'Archives'
-            pageRef = '/archives/'
-            weight = 40
-        [[languages.en.menus.main]]
-            name = 'About'
+            name = 'About Me'
             pageRef = '/about/'
-            weight = 50
+            weight = 30
         [[languages.en.menus.main]]
             identifier = 'search'
             name = 'Search'
             pageRef = '/search/'
-            weight = 60
+            weight = 40
   [languages.de]
     languageCode = 'de-DE'
     languageName = 'Deutsch'
@@ -101,29 +90,18 @@ defaultContentLanguageInSubdir = true
             pageRef = '/'
             weight = 10
         [[languages.de.menus.main]]
-            identifier = 'categories'
-            name = 'Kategorien'
-            pageRef = '/categories/'
+            name = 'Übersicht'
+            pageRef = '/overview/'
             weight = 20
         [[languages.de.menus.main]]
-            identifier = 'tags'
-            name = 'Tags'
-            pageRef = '/tags/'
-            weight = 30
-        [[languages.de.menus.main]]
-            identifier = 'archives'
-            name = 'Archiv'
-            pageRef = '/archives/'
-            weight = 40
-        [[languages.de.menus.main]]
-            name = 'Über'
+            name = 'Über mich'
             pageRef = '/about/'
-            weight = 50
+            weight = 30
         [[languages.de.menus.main]]
             identifier = 'search'
             name = 'Suche'
             pageRef = '/search/'
-            weight = 60
+            weight = 40
   [languages.es]
     languageCode = 'es-ES'
     languageName = 'Español'
@@ -134,29 +112,18 @@ defaultContentLanguageInSubdir = true
             pageRef = '/'
             weight = 10
         [[languages.es.menus.main]]
-            identifier = 'categories'
-            name = 'Categorías'
-            pageRef = '/categories/'
+            name = 'Visión general'
+            pageRef = '/overview/'
             weight = 20
         [[languages.es.menus.main]]
-            identifier = 'tags'
-            name = 'Tags'
-            pageRef = '/tags/'
-            weight = 30
-        [[languages.es.menus.main]]
-            identifier = 'archives'
-            name = 'Archivo'
-            pageRef = '/archives/'
-            weight = 40
-        [[languages.es.menus.main]]
-            name = 'Sobre'
+            name = 'Sobre Mí'
             pageRef = '/about/'
-            weight = 50
+            weight = 40
         [[languages.es.menus.main]]
             identifier = 'search'
             name = 'Buscar'
             pageRef = '/search/'
-            weight = 60
+            weight = 50
 
 #Archives not available with multilingual. Same as categories and tags. How to fix?
 #Archives are multilingual! It works fine.
