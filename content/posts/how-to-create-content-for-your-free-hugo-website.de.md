@@ -14,6 +14,14 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
+
+[cover]
+    image = '/img/how-to-create-content-for-your-free-hugo-website.webp'
+    alt = 'Beitragsbild von Wie Inhalte für deine kostenlose Hugo Webseite erstellen'
+    hidden = false
+    #caption = 'This is the caption'
+    relative = false
+    responsiveImages = false
 +++
 
 Im [ersten Teil dieser Serie](/de/posts/how-to-build-a-minimalistic-and-self-hosted-website-for-free/) haben wir unsere Hugo Webseite mit dem PaperMod Theme lokal auf unserem Computer installiert und alles so konfiguriert, dass wir nun in der Lage sind, unserer neuen Webseite einige Inhalte hinzuzufügen.

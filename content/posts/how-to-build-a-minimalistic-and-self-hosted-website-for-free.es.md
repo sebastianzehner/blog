@@ -14,6 +14,14 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
+
+[cover]
+    image = '/img/how-to-build-a-minimalistic-and-self-hosted-website-for-free.webp'
+    alt = 'Imagen destacada de Cómo crear un sitio web sencillo y autoalojado gratis'
+    hidden = false
+    #caption = 'This is the caption'
+    relative = false
+    responsiveImages = false
 +++
 
 Estás aquí en mi nueva web minimalista y gratuita. Construí este sitio web hace algunas semanas porque me gusta lo simple y reemplacé WordPress con Hugo y PaperMod Theme para mi blog personal en Internet. Trasladé algunas entradas antiguas del blog y escribí algunas entradas nuevas en esta plataforma. Es realmente agradable y me gusta esto - es gratis y de código abierto.
@@ -84,7 +92,7 @@ Para mi Intranet local utilizaré el tema [Smol](https://github.com/colorchestra
 
 ## Configuración del sitio web de Hugo
 
-En la barra de búsqueda de Visual Studio Code: *> install Shell Command: Install code command in PATH*
+En la barra de búsqueda de Visual Studio Code: _> install Shell Command: Install code command in PATH_
 
 A continuación, escriba en el terminal `code .` y Visual Studio Code se abrirá con la ruta del sitio web instalado.
 
@@ -112,4 +120,3 @@ En mi próxima entrada del blog te mostraré cómo crear contenido para tu nuevo
 Saludos cordiales Sebastian
 
 {{< chat how-to-build-a-minimalistic-and-self-hosted-website-for-free >}}
-
