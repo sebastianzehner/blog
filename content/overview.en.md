@@ -3,7 +3,7 @@ title = 'The overview of my blog'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'With this overview, you are sure to have an overview.'
 date = 2024-12-07T13:00:00-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-12-07T13:00:00-04:00
+lastmod = 2024-12-09T08:30:00-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
 ShowToc = true
@@ -69,7 +69,7 @@ You are now on the **Overview** page and from there you can access all the other
 - [Categories](/categories/)
 - [Tags](/tags/)
 - [Archive](/archives/)
-- [Livecam](/livecam/)
+- Livecam (temporarily not available)
 - [Newsletter](/newsletter/)
 - Series (not yet available)
 

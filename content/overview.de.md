@@ -3,7 +3,7 @@ title = 'Die Übersicht meines Blogs'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Jetzt hast du mit dieser Übersicht bestimmt den Durchblick.'
 date = 2024-12-07T13:00:00-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-12-07T13:00:00-04:00
+lastmod = 2024-12-09T08:30:00-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
 ShowToc = true
@@ -69,7 +69,7 @@ Du befindest dich jetzt auf der Seite **Übersicht** und von da aus kommst du au
 - [Kategorien](/de/categories/)
 - [Tags](/de/tags/)
 - [Archiv](/de/archives/)
-- [Livecam](/de/livecam/)
+- Livecam (vorübergehend nicht verfügbar)
 - [Newsletter](/de/newsletter/)
 - Serien (noch nicht verfügbar)
 

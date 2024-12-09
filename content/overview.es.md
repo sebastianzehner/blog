@@ -3,7 +3,7 @@ title = 'La visión general de mi blog'
 #description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Con esta visión general, seguro que tienes una visión de conjunto.'
 date = 2024-12-07T13:00:00-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-12-07T13:00:00-04:00
+lastmod = 2024-12-09T08:30:00-04:00
 draft = false #Entwurf wird noch nicht veröffentlicht
 
 ShowToc = true
@@ -69,7 +69,7 @@ Ahora estás en la página **Visión general** y desde ahí puedes acceder a tod
 - [Categorías](/es/categories/)
 - [Tags](/es/tags/)
 - [Archivo](/es/archives/)
-- [Webcam en directo](/es/livecam/)
+- Webcam en directo (temporalmente no disponible)
 - [Boletín](/es/newsletter/)
 - Series (aún no disponible)
 
