@@ -1,0 +1,93 @@
+{
+  "default": {
+    "firstScene": "casadelsol",
+    "author": "Sebastian Zehner",
+    "sceneFadeDuration": 1000
+  },
+
+  "scenes": {
+    "casadelsol": {
+      "title": "Casa del Sol",
+      "hfov": 110,
+      "pitch": -6,
+      "yaw": 80,
+      "type": "equirectangular",
+      "panorama": "../images/20241122_112410_642.jpg",
+      "preview": "../images/casadelsol.jpg",
+      "hotSpots": [
+        {
+          "pitch": 5,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Lake",
+          "sceneId": "lake",
+          "targetYaw": 30,
+          "targetPitch": 2
+        },
+        {
+          "pitch": 9.1,
+          "yaw": 63.5,
+          "type": "info",
+          "text": "Casa del Sol",
+          "URL": "https://paraiso-verde.com/"
+        }
+      ]
+    },
+
+    "lake": {
+      "title": "Lago",
+      "hfov": 110,
+      "yaw": 190,
+      "type": "equirectangular",
+      "panorama": "../images/20241122_112341_712.jpg",
+      "hotSpots": [
+        {
+          "pitch": 3,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Casa del Sol",
+          "sceneId": "casadelsol",
+          "targetYaw": 80,
+          "targetPitch": 2
+        },
+        {
+          "pitch": 3,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Anastacia Circle 5A",
+          "sceneId": "ac5a",
+          "targetYaw": -23,
+          "targetPitch": 2
+        }
+      ]
+    },
+
+    "ac5a": {
+      "title": "Anastacia Circle 5A",
+      "hfov": 110,
+      "yaw": 190,
+      "type": "equirectangular",
+      "panorama": "../images/20241114_182651_537.jpg",
+      "hotSpots": [
+        {
+          "pitch": -3,
+          "yaw": 260,
+          "type": "scene",
+          "text": "Casa del Sol",
+          "sceneId": "casadelsol",
+          "targetYaw": 80,
+          "targetPitch": 2
+        },
+        {
+          "pitch": -3,
+          "yaw": 240,
+          "type": "scene",
+          "text": "Lago - Casa del Sol",
+          "sceneId": "lake",
+          "targetYaw": 190,
+          "targetPitch": 2
+        }
+      ]
+    }
+  }
+}
