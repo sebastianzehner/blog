@@ -69,7 +69,7 @@ Du befindest dich jetzt auf der Seite **Übersicht** und von da aus kommst du au
 - [Kategorien](/de/categories/)
 - [Tags](/de/tags/)
 - [Archiv](/de/archives/)
-- Livecam (vorübergehend nicht verfügbar)
+- [Wetter und Livecam](/de/livecam/)
 - [Newsletter](/de/newsletter/)
 - Serien (noch nicht verfügbar)
 

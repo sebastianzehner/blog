@@ -69,7 +69,7 @@ You are now on the **Overview** page and from there you can access all the other
 - [Categories](/categories/)
 - [Tags](/tags/)
 - [Archive](/archives/)
-- Livecam (temporarily not available)
+- [Weather and Livecam](/livecam/)
 - [Newsletter](/newsletter/)
 - Series (not yet available)
 

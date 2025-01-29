@@ -69,7 +69,7 @@ Ahora estás en la página **Visión general** y desde ahí puedes acceder a tod
 - [Categorías](/es/categories/)
 - [Tags](/es/tags/)
 - [Archivo](/es/archives/)
-- Webcam en directo (temporalmente no disponible)
+- [Meteorología y Livecam](/es/livecam/)
 - [Boletín](/es/newsletter/)
 - Series (aún no disponible)
 
