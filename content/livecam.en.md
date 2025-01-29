@@ -18,7 +18,7 @@ TocOpen = false
     ShowBreadCrumbs = false
 
 [cover]
-    image = '/img/image.webp'
+    image = '/img/galleries/buying_land_in_el_paraiso_verde_with_bitcoin-a_new_era_of_investment/buying_land_in_el_paraiso_verde_with_bitcoin-a_new_era_of_investment_1.webp'
     alt = 'Featured image from El Paraiso Verde - Weather and Livecam'
     hidden = true
     #caption = 'This is the caption'
