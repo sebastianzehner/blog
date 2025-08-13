@@ -340,7 +340,7 @@ go2rtc:
       - rtsp://{FRIGATE_RTSP_USER}:{FRIGATE_RTSP_PASSWORD}@192.168.x.x:554/cam/realmonitor?channel=1&subtype=1
 ```
 
-Diese Streams können anschließend über das **go2rtc-Webinterface** unter http://192.168.x.x:1984 aufgerufen und kontrolliert werden.
+Diese Streams können anschließend über das **go2rtc-Webinterface** unter `http://192.168.x.x:1984` aufgerufen und kontrolliert werden.
 
 Um die Streams in der Live-Ansicht und für Aufnahmen in hoher Qualität mit Frigate zu nutzen, müssen die Kameras in der `config.yml` entsprechend angepasst werden, sodass sie den Pfad zum **go2rtc-Stream** verwenden:
 
