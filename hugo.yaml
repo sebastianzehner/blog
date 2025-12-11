@@ -52,9 +52,8 @@ params:
       url: https://www.youtube.com/@SebastianZehner
     - name: matrix
       url: https://matrix.to/#/@sebastianzehner:matrix.org
-
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+  defaultContentLanguage: en
+  defaultContentLanguageInSubdir: true
 
 languages:
   en:
@@ -83,7 +82,7 @@ languages:
         content: >
           Welcome to my minimalist blog.
 
-            Here I share my [projects](/categories/techlab/), my work in the Homelab, and occasionally some personal experiences – like our [move to Paraguay](/categories/paraguay).
+            Here I share my [projects](/categories/techlab/), my work in the Homelab, and occasionally some personal experiences - like our [move to Paraguay](/categories/paraguay).
 
           >* You can find out more [about me](/about/) in the menu :point_up:
 
@@ -116,7 +115,7 @@ languages:
         content: >
           Willkommen auf meinem minimalistischen Blog.
 
-            Hier teile ich meine [Projekte](/de/categories/techlab/), meine Arbeit im Homelab und ab und zu auch persönliche Erlebnisse – wie unsere [Auswanderung nach Paraguay](/de/categories/paraguay).
+            Hier teile ich meine [Projekte](/de/categories/techlab/), meine Arbeit im Homelab und ab und zu auch persönliche Erlebnisse - wie unsere [Auswanderung nach Paraguay](/de/categories/paraguay).
 
           >* Mehr [über mich](/de/about/) findest du im Menü :point_up:
 
@@ -149,7 +148,7 @@ languages:
         content: >
           Bienvenido a mi blog minimalista.
 
-            Aquí comparto mis [proyectos](/es/categories/techlab/), mi trabajo en el Homelab y, de vez en cuando, algunas experiencias personales – como nuestra [mudanza a Paraguay](/es/categories/paraguay).
+            Aquí comparto mis [proyectos](/es/categories/techlab/), mi trabajo en el Homelab y, de vez en cuando, algunas experiencias personales - como nuestra [mudanza a Paraguay](/es/categories/paraguay).
 
           >* Puedes encontrar más información [sobre mí](/es/about/) en el menú :point_up:
 
