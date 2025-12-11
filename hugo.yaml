@@ -1,0 +1,161 @@
+baseURL: https://sebastianzehner.com
+languageCode: en-us
+title: Sebastian Zehner
+summary: This is my personal blog and I am writing about projects I have been
+  working on and what I learn along the way. I also share some private
+  experiences or adventures of my life.
+theme: PaperMod
+enableEmoji: true
+enableGitInfo: true
+privacy:
+  youtube:
+    disable: false
+    privacyEnhanced: true
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  ShowBreadCrumbs: true
+  ShowShareButtons: true
+  ShareButtons:
+    - facebook
+    - x
+    - telegram
+    - whatsapp
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: false
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowPageViews: true
+  ShowRssButtonInSectionTermList: true
+  label:
+    icon: /img/sz-light.png
+    text: "-"
+    iconHeight: "50"
+  defaultTheme: auto
+  disableThemeToggle: false
+  goatcounter: stats
+  socialIcons:
+    - name: facebook
+      url: https://www.facebook.com/sebastianzehner83
+    - name: instagram
+      url: https://www.instagram.com/sebastianzehner/
+    - name: youtube
+      url: https://www.youtube.com/@SebastianZehner
+    - name: matrix
+      url: https://matrix.to/#/@sebastianzehner:matrix.org
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+  en:
+    languageCode: en-US
+    languageName: English
+    weight: 1
+    menus:
+      main:
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: Overview
+          pageRef: /overview/
+          weight: 20
+        - name: About Me
+          pageRef: /about/
+          weight: 30
+        - identifier: search
+          name: Search
+          pageRef: /search/
+          weight: 40
+    params:
+      homeInfoParams:
+        enabled: true
+        title: "Hey, I'm Sebastian :wave:"
+        content: >
+          Welcome to my minimalist blog.
+
+            Here I share my [projects](/categories/techlab/), my work in the Homelab, and occasionally some personal experiences – like our [move to Paraguay](/categories/paraguay).
+
+          >* You can find out more [about me](/about/) in the menu :point_up:
+
+            Some translations are still in progress.
+
+            Enjoy reading and exploring!
+  de:
+    languageCode: de-DE
+    languageName: Deutsch
+    weight: 2
+    menus:
+      main:
+        - name: Start
+          pageRef: /
+          weight: 10
+        - name: Übersicht
+          pageRef: /overview/
+          weight: 20
+        - name: Über mich
+          pageRef: /about/
+          weight: 30
+        - identifier: search
+          name: Suche
+          pageRef: /search/
+          weight: 40
+    params:
+      homeInfoParams:
+        enabled: true
+        title: "Hey, ich bin Sebastian :wave:"
+        content: >
+          Willkommen auf meinem minimalistischen Blog.
+
+            Hier teile ich meine [Projekte](/de/categories/techlab/), meine Arbeit im Homelab und ab und zu auch persönliche Erlebnisse – wie unsere [Auswanderung nach Paraguay](/de/categories/paraguay).
+
+          >* Mehr [über mich](/de/about/) findest du im Menü :point_up:
+
+            Ein Teil der Übersetzungen ist noch in Arbeit.
+
+            Viel Spaß beim Lesen und Entdecken!
+  es:
+    languageCode: es-ES
+    languageName: Español
+    weight: 3
+    menus:
+      main:
+        - name: Inicio
+          pageRef: /
+          weight: 10
+        - name: Visión general
+          pageRef: /overview/
+          weight: 20
+        - name: Sobre Mí
+          pageRef: /about/
+          weight: 40
+        - identifier: search
+          name: Buscar
+          pageRef: /search/
+          weight: 50
+    params:
+      homeInfoParams:
+        enabled: true
+        title: "Hola, soy Sebastian :wave:"
+        content: >
+          Bienvenido a mi blog minimalista.
+
+            Aquí comparto mis [proyectos](/es/categories/techlab/), mi trabajo en el Homelab y, de vez en cuando, algunas experiencias personales – como nuestra [mudanza a Paraguay](/es/categories/paraguay).
+
+          >* Puedes encontrar más información [sobre mí](/es/about/) en el menú :point_up:
+
+            Algunas traducciones aún están en proceso.
+
+            ¡Disfruta leyendo y explorando!
+
+#Archives not available with multilingual. Same as categories and tags. How to fix?
+#Archives are now multilingual! It works fine.
