@@ -1,0 +1,21 @@
+{{ with .Params.translation }}
+
+  {{ $from := i18n (printf "lang_%s" .from) }}
+  {{ $to   := i18n (printf "lang_%s" .to) }}
+
+  {{ $toolPage := site.GetPage "posts/md-translator" }}
+
+  {{ $toolName := .tool }}
+
+  {{ if $toolPage }}
+    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
+  {{ end }}
+
+  {{ i18n "translation_note" (dict
+    "From" $from
+    "To" $to
+    "Tool" $toolName
+    "Version" .version
+  ) | safeHTML }}
+
+{{ end }}

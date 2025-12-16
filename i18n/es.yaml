@@ -6,12 +6,12 @@
 
 - id: read_time
   translation:
-    one : "1 min"
+    one: "1 min"
     other: "{{ .Count }} min"
 
 - id: words
   translation:
-    one : "palabra"
+    one: "palabra"
     other: "{{ .Count }} palabras"
 
 - id: updated
@@ -37,3 +37,18 @@
 
 - article:
     page_views: "Vistas"
+
+- translation_note:
+    other: "Este artículo fue traducido de {{ .From }} a {{ .To }} usando {{ .Tool }} v{{ .Version }}."
+
+- lang_de:
+    other: "alemán"
+
+- lang_fr:
+    other: "francés"
+
+- lang_en:
+    other: "inglés"
+
+- lang_es:
+    other: "español"
