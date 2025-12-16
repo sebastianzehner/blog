@@ -23,6 +23,25 @@ outputs:
 params:
   assets:
     disableHLJS: true
+  fuseOpts:
+    findAllMatches: false
+    shouldSort: true
+    ignoreLocation: true
+    distance: 100
+    threshold: 0.15
+    minMatchCharLength: 2
+    includeScore: true
+    ignoreFieldNorm: true
+    useExtendedSearch: true
+    keys:
+      - name: title
+        weight: 0.6
+      - name: summary
+        weight: 0.3
+      - name: tags
+        weight: 0.4
+      - name: content
+        weight: 0.1
   ShowBreadCrumbs: true
   ShowShareButtons: true
   ShareButtons:
