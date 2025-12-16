@@ -88,17 +88,34 @@
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-            document.getElementById("siteLogo").src = "/img/sz-light.png"; /*my light logo*/
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("siteLogo").src = "/img/sz-dark.png"; /*my dark logo*/
-        }
-    })
+        const html = document.querySelector("html");
+        const logo = document.getElementById("siteLogo");
 
+        logo.style.transition = "opacity 0.3s ease";
+        logo.style.opacity = 0;
+
+        setTimeout(() => {
+            if (html.dataset.theme === "dark") {
+              html.dataset.theme = 'light';
+              localStorage.setItem("pref-theme", 'light');
+              logo.src = "/img/sz-light.png"; /* light logo */
+            } else {
+              html.dataset.theme = 'dark';
+              localStorage.setItem("pref-theme", 'dark');
+              logo.src = "/img/sz-dark.png"; /* dark logo */
+            }
+
+            logo.style.opacity = 1;
+        }, 150);
+    });
+
+    const prefTheme = localStorage.getItem("pref-theme");
+    if (prefTheme) {
+        document.documentElement.dataset.theme = prefTheme;
+        const logo = document.getElementById("siteLogo");
+        logo.src = prefTheme === "dark" ? "/img/sz-dark.png" : "/img/sz-light.png";
+        logo.style.transition = "opacity 0.3s ease";
+    }
 </script>
 {{- end }}
 
@@ -113,8 +130,11 @@
 
         function copyingDone() {
             copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
+            copybutton.classList.add("copied");
+
             setTimeout(() => {
                 copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+                copybutton.classList.remove("copied");
             }, 2000);
         }
 

@@ -1,66 +1,93 @@
 .main {
-    position: relative;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: calc(var(--main-width) + var(--gap) * 2);
-    margin: auto;
-    padding: var(--gap);
+  position: relative;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  margin: auto;
+  padding: var(--gap);
 }
 
 .page-header h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .pagination {
-    display: flex;
+  display: flex;
 }
 
 .pagination a {
-    color: var(--theme);
-    font-size: 13px;
-    line-height: 36px;
-    background: var(--primary);
-    border-radius: calc(36px / 2);
-    padding: 0 16px;
+  color: var(--theme);
+  font-size: 13px;
+  line-height: 36px;
+  background: var(--primary);
+  border-radius: calc(36px / 2);
+  padding: 0 16px;
 }
 
 .pagination .next {
-    margin-inline-start: auto;
+  margin-inline-start: auto;
 }
 
-
 .social-icons a {
-    display: inline-flex;
-    padding: 10px;
+  display: inline-flex;
+  padding: 10px;
 }
 
 .social-icons a svg {
-    height: 26px;
-    width: 26px;
+  height: 26px;
+  width: 26px;
 }
 
 code {
-    direction: ltr;
+  direction: ltr;
 }
 
 div.highlight,
 pre {
-    position: relative;
+  position: relative;
 }
 
 .copy-code {
-    display: none;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(78, 78, 78, 0.8);
-    border-radius: var(--radius);
-    padding: 0 5px;
-    font-size: 14px;
-    user-select: none;
+  display: none;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  color: var(--secondary);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2px 6px;
+  font-size: 13px;
+  user-select: none;
+  cursor: pointer;
+
+  opacity: 0;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
-    display: block;
+  display: block;
+  opacity: 1;
+}
+
+.copy-code:hover {
+  background: var(--blue);
+  color: var(--theme);
+  border-color: var(--blue);
+}
+
+.copy-code:active {
+  background: var(--green);
+  color: var(--theme);
+  border-color: var(--green);
+}
+
+.copy-code.copied {
+  background: var(--green);
+  color: var(--theme);
+  border-color: var(--green);
 }

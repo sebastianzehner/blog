@@ -2,4 +2,8 @@
 
 This is my personal blog at [sebastianzehner.com](https://sebastianzehner.com)
 
-Created with Hugo and the PaperMod theme.
+Built with Hugo and the PaperMod theme.
+
+## Documentation
+
+- [PaperMod Catppuccin Theme](docs/papermod-catppuccin-theme.md)

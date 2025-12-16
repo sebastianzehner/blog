@@ -12,7 +12,9 @@ body {
   font-variation-settings: "MONO" 0.75;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Recursive", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -20,11 +22,9 @@ h1 {
   font-variation-settings:
     "MONO" 0.5,
     "CRSV" 0.5;
-  color: #333333;
+  color: var(--primary);
 }
 
-h2,
-h3,
 h4,
 h5,
 h6 {
@@ -35,19 +35,7 @@ h6 {
   font-variation-settings:
     "MONO" 0.5,
     "CRSV" 0.5;
-  color: #333333;
-}
-
-.dark h1 {
-  color: #d4b680;
-}
-
-.dark h2,
-.dark h3,
-.dark h4,
-.dark h5,
-.dark h6 {
-  color: #d4b680;
+  color: var(--tertiary);
 }
 
 code,
@@ -115,7 +103,7 @@ tt {
 .active {
   /*font-size: 110%;*/
   font-weight: 600;
-  color: #d4b680;
+  color: var(--blue);
 }
 
 .toc ul {
@@ -140,126 +128,166 @@ tt {
 }
 
 .toc li a:hover {
-  /*color: var(--secondary);*/
-  color: #d4b680;
+  color: var(--secondary);
 }
 
-/* Mautic Form CSS*/
+/* === Mautic form fields – unified PaperMod Catppuccin style === */
 
-.mauticform_wrapper {
-  max-width: 800px !important;
-  margin: 10px auto;
-}
-.mauticform-innerform {
-  font-weight: normal;
-}
-.mauticform-post-success {
-  font-weight: normal;
-}
-.mauticform-name {
-  font-weight: bold;
-  font-size: 1.5em;
-  margin-bottom: 3px;
-}
-.mauticform-description {
-  margin-top: 2px;
-  margin-bottom: 10px;
-}
-.mauticform-error {
-  margin-bottom: 10px;
-  color: red;
-}
-.mauticform-message {
-  margin-bottom: 10px;
-  color: green;
-}
-.mauticform-row {
-  display: block;
-  margin-bottom: 20px;
-}
-.mauticform-label {
-  font-size: 1.1em;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.mauticform-row.mauticform-required .mauticform-label:after {
-  color: #e32;
-  content: " *";
-  display: inline;
-}
-.mauticform-helpmessage {
-  display: block;
-  font-size: 0.9em;
-  margin-bottom: 3px;
-}
-.mauticform-errormsg {
-  display: block;
-  color: red;
-  margin-top: 2px;
-}
-.mauticform-selectbox,
-.mauticform-input,
-.mauticform-textarea {
+.mauticform_wrapper input,
+.mauticform_wrapper select,
+.mauticform_wrapper textarea {
   width: 100%;
-  padding: 0.5em 0.5em;
-  border: 1px solid #ccc;
-  background: #fff;
-  box-shadow: 0px 0px 0px #fff inset;
-  border-radius: 4px;
+  margin-top: 2px;
+  padding: 12px 14px;
   box-sizing: border-box;
+
+  font-family: inherit;
+  font-size: 19px;
+  color: var(--content);
+
+  background-color: var(--entry); /* Surface */
+  border: 1px solid var(--border);
+  border-radius: 4px;
+
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
-.mauticform-checkboxgrp-row {
-  font-weight: normal;
-}
-.mauticform-checkboxgrp-label {
-  font-weight: normal;
-}
-.mauticform-checkboxgrp-checkbox {
-  font-weight: normal;
-}
-.mauticform-radiogrp-row {
-  font-weight: normal;
-}
-.mauticform-radiogrp-label {
-  font-weight: normal;
-}
-.mauticform-radiogrp-radio {
-  font-weight: normal;
-}
-.mauticform-button-wrapper .mauticform-button.btn-default,
-.mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default {
-  color: #5d6c7c;
-  background-color: #ffffff;
-  border-color: #dddddd;
-}
-.mauticform-button-wrapper .mauticform-button,
-.mauticform-pagebreak-wrapper .mauticform-pagebreak {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: 600;
-  text-align: center;
-  vertical-align: middle;
+
+/* === Selectbox (custom arrow, theme-aware) === */
+
+.mauticform_wrapper select.mauticform-selectbox {
   cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 20px !important;
-  line-height: 1.3856;
-  border-radius: 3px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--secondary) 50%),
+    linear-gradient(135deg, var(--secondary) 50%, transparent 50%);
+  background-position:
+    calc(100% - 22px) 50%,
+    calc(100% - 16px) 50%;
+  background-size: 6px 6px;
+  background-repeat: no-repeat;
 }
-.mauticform-button-wrapper .mauticform-button.btn-default[disabled],
-.mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] {
-  background-color: #ffffff;
-  border-color: #dddddd;
-  opacity: 0.75;
+
+/* === Hover & focus states === */
+
+.mauticform_wrapper input:hover,
+.mauticform_wrapper select:hover,
+.mauticform_wrapper textarea:hover {
+  border-color: var(--blue);
+}
+
+.mauticform_wrapper input:focus,
+.mauticform_wrapper select:focus,
+.mauticform_wrapper textarea:focus {
+  outline: none;
+  background-color: var(--theme);
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--blue) 25%, transparent);
+}
+
+/* === Placeholder & disabled fields === */
+
+.mauticform_wrapper ::placeholder {
+  color: var(--tertiary);
+}
+
+.mauticform_wrapper input:disabled,
+.mauticform_wrapper select:disabled,
+.mauticform_wrapper textarea:disabled {
+  background-color: var(--code-bg);
   cursor: not-allowed;
+  opacity: 0.6;
 }
-.mauticform-pagebreak-wrapper .mauticform-button-wrapper {
+
+/* === Checkbox & radio reset === */
+
+.mauticform_wrapper input[type="checkbox"],
+.mauticform_wrapper input[type="radio"] {
+  width: auto;
+  padding: 0;
+  margin: 0 8px 0 0;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+/* === Checkbox size & accent color === */
+
+.mauticform_wrapper input[type="checkbox"] {
+  transform: scale(1.3);
+  transform-origin: left center;
+  margin-right: 12px;
+  accent-color: var(--blue);
+}
+
+/* === Submit button === */
+
+.mauticform_wrapper button.mauticform-button {
+  padding: 12px 22px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.2;
+
+  background-color: var(--blue);
+  color: var(--theme);
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mauticform_wrapper button.mauticform-button:hover {
+  background-color: var(--lavender);
+}
+
+.mauticform_wrapper button.mauticform-button:active {
+  background-color: var(--sapphire);
+}
+
+/* === Textarea height === */
+
+.mauticform_wrapper textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+/* === Spacing === */
+
+.mauticform_wrapper .mauticform-row {
+  margin-bottom: 22px;
+}
+
+.mauticform_wrapper .mauticform-row.mauticform-type-checkbox,
+.mauticform_wrapper .mauticform-row.mauticform-type-radiobutton {
+  margin-bottom: 14px;
+}
+
+.mauticform_wrapper input[type="checkbox"],
+.mauticform_wrapper input[type="radio"] {
+  margin-right: 10px;
+}
+
+.mauticform_wrapper label {
+  display: block;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  color: var(--secondary);
+}
+
+.mauticform_wrapper .mauticform-checkboxgrp-row label {
   display: inline;
 }

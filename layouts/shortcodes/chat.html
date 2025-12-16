@@ -8,34 +8,51 @@
   type="text/css"
 />
 <style>
-  :root {
-    --cactus-text-color--soft: hsl(0, 0%, 60%);
-    --cactus-background-color--strong: hsl(0, 0%, 98%);
-    --cactus-border-color: hsl(0, 0%, 85%);
-    --cactus-box-shadow-color: hsl(0, 0%, 20%, 0.3);
-    --cactus-button-text-color: inherit;
-    --cactus-button-color: hsl(0, 0%, 80%);
-    --cactus-button-color--strong: hsl(0, 0%, 75%);
-    --cactus-button-color--stronger: hsl(0, 0%, 70%);
-    --cactus-login-form-text-color: inherit;
-    /* unchanged variables */
-    --cactus-border-width: 1px;
-    --cactus-border-radius: 0.4em;
-    --cactus-text-color: inherit;
+  /* === Cactus Chat – PaperMod Catppuccin === */
+
+  /* --- Light / Catppuccin Latte --- */
+  :root[data-theme="light"] {
+    --cactus-text-color: #4c4f69;
+    --cactus-text-color--soft: #6c6f85;
+
     --cactus-background-color: transparent;
-    --cactus-error-color: red;
+    --cactus-background-color--strong: #e6e9ef;
+
+    --cactus-border-color: #ccd0da;
+    --cactus-border-width: 1px;
+    --cactus-border-radius: 0.5em;
+
+    --cactus-box-shadow-color: rgba(30, 102, 245, 0.15);
+
+    --cactus-button-text-color: #4c4f69;
+    --cactus-button-color: #dce0e8;
+    --cactus-button-color--strong: #ccd0da;
+    --cactus-button-color--stronger: #bcc0cc;
+
+    --cactus-login-form-text-color: #4c4f69;
+
+    --cactus-error-color: #d20f39;
   }
 
-  .dark {
-    --cactus-text-color--soft: hsl(0, 0%, 50%);
-    --cactus-background-color--strong: hsl(0, 0%, 10%);
-    --cactus-border-color: hsl(0, 0%, 20%);
-    --cactus-box-shadow-color: hsl(0, 0%, 10%, 1);
-    --cactus-button-text-color: hsl(0, 0%, 80%);
-    --cactus-button-color: hsl(0, 0%, 25%);
-    --cactus-button-color--strong: hsl(0, 0%, 30%);
-    --cactus-button-color--stronger: hsl(0, 0%, 35%);
-    --cactus-login-form-text-color: hsl(0, 0%, 80%);
+  :root[data-theme="dark"] {
+    --cactus-text-color: #cdd6f4;
+    --cactus-text-color--soft: #a6adc8;
+
+    --cactus-background-color: transparent;
+    --cactus-background-color--strong: #313244;
+
+    --cactus-border-color: #45475a;
+
+    --cactus-box-shadow-color: rgba(137, 180, 250, 0.18);
+
+    --cactus-button-text-color: #cdd6f4;
+    --cactus-button-color: #45475a;
+    --cactus-button-color--strong: #585b70;
+    --cactus-button-color--stronger: #6c7086;
+
+    --cactus-login-form-text-color: #cdd6f4;
+
+    --cactus-error-color: #f38ba8;
   }
 </style>
 <br />
@@ -49,4 +66,3 @@
     commentSectionId: "{{ index .Params 0 }}",
   });
 </script>
-
