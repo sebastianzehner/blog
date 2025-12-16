@@ -1,9 +1,7 @@
 baseURL: https://sebastianzehner.com
 languageCode: en-us
 title: Sebastian Zehner
-summary: This is my personal blog and I am writing about projects I have been
-  working on and what I learn along the way. I also share some private
-  experiences or adventures of my life.
+summary: This is my personal blog and I am writing about projects I have been working on and what I learn along the way. I also share some private experiences or adventures of my life.
 theme: PaperMod
 enableEmoji: true
 enableGitInfo: true
@@ -23,6 +21,8 @@ outputs:
     - RSS
     - JSON
 params:
+  assets:
+    disableHLJS: true
   ShowBreadCrumbs: true
   ShowShareButtons: true
   ShareButtons:
@@ -54,6 +54,14 @@ params:
       url: https://matrix.to/#/@sebastianzehner:matrix.org
   defaultContentLanguage: en
   defaultContentLanguageInSubdir: true
+markup:
+  highlight:
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: false
+    noClasses: false
+    # style: catppuccin-mocha
 
 languages:
   en:
