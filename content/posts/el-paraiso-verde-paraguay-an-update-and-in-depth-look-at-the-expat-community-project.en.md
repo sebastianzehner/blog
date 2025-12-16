@@ -24,7 +24,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-It was a symbolic moment: When the old El Paraiso Verde sign was taken down and removed, a chapter that had shaped our shared life for many years visibly came to an end. This [video](https://youtu.be/qMk0_rzADV8) of the moment shows more than just the removal of a sign – it represents a fresh start, an opportunity to learn from past mistakes, and a chance to rebuild our community on a new, honest, and transparent foundation.
+It was a symbolic moment: When the old El Paraiso Verde sign was taken down and removed, a chapter that had shaped our shared life for many years visibly came to an end. This video of the moment shows more than just the removal of a sign – it represents a fresh start, an opportunity to learn from past mistakes, and a chance to rebuild our community on a new, honest, and transparent foundation.
 
 ## A Current Report on the Developments in Our Settlement
 

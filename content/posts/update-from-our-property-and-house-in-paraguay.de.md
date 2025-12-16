@@ -1,28 +1,28 @@
-+++
-title = 'Update von unserem Grundstück und Haus in Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
-summary = 'Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt. Ich arbeite an verschiedenen Projekten und heute möchte ich mal wieder ein kleines Update von unserem Leben in Paraguay mit dir teilen.'
-date = 2021-03-26T11:09:01-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2021-03-26T11:09:01-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Grundstück', 'El Paraiso Verde', 'Werkstatt', 'Möbelbau', 'Auswandern']
-categories = ['Paraguay']
+---
+title: Update von unserem Grundstück und Haus in Paraguay
+summary: Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt. Ich arbeite an verschiedenen Projekten und heute möchte ich mal wieder ein kleines Update von unserem Leben in Paraguay mit dir teilen.
+date: 2021-03-26T15:09:01-03:00
+lastmod: 2021-03-26T15:09:01-03:00
+draft: false
+tags:
+  - El Paraiso Verde
+categories:
+  - Paraguay
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/update-property-and-house.webp'
-    alt = 'Beitragsbild von Update von unserem Grundstück und Haus in Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/update-property-and-house.webp
+  alt: Update von unserem Grundstück und Haus in Paraguay
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
 Die Zeit hier in Paraguay vergeht wie im Flug, obwohl es hier doch eigentlich sehr ruhig und entspannt ist. Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt.
 
@@ -70,4 +70,3 @@ Liebe Grüße
 Sebastian
 
 {{< chat update-property-and-house >}}
-

@@ -24,7 +24,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-Fue un momento simbólico: cuando se retiró y se llevó el antiguo cartel de El Paraiso Verde, terminó de manera visible un capítulo que había marcado nuestra vida en común durante muchos años. El [video](https://youtu.be/_Dl2HGFtHNk) de este momento muestra más que solo la retirada de un cartel: representa un nuevo comienzo, la oportunidad de aprender de los errores y de sentar nuestra comunidad sobre una base nueva, honesta y transparente.
+Fue un momento simbólico: cuando se retiró y se llevó el antiguo cartel de El Paraiso Verde, terminó de manera visible un capítulo que había marcado nuestra vida en común durante muchos años. El video de este momento muestra más que solo la retirada de un cartel: representa un nuevo comienzo, la oportunidad de aprender de los errores y de sentar nuestra comunidad sobre una base nueva, honesta y transparente.
 
 ## Informe actual sobre los desarrollos en nuestra comunidad
 

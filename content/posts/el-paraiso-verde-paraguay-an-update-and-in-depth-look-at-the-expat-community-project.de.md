@@ -24,7 +24,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-Es war ein symbolischer Moment: Als das alte Schild von El Paraiso Verde abgebaut und weggetragen wurde, endete damit sichtbar ein Kapitel, das viele Jahre lang unser gemeinsames Leben geprägt hatte. Das [Video](https://youtu.be/_Dl2HGFtHNk) dieses Augenblicks zeigt mehr als nur den Abbau eines Schildes – es steht für einen Neuanfang, für die Chance, aus Fehlern zu lernen und unsere Gemeinschaft auf eine neue, ehrliche und transparente Basis zu stellen.
+Es war ein symbolischer Moment: Als das alte Schild von El Paraiso Verde abgebaut und weggetragen wurde, endete damit sichtbar ein Kapitel, das viele Jahre lang unser gemeinsames Leben geprägt hatte. Das Video dieses Augenblicks zeigt mehr als nur den Abbau eines Schildes – es steht für einen Neuanfang, für die Chance, aus Fehlern zu lernen und unsere Gemeinschaft auf eine neue, ehrliche und transparente Basis zu stellen.
 
 ## Ein aktueller Bericht zu den Entwicklungen in unserer Siedlung
 

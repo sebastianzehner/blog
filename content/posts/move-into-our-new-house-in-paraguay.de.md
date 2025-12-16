@@ -1,30 +1,30 @@
-+++
-title = 'Einzug in unser neues Haus in Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
-summary = 'Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück.'
-date = 2021-01-14T16:22:50-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2021-01-14T16:22:50-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Umzug', 'Haus', 'Simple Life', 'Auswandern', 'El Paraiso Verde']
-categories = ['Paraguay']
+---
+title: Einzug in unser neues Haus in Paraguay
+summary: Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück.
+date: 2021-01-14T20:22:50-03:00
+lastmod: 2021-01-14T20:22:50-03:00
+draft: false
+tags:
+  - El Paraiso Verde
+categories:
+  - Paraguay
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/move-into-our-new-house-in-paraguay.webp'
-    alt = 'Beitragsbild von Einzug in unser neues Haus in Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/move-into-our-new-house-in-paraguay.webp
+  alt: Einzug in unser neues Haus in Paraguay
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
-Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück. Der Strom fließt seit dem 07. Oktober 2020 und kurz darauf haben wir zum ersten Mal in unserem neuen Zuhause übernachtet. 
+Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück. Der Strom fließt seit dem 07. Oktober 2020 und kurz darauf haben wir zum ersten Mal in unserem neuen Zuhause übernachtet.
 
 Das Appartement, in welchem wir 11 Monate zuvor gelebt haben, konnten wir kurz darauf zurückgeben. Ein unbeschreibliches Gefühl hier auf dem ruhigen Land im eigenen Haus und auf dem eigenen Grundstück zu leben.
 
@@ -88,4 +88,3 @@ Liebe Grüße
 Sebastian
 
 {{< chat move-into-our-new-house-in-paraguay >}}
-
