@@ -1,0 +1,73 @@
+tags:
+  # --- Core Tech ---
+  linux: {}
+  arch-linux: {}
+  alpine-linux: {}
+  bash: {}
+  shell: {}
+  cli: {}
+  zsh: {}
+  terminal: {}
+  ssh: {}
+  script: {}
+  open-source: {}
+
+  # --- Systems & Infrastructure ---
+  homelab: {}
+  self-hosting: {}
+  virtualization: {}
+  qemu: {}
+  docker: {}
+  containers: {}
+  networking: {}
+  frigate: {}
+
+  # --- AI / Automation ---
+  ai: {}
+  llm: {}
+  automation: {}
+  n8n: {}
+  whisper: {}
+  tts: {}
+  stt: {}
+  srt: {}
+  subtitles: {}
+  comfyui: {}
+  ollama: {}
+  claude: {}
+  qwen: {}
+  flux: {}
+  wan: {}
+
+  # --- Dev / Tooling ---
+  git: {}
+  neovim: {}
+  tmux: {}
+  ffmpeg: {}
+  python: {}
+  conda: {}
+
+  # --- Web / Publishing ---
+  hugo: {}
+  markdown: {}
+  blogging: {}
+
+  # --- Hardware / Projects ---
+  raspberry-pi: {}
+  arm: {}
+  uconsole: {}
+
+  # --- Paraguay / Life ---
+  paraguay: {}
+  migration: {}
+  life: {}
+  off-grid: {}
+  sustainability: {}
+  paraisoverde: {}
+  piratava: {}
+
+  # --- Camping (legacy) ---
+  camping: {}
+  vanlife: {}
+  roadtrip: {}
+  europe: {}
