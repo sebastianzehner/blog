@@ -24,7 +24,7 @@ params:
 cover:
   image: /img/md-translator.webp
   alt: El blogger gestiona un blog multilingüe (en alemán, inglés, español y francés) desde su ordenador portátil
-  hidden: false 
+  hidden: false
   relative: false
   responsiveImages: false
 
@@ -133,6 +133,7 @@ python md-translator.py artikel.de.md -l en es
 ```
 
 La herramienta reconoce automáticamente:
+
 - El idioma fuente, según el nombre del archivo (`artikel.de.md` → alemán):
 - Genera automáticamente archivos de salida (`artikel.en.md`, `artikel.es.md`).
 - Carga el modelo solo una vez para todas las traducciones.
@@ -181,39 +182,20 @@ Los metadatos de traducción no son solo una forma de documentación; también s
 El plantilla Hugo verifica si el campo `translation` existe en el «Front Matter» (el contenido inicial del documento). En caso afirmativo, se genera automáticamente un aviso al respecto.
 
 ```html
-# singles.html
-
-{{ if .Params.translation }}
+# singles.html {{ if .Params.translation }}
 <div class="translation-note-wrapper">
-    {{ partial "translation-note.html" . }}
+  {{ partial "translation-note.html" . }}
 </div>
 {{- end }}
 ```
 
 ```html
-# translation-note.html
-
-{{ with .Params.translation }}
-
-  {{ $from := i18n (printf "lang_%s" .from) }}
-  {{ $to   := i18n (printf "lang_%s" .to) }}
-
-  {{ $toolPage := site.GetPage "posts/md-translator" }}
-
-  {{ $toolName := .tool }}
-
-  {{ if $toolPage }}
-    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
-  {{ end }}
-
-  {{ i18n "translation_note" (dict
-    "From" $from
-    "To" $to
-    "Tool" $toolName
-    "Version" .version
-  ) | safeHTML }}
-
-{{ end }}
+# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
+"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
+site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
+}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
+safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
+"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
 ```
 
 **Para el lector, esto se presenta de la siguiente manera:**
@@ -221,6 +203,7 @@ El plantilla Hugo verifica si el campo `translation` existe en el «Front Matter
 > Este artículo fue traducido de alemán a español usando md-translator v1.2.3.
 
 Así, el lector puede saber de inmediato y de manera transparente qué sucede.
+
 - ✅ Que está leyendo una traducción.
 - ✅ ¿Qué herramienta se utilizó?
 - ✅ ¿De qué idioma se tradujo al otro?
@@ -247,7 +230,7 @@ La solución es utilizar el formato FP16 (medio de precisión). Esto reduce la n
 Después de la traducción, todavía suceden algunas cosas más…
 
 1. **Corrección de la sintaxis Markdown**: Los espacios de lectura que se encuentran entre `]` y `(` en los enlaces se eliminan.
-2. **Restauración de la sintaxis de las imágenes**: Se complementan los segmentos que faltan (``!``) antes de las imágenes.
+2. **Restauración de la sintaxis de las imágenes**: Se complementan los segmentos que faltan (`!`) antes de las imágenes.
 3. **Restauración de elementos sustitutos**: Los elementos protegidos se recuperan en su estado original.
 4. Los textos de los enlaces se traducen por separado.
 
@@ -259,18 +242,20 @@ El desarrollo de md-translator fue muy instructivo. Algunas de las conclusiones 
 
 **Lo que funcionó fue:**
 
-- Los marcadores de reemplazo (placeholder) como ``__INLINECODE0__`` son compatibles con los modelos de lenguaje natural de gran alcance (Large Language Models, LLM).
+- Los marcadores de reemplazo (placeholder) como `__INLINECODE0__` son compatibles con los modelos de lenguaje natural de gran alcance (Large Language Models, LLM).
 - La segmentación basada en la estructura del formato Markdown permite mantener el contexto adecuado de cada parte del texto.
 - La optimización para el formato FP16 supone un verdadero cambio de juego en términos de rendimiento.
 - La configuración mediante YAML hace que la herramienta sea flexible.
 
 **Lo que no funcionó:**
+
 - El formato en negrita/cursiva (`*` y `**`) no puede protegerse de manera fiable.
 - El modelo LLM trata estos marcadores de manera inconsistente.
 - A veces se conservan, y otras veces no.
 - Aquí es necesaria una edición manual posterior.
 
 **Lo que funcionó de manera sorprendentemente bien fue:**
+
 - Traducción de tablas, celda por celda
 - Reescritura de URL para estructuras multilingües
 - Traducción del texto del enlace sin cambiar la URL
@@ -280,6 +265,7 @@ El desarrollo de md-translator fue muy instructivo. Algunas de las conclusiones 
 Desde que comencé a utilizar md-translator, mi flujo de trabajo se ha simplificado drásticamente.
 
 **Antes:**
+
 1. Escribir artículos en alemán.
 2. En la herramienta de traducción, haga clic en «Copiar».
 3. Puedo encargar la traducción.
@@ -290,6 +276,7 @@ Desde que comencé a utilizar md-translator, mi flujo de trabajo se ha simplific
 8. Repetición para cada idioma.
 
 **Más tarde:**
+
 ```bash
 python md-translator.py artikel.de.md -l en es
 ```
@@ -306,6 +293,7 @@ Es hora de escribir un artículo de 1000 palabras:
 md-translator es de código abierto y está disponible en GitHub. La versión actual, 1.2.3, es estable y lista para su uso en entornos de producción.
 
 Características planeadas para el futuro:
+
 - Procesamiento por lotes de directorios completos
 - Soporte para otros dialectos de Markdown
 
@@ -320,6 +308,7 @@ Para los bloggers que publican contenidos en varios idiomas, esto supone un verd
 Este artículo es un ejemplo perfecto de desarrollo y creación de contenido modernos basados en la inteligencia artificial (IA).
 
 **Historia de su creación:**
+
 1. El traductor MD (md-translator) fue desarrollado en colaboración con **Claude Code**; la inteligencia artificial (IA) ayuda en el proceso de programación.
 2. Este artículo fue escrito con la ayuda de **Claude Code** (la inteligencia artificial colabora en el proceso de escritura).
 3. El artículo se traduce utilizando **md-translator** (una herramienta de inteligencia artificial que realiza la traducción automáticamente).
@@ -332,9 +321,12 @@ Si lees este artículo en inglés o español, al final verás una indicación so
 ---
 
 **Especificaciones técnicas:**
+
 - Lenguaje: Python 3.12
 - Framework: PyTorch 2.5.0 con CUDA 12.4
 - Modelo: [Tencent Hunyuan-MT-7B](https://github.com/Tencent-Hunyuan/Hunyuan-MT) (Parámetro de 7B, tipo FP16)
 - Idiomas soportados: actualmente 38 idiomas.
 - Licencia: MIT
 - Repositorio: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
+
+{{< chat md-translator >}}

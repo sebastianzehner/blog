@@ -24,7 +24,7 @@ params:
 cover:
   image: /img/md-translator.webp
   alt: The blogger manages a multilingual blog on a laptop, featuring content in German, English, Spanish, and French
-  hidden: false 
+  hidden: false
   relative: false
   responsiveImages: false
 
@@ -133,6 +133,7 @@ python md-translator.py artikel.de.md -l en es
 ```
 
 The tool automatically recognizes:
+
 - The source language, as indicated in the file name (`artikel.de.md` → German):
 - Automatically generates output files (`artikel.en.md`, `artikel.es.md`).
 - Loads the model only once for all translations
@@ -181,39 +182,20 @@ The translation metadata is not just documentation; it’s also practically usef
 The Hugo template checks whether the `translation` field is present in the front matter. If it is, a notice is generated automatically.
 
 ```html
-# singles.html
-
-{{ if .Params.translation }}
+# singles.html {{ if .Params.translation }}
 <div class="translation-note-wrapper">
-    {{ partial "translation-note.html" . }}
+  {{ partial "translation-note.html" . }}
 </div>
 {{- end }}
 ```
 
 ```html
-# translation-note.html
-
-{{ with .Params.translation }}
-
-  {{ $from := i18n (printf "lang_%s" .from) }}
-  {{ $to   := i18n (printf "lang_%s" .to) }}
-
-  {{ $toolPage := site.GetPage "posts/md-translator" }}
-
-  {{ $toolName := .tool }}
-
-  {{ if $toolPage }}
-    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
-  {{ end }}
-
-  {{ i18n "translation_note" (dict
-    "From" $from
-    "To" $to
-    "Tool" $toolName
-    "Version" .version
-  ) | safeHTML }}
-
-{{ end }}
+# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
+"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
+site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
+}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
+safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
+"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
 ```
 
 **For the reader, this looks like this:**
@@ -260,7 +242,7 @@ The development of md-translator was quite informative. Here are some of the key
 
 **What worked:**
 
-- Clear placeholders like ``__INLINECODE0__`` are compatible with large language models (LLMs).
+- Clear placeholders like `__INLINECODE0__` are compatible with large language models (LLMs).
 - Segmenting based on the Markdown structure ensures that the context is properly maintained.
 - FP16 optimization is a game-changer when it comes to performance.
 - The YAML-based configuration makes the tool flexible.
@@ -346,3 +328,5 @@ If you read this article in English or Spanish, you will see a notice indicating
 - Supported languages: currently 38 languages
 - License: MIT
 - Repository: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
+
+{{< chat md-translator >}}

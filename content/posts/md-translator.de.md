@@ -24,7 +24,7 @@ params:
 cover:
   image: /img/md-translator.webp
   alt: Blogger verwaltet mehrsprachigen Blog mit Deutsch, Englisch, Spanisch und Französisch am Laptop
-  hidden: false 
+  hidden: false
   relative: false
   responsiveImages: false
 ---
@@ -125,6 +125,7 @@ python md-translator.py artikel.de.md -l en es
 ```
 
 Das Tool erkennt automatisch:
+
 - Die Quellsprache aus dem Dateinamen (`artikel.de.md` → Deutsch)
 - Generiert automatisch Ausgabedateien (`artikel.en.md`, `artikel.es.md`)
 - Lädt das Modell nur einmal für alle Übersetzungen
@@ -173,39 +174,20 @@ Die Translation-Metadaten sind nicht nur Dokumentation - sie sind auch praktisch
 Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden ist. Falls ja, wird automatisch ein Hinweis generiert:
 
 ```html
-# singles.html
-
-{{ if .Params.translation }}
+# singles.html {{ if .Params.translation }}
 <div class="translation-note-wrapper">
-    {{ partial "translation-note.html" . }}
+  {{ partial "translation-note.html" . }}
 </div>
 {{- end }}
 ```
 
 ```html
-# translation-note.html
-
-{{ with .Params.translation }}
-
-  {{ $from := i18n (printf "lang_%s" .from) }}
-  {{ $to   := i18n (printf "lang_%s" .to) }}
-
-  {{ $toolPage := site.GetPage "posts/md-translator" }}
-
-  {{ $toolName := .tool }}
-
-  {{ if $toolPage }}
-    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
-  {{ end }}
-
-  {{ i18n "translation_note" (dict
-    "From" $from
-    "To" $to
-    "Tool" $toolName
-    "Version" .version
-  ) | safeHTML }}
-
-{{ end }}
+# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
+"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
+site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
+}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
+safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
+"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
 ```
 
 **Für den Leser sieht das so aus:**
@@ -213,6 +195,7 @@ Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden is
 > _This article was translated from German to English using md-translator v1.2.3._
 
 So weiß der Leser sofort und transparent:
+
 - ✅ Dass er eine Übersetzung liest
 - ✅ Welches Tool verwendet wurde
 - ✅ Von welcher Sprache in welche übersetzt wurde
@@ -250,18 +233,21 @@ Das Ergebnis: Perfekt formatierte Markdown-Dateien, die aussehen, als wären sie
 Die Entwicklung von md-translator war lehrreich. Einige Erkenntnisse:
 
 **Was funktioniert:**
+
 - Klare Platzhalter wie `__INLINECODE0__` sind LLM-freundlich
 - Segmentierung nach Markdown-Struktur erhält den Kontext
 - FP16-Optimierung ist ein Game-Changer für Performance
 - YAML-Konfiguration macht das Tool flexibel
 
 **Was nicht funktioniert:**
+
 - Bold/Italic-Formatierung (`*` und `**`) lässt sich nicht zuverlässig schützen
 - Das LLM behandelt diese Marker inkonsistent
 - Manchmal bleiben sie erhalten, manchmal nicht
 - Manuelle Nachbearbeitung ist hier nötig
 
 **Was überraschend gut funktioniert:**
+
 - Tabellen-Übersetzung, Zelle für Zelle
 - URL-Rewriting für mehrsprachige Strukturen
 - Link-Text-Übersetzung ohne URL-Veränderung
@@ -271,6 +257,7 @@ Die Entwicklung von md-translator war lehrreich. Einige Erkenntnisse:
 Seit dem Einsatz von md-translator hat sich mein Workflow drastisch vereinfacht:
 
 **Vorher:**
+
 1. Artikel auf Deutsch schreiben
 2. In Übersetzungstool kopieren
 3. Übersetzen lassen
@@ -281,11 +268,13 @@ Seit dem Einsatz von md-translator hat sich mein Workflow drastisch vereinfacht:
 8. Wiederholen für jede Sprache
 
 **Nachher:**
+
 ```bash
 python md-translator.py artikel.de.md -l en es
 ```
 
 Zeit für einen 1000-Wörter-Artikel:
+
 - Vorher: ~60-90 Minuten (für 2 Sprachen)
 - Nachher: ~3-5 Minuten (reine Übersetzungszeit)
 
@@ -296,6 +285,7 @@ Das ist eine Zeitersparnis von über 90 Prozent!
 md-translator ist Open Source und auf GitHub verfügbar. Die aktuelle Version 1.2.3 ist stabil und produktionsreif.
 
 Geplante Features für die Zukunft:
+
 - Batch-Processing für ganze Verzeichnisse
 - Unterstützung für weitere Markdown-Dialekte
 
@@ -310,6 +300,7 @@ Für Blogger, die mehrsprachige Inhalte veröffentlichen, ist es ein Game-Change
 Dieser Artikel ist ein perfektes Beispiel für moderne KI-gestützte Entwicklung und Content-Erstellung:
 
 **Die Entstehungsgeschichte:**
+
 1. md-translator wurde **mit Claude Code** entwickelt (KI hilft beim Programmieren)
 2. Dieser Artikel wurde **mit Claude Code** geschrieben (KI hilft beim Schreiben)
 3. Der Artikel wird **mit md-translator** übersetzt (KI-Tool übersetzt sich selbst)
@@ -322,9 +313,12 @@ Wenn du diesen Artikel auf Englisch oder Spanisch liest, wirst du am Ende des Ar
 ---
 
 **Technische Spezifikationen:**
+
 - Sprache: Python 3.12
 - Framework: PyTorch 2.5.0 mit CUDA 12.4
 - Modell: [Tencent Hunyuan-MT-7B](https://github.com/Tencent-Hunyuan/Hunyuan-MT) (7B Parameter, FP16)
 - Unterstützte Sprachen: derzeit 38 Sprachen
 - Lizenz: MIT
 - Repository: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
+
+{{< chat md-translator >}}
