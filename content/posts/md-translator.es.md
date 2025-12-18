@@ -182,7 +182,9 @@ Los metadatos de traducción no son solo una forma de documentación; también s
 El plantilla Hugo verifica si el campo `translation` existe en el «Front Matter» (el contenido inicial del documento). En caso afirmativo, se genera automáticamente un aviso al respecto.
 
 ```html
-# singles.html {{ if .Params.translation }}
+# singles.html
+
+{{ if .Params.translation }}
 <div class="translation-note-wrapper">
   {{ partial "translation-note.html" . }}
 </div>
@@ -190,12 +192,29 @@ El plantilla Hugo verifica si el campo `translation` existe en el «Front Matter
 ```
 
 ```html
-# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
-"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
-site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
-}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
-safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
-"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
+# translation-note.html
+
+{{ with .Params.translation }}
+
+  {{ $from := i18n (printf "lang_%s" .from) }}
+  {{ $to   := i18n (printf "lang_%s" .to) }}
+
+  {{ $toolPage := site.GetPage "posts/md-translator" }}
+
+  {{ $toolName := .tool }}
+
+  {{ if $toolPage }}
+    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
+  {{ end }}
+
+  {{ i18n "translation_note" (dict
+    "From" $from
+    "To" $to
+    "Tool" $toolName
+    "Version" .version
+  ) | safeHTML }}
+
+{{ end }}
 ```
 
 **Para el lector, esto se presenta de la siguiente manera:**
@@ -230,7 +249,7 @@ La solución es utilizar el formato FP16 (medio de precisión). Esto reduce la n
 Después de la traducción, todavía suceden algunas cosas más…
 
 1. **Corrección de la sintaxis Markdown**: Los espacios de lectura que se encuentran entre `]` y `(` en los enlaces se eliminan.
-2. **Restauración de la sintaxis de las imágenes**: Se complementan los segmentos que faltan (`!`) antes de las imágenes.
+2. **Restauración de la sintaxis de las imágenes**: Se complementan los segmentos que faltan (``!``) antes de las imágenes.
 3. **Restauración de elementos sustitutos**: Los elementos protegidos se recuperan en su estado original.
 4. Los textos de los enlaces se traducen por separado.
 
@@ -242,7 +261,7 @@ El desarrollo de md-translator fue muy instructivo. Algunas de las conclusiones 
 
 **Lo que funcionó fue:**
 
-- Los marcadores de reemplazo (placeholder) como `__INLINECODE0__` son compatibles con los modelos de lenguaje natural de gran alcance (Large Language Models, LLM).
+- Los marcadores de reemplazo (placeholder) como ``__INLINECODE0__`` son compatibles con los modelos de lenguaje natural de gran alcance (Large Language Models, LLM).
 - La segmentación basada en la estructura del formato Markdown permite mantener el contexto adecuado de cada parte del texto.
 - La optimización para el formato FP16 supone un verdadero cambio de juego en términos de rendimiento.
 - La configuración mediante YAML hace que la herramienta sea flexible.

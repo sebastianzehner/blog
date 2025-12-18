@@ -174,7 +174,9 @@ Die Translation-Metadaten sind nicht nur Dokumentation - sie sind auch praktisch
 Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden ist. Falls ja, wird automatisch ein Hinweis generiert:
 
 ```html
-# singles.html {{ if .Params.translation }}
+# singles.html
+
+{{ if .Params.translation }}
 <div class="translation-note-wrapper">
   {{ partial "translation-note.html" . }}
 </div>
@@ -182,12 +184,29 @@ Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden is
 ```
 
 ```html
-# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
-"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
-site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
-}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
-safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
-"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
+# translation-note.html
+
+{{ with .Params.translation }}
+
+  {{ $from := i18n (printf "lang_%s" .from) }}
+  {{ $to   := i18n (printf "lang_%s" .to) }}
+
+  {{ $toolPage := site.GetPage "posts/md-translator" }}
+
+  {{ $toolName := .tool }}
+
+  {{ if $toolPage }}
+    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
+  {{ end }}
+
+  {{ i18n "translation_note" (dict
+    "From" $from
+    "To" $to
+    "Tool" $toolName
+    "Version" .version
+  ) | safeHTML }}
+
+{{ end }}
 ```
 
 **Für den Leser sieht das so aus:**
