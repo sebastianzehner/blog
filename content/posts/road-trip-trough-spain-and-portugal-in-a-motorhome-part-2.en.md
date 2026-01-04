@@ -1,12 +1,13 @@
 +++
 title = 'Road Trip trough Spain and Portugal in a motorhome part 2'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'After we left the campsite in Árvore, we first went back to Vila do Conde in the motorhome to go shopping.'
-date = 2019-07-21T11:22:06-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-07-21T11:22:06-04:00
 lastmod = 2019-07-21T11:22:06-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Motorhome', 'Travel', 'Road Trip']
-categories = ['Camping']
+draft = false
+series = ["Road trip Spain and Portugal"]
+series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
-    alt = 'Featured image from Road Trip trough Spain and Portugal in a Motorhome part 2'
+    alt = 'Road Trip trough Spain and Portugal in a Motorhome part 2'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

@@ -26,7 +26,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-**For the fast clickers:** [Categories](/categories/) - [Tags](/tags/) - [Archives](/archives/)
+**Quick Links:** [Categories](/categories/) - [Tags](/tags/) - [Series](/series) - [Archives](/archives/)
 
 ## Overview: What you'll find on my blog
 

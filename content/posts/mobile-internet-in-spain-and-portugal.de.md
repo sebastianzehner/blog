@@ -1,12 +1,11 @@
 +++
 title = 'Mobiles Internet in Spanien und Portugal'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Während unserer Reise mit dem Wohnmobil nach Spanien und Portugal möchten wir natürlich auch auf ein schnelles und vernünftiges Internet zugreifen können. Ich habe mir im Vorfeld ein paar Möglichkeiten angesehen und wusste aber noch nicht, wie und ob das im Ausland alles so wunderbar funktioniert.'
-date = 2019-07-08T16:33:59-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-07-08T16:33:59-04:00
 lastmod = 2019-07-08T16:33:59-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Wohnmobil', 'Reisen', 'Road Trip']
-categories = ['Camping']
+draft = false
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +16,8 @@ TocOpen = true
 
 [cover]
     image = '/img/mobile-internet-in-spain-and-portugal.webp'
-    alt = 'Beitragsbild von Mobiles Internet in Spanien und Portugal'
+    alt = 'Mobiles Internet in Spanien und Portugal'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

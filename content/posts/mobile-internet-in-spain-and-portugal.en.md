@@ -1,12 +1,11 @@
 +++
 title = 'Mobile Internet in Spain and Portugal'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'During our motorhome road trip to Spain and Portugal, we would of course also like to have access to fast and decent internet. I looked at a few options beforehand but did not know how and whether everything would run so well abroad.'
-date = 2019-07-08T16:33:59-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-07-08T16:33:59-04:00
 lastmod = 2019-07-08T16:33:59-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Motorhome', 'Travel', 'Road Trip']
-categories = ['Camping']
+draft = false
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +16,8 @@ TocOpen = true
 
 [cover]
     image = '/img/mobile-internet-in-spain-and-portugal.webp'
-    alt = 'Featured image from Mobile Internet in Spain and Portugal'
+    alt = 'Mobile Internet in Spain and Portugal'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

@@ -26,7 +26,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-**Para los que hacen clic rápido:** [Categorías](/es/categories/) - [Tags](/es/tags/) - [Archivo](/es/archives/)
+**Quick Links:** [Categorías](/es/categories/) - [Tags](/es/tags/) - [Series](/es/series) - [Archivo](/es/archives/)
 
 ## Visión general: Lo que puede encontrar en mi blog
 

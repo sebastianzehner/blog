@@ -15,6 +15,10 @@ frontmatter:
     - :git
     - date
     - publishDate
+taxonomies:
+  categories: categories
+  tags: tags
+  series: series
 outputs:
   home:
     - HTML

@@ -445,3 +445,94 @@ img.in-text {
   line-height: 1.2;
   color: var(--secondary);
 }
+
+/* Series navigation box container */
+.series-container {
+  margin: 2rem 0;
+  padding: 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--entry);
+}
+
+/* Collapsible summary layout */
+.series-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.series-summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Vertical stack for title and count info */
+.series-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.series-title {
+  margin: 0;
+  color: var(--blue);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.series-count {
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+
+/* Expand indicator */
+.series-summary:after {
+  content: "▼";
+  font-size: 0.7rem;
+  color: var(--blue);
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] .series-summary:after {
+  transform: rotate(180deg);
+}
+
+/* List styling */
+.series-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0 0 0;
+}
+
+.series-item {
+  padding: 0.2rem 0;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: baseline;
+  color: var(--content);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.series-part-label {
+  font-weight: bold;
+  color: var(--secondary);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.series-item-current {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+/* Link styling */
+.series-item-link {
+  text-decoration: none;
+}
+
+.series-item-link:hover {
+  text-decoration: underline;
+}

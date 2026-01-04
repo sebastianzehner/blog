@@ -1,12 +1,13 @@
 +++
 title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.'
-date = 2019-06-27T12:08:44-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-06-27T12:08:44-04:00
 lastmod = 2019-06-27T12:08:44-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Wohnmobil', 'Reisen', 'Road Trip']
-categories = ['Camping']
+draft = false
+series = ["Roadtrip Spanien und Portugal"]
+series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal' 
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
-    alt = 'Beitragsbild von Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1'
+    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

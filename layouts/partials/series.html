@@ -1,0 +1,42 @@
+{{ $series := .GetTerms "series" }}
+{{ if $series }}
+    {{ range $series }}
+    {{ $posts := .Pages.ByDate }}
+    {{ $count := len $posts }}
+    <aside class="series-container">
+        <details {{ if lt $count 5 }}open{{ end }}>
+            <summary class="series-summary">
+                <div class="series-header-text">
+                    <span class="series-title">
+                        {{ i18n "series_title" }}: {{ .Name }}
+                    </span>
+                    <span class="series-count">
+                        {{ i18n "series_parts_total" $count }}
+                    </span>
+                </div>
+            </summary>
+            
+            <ul class="series-list">
+                {{ range $num, $post := $posts }}
+                    {{ $isCurrent := eq $post.Permalink $.Page.Permalink }}
+                    <li class="series-item">
+                        <span class="series-part-label">
+                            {{ i18n "series_part" }} {{ add $num 1 }}
+                        </span>
+                        
+                        {{ if $isCurrent }}
+                            <span class="series-item-current" aria-current="page">
+                                 {{ i18n "series_current" }}
+                            </span>
+                        {{ else }}
+                            <a href="{{ $post.Permalink }}" class="series-item-link">
+                                {{ .Params.series_title | default .Title }}
+                            </a>
+                        {{ end }}
+                    </li>
+                {{ end }}
+            </ul>
+        </details>
+    </aside>
+    {{ end }}
+{{ end }}

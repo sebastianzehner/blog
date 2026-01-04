@@ -1,12 +1,13 @@
 +++
 title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen.'
-date = 2019-07-21T11:22:06-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-07-21T11:22:06-04:00 
 lastmod = 2019-07-21T11:22:06-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Wohnmobil', 'Reisen', 'Road Trip']
-categories = ['Camping']
+draft = false 
+series = ["Roadtrip Spanien und Portugal"]
+series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal'
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp'
-    alt = 'Beitragsbild von Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2'
+    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

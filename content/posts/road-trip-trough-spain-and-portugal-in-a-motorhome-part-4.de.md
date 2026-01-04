@@ -1,12 +1,13 @@
 +++
 title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Heute schreibe ich den letzten Teil von unserer Wohnmobilreise durch Spanien und Portugal. Der Abschluss in Frankreich war eher mit einem Urlaub zu vergleichen, da wir längere Zeit auf dem selben Campingplatz standen.'
-date = 2019-11-26T09:58:23-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-11-26T09:58:23-04:00
 lastmod = 2019-11-26T09:58:23-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Wohnmobil', 'Reisen', 'Road Trip']
-categories = ['Camping']
+draft = false
+series = ["Roadtrip Spanien und Portugal"]
+series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal'
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4.webp'
-    alt = 'Beitragsbild von Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4'
+    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

@@ -26,7 +26,7 @@ TocOpen = true
     responsiveImages = false
 +++
 
-**Für die Schnellklicker:** [Kategorien](/de/categories/) - [Tags](/de/tags/) - [Archiv](/de/archives/)
+**Quick Links:** [Kategorien](/de/categories/) - [Tags](/de/tags/) - [Serien](/de/series) - [Archiv](/de/archives/)
 
 ## Übersicht: Das findest du auf meinem Blog
 

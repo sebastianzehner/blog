@@ -52,3 +52,17 @@
 
 - lang_es:
     other: "Spanish"
+
+- id: series_part
+  translation: "Part"
+
+- id: series_title
+  translation: "This article is part of the series"
+
+- id: series_current
+  translation: "Current article"
+
+- id: series_parts_total
+  translation:
+    one: "part total"
+    other: "{{ .Count }} parts total"

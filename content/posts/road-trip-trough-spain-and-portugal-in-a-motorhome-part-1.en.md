@@ -1,12 +1,13 @@
 +++
 title = 'Road Trip trough Spain and Portugal in a motorhome part 1'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Last year we decided to travel on a longer trip with our motorhome. As we both loved seeing Portugal, it quickly became clear to us that we would first drive south along the Atlantic and then back to Germany along the Mediterranean.'
-date = 2019-06-27T12:08:44-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-06-27T12:08:44-04:00 
 lastmod = 2019-06-27T12:08:44-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Motorhome', 'Travel', 'Road Trip']
-categories = ['Camping']
+draft = false 
+series = ["Road trip Spain and Portugal"]
+series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
-    alt = 'Featured image from Road Trip trough Spain and Portugal in a Motorhome part 1'
+    alt = 'Road Trip trough Spain and Portugal in a Motorhome part 1'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++

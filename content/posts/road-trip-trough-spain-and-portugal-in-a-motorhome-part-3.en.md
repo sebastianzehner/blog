@@ -1,12 +1,13 @@
 +++
 title = 'Road Trip trough Spain and Portugal in a motorhome part 3'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Some time has now passed and we have already arrived back in Spain and are almost back in France. At least we plan to be back in France by September 15, 2019 at the latest.'
-date = 2019-09-04T10:36:22-04:00 #Ctrl+Shift+I to insert date and time
+date = 2019-09-04T10:36:22-04:00
 lastmod = 2019-09-04T10:36:22-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Motorhome', 'Travel', 'Road Trip']
-categories = ['Camping']
+draft = false
+series = ["Road trip Spain and Portugal"]
+series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
+tags = ['vanlife', 'roadtrip', 'travel']
+categories = ['roadtrip']
 
 ShowToc = true
 TocOpen = true
@@ -17,9 +18,8 @@ TocOpen = true
 
 [cover]
     image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp'
-    alt = 'Featured image from Road Trip trough Spain and Portugal in a Motorhome part 3'
+    alt = 'Road Trip trough Spain and Portugal in a Motorhome part 3'
     hidden = false
-    #caption = 'This is the caption'
     relative = false
     responsiveImages = false
 +++
