@@ -1,28 +1,33 @@
-+++
-title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1'
-summary = 'Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.'
-date = 2019-06-27T12:08:44-04:00
-lastmod = 2019-06-27T12:08:44-04:00
-draft = false
-series = ["Roadtrip Spanien und Portugal"]
-series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal' 
-tags = ['vanlife', 'roadtrip', 'travel']
-categories = ['roadtrip']
+---
+title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1
+summary: Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.
+date: 2019-06-27T16:08:44.000Z
+lastmod: 2019-06-27T16:08:44.000Z
+draft: false
+series:
+  - Roadtrip Spanien und Portugal
+series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
+tags:
+  - vanlife
+  - roadtrip
+  - travel
+categories:
+  - roadtrip
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
-    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1'
-    hidden = false
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp
+  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
 Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.
 

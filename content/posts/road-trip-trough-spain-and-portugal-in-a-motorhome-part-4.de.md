@@ -1,28 +1,33 @@
-+++
-title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4'
-summary = 'Heute schreibe ich den letzten Teil von unserer Wohnmobilreise durch Spanien und Portugal. Der Abschluss in Frankreich war eher mit einem Urlaub zu vergleichen, da wir längere Zeit auf dem selben Campingplatz standen.'
-date = 2019-11-26T09:58:23-04:00
-lastmod = 2019-11-26T09:58:23-04:00
-draft = false
-series = ["Roadtrip Spanien und Portugal"]
-series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal'
-tags = ['vanlife', 'roadtrip', 'travel']
-categories = ['roadtrip']
+---
+title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4
+summary: Heute schreibe ich den letzten Teil von unserer Wohnmobilreise durch Spanien und Portugal. Der Abschluss in Frankreich war eher mit einem Urlaub zu vergleichen, da wir längere Zeit auf dem selben Campingplatz standen.
+date: 2019-11-26T13:58:23.000Z
+lastmod: 2019-11-26T13:58:23.000Z
+draft: false
+series:
+  - Roadtrip Spanien und Portugal
+series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
+tags:
+  - vanlife
+  - roadtrip
+  - travel
+categories:
+  - roadtrip
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4.webp'
-    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4'
-    hidden = false
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4.webp
+  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
 Heute schreibe ich den letzten Teil von unserer Wohnmobilreise durch Spanien und Portugal. Der Abschluss in Frankreich war eher mit einem Urlaub zu vergleichen, da wir längere Zeit auf dem selben Campingplatz standen.
 

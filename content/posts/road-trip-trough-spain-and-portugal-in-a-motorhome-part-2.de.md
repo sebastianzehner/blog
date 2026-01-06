@@ -1,28 +1,33 @@
-+++
-title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2'
-summary = 'Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen.'
-date = 2019-07-21T11:22:06-04:00 
-lastmod = 2019-07-21T11:22:06-04:00
-draft = false 
-series = ["Roadtrip Spanien und Portugal"]
-series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal'
-tags = ['vanlife', 'roadtrip', 'travel']
-categories = ['roadtrip']
+---
+title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2
+summary: Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen.
+date: 2019-07-21T15:22:06.000Z
+lastmod: 2019-07-21T15:22:06.000Z
+draft: false
+series:
+  - Roadtrip Spanien und Portugal
+series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
+tags:
+  - vanlife
+  - roadtrip
+  - travel
+categories:
+  - roadtrip
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp'
-    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2'
-    hidden = false
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp
+  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
 Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen. Den Kühlschrank haben wir voll gemacht, da wir für die nächsten Tage irgendwo frei stehen wollten und da haben wir gerne ausreichend Essen und Trinken dabei.
 

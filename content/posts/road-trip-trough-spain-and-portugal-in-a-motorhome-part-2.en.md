@@ -17,7 +17,7 @@ TocOpen = true
     ShowPageViews = true
 
 [cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
+    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp'
     alt = 'Road Trip trough Spain and Portugal in a Motorhome part 2'
     hidden = false
     relative = false

@@ -1,28 +1,33 @@
-+++
-title = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3'
-summary = 'Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in Spanien angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben wir vor bis spätestens am 15. September 2019 wieder in Frankreich zu sein.'
-date = 2019-09-04T10:36:22-04:00
-lastmod = 2019-09-04T10:36:22-04:00
-draft = false
-series = ["Roadtrip Spanien und Portugal"]
-series_title = 'Camping mit dem Wohnmobil durch Spanien und Portugal'
-tags = ['vanlife', 'roadtrip', 'travel']
-categories = ['roadtrip']
+---
+title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3
+summary: Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in Spanien angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben wir vor bis spätestens am 15. September 2019 wieder in Frankreich zu sein.
+date: 2019-09-04T14:36:22.000Z
+lastmod: 2019-09-04T14:36:22.000Z
+draft: false
+series:
+  - Roadtrip Spanien und Portugal
+series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
+tags:
+  - vanlife
+  - roadtrip
+  - travel
+categories:
+  - roadtrip
 
-ShowToc = true
-TocOpen = true
+ShowToc: true
+TocOpen: true
 
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+params:
+  author: Sebastian Zehner
+  ShowPageViews: true
 
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp'
-    alt = 'Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3'
-    hidden = false
-    relative = false
-    responsiveImages = false
-+++
+cover:
+  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp
+  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3
+  hidden: false
+  relative: false
+  responsiveImages: false
+---
 
 Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in Spanien :es: angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben wir vor bis spätestens 15. September 2019 wieder in Frankreich :fr: zu sein.
 
