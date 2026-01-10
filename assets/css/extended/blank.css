@@ -4,39 +4,61 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
+/* --- Layout & Responsiveness --- */
+
+@media screen and (min-width: 1280px) {
+  .main:has(.toc-container.wide) {
+    max-width: var(--main-width);
+    margin-left: calc(50% - (var(--main-width) / 2) + (var(--toc-width) / 2));
+    margin-right: auto;
+  }
+
+  .main {
+    max-width: var(--main-width);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  /* Disable side TOC before it overlaps the content */
+  .toc-container.wide {
+    display: none;
+  }
+
+  /* Show standard TOC within content */
+  .toc {
+    display: block;
+    margin: 20px 0;
+  }
+}
+
+/* --- Base Typography --- */
+
 body {
   font-family: "Recursive", monospace;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.65;
   font-variation-settings: "MONO" 0.75;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* Global Heading Defaults (applied everywhere) */
 h1,
 h2,
-h3 {
-  font-family: "Recursive", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "MONO" 0.5,
-    "CRSV" 0.5;
-  color: var(--primary);
-}
-
+h3,
 h4,
 h5,
 h6 {
   font-family: "Recursive", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+  color: var(--primary);
+  /* Default variation for headings */
   font-variation-settings:
     "MONO" 0.5,
     "CRSV" 0.5;
-  color: var(--tertiary);
 }
+
+/* --- Code & Inline Elements --- */
 
 code,
 pre,
@@ -44,17 +66,20 @@ samp,
 kbd,
 tt {
   font-family: "Recursive", monospace !important;
+  font-variation-settings: "MONO" 1; /* Pure mono for actual code */
   overflow: auto;
 }
 
-:root {
-  --nav-width: 1440px; /* standard 1380px */
-  --main-width: 750px;
-  /*--article-width: 650px;*/
-  /*--toc-width: 300px;*/
-  --article-width: 650px;
-  --toc-width: 330px; /* last 300px */
+/* --- Mobile Adjustments --- */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+    --article-width: 100%;
+  }
 }
+
+/* --- Table of Contents (TOC) Styling --- */
 
 .toc {
   margin: 0 2px 40px 2px;
@@ -66,10 +91,8 @@ tt {
 
 .toc-container.wide {
   position: absolute;
-  /*height: 100%; /* standard */
-  height: calc(
-    100% - var(--footer-height)
-  ); /* calculate height 100% minus footer height then the border came not into the footer */
+  /* Calculate height to prevent footer overlap */
+  height: calc(100% - var(--footer-height));
   border-right: 1px solid var(--border);
   left: calc((var(--toc-width) + var(--gap)) * -1);
   top: calc(var(--gap) * 2);
@@ -101,7 +124,6 @@ tt {
 }
 
 .active {
-  /*font-size: 110%;*/
   font-weight: 600;
   color: var(--blue);
 }

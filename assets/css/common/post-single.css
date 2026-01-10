@@ -4,11 +4,19 @@
 }
 
 .post-title {
-  margin-bottom: 4px;
-  font-size: 40px;
-  letter-spacing: -0.05em; /* pimped */
-  word-spacing: -0.1em; /* pimped */
-  line-height: 1.4; /* pimped */
+  font-size: var(--h1);
+  font-weight: 700;
+
+  font-variation-settings:
+    "MONO" 0.9,
+    "CASL" 0.3,
+    "CRSV" 0;
+
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  word-spacing: -0.05em;
+
+  margin-bottom: 8px;
 }
 
 .post-description {
@@ -20,6 +28,8 @@
 .breadcrumbs {
   color: var(--secondary);
   font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 32px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -37,48 +47,62 @@
 
 .post-content {
   color: var(--content);
+  max-width: var(--article-width);
+  margin-left: 0;
+  margin-right: auto;
 }
 
+.post-content h1,
+.post-content h2,
 .post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  margin: 24px 0 8px;
+.post-content h4 {
+  letter-spacing: -0.02em;
+  word-spacing: -0.05em;
+  line-height: 1.3;
 }
 
 .post-content h1 {
-  margin: 40px auto 32px;
-  font-size: 40px;
-  letter-spacing: -0.05em; /* pimped */
-  word-spacing: -0.1em; /* pimped */
-  line-height: 1.4; /* pimped */
+  margin: 40px auto 24px;
+  font-size: var(--h1);
+  font-weight: 700;
+  font-variation-settings:
+    "MONO" 0.9,
+    "CASL" 0.3,
+    "CRSV" 0;
 }
 
 .post-content h2 {
-  margin: 32px auto 10px;
-  font-size: 32px;
-  letter-spacing: -0.05em; /* pimped */
-  word-spacing: -0.1em; /* pimped */
-  line-height: 1.4; /* pimped */
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: var(--h2);
+  font-weight: 600;
+  font-variation-settings:
+    "MONO" 0.7,
+    "CRSV" 0;
 }
 
 .post-content h3 {
-  font-size: 24px;
-  letter-spacing: -0.05em; /* pimped */
-  word-spacing: -0.1em; /* pimped */
-  line-height: 1.4; /* pimped */
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-size: var(--h3);
+  font-weight: 600;
+  font-variation-settings:
+    "MONO" 0.6,
+    "CRSV" 0;
 }
 
 .post-content h4 {
-  font-size: 16px;
+  font-size: 1.1rem;
+  margin: 20px 0 8px;
+  font-weight: 500;
 }
 
 .post-content h5 {
-  font-size: 14px;
+  font-size: 1rem;
 }
-
 .post-content h6 {
-  font-size: 12px;
+  font-size: 0.9rem;
+  color: var(--tertiary);
 }
 
 .post-content a {
@@ -218,7 +242,7 @@
 .post-content code {
   margin: auto 4px;
   padding: 4px 6px;
-  font-size: 0.78em;
+  font-size: 0.85em;
   line-height: 1.5;
   background: var(--code-bg);
   border-radius: 2px;
@@ -226,7 +250,7 @@
 
 .post-content pre code {
   display: grid;
-  margin: auto 0;
+  margin: auto 0px;
   padding: 10px;
   /* color: rgb(213, 213, 214); */
   background: var(--code-block-bg) !important;
