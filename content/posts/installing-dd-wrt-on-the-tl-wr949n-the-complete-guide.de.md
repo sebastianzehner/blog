@@ -26,9 +26,9 @@ cover:
   responsiveImages: false
 ---
 
-Ich habe die günstigeren TP-Link TL-WR949N Router mit der Firmware von [dd-wrt.com](dd-wrt.com) geflasht. Hier wird nun beschrieben, welche Schritte ich durchführen musste, damit ich diese Firmware verwenden kann.
+Ich habe die günstigeren TP-Link TL-WR949N Router mit der Firmware von [dd-wrt.com](https://dd-wrt.com) geflasht. Hier wird nun beschrieben, welche Schritte ich durchführen musste, damit ich diese Firmware verwenden kann.
 
-Am liebsten hätte ich wie bei meinem [OpenWrt One](https://openwrt.org/toh/openwrt/one) als Hauptrouter [openwrt.org](openwrt.org) benutzt aber leider wird das für [diesen Router](https://openwrt.org/toh/tp-link/tl-wr940n) nicht empfohlen. Vor allem deswegen nicht: [OpenWrt on 4/32 devices](https://openwrt.org/supported_devices/openwrt_on_432_devices).
+Am liebsten hätte ich wie bei meinem [OpenWrt One](https://openwrt.org/toh/openwrt/one) als Hauptrouter [openwrt.org](https://openwrt.org) benutzt aber leider wird das für [diesen Router](https://openwrt.org/toh/tp-link/tl-wr940n) nicht empfohlen. Vor allem deswegen nicht: [OpenWrt on 4/32 devices](https://openwrt.org/supported_devices/openwrt_on_432_devices).
 
 - **Modell:** TL-WR949N(BR) Ver: 6.0
 

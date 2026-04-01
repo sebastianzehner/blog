@@ -34,9 +34,9 @@ translation:
   time: "21:07:33"
 ---
 
-He actualizado los routers TP-Link TL-WR949N, que son más económicos, con la firmware proporcionada por [dd-wrt.com](dd-wrt.com). A continuación, se describen los pasos que tuve que seguir para poder utilizar dicha firmware.
+He actualizado los routers TP-Link TL-WR949N, que son más económicos, con la firmware proporcionada por [dd-wrt.com](https://dd-wrt.com). A continuación, se describen los pasos que tuve que seguir para poder utilizar dicha firmware.
 
-Me hubiera gustado mucho usar [openwrt.org](openwrt.org) como router principal, al igual que hice con [OpenWrt One](https://openwrt.org/toh/openwrt/one), pero lamentablemente no se recomienda hacerlo para [este router](https://openwrt.org/toh/tp-link/tl-wr940n). Y la razón principal es [OpenWrt en dispositivos de tipo 4/32](https://openwrt.org/supported_devices/openwrt_on_432_devices).
+Me hubiera gustado mucho usar [openwrt.org](https://openwrt.org) como router principal, al igual que hice con [OpenWrt One](https://openwrt.org/toh/openwrt/one), pero lamentablemente no se recomienda hacerlo para [este router](https://openwrt.org/toh/tp-link/tl-wr940n). Y la razón principal es [OpenWrt en dispositivos de tipo 4/32](https://openwrt.org/supported_devices/openwrt_on_432_devices).
 
 - **Modelo:** TL-WR949N(BR) **Versión:** 6.0
 
