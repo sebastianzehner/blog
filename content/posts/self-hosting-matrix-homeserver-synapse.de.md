@@ -1,6 +1,6 @@
 ---
 title: "Eigener Matrix-Homeserver mit Synapse – Warum du deine Chats selbst hosten solltest"
-summary: In diesem Artikel richte ich meinen eigenen Matrix-Homeserver mit Synapse und Docker Compose ein. Neben einer kurzen Einführung in das dezentrale Matrix-Protokoll zeige ich die vollständige Installation mit PostgreSQL, Traefik, Cloudflare Tunnel und Federation.
+summary: In diesem Artikel richte ich meinen eigenen Matrix-Homeserver mit Synapse und Docker Compose ein. Neben einer kurzen Einführung in das dezentrale Matrix-Protokoll zeige ich die vollständige Installation mit PostgreSQL, Traefik und Cloudflare Tunnel.
 date: 2026-04-08T11:00:00-03:00
 lastmod: 2026-04-08T11:00:00-03:00
 draft: false
@@ -75,15 +75,15 @@ Für diese Anleitung benötigst du:
 Zuerst legen wir die nötigen Verzeichnisse an:
 
 ```bash
-mkdir ~/docker-compose/synapse
-mkdir ~/docker/synapse
-mkdir ~/docker/synapse/files
-mkdir ~/docker/synapse/db-data
+mkdir -p ~/docker-compose/synapse
+mkdir -p ~/docker/synapse
+mkdir -p ~/docker/synapse/files
+mkdir -p ~/docker/synapse/db-data
 
-touch ~/docker-compose/synapse/docker-compose.yml
+nvim ~/docker-compose/synapse/docker-compose.yml
 ```
 
-> Das entspricht meiner persönlichen Verzeichnisstruktur für alle Docker-Container: Volume-Daten liegen unter `~/docker`, die `docker-compose.yml` und `.env` unter `~/docker-compose`. So bleibt alles übersichtlich und ich sichere genau diese beiden Verzeichnisse regelmäßig mit restic. Vielleicht schreibe ich dazu noch einen eigenen Artikel.
+> Das entspricht meiner persönlichen Verzeichnisstruktur für alle Docker-Container: Volume-Daten liegen unter `~/docker`, die Compose-Daten unter `~/docker-compose`. So bleibt alles übersichtlich und ich sichere genau diese beiden Verzeichnisse regelmäßig mit restic. Vielleicht schreibe ich dazu noch einen eigenen Artikel.
 
 ### docker-compose.yml
 
@@ -156,12 +156,12 @@ networks:
 Ein paar Anmerkungen zur Konfiguration:
 
 - Synapse bekommt eine **feste IP** im `proxy`-Netzwerk, damit Traefik ihn zuverlässig anspricht.
-- Die `block-synapse-static`-Middleware verhindert, dass `/_matrix/static` öffentlich erreichbar ist – dort liegt nur die Standard-Willkommensseite, die niemand von außen braucht. Der Pfad wird intern auf umgeschrieben, was einen 404-Fehler erzeugt.
+- Die `block-synapse-static`-Middleware verhindert, dass `/_matrix/static` öffentlich erreichbar ist – dort liegt nur die Standard-Willkommensseite, die niemand von außen braucht. Der Pfad wird intern umgeschrieben, was einen 404-Fehler erzeugt.
 - PostgreSQL wird mit `lc-collate=C` und `lc-ctype=C` initialisiert – das ist eine offizielle Anforderung von Synapse für korrekte Datenbankoperationen.
 
 ### Konfigurationsdatei generieren
 
-Synapse bringt einen Generator für die initiale `homeserver.yaml` mit. Wir starten den Container einmalig im Generierungsmodus:
+Synapse bringt einen Generator für die initiale `homeserver.yaml` mit. Wir starten den Container einmalig im Generierungsmodus und geben die eigene Domain an:
 
 ```bash
 docker run -it --rm \
@@ -262,7 +262,7 @@ Homeserver version: Synapse 1.150.0
 
 Den ersten Nutzer – gleichzeitig Administrator – erstellen wir direkt im laufenden Container:
 
-```bash
+```
 docker exec -it synapse register_new_matrix_user http://localhost:8008 -c /data/homeserver.yaml
 ```
 
@@ -274,11 +274,11 @@ Der Befehl fragt interaktiv nach Benutzername, Passwort und ob der Account Admin
 
 Der bekannteste Matrix-Client ist **Element**. Er ist als Web-App unter [app.element.io](https://app.element.io) verfügbar sowie als Desktop-App für macOS, Windows und Linux.
 
-Beim ersten Login auf dem eigenen Server muss die Server-URL manuell auf `https://matrix.techlab.icu` gesetzt werden. Auf macOS kann es vorkommen, dass der Client erst nach einer Sicherheitsabfrage des Betriebssystems vollständig funktioniert – macOS fragt, ob die App auf das lokale Netzwerk zugreifen darf. Diese Freigabe erteilen und den Client neu starten.
+Beim ersten Login auf dem eigenen Server muss die Server-URL manuell auf https://matrix.techlab.icu gesetzt werden. Auf macOS kann es vorkommen, dass der Client erst nach einer Sicherheitsabfrage des Betriebssystems vollständig funktioniert – macOS fragt, ob die App auf das lokale Netzwerk zugreifen darf. Diese Freigabe erteilen und den Client neu starten.
 
 ### Geräte verifizieren
 
-Matrix unterstützt Cross-Signing zur Geräteverifizierung. Meldet man sich auf einem zweiten Gerät an, erscheint auf beiden Geräten ein Fenster mit identischen Symbolen und Begriffen. Stimmen die Symbole überein und bestätigt man das auf beiden Seiten, sind die Geräte sicher verifiziert. Ab diesem Moment sind Nachrichten zwischen den verifizierten Geräten Ende-zu-Ende-verschlüsselt.
+Matrix unterstützt Cross-Signing zur Geräteverifizierung. Möchte man sicher mit jemandem kommunizieren, kann man dessen Gerät verifizieren: Auf beiden Seiten erscheint ein Fenster mit identischen Symbolen und Begriffen, die verglichen werden müssen. Stimmen die Symbole überein und bestätigt man das auf beiden Seiten, gilt das Gerät des Gegenübers als vertrauenswürdig und die Kommunikation ist Ende-zu-Ende-verschlüsselt.
 
 ### Schlüsselsicherung einrichten
 
@@ -288,19 +288,19 @@ Ohne diesen Schlüssel sind verschlüsselte Nachrichten nach einem Geräteverlus
 
 ### iamb – Matrix im Terminal
 
-Für alle, die ihr Terminal nicht verlassen wollen: [iamb](https://iamb.chat) ist ein vollwertiger Matrix-Client im Terminal-Stil, inspiriert von Vim-Keybindings. Wer mit `nvim` und `tmux` arbeitet, wird sich sofort heimisch fühlen.
+Für alle, die ihr Terminal nicht verlassen wollen: [iamb](https://iamb.chat) ist ein vollwertiger Matrix-Client im Terminal-Stil, inspiriert von Vim-Keybindings. Wer mit Neovim und Tmux arbeitet, wird sich sofort heimisch fühlen.
 
 ## Backup-Strategie
 
 Synapse braucht zwei Dinge gesichert:
 
-**1. Die PostgreSQL-Datenbank** (`~/docker/synapse/db-data/`): Hier liegen alle Matrix-Events – Nachrichten, Raumhistorie, Metadaten.
+**1. Die PostgreSQL-Datenbank** unter `~/docker/synapse/db-data/`: Hier liegen alle Matrix-Events – Nachrichten, Raumhistorie, Metadaten.
 
-**2. Die Dateien** (`~/docker/synapse/files/`): Konfiguration, hochgeladene Medien (media_store) und – besonders wichtig – der **Signing Key**.
+**2. Die Dateien** unter `~/docker/synapse/files/`: Konfiguration, hochgeladene Medien und – besonders wichtig – der **Signing Key**.
 
 Der Signing Key ist der kryptografische Identitätsnachweis des Servers im Matrix-Netzwerk. Geht er verloren, vertrauen andere Server dem eigenen nicht mehr, die Federation bricht zusammen und man müsste den Server neu aufsetzen. Deshalb habe ich ihn zusätzlich zum restic-Backup noch in meinem Passwortmanager hinterlegt.
 
-Ich sichere das gesamte `~/docker/`-Verzeichnis automatisiert mit restic – damit sind beide kritischen Pfade immer dabei.
+> Ich sichere das gesamte `~/docker/`-Verzeichnis automatisiert mit restic – damit sind beide kritischen Pfade immer dabei.
 
 ## Ausblick: Bridges und Cactus Comments
 
@@ -308,7 +308,7 @@ Das ist erst der Anfang. Matrix ist durch sein offenes Protokoll eine hervorrage
 
 **Bridges** erlauben es, andere Messenger-Dienste anzubinden. Wer seinen WhatsApp-, Telegram- oder Discord-Verkehr über den eigenen Matrix-Server laufen lassen möchte, kann das mit entsprechenden Bridge-Containern realisieren. Alles landet dann in einem einzigen Matrix-Client.
 
-Ich nutze aktuell keine Bridges aber ich überlege mir da etwas mit E-Mail einzurichten, weil wir bei E-Mail leider nicht mehr frei sind und keinen eigenen E-Mail Server ohne weiteres im Homelab selbst hosten können.
+Ich nutze aktuell keine Bridges, überlege aber, eine E-Mail-Bridge einzurichten. Einen eigenen E-Mail-Server im Homelab zu betreiben ist leider nicht ohne Weiteres möglich – ohne feste IP und ohne das Vertrauen der großen Provider landet man schnell im Spam-Ordner oder wird gleich ganz abgewiesen. Umso mehr freue ich mich, mit Matrix zumindest einen Teil dieser Freiheit zurückzugewinnen.
 
 **Cactus Comments** nutzt Matrix als Backend für Blogkommentare. Für jeden Blogartikel existiert ein eigener Matrix-Chatraum, in dem Leser Kommentare hinterlassen können – ohne Account bei einem externen Kommentarsystem. Dazu mehr in einem separaten Artikel. Cactus Comments läuft bereits hier auf meinem Blog über meinen eigenen Synapse Server.
 
