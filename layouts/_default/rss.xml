@@ -61,7 +61,9 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       {{- with .Params.cover.image }}
-      <media:content url="{{ if strings.HasPrefix . "http" }}{{ . }}{{ else }}{{ site.BaseURL | strings.TrimSuffix "/" }}{{ . }}{{ end }}" medium="image" />
+      {{- $imageURL := (cond (strings.HasPrefix . "http") . (printf "%s%s" (strings.TrimSuffix site.BaseURL "/") .)) }}
+      <enclosure url="{{ $imageURL }}" type="image/webp" length="0" />
+      <media:content url="{{ $imageURL }}" medium="image" />
       {{- end }}
       <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
       {{- if and site.Params.ShowFullTextinRSS .Content }}
