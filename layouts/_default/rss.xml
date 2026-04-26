@@ -61,7 +61,7 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       {{- with .Params.cover.image }}
-      {{- $imageURL := (cond (strings.HasPrefix . "http") . (printf "%s%s" (strings.TrimSuffix site.BaseURL "/") .)) }}
+      {{- $imageURL := . | absURL }}
       <enclosure url="{{ $imageURL }}" type="image/webp" length="0" />
       <media:content url="{{ $imageURL }}" medium="image" />
       {{- end }}
