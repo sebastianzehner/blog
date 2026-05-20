@@ -1,12 +1,11 @@
 +++
 title = 'Rainy 75 Pro: This Is What My Perfect Keyboard Looks Like'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''In April 2025, I finally found it: my perfect keyboard. The Rainy 75 Pro from Wobkey isn't just high quality – it completely won me over from the very first keystroke.'''
-date = 2025-08-05T09:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2025-08-05T09:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Linux', 'Keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
-categories = ['TechLab']
+date = 2025-08-05T09:35:10-03:00
+lastmod = 2026-05-20T10:00:19-03:00
+draft = false
+tags = ['linux', 'keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
+categories = ['techlab']
 
 ShowToc = true
 TocOpen = true
@@ -192,24 +191,24 @@ In my setup using **st** – the minimalist terminal from [suckless](https://st.
 
 How I optimized this — including **clipboard history** and custom shortcuts — is something I’ll cover in an upcoming blog post.
 
-## Customize Keyboard Firmware with Via
+## Customizing keyboard firmware with Via
 
-**Via** is a [web app](https://www.usevia.app/) that allows you to configure compatible keyboards — like my **Rainy 75 Pro** — with ease.
+**Via** is a [web app](https://www.usevia.app/) that allows you to comfortably configure compatible keyboards like my **Rainy 75 Pro**.
 
-You can change key mappings, macros, and layers directly in the firmware — no flashing required, just a USB connection.
+It lets you change key mappings, macros, and layers directly in the firmware without flashing, directly over USB.
 
-**Important:** Via only works if the keyboard is **connected directly via USB** and **not through a KVM switch**. Also, **Chrome-based browsers** are best supported; **Firefox** does not currently work.
+**Important:** Via only works when the keyboard is **connected directly via USB**, **not through a KVM switch**. It also primarily supports **Chrome-based browsers**. **Firefox** does not work at the moment.
 
-**Example:** Mapping `Ctrl+S` to `Caps Lock`
+### My current setup
 
-I replaced the **Caps Lock key** with a macro that sends `Ctrl+S`:
+I used to have a macro on **Caps Lock**, but I have since simplified and made my setup more consistent:
 
-- Macro: `{KC_LCTL, KC_S}`
-- Use case: In **nvim** and **tmux**, I use `Ctrl+S` (instead of `Ctrl+B`) as my leader key.
+- In **tmux** I use the prefix: `Ctrl + Space`
+- In **Neovim** the Leader Key is also `Space`
 
-This allows me to activate the leader key with a single tap on **Caps Lock** and that's super convenient for my daily workflow.
+This feels much more natural and creates a consistent workflow across both tools.
 
-I also used Via to remap the **right Ctrl key** to function as the **right Alt key**.
+Additionally, in Via I remapped the **right Ctrl key** to the **right Alt key** to improve access to special characters and layout adjustments.
 
 ## Conclusion
 

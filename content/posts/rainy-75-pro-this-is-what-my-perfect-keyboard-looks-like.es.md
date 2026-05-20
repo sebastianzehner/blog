@@ -1,12 +1,11 @@
 +++
 title = 'Rainy 75 Pro: Así es mi teclado perfecto'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
-summary = 'Im April 2025 habe ich sie gefunden: meine perfekte Tastatur. Die **Rainy 75 Pro** von Wobkey ist nicht nur hochwertig - sie hat mich vom ersten Tastenanschlag an begeistert.'
-date = 2025-08-05T09:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2025-08-05T09:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Linux', 'Keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
-categories = ['TechLab']
+summary = 'En abril de 2025 la encontré: mi teclado perfecto. El Rainy 75 Pro de Wobkey no solo es de alta calidad, sino que me conquistó desde la primera pulsación.'
+date = 2025-08-05T09:35:10-03:00
+lastmod = 2026-05-20T10:07:13-03:00
+draft = false
+tags = ['linux', 'keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
+categories = ['techlab']
 
 ShowToc = true
 TocOpen = true
@@ -192,24 +191,24 @@ En mi configuración con **st**, el terminal minimalista de [suckless](https://s
 
 Cómo lo he optimizado —incluyendo **historial del portapapeles** y atajos personalizados— lo contaré con gusto en uno de los próximos artículos del blog.
 
-## Configurar el firmware del teclado con Via
+## Personalización del firmware del teclado con Via
 
-**Via** es una [aplicación web](https://www.usevia.app/) que permite configurar cómodamente teclados compatibles, como mi **Rainy 75 Pro**.
+**Via** es una [web app](https://www.usevia.app/) que permite configurar cómodamente teclados compatibles como mi **Rainy 75 Pro**.
 
-Con ella se pueden cambiar directamente en el firmware las asignaciones de teclas, macros y capas — sin necesidad de flashear, simplemente conectando el teclado por USB.
+Permite cambiar la asignación de teclas, macros y capas directamente en el firmware sin flashear, directamente por USB.
 
-**Importante:** Via solo funciona si el teclado está **conectado directamente por USB** — es decir, **no a través de un conmutador KVM**. Además, principalmente soporta **navegadores basados en Chrome**; actualmente **Firefox** no funciona.
+**Importante:** Via solo funciona cuando el teclado está **conectado directamente por USB**, **no a través de un KVM switch**. Además, principalmente es compatible con **navegadores basados en Chrome**. **Firefox** no funciona actualmente.
 
-**Ejemplo:** Macro para `Ctrl+S` en la tecla `Caps Lock`
+### Mi configuración actual
 
-Reemplacé la tecla **Caps Lock** por una macro que envía `Ctrl+S`:
+Antes tenía una macro en **Caps Lock**, pero desde entonces he simplificado y hecho mi configuración más consistente:
 
-- Macro: `{KC_LCTL, KC_S}`
-- Uso: En **nvim** y **tmux** utilizo `Ctrl+S` (en lugar de `Ctrl+B`) como tecla líder (leader key).
+- En **tmux** uso como prefijo: `Ctrl + Space`
+- En **Neovim** el Leader Key también es `Space`
 
-Así puedo activar la tecla líder cómodamente con una sola pulsación de **Caps Lock** — muy práctico en mi flujo de trabajo diario.
+Esto se siente mucho más natural y crea un flujo de trabajo coherente entre ambas herramientas.
 
-Además, configuré en **Via** la **tecla Ctrl derecha** para que funcione como **Alt derecha**.
+Además, en **Via** he reasignado la **tecla derecha Ctrl** a **Alt derecha** para mejorar el acceso a caracteres especiales y ajustes de distribución del teclado.
 
 ## Conclusión
 

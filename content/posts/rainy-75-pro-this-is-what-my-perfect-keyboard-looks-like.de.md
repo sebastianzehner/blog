@@ -1,12 +1,11 @@
 +++
 title = 'Rainy 75 Pro: So sieht meine perfekte Tastatur aus'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Im April 2025 habe ich sie gefunden: meine perfekte Tastatur. Die **Rainy 75 Pro** von Wobkey ist nicht nur hochwertig - sie hat mich vom ersten Tastenanschlag an begeistert.'
-date = 2025-08-05T09:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2025-08-05T09:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
-tags = ['Linux', 'Keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
-categories = ['TechLab']
+date = 2025-08-05T09:35:10-03:00
+lastmod = 2026-05-20T09:57:06-03:00 
+draft = false
+tags = ['linux', 'keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
+categories = ['techlab']
 
 ShowToc = true
 TocOpen = true
@@ -196,20 +195,20 @@ Wie ich das optimiert habe - inklusive **Clipboard-History** und eigenen Tastenk
 
 **Via** ist eine [Web-App](https://www.usevia.app/), mit der sich kompatible Tastaturen wie meine **Rainy 75 Pro** komfortabel konfigurieren lassen.
 
-Damit lassen sich Tastenbelegungen, Makros und Layer direkt in der Firmware ändern - ohne Flashen, direkt über USB.
+Damit lassen sich Tastenbelegungen, Makros und Layer direkt in der Firmware ändern ohne Flashen, direkt über USB.
 
-**Wichtig:** Via funktioniert nur, wenn die Tastatur **direkt per USB angeschlossen** ist – also **nicht über einen KVM-Switch**. Außerdem werden vor allem **Chrome-basierte Browser** unterstützt; **Firefox** funktioniert derzeit nicht.
+**Wichtig:** Via funktioniert nur, wenn die Tastatur **direkt per USB angeschlossen** ist also **nicht über einen KVM-Switch**. Außerdem werden vor allem **Chrome-basierte Browser** unterstützt. **Firefox** funktioniert derzeit nicht.
 
-**Beispiel:** Makro für `Ctrl+S` auf `Caps Lock`
+### Mein aktuelles Setup
 
-Ich habe die **Caps Lock**-Taste durch ein Makro ersetzt, das `Ctrl+S` sendet:
+Früher hatte ich ein Makro auf Caps Lock, inzwischen habe ich das Setup jedoch vereinfacht und konsistenter gestaltet:
 
-- Makro: `{KC_LCTL, KC_S}`
-- Verwendung: In **nvim** und **tmux** nutze ich `Ctrl+S` (statt `Ctrl+B`) als Leader Key.
+- In **tmux** nutze ich als Prefix: `Ctrl + Space`
+- In **Neovim** ist der Leader Key ebenfalls `Space`
 
-So kann ich den Leader bequem mit einem einzigen Tastendruck auf **Caps Lock** aktivieren - **sehr praktisch im täglichen Workflow**.
+Das fühlt sich deutlich natürlicher an und sorgt für ein einheitliches Bedienkonzept über beide Tools hinweg.
 
-Ich habe zudem in **Via** die rechte **Ctrl**-Taste als rechte **Alt**-Taste konfiguriert.
+Zusätzlich habe ich in **Via** die rechte **Ctrl**-Taste zur rechten **Alt**-Taste umbelegt, um Sonderzeichen und Layout-Anpassungen besser erreichen zu können.
 
 ## Fazit
 
