@@ -1,0 +1,180 @@
+/* Catppuccin scheme for Blowfish */
+/* Light mode = Catppuccin Latte */
+:root {
+  /* Neutral (Latte: Base -> Text) */
+  --color-neutral: 239, 241, 245; /* Base */
+  --color-neutral-50: 230, 233, 239; /* Mantle */
+  --color-neutral-100: 220, 224, 232; /* Crust */
+  --color-neutral-200: 204, 208, 218; /* Surface0 */
+  --color-neutral-300: 188, 192, 204; /* Surface1 */
+  --color-neutral-400: 172, 176, 190; /* Surface2 */
+  --color-neutral-500: 156, 160, 176; /* Overlay0 */
+  --color-neutral-600: 140, 143, 161; /* Overlay1 */
+  --color-neutral-700: 124, 127, 147; /* Overlay2 */
+  --color-neutral-800: 108, 111, 133; /* Subtext0 */
+  --color-neutral-900: 92, 95, 119; /* Subtext1 */
+  --color-neutral-950: 76, 79, 105; /* Text */
+
+  /* Primary = Blue (Latte) */
+  --color-primary-50: 177, 189, 245;
+  --color-primary-100: 160, 176, 245;
+  --color-primary-200: 141, 161, 245;
+  --color-primary-300: 119, 145, 245;
+  --color-primary-400: 88, 126, 245;
+  --color-primary-500: 30, 102, 245;
+  --color-primary-600: 28, 97, 234;
+  --color-primary-700: 25, 89, 216;
+  --color-primary-800: 22, 80, 195;
+  --color-primary-900: 18, 69, 172;
+  --color-primary-950: 13, 56, 143;
+
+  /* Secondary = Mauve (Latte) */
+  --color-secondary-50: 196, 181, 242;
+  --color-secondary-100: 186, 165, 241;
+  --color-secondary-200: 175, 147, 241;
+  --color-secondary-300: 164, 126, 240;
+  --color-secondary-400: 151, 99, 240;
+  --color-secondary-500: 136, 57, 239;
+  --color-secondary-600: 130, 54, 228;
+  --color-secondary-700: 119, 49, 210;
+  --color-secondary-800: 107, 43, 190;
+  --color-secondary-900: 94, 37, 167;
+  --color-secondary-950: 77, 29, 139;
+
+  /* Catppuccin color values sourced from:
+  * https://github.com/catppuccin/tailwindcss
+  * (mocha.css)
+  */
+
+  /* Neutral (Latte: Text -> Crust) */
+  --catppuccin-color-text: #4c4f69;
+  --catppuccin-color-subtext1: #5c5f77;
+  --catppuccin-color-subtext0: #6c6f85;
+  --catppuccin-color-overlay2: #7c7f93;
+  --catppuccin-color-overlay1: #8c8fa1;
+  --catppuccin-color-overlay0: #9ca0b0;
+  --catppuccin-color-surface2: #acb0be;
+  --catppuccin-color-surface1: #bcc0cc;
+  --catppuccin-color-surface0: #ccd0da;
+  --catppuccin-color-base: #eff1f5;
+  --catppuccin-color-mantle: #e6e9ef;
+  --catppuccin-color-crust: #dce0e8;
+
+  /* Primary = Blue (Latte) */
+  --catppuccin-color-blue: #1e66f5;
+  --catppuccin-color-blue-500: #1e66f5;
+  --catppuccin-color-blue-400: #587ef5;
+  --catppuccin-color-blue-300: #7791f5;
+  --catppuccin-color-blue-200: #8da1f5;
+  --catppuccin-color-blue-100: #a0b0f5;
+  --catppuccin-color-blue-50: #b1bdf5;
+  --catppuccin-color-blue-600: #1c61ea;
+  --catppuccin-color-blue-700: #1959d8;
+  --catppuccin-color-blue-800: #1650c3;
+  --catppuccin-color-blue-900: #1245ac;
+  --catppuccin-color-blue-950: #0d388f;
+
+  /* Secondary = Mauve (Latte) */
+  --catppuccin-color-mauve: #8839ef;
+  --catppuccin-color-mauve-500: #8839ef;
+  --catppuccin-color-mauve-400: #9763f0;
+  --catppuccin-color-mauve-300: #a47ef0;
+  --catppuccin-color-mauve-200: #af93f1;
+  --catppuccin-color-mauve-100: #baa5f1;
+  --catppuccin-color-mauve-50: #c4b5f2;
+  --catppuccin-color-mauve-600: #8236e4;
+  --catppuccin-color-mauve-700: #7731d2;
+  --catppuccin-color-mauve-800: #6b2bbe;
+  --catppuccin-color-mauve-900: #5e25a7;
+  --catppuccin-color-mauve-950: #4d1d8b;
+}
+
+/* Dark mode = Catppuccin Mocha */
+:root.dark {
+  /* Neutral (Mocha: Text -> Crust) */
+  --color-neutral: 205, 214, 244; /* Text */
+  --color-neutral-50: 186, 194, 222; /* Subtext1 */
+  --color-neutral-100: 166, 173, 200; /* Subtext0 */
+  --color-neutral-200: 147, 153, 178; /* Overlay2 */
+  --color-neutral-300: 127, 132, 156; /* Overlay1 */
+  --color-neutral-400: 108, 112, 134; /* Overlay0 */
+  --color-neutral-500: 88, 91, 112; /* Surface2 */
+  --color-neutral-600: 69, 71, 90; /* Surface1 */
+  --color-neutral-700: 49, 50, 68; /* Surface0 */
+  --color-neutral-800: 30, 30, 46; /* Base */
+  --color-neutral-900: 24, 24, 37; /* Mantle */
+  --color-neutral-950: 17, 17, 27; /* Crust */
+
+  /* Primary = Blue (Mocha) */
+  --color-primary-50: 207, 222, 253;
+  --color-primary-100: 196, 214, 252;
+  --color-primary-200: 183, 206, 252;
+  --color-primary-300: 170, 198, 251;
+  --color-primary-400: 154, 189, 251;
+  --color-primary-500: 137, 180, 250;
+  --color-primary-600: 131, 172, 239;
+  --color-primary-700: 121, 159, 221;
+  --color-primary-800: 110, 144, 201;
+  --color-primary-900: 97, 127, 178;
+  --color-primary-950: 82, 107, 150;
+
+  /* Secondary = Mauve (Mocha) */
+  --color-secondary-50: 231, 217, 251;
+  --color-secondary-100: 226, 208, 250;
+  --color-secondary-200: 220, 198, 249;
+  --color-secondary-300: 215, 188, 249;
+  --color-secondary-400: 209, 178, 248;
+  --color-secondary-500: 203, 166, 247;
+  --color-secondary-600: 194, 159, 236;
+  --color-secondary-700: 179, 146, 218;
+  --color-secondary-800: 162, 133, 199;
+  --color-secondary-900: 143, 117, 176;
+  --color-secondary-950: 120, 99, 148;
+
+  /* Catppuccin color values sourced from:
+  * https://github.com/catppuccin/tailwindcss
+  * (mocha.css)
+  */
+
+  /* Neutral (Mocha: Text -> Crust) */
+  --catppuccin-color-text: #cdd6f4;
+  --catppuccin-color-subtext1: #bac2de;
+  --catppuccin-color-subtext0: #a6adc8;
+  --catppuccin-color-overlay2: #9399b2;
+  --catppuccin-color-overlay1: #7f849c;
+  --catppuccin-color-overlay0: #6c7086;
+  --catppuccin-color-surface2: #585b70;
+  --catppuccin-color-surface1: #45475a;
+  --catppuccin-color-surface0: #313244;
+  --catppuccin-color-base: #1e1e2e;
+  --catppuccin-color-mantle: #181825;
+  --catppuccin-color-crust: #11111b;
+
+  /* Primary = Blue (Mocha) */
+  --catppuccin-color-blue: #89b4fa;
+  --catppuccin-color-blue-500: #89b4fa;
+  --catppuccin-color-blue-400: #9abdfb;
+  --catppuccin-color-blue-300: #aac6fb;
+  --catppuccin-color-blue-200: #b7cefc;
+  --catppuccin-color-blue-100: #c4d6fc;
+  --catppuccin-color-blue-50: #cfdefd;
+  --catppuccin-color-blue-600: #83acef;
+  --catppuccin-color-blue-700: #799fdd;
+  --catppuccin-color-blue-800: #6e90c9;
+  --catppuccin-color-blue-900: #617fb2;
+  --catppuccin-color-blue-950: #526b96;
+
+  /* Secondary = Mauve (Mocha) */
+  --catppuccin-color-mauve: #cba6f7;
+  --catppuccin-color-mauve-500: #cba6f7;
+  --catppuccin-color-mauve-400: #d1b2f8;
+  --catppuccin-color-mauve-300: #d7bcf9;
+  --catppuccin-color-mauve-200: #dcc6f9;
+  --catppuccin-color-mauve-100: #e2d0fa;
+  --catppuccin-color-mauve-50: #e7d9fb;
+  --catppuccin-color-mauve-600: #c29fec;
+  --catppuccin-color-mauve-700: #b392da;
+  --catppuccin-color-mauve-800: #a285c7;
+  --catppuccin-color-mauve-900: #8f75b0;
+  --catppuccin-color-mauve-950: #786394;
+}
