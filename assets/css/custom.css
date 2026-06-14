@@ -37,6 +37,10 @@ html {
   margin-right: 0.3rem;
 }
 
+.prose.dark\:prose-invert.w-full {
+  text-align: left;
+}
+
 html:not(.dark) {
   /* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
