@@ -1,0 +1,91 @@
+# -- Menú Principal --
+# El menú principal se muestra en el encabezado en la parte superior de la página.
+
+[[main]]
+  name = "Inicio"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Visión general"
+  weight = 20
+
+[[main]]
+  name = "Info"
+  parent = "Visión general"
+  pageRef = "overview"
+  weight = 16
+
+[[main]]
+  name = "Categorías"
+  parent = "Visión general"
+  pageRef = "categories"
+  weight = 17
+
+[[main]]
+  name = "Tags"
+  parent = "Visión general"
+  pageRef = "tags"
+  weight = 18
+
+[[main]]
+  name = "Series"
+  parent = "Visión general"
+  pageRef = "series"
+  weight = 19
+
+[[main]]
+  name = "Posts"
+  parent = "Visión general"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Sobre Mí"
+  pageRef = "about"
+  weight = 30
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://mastodon.social/@sebastianzehner"
+
+#[[main]]
+#  identifier = "github"
+#  pre = "github"
+#  url = "https://github.com/sebastianzehner/blog"
+#  weight = 400
+
+
+# -- Menú de Pie de Página --
+
+[[footer]]
+  name = "Visión general"
+  pageRef = "overview"
+  weight = 10
+
+[[footer]]
+  name = "Categorías"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+[[footer]]
+  name = "Series"
+  pageRef = "series"
+  weight = 40
+
+[[footer]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 50
+
+[[footer]]
+  name = "Autores"
+  pageRef = "authors"
+  weight = 60

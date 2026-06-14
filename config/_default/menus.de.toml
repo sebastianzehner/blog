@@ -1,0 +1,91 @@
+# -- Hauptmenü --
+# Das Hauptmenü wird in der Kopfzeile oben auf der Seite angezeigt.
+
+[[main]]
+  name = "Start"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Entdecken"
+  weight = 20
+
+[[main]]
+  name = "Info"
+  parent = "Entdecken"
+  pageRef = "overview"
+  weight = 16
+
+[[main]]
+  name = "Kategorien"
+  parent = "Entdecken"
+  pageRef = "categories"
+  weight = 17
+
+[[main]]
+  name = "Tags"
+  parent = "Entdecken"
+  pageRef = "tags"
+  weight = 18
+
+[[main]]
+  name = "Serien"
+  parent = "Entdecken"
+  pageRef = "series"
+  weight = 19
+
+[[main]]
+  name = "Beiträge"
+  parent = "Entdecken"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "Profil"
+  pageRef = "about"
+  weight = 30
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://mastodon.social/@sebastianzehner"
+
+#[[main]]
+#  identifier = "github"
+#  pre = "github"
+#  url = "https://github.com/sebastianzehner/blog"
+#  weight = 400
+
+
+# -- Fußzeilenmenü --
+
+[[footer]]
+  name = "Entdecken"
+  pageRef = "overview"
+  weight = 10
+
+[[footer]]
+  name = "Kategorien"
+  pageRef = "categories"
+  weight = 20
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+[[footer]]
+  name = "Serien"
+  pageRef = "series"
+  weight = 40
+
+[[footer]]
+  name = "Beiträge"
+  pageRef = "posts"
+  weight = 50
+
+[[footer]]
+  name = "Autoren"
+  pageRef = "authors"
+  weight = 60
