@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("/fonts/CascadiaCode.woff2") format("woff2");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-sans: "Cascadia Code", monospace;
+  --font-mono: "Cascadia Code", monospace;
+}
+
+html {
+  font-size: 18px;
+}
+
+.custom-footer-icon {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: currentColor;
+  mask: url("/icons/copyright.svg") no-repeat center / contain;
+  -webkit-mask: url("/icons/copyright.svg") no-repeat center / contain;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-right: 0.3rem;
+}
