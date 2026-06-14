@@ -1,0 +1,31 @@
+disabled = false
+locale = "es"
+label = "Español"
+weight = 3
+title = "Sebastian Zehner"
+
+[params]
+  displayName = "Español"
+  isoCode = "es"
+  rtl = false
+  dateFormat = "2 de January de 2006"
+  logo = "img/logo-techlab-dark-100px.png"
+  secondaryLogo = "img/logo-techlab-light-100px.png"
+  description = "Este es mi blog personal. Aquí escribo sobre los proyectos en los que trabajo, lo que aprendo en el camino y comparto algunas experiencias o aventuras de mi vida."
+  copyright = "<span class='custom-footer-icon'></span>2026 Sebastian Zehner"
+
+[params.author]
+  name = "Sebastian Zehner"
+  email = "meinlifestylebusiness@gmail.com"
+  image = "img/galleries/about/sebastian.webp"
+  imageQuality = 96
+  headline = "Tecno-minimalista en 🇵🇾"
+  bio = "Originalmente de 🇩🇪, ahora en 🇵🇾. Vive en la terminal, self-hosting con Docker y crea flujos de trabajo de IA en su propio tech lab."
+  links = [
+    { mastodon = "https://mastodon.social/@sebastianzehner" },
+    { matrix = "https://matrix.to/#/@sebastianzehner:matrix.org" },
+    { instagram = "https://instagram.com/sebastianzehner" },
+    { youtube = "https://youtube.com/sebastianzehner" },
+#     { ko-fi = "https://ko-fi.com/username" },
+#     { codeberg = "https://codeberg.org/username"},
+  ]
