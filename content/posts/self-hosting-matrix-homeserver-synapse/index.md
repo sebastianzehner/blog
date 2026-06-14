@@ -20,13 +20,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/matrix-homeserver-cover.webp
-  alt: Matrix Homeserver
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -36,7 +29,7 @@ translation:
   time: "12:52:14"
 ---
 
-*Decentralization, data privacy, and full control over your communications—all of this is easier to achieve with Synapse and Docker than you might think.*
+_Decentralization, data privacy, and full control over your communications—all of this is easier to achieve with Synapse and Docker than you might think._
 
 ## What is Matrix – and why is it different?
 
@@ -169,7 +162,7 @@ A few notes regarding the configuration:
 
 ### Generating the configuration file
 
-Synapse provides a generator for the initial ``homeserver.yaml``. We start the container once in generating mode and specify our own domain name.
+Synapse provides a generator for the initial `homeserver.yaml`. We start the container once in generating mode and specify our own domain name.
 
 ```bash
 docker run -it --rm \
@@ -193,7 +186,7 @@ sudo chown user: *
 
 ### Modify the homeserver.yaml file
 
-Now we open ``homeserver.yaml`` and configure the database connection. We replace the default SQLite configuration with the PostgreSQL configuration block:
+Now we open `homeserver.yaml` and configure the database connection. We replace the default SQLite configuration with the PostgreSQL configuration block:
 
 ```yaml
 database:

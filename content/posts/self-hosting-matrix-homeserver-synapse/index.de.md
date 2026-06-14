@@ -19,13 +19,6 @@ TocOpen: true
 params:
   author: Sebastian Zehner
   ShowPageViews: true
-
-cover:
-  image: /img/matrix-homeserver-cover.webp
-  alt: Matrix Homeserver
-  hidden: false
-  relative: false
-  responsiveImages: false
 ---
 
 _Dezentralisierung, Datenschutz und volle Kontrolle über deine Kommunikation – mit Synapse und Docker ist das einfacher als gedacht._

@@ -20,13 +20,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/matrix-homeserver-cover.webp
-  alt: Matrix Homeserver
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -193,7 +186,7 @@ sudo chown user: *
 
 ### Modificar el archivo homeserver.yaml
 
-Ahora abrimos el código ``homeserver.yaml`` y configuramos la conexión a la base de datos. Reemplazamos la configuración estándar de SQLite por el bloque correspondiente a PostgreSQL:
+Ahora abrimos el código `homeserver.yaml` y configuramos la conexión a la base de datos. Reemplazamos la configuración estándar de SQLite por el bloque correspondiente a PostgreSQL:
 
 ```yaml
 database:
@@ -242,7 +235,7 @@ Importante nota: El tipo de servicio `https` garantiza que la conexión desde Cl
 
 Matrix funciona gracias a que varios servidores pueden comunicarse entre sí sin problemas. Para que mi servidor pueda interactuar con `matrix.org` y otros servidores, es necesario que la función de federación esté activada. Por defecto, Synapse utiliza el puerto 8448 para esta comunicación; sin embargo, yo lo redirijo al puerto 443, ya que este es el que se utiliza a través del túnel de Cloudflare.
 
-Dentro de ``homeserver.yaml``:
+Dentro de `homeserver.yaml`:
 
 ```yaml
 # allow room access over federation
