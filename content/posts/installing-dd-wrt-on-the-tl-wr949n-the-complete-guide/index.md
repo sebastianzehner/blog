@@ -18,13 +18,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/router-firmware-cover.webp
-  alt: Router firmware
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -50,11 +43,11 @@ A direct attempt to use the official TL-WR940N firmware or DD-WRT through the st
 
 ## Required files
 
-| File | Purpose | Source |
-| ------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| File                                  | Purpose                                  | Source                                                                                              |
+| ------------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `wr940nv6_3_20_1_up_boot(250925).bin` | TP-Link EU-stock firmware for the WR940N | [TP-Link Download Page for WR940N](https://www.tp-link.com/de/support/download/tl-wr940n/#Firmware) |
-| `factory-to-ddwrt-eu.bin` | First installation of DD-WRT (EU) | [DD-WRT Router – Database](https://dd-wrt.com/support/router-database/) (`wr940n`) |
-| `tl-wr940ndv6-webflash.bin` | Upgrading DD-WRT to a more recent build | [DD-WRT Router – Database](https://dd-wrt.com/support/router-database/) (`wr940n`) |
+| `factory-to-ddwrt-eu.bin`             | First installation of DD-WRT (EU)        | [DD-WRT Router – Database](https://dd-wrt.com/support/router-database/) (`wr940n`)                  |
+| `tl-wr940ndv6-webflash.bin`           | Upgrading DD-WRT to a more recent build  | [DD-WRT Router – Database](https://dd-wrt.com/support/router-database/) (`wr940n`)                  |
 
 > **Note:** The router database from DD-WRT contains outdated builds (as of 2020) and should **not** be used. Always refer directly to the beta folder.
 
@@ -64,9 +57,9 @@ A direct attempt to use the official TL-WR940N firmware or DD-WRT through the st
 
 Proven Builds:
 
-| Build | Date | Notes | Download |
-| ------ | ---------- | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| r44715 | 2020-11-03 | Listed in the router database | [Link](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/tplink_tl-wr940ndv6/) |
+| Build  | Date       | Notes                                        | Download                                                                                                  |
+| ------ | ---------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| r44715 | 2020-11-03 | Listed in the router database                | [Link](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/tplink_tl-wr940ndv6/) |
 | r64210 | 2026-03-31 | Just confirmed that it’s in the Beta folder. | [Link](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2026/03-31-2026-r64210/tplink-tl-wr940ndv6/) |
 
 ## Prerequisites
@@ -85,7 +78,7 @@ Versão de Firmware:	3.18.1 Build 171115 Rel.43350n
 Versão de Hardware:	WR949N v6 00000000
 ```
 
-The WR949N device prevents the installation of foreign firmware via the web interface using the ``Error 18005`` mechanism; however, I can bypass this restriction using [this workaround](https://openwrt.org/toh/tp-link/tl-wa801nd) in the following way.
+The WR949N device prevents the installation of foreign firmware via the web interface using the `Error 18005` mechanism; however, I can bypass this restriction using [this workaround](https://openwrt.org/toh/tp-link/tl-wa801nd) in the following way.
 
 ### How to bypass the firmware lock
 

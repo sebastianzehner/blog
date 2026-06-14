@@ -18,13 +18,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/router-firmware-cover.webp
-  alt: Firmware del router
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -50,11 +43,11 @@ Un intento directo de utilizar la versión oficial del firmware TL-WR940N (o DD-
 
 ## Archivos necesarios
 
-| Archivo | Propósito | Fuente |
-| ------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `wr940nv6_3_20_1_up_boot(250925).bin` | Firmware TP-Link EU-Stock para el WR940N | [Página de descarga del TP-Link para el WR940N](https://www.tp-link.com/de/support/download/tl-wr940n/#Firmware) |
-| `factory-to-ddwrt-eu.bin` | Primera instalación de DD-WRT (Unión Europea) | [Rutero DD-WRT – Base de datos](https://dd-wrt.com/support/router-database/) (`wr940n`) |
-| `tl-wr940ndv6-webflash.bin` | Actualización de DD-WRT a una versión más reciente (con un build más actualizado). | [Router DD-WRT – Base de datos](https://dd-wrt.com/support/router-database/) (`wr940n`) |
+| Archivo                               | Propósito                                                                          | Fuente                                                                                                           |
+| ------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `wr940nv6_3_20_1_up_boot(250925).bin` | Firmware TP-Link EU-Stock para el WR940N                                           | [Página de descarga del TP-Link para el WR940N](https://www.tp-link.com/de/support/download/tl-wr940n/#Firmware) |
+| `factory-to-ddwrt-eu.bin`             | Primera instalación de DD-WRT (Unión Europea)                                      | [Rutero DD-WRT – Base de datos](https://dd-wrt.com/support/router-database/) (`wr940n`)                          |
+| `tl-wr940ndv6-webflash.bin`           | Actualización de DD-WRT a una versión más reciente (con un build más actualizado). | [Router DD-WRT – Base de datos](https://dd-wrt.com/support/router-database/) (`wr940n`)                          |
 
 > **Nota:** La base de datos de routers de DD-WRT contiene versiones obsoletas (a fecha de 2020) y no debe utilizarse. Siempre se debe recurrir directamente al directorio de las versiones beta.
 
@@ -64,10 +57,10 @@ Un intento directo de utilizar la versión oficial del firmware TL-WR940N (o DD-
 
 **Construcciones probadas („Proven Builds“):**
 
-| Construir. | Fecha | Indicaciones | Descargar |
-| ------ | ---------- | ------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| r44715 | 2020-11-03 | Está registrado en la base de datos del router. | [Enlace](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/tplink_tl-wr940ndv6/) |
-| r64210 | 31-03-2026 | Se ha confirmado que el archivo se encuentra en la carpeta “Beta”. | [Enlace](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2026/03-31-2026-r64210/tplink-tl-wr940ndv6/) |
+| Construir. | Fecha      | Indicaciones                                                       | Descargar                                                                                                   |
+| ---------- | ---------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| r44715     | 2020-11-03 | Está registrado en la base de datos del router.                    | [Enlace](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2020/11-03-2020-r44715/tplink_tl-wr940ndv6/) |
+| r64210     | 31-03-2026 | Se ha confirmado que el archivo se encuentra en la carpeta “Beta”. | [Enlace](https://download1.dd-wrt.com/dd-wrtv2/downloads/betas/2026/03-31-2026-r64210/tplink-tl-wr940ndv6/) |
 
 ## Requisitos previos
 

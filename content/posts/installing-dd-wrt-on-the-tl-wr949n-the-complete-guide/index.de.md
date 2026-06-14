@@ -17,13 +17,6 @@ TocOpen: true
 params:
   author: Sebastian Zehner
   ShowPageViews: true
-
-cover:
-  image: /img/router-firmware-cover.webp
-  alt: Router Firmware
-  hidden: false
-  relative: false
-  responsiveImages: false
 ---
 
 Ich habe die günstigeren TP-Link TL-WR949N Router mit der Firmware von [dd-wrt.com](https://dd-wrt.com) geflasht. Hier wird nun beschrieben, welche Schritte ich durchführen musste, damit ich diese Firmware verwenden kann.
