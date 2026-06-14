@@ -22,13 +22,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/cactus-comments-cover.webp
-  alt: Comentarios sobre los cactus
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -67,10 +60,10 @@ Clonar el repositorio y reflejarlo en Forgejo:
 ```bash
 git clone https://gitlab.com/cactus-comments/cactus-client.git
 cd cactus-client
- 
+
 git remote rename origin gitlab
 git remote add origin https://git.techlab.icu/sebastianzehner/cactus-client.git
- 
+
 git push origin --all
 git push origin --tags
 ```
@@ -109,7 +102,7 @@ Luego, se vuelve a construir… Esta vez con éxito.
 
 ```
 ✨  Built in 3.73s.
- 
+
 dist/cactus.js        155.95 KB
 dist/style.css          6.96 KB
 ```
@@ -136,14 +129,14 @@ Añada las siguientes líneas:
 
 ```yaml
 id: "Cactus Comments"
- 
+
 url: "http://cactus:5000"
- 
+
 as_token: "YOUR_AS_TOKEN"
 hs_token: "YOUR_HS_TOKEN"
- 
+
 sender_localpart: "cactusbot"
- 
+
 namespaces:
   aliases:
     - exclusive: true
@@ -163,15 +156,15 @@ Añada las siguientes líneas:
 ```yaml
 app_service_config_files:
   - "/data/cactus.yaml"
- 
+
 allow_guest_access: true
 use_appservice_legacy_authorization: true
 enable_authenticated_media: false
- 
+
 public_baseurl: "https://matrix.your-domain.com"
 ```
 
-> **Importante nota:** La ruta `/data/cactus.yaml` se encuentra *dentro* del contenedor Synapse. En mi caso, `~/docker/synapse/files/` está montado en la posición de `/data`.
+> **Importante nota:** La ruta `/data/cactus.yaml` se encuentra _dentro_ del contenedor Synapse. En mi caso, `~/docker/synapse/files/` está montado en la posición de `/data`.
 
 > **Nota de seguridad:** Las configuraciones `allow_guest_access: true`, `use_appservice_legacy_authorization: true` y `enable_authenticated_media: false` son requisitos impuestos por el servicio Cactus Appservice y relajan algunas de las medidas de seguridad establecidas por Synapse. Quien desee evitar esto debería modificar el cliente Cactus de forma correspondiente; no obstante, esta tarea está fuera del alcance de esta guía.
 
@@ -195,13 +188,13 @@ CACTUS_USER_ID=@cactusbot:matrix.your-domain.com
 En el código `docker-compose.yml` existente para Synapse, agregaré el servicio Cactus.
 
 ```yaml
-  cactus:
-    image: cactuscomments/cactus-appservice:latest
-    container_name: cactus
-    env_file: cactus.env
-    restart: unless-stopped
-    networks:
-      - synapse
+cactus:
+  image: cactuscomments/cactus-appservice:latest
+  container_name: cactus
+  env_file: cactus.env
+  restart: unless-stopped
+  networks:
+    - synapse
 ```
 
 El cactus se conecta a la red `synapse` para poder llegar directamente al contenedor de sinapsis que se encuentra de `http://synapse:8008`.
@@ -326,7 +319,7 @@ A partir de ahora, basta con una sola línea para agregar un área de comentario
 {{</* chat cactus-comments */>}}
 ```
 
-El parámetro ``cactus-comments`` es el nombre del espacio de matrices correspondiente a este artículo. Cada espacio recibe automáticamente el alias ``#comments_websitename_cactus-comments:matrix.your-domain.com``. Puedo utilizar un nombre de espacio diferente para cada artículo o el mismo para todos; esto depende de si se desea agrupar los comentarios por artículo o de manera global.
+El parámetro `cactus-comments` es el nombre del espacio de matrices correspondiente a este artículo. Cada espacio recibe automáticamente el alias `#comments_websitename_cactus-comments:matrix.your-domain.com`. Puedo utilizar un nombre de espacio diferente para cada artículo o el mismo para todos; esto depende de si se desea agrupar los comentarios por artículo o de manera global.
 
 ### Publicamos los cambios realizados
 

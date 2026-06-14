@@ -22,13 +22,6 @@ params:
   author: Sebastian Zehner
   ShowPageViews: true
 
-cover:
-  image: /img/cactus-comments-cover.webp
-  alt: Cactus Comments
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -67,10 +60,10 @@ Clone the repository and mirror it to Forgejo:
 ```bash
 git clone https://gitlab.com/cactus-comments/cactus-client.git
 cd cactus-client
- 
+
 git remote rename origin gitlab
 git remote add origin https://git.techlab.icu/sebastianzehner/cactus-client.git
- 
+
 git push origin --all
 git push origin --tags
 ```
@@ -109,7 +102,7 @@ Then built it again—this time successfully:
 
 ```
 ✨  Built in 3.73s.
- 
+
 dist/cactus.js        155.95 KB
 dist/style.css          6.96 KB
 ```
@@ -136,14 +129,14 @@ Add the following lines:
 
 ```yaml
 id: "Cactus Comments"
- 
+
 url: "http://cactus:5000"
- 
+
 as_token: "YOUR_AS_TOKEN"
 hs_token: "YOUR_HS_TOKEN"
- 
+
 sender_localpart: "cactusbot"
- 
+
 namespaces:
   aliases:
     - exclusive: true
@@ -163,15 +156,15 @@ Add the following lines:
 ```yaml
 app_service_config_files:
   - "/data/cactus.yaml"
- 
+
 allow_guest_access: true
 use_appservice_legacy_authorization: true
 enable_authenticated_media: false
- 
+
 public_baseurl: "https://matrix.your-domain.com"
 ```
 
-> **Important:** The `/data/cactus.yaml` path is the path *inside* the Synapse container. In my case, `~/docker/synapse/files/` is mounted as `/data`.
+> **Important:** The `/data/cactus.yaml` path is the path _inside_ the Synapse container. In my case, `~/docker/synapse/files/` is mounted as `/data`.
 
 > **Security Note:** The settings `allow_guest_access: true`, `use_appservice_legacy_authorization: true`, and `enable_authenticated_media: false` are requirements of the Cactus Appservice and they relax certain security measures implemented by Synapse. To avoid this, the Cactus client would need to be extended accordingly; however, this is beyond the scope of this documentation.
 
@@ -195,13 +188,13 @@ CACTUS_USER_ID=@cactusbot:matrix.your-domain.com
 In the existing `docker-compose.yml` for Synapse, I am adding the Cactus service:
 
 ```yaml
-  cactus:
-    image: cactuscomments/cactus-appservice:latest
-    container_name: cactus
-    env_file: cactus.env
-    restart: unless-stopped
-    networks:
-      - synapse
+cactus:
+  image: cactuscomments/cactus-appservice:latest
+  container_name: cactus
+  env_file: cactus.env
+  restart: unless-stopped
+  networks:
+    - synapse
 ```
 
 Cactus is placed in the `synapse` network so it can reach the Synapse container directly at `http://synapse:8008`.
@@ -326,7 +319,7 @@ From now on, a single line will be enough to add a comment section under an arti
 {{</* chat cactus-comments */>}}
 ```
 
-The parameter ``cactus-comments`` is the name of the matrix space for this article. Each space automatically gets the alias ``#comments_websitename_cactus-comments:matrix.your-domain.com``. I can use a different space name for each article or the same name for all articles; this depends on whether I want to consolidate comments per article or globally.
+The parameter `cactus-comments` is the name of the matrix space for this article. Each space automatically gets the alias `#comments_websitename_cactus-comments:matrix.your-domain.com`. I can use a different space name for each article or the same name for all articles; this depends on whether I want to consolidate comments per article or globally.
 
 ### Changes are being published
 
