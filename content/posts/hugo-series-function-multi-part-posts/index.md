@@ -11,20 +11,6 @@ tags:
 categories:
   - techlab
 
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/hugo-series-function-multi-part-posts.webp
-  alt: "Hugo: A series functionality for multi-part blog posts"
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -62,60 +48,58 @@ taxonomies:
 We will create a “partial” – that is, a reusable code snippet. First, generate the file `layouts/partials/series.html` and insert the following code into it:
 
 ```html
-{{ $series := .GetTerms "series" }}
-{{ if $series }}
-    {{ range $series }}
-    {{ $posts := .Pages.ByDate }}
-    {{ $count := len $posts }}
-    <aside class="series-container">
-        <details {{ if lt $count 5 }}open{{ end }}>
-            <summary class="series-summary">
-                <div class="series-header-text">
-                    <span class="series-title">
-                        {{ i18n "series_title" }}: {{ .Name }}
-                    </span>
-                    <span class="series-count">
-                        {{ i18n "series_parts_total" $count }}
-                    </span>
-                </div>
-            </summary>
-            <ul class="series-list">
-                {{ range $num, $post := $posts }}
-                    {{ $isCurrent := eq $post.Permalink $.Page.Permalink }}
-                    <li class="series-item">
-                        <span class="series-part-label">
-                            {{ i18n "series_part" }} {{ add $num 1 }}
-                        </span>
-                        {{ if $isCurrent }}
-                            <span class="series-item-current" aria-current="page">
-                                 {{ i18n "series_current" }}
-                            </span>
-                        {{ else }}
-                            <a href="{{ $post.Permalink }}" class="series-item-link">
-                                {{ .Params.series_title | default .Title }}
-                            </a>
-                        {{ end }}
-                    </li>
-                {{ end }}
-            </ul>
-        </details>
-    </aside>
-    {{ end }}
-{{ end }}
+{{ $series := .GetTerms "series" }} {{ if $series }} {{ range $series }} {{
+$posts := .Pages.ByDate }} {{ $count := len $posts }}
+<aside class="series-container">
+  <details {{ if lt $count 5 }}open{{ end }}>
+    <summary class="series-summary">
+      <div class="series-header-text">
+        <span class="series-title">
+          {{ i18n "series_title" }}: {{ .Name }}
+        </span>
+        <span class="series-count">
+          {{ i18n "series_parts_total" $count }}
+        </span>
+      </div>
+    </summary>
+    <ul class="series-list">
+      {{ range $num, $post := $posts }} {{ $isCurrent := eq $post.Permalink
+      $.Page.Permalink }}
+      <li class="series-item">
+        <span class="series-part-label">
+          {{ i18n "series_part" }} {{ add $num 1 }}
+        </span>
+        {{ if $isCurrent }}
+        <span class="series-item-current" aria-current="page">
+          {{ i18n "series_current" }}
+        </span>
+        {{ else }}
+        <a href="{{ $post.Permalink }}" class="series-item-link">
+          {{ .Params.series_title | default .Title }}
+        </a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </details>
+</aside>
+{{ end }} {{ end }}
 ```
 
 **The code in detail:**
 
-- We start with ``.GetTerms "series"``: This command accesses the taxonomy. If an article is assigned to multiple series, the code will generate a separate box for each series thanks to the subsequent ``range`` loop.
+- We start with `.GetTerms "series"`: This command accesses the taxonomy. If an article is assigned to multiple series, the code will generate a separate box for each series thanks to the subsequent `range` loop.
 
 - **The sorting (`.Pages.ByDate`):** By default, Hugo often displays pages in order based on their weight or date, in descending order. With `.ByDate`, we ensure that the series is listed logically from beginning to end (Part 1, Part 2, Part 3, etc.).
 
 - **Dynamic status of the box:** This is a nice convenience feature. If the series is short (less than 5 episodes), the box remains open. For very long series, the box folds shut to prevent interrupting the reading experience.
+
 ```html
-<details {{ if lt $count 5 }}open{{ end }}>
+<details {{ if lt $count 5 }}open{{ end }}></details>
 ```
 
 - **Automated numbering:** We don’t need to manually enter the part number in the front matter. Hugo uses the index of the loop (which starts at 0) and simply calculates `+ 1`.
+
 ```html
 {{ range $num, $post := $posts }} ... {{ add $num 1 }}
 ```
@@ -123,6 +107,7 @@ We will create a “partial” – that is, a reusable code snippet. First, gene
 - **Language with `i18n`:** To ensure that texts (such as “Part 1”) work in different languages, we use Hugo’s internationalization functionality.
 
 - **Flexible title handling:** Here, we use a pipe (`|`) to determine how the title should be generated. If an article contains a special `series_title` (for example, a shorter title used for the list), that title will be used. If not, Hugo will automatically resort to the regular `.Title`.
+
 ```html
 {{ .Params.series_title | default .Title }}
 ```
@@ -135,9 +120,7 @@ In order for the box to also be displayed, you need to insert that code snippet 
 
 ```html
 {{ partial "series.html" . }}
-<div class="post-content">
-  {{ .Content }}
-</div>
+<div class="post-content">{{ .Content }}</div>
 ```
 
 ## Step 4: Language files and styling

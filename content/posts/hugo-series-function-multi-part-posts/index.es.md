@@ -11,20 +11,6 @@ tags:
 categories:
   - techlab
 
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/hugo-series-function-multi-part-posts.webp
-  alt: "Hugo: Función de serie para publicaciones de blog divididas en varias partes"
-  hidden: false
-  relative: false
-  responsiveImages: false
-
 translation:
   tool: md-translator
   version: 1.2.3
@@ -59,70 +45,69 @@ taxonomies:
 
 ## Paso 2: Crear el componente parcial (Partial)
 
-Vamos a crear un «elemento de código» reutilizable (un «partial»). Para ello, genera el archivo ``layouts/partials/series.html`` y añade el siguiente código:
+Vamos a crear un «elemento de código» reutilizable (un «partial»). Para ello, genera el archivo `layouts/partials/series.html` y añade el siguiente código:
 
 ```html
-{{ $series := .GetTerms "series" }}
-{{ if $series }}
-    {{ range $series }}
-    {{ $posts := .Pages.ByDate }}
-    {{ $count := len $posts }}
-    <aside class="series-container">
-        <details {{ if lt $count 5 }}open{{ end }}>
-            <summary class="series-summary">
-                <div class="series-header-text">
-                    <span class="series-title">
-                        {{ i18n "series_title" }}: {{ .Name }}
-                    </span>
-                    <span class="series-count">
-                        {{ i18n "series_parts_total" $count }}
-                    </span>
-                </div>
-            </summary>
-            <ul class="series-list">
-                {{ range $num, $post := $posts }}
-                    {{ $isCurrent := eq $post.Permalink $.Page.Permalink }}
-                    <li class="series-item">
-                        <span class="series-part-label">
-                            {{ i18n "series_part" }} {{ add $num 1 }}
-                        </span>
-                        {{ if $isCurrent }}
-                            <span class="series-item-current" aria-current="page">
-                                 {{ i18n "series_current" }}
-                            </span>
-                        {{ else }}
-                            <a href="{{ $post.Permalink }}" class="series-item-link">
-                                {{ .Params.series_title | default .Title }}
-                            </a>
-                        {{ end }}
-                    </li>
-                {{ end }}
-            </ul>
-        </details>
-    </aside>
-    {{ end }}
-{{ end }}
+{{ $series := .GetTerms "series" }} {{ if $series }} {{ range $series }} {{
+$posts := .Pages.ByDate }} {{ $count := len $posts }}
+<aside class="series-container">
+  <details {{ if lt $count 5 }}open{{ end }}>
+    <summary class="series-summary">
+      <div class="series-header-text">
+        <span class="series-title">
+          {{ i18n "series_title" }}: {{ .Name }}
+        </span>
+        <span class="series-count">
+          {{ i18n "series_parts_total" $count }}
+        </span>
+      </div>
+    </summary>
+    <ul class="series-list">
+      {{ range $num, $post := $posts }} {{ $isCurrent := eq $post.Permalink
+      $.Page.Permalink }}
+      <li class="series-item">
+        <span class="series-part-label">
+          {{ i18n "series_part" }} {{ add $num 1 }}
+        </span>
+        {{ if $isCurrent }}
+        <span class="series-item-current" aria-current="page">
+          {{ i18n "series_current" }}
+        </span>
+        {{ else }}
+        <a href="{{ $post.Permalink }}" class="series-item-link">
+          {{ .Params.series_title | default .Title }}
+        </a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </details>
+</aside>
+{{ end }} {{ end }}
 ```
 
 **El código en detalle:**
 
-- Comenzamos con ``.GetTerms "series"``: Esta instrucción accede a la taxonomía. Si un artículo está asignado a varias series, el código, gracias al bucle ``range`` que sigue, renderizará una caja separada para cada una de ellas.
+- Comenzamos con `.GetTerms "series"`: Esta instrucción accede a la taxonomía. Si un artículo está asignado a varias series, el código, gracias al bucle `range` que sigue, renderizará una caja separada para cada una de ellas.
 
 - **Ordenación (`.Pages.ByDate`):** Por defecto, Hugo muestra las páginas a menudo según un criterio de ponderación o en orden descendente por fecha. Con `.ByDate`, nos aseguramos de que la serie se presente de manera lógica, de principio a fin (Parte 1, Parte 2, Parte 3…).
 
 - **Estado dinámico de la caja**: Esta es una funcionalidad muy práctica y cómoda. Si la serie tiene pocos episodios (menos de 5), la caja permanece abierta. En el caso de series muy largas, se cierra para no interrumpir la lectura.
+
 ```html
-<details {{ if lt $count 5 }}open{{ end }}>
+<details {{ if lt $count 5 }}open{{ end }}></details>
 ```
 
-- **Numeración automatizada**: No es necesario introducir manualmente el número del componente en la sección frontal (frontmatter). En este caso, Hugo utiliza el índice de la bucla (que comienza en 0) para calcular el número del componente de forma directa, utilizando la expresión ``+ 1``.
+- **Numeración automatizada**: No es necesario introducir manualmente el número del componente en la sección frontal (frontmatter). En este caso, Hugo utiliza el índice de la bucla (que comienza en 0) para calcular el número del componente de forma directa, utilizando la expresión `+ 1`.
+
 ```html
 {{ range $num, $post := $posts }} ... {{ add $num 1 }}
 ```
 
 - **Idioma con `i18n`:** Para que los textos (como “Parte 1”) funcionen en diferentes idiomas, utilizamos la función de internacionalización de Hugo.
 
-- **Gestión flexible de los títulos**: En este caso utilizamos un mecanismo basado en “pipelines” (canales de comunicación). Si en el artículo se define un código especial (``series_title``, por ejemplo, para crear un título más corto para la lista), se utiliza ese código. De lo contrario, Hugo recurre automáticamente al código normal (``.Title``).
+- **Gestión flexible de los títulos**: En este caso utilizamos un mecanismo basado en “pipelines” (canales de comunicación). Si en el artículo se define un código especial (`series_title`, por ejemplo, para crear un título más corto para la lista), se utiliza ese código. De lo contrario, Hugo recurre automáticamente al código normal (`.Title`).
+
 ```html
 {{ .Params.series_title | default .Title }}
 ```
@@ -131,13 +116,11 @@ Vamos a crear un «elemento de código» reutilizable (un «partial»). Para ell
 
 ## Paso 3: Integración en el template
 
-Para que la caja también se muestre, debes incorporar el código correspondiente en tu plantilla de publicación individual (generalmente ``layouts/_default/single.html``). Lo he colocado justo antes del contenido.
+Para que la caja también se muestre, debes incorporar el código correspondiente en tu plantilla de publicación individual (generalmente `layouts/_default/single.html`). Lo he colocado justo antes del contenido.
 
 ```html
 {{ partial "series.html" . }}
-<div class="post-content">
-  {{ .Content }}
-</div>
+<div class="post-content">{{ .Content }}</div>
 ```
 
 ## Paso 4: Archivos de idioma y configuraciones de estilo
@@ -157,7 +140,7 @@ Para que los términos se traduzcan correctamente, añade esto a tus archivos `i
     other: "{{ .Count }} Teile insgesamt"
 ```
 
-No olvides agregar algo más de estilo a tu código ``post-single.css`` para que la caja se ajuste visualmente a tu blog (por ejemplo, espacios entre elementos, bordes o colores de fondo).
+No olvides agregar algo más de estilo a tu código `post-single.css` para que la caja se ajuste visualmente a tu blog (por ejemplo, espacios entre elementos, bordes o colores de fondo).
 
 ## Uso en el artículo del blog (parte inicial)
 
