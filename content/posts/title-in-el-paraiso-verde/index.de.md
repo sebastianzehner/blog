@@ -14,14 +14,6 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
-
-[cover]
-    image = '/img/title-paraiso-verde.webp'
-    alt = 'Beitragsbild von Quincho und Behandlungsraum sind fertig'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
 +++
 
 Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.
@@ -88,7 +80,7 @@ Im Juli 2023 hat der Gemeinderat von Maciel das Prozedere (den administrativen A
 
 ## Was ist der Unterschied zwischen Cuentas Rurales und Cuentas Corrientes?
 
-Ab dieser Stelle möchte ich kurz etwas mehr ins Detail gehen, wie das [Catastro](https://www.catastro.gov.py/) in Paraguay funktioniert bzw. die jeweiligen Grundstücke im Land aufteilt. Zumindest nach meinem Verständnis, weil ich diesen Prozess in den letzten beiden Jahren etwas intensiver verfolgt habe. 
+Ab dieser Stelle möchte ich kurz etwas mehr ins Detail gehen, wie das [Catastro](https://www.catastro.gov.py/) in Paraguay funktioniert bzw. die jeweiligen Grundstücke im Land aufteilt. Zumindest nach meinem Verständnis, weil ich diesen Prozess in den letzten beiden Jahren etwas intensiver verfolgt habe.
 
 Grundlegend ist das El Paraiso Verde eine Stadtentwicklung und daher hat das Siedlungsgebiet ein laufendes Konto (Cuentas Corrientes) beim nationalen Kataster (Catastro) und keine Padrón Nummer wie die ländlichen Konten (Cuentas Rurales).
 
@@ -106,9 +98,9 @@ Wie öffentlich auf der [Map von Catastro](https://www.catastro.gov.py/visor/?sn
 
 Das gesamte Siedlungsgebiet hat demnach immer Zona 22, Manzana 54 und Lote 2. Piso/Nivel bleibt bei 00 und die jeweiligen Grundstücke (Unterkonten) der Siedler können mit der entsprechenden Nummer über Departamento/Salon abgerufen werden.
 
-|             |              |
-|-------------|-------------:|
-|![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp)|![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp)|
+|                                                                                           |                                                                                     |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------: |
+| ![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp) | ![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp) |
 
 Nachdem wir unseren Titel beim Notar beantragt und für die Übertragung zusammen mit Dr. Erwin Annau unterschrieben haben, sind auch unsere beiden Namen bei Catastro für unser Grundstück eingetragen worden.
 
@@ -140,7 +132,7 @@ Wir haben hier ein städtisches Grundstück, welches einer Eigentümergemeinscha
 
 Dies wird ermöglicht über das sogenannte horizontale Eigentum (Propiedad Horizontal), welches sich auf eine Reihe von Regeln bezieht, die die Aufteilung und Organisation verschiedener Grundstücke infolge der Trennung eines Gemeinschaftsgrundstücks regeln.
 
-Das horizontale Eigentum selbst ist kein bestimmtes Grundstück, sondern ein System, das die Art und Weise der Aufteilung von Grundstücken und das Verhältnis zwischen den Eigentümern des Privateigentums und des von einem Grundstück abgetrennten Gemeinschaftseigentums regelt. Das horizontale Eigentum ermöglicht die Organisation von Miteigentümern und die Aufrechterhaltung des Gemeinschaftseigentums. [*Quelle*](https://es.wikipedia.org/wiki/Propiedad_horizontal)
+Das horizontale Eigentum selbst ist kein bestimmtes Grundstück, sondern ein System, das die Art und Weise der Aufteilung von Grundstücken und das Verhältnis zwischen den Eigentümern des Privateigentums und des von einem Grundstück abgetrennten Gemeinschaftseigentums regelt. Das horizontale Eigentum ermöglicht die Organisation von Miteigentümern und die Aufrechterhaltung des Gemeinschaftseigentums. [_Quelle_](https://es.wikipedia.org/wiki/Propiedad_horizontal)
 
 Es gibt also für jedes Grundstück auch den passenden Titel, wie es das Gesetz in Paraguay eben vorschreibt. Man muss sich nur etwas damit beschäftigen, was natürlich Zeit kostet aber hier hast du jetzt zumindest eine kleine Zusammenfassung von mir erhalten.
 
@@ -166,4 +158,3 @@ Liebe Grüße
 Sebastian
 
 {{< chat titleparaisoverde >}}
-

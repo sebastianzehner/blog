@@ -14,14 +14,6 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
-
-[cover]
-    image = '/img/title-paraiso-verde.webp'
-    alt = 'Featured image from Title in El Paraiso Verde'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
 +++
 
 After several years of rumors that we had no title and that we would never get a title for our property, I would like to go into more detail about our title today.
@@ -88,7 +80,7 @@ In July 2023, the Municipal Council of Maciel approved the procedure (administra
 
 ## What is the difference between Cuentas Rurales and Cuentas Corrientes?
 
-At this point, I would like to go into a little more detail about how the [Catastro](https://www.catastro.gov.py/) works in Paraguay and how the respective plots of land in the country are divided up. At least as I understand it, because I have been following this process a little more closely over the last two years. 
+At this point, I would like to go into a little more detail about how the [Catastro](https://www.catastro.gov.py/) works in Paraguay and how the respective plots of land in the country are divided up. At least as I understand it, because I have been following this process a little more closely over the last two years.
 
 Fundamentally, El Paraiso Verde is an urban development and therefore the settlement area has a current account (Cuentas Corrientes) with the national cadastre (Catastro) and not a Padrón number like the rural accounts (Cuentas Rurales).
 
@@ -106,9 +98,9 @@ As can be seen publicly on the [Map of Catastro](https://www.catastro.gov.py/vis
 
 The entire settlement area therefore always has Zona 22, Manzana 54 and Lote 2. Piso/Nivel remains at 00 and the respective plots (sub-accounts) of the settlers can be called up with the corresponding number via Departamento/Salon.
 
-|             |              |
-|-------------|-------------:|
-|![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp)|![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp)|
+|                                                                                           |                                                                                     |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------: |
+| ![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp) | ![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp) |
 
 After we applied to the notary for our title and signed for the transfer together with Dr. Erwin Annau, both of our names were also registered with Catastro for our property.
 
@@ -140,7 +132,7 @@ Here we have an urban land that belongs to a community of owners and the ownersh
 
 This is made possible by the so-called horizontal property (Propiedad Horizontal), which refers to a set of rules that regulate the division and organization of different properties as a result of the separation of a common property.
 
-Horizontal property itself is not a specific piece of land, but a system that regulates the way in which properties are divided and the relationship between the owners of the private property and the common property separated from a piece of land. Horizontal ownership enables the organization of co-owners and the maintenance of common property. [*Source*](https://es.wikipedia.org/wiki/Propiedad_horizontal)
+Horizontal property itself is not a specific piece of land, but a system that regulates the way in which properties are divided and the relationship between the owners of the private property and the common property separated from a piece of land. Horizontal ownership enables the organization of co-owners and the maintenance of common property. [_Source_](https://es.wikipedia.org/wiki/Propiedad_horizontal)
 
 So there is a suitable title for every property, as prescribed by Paraguayan law. You just have to deal with it a bit, which of course takes time, but here you have at least received a small summary from me.
 
@@ -166,4 +158,3 @@ Best regards
 Sebastian
 
 {{< chat titleparaisoverde >}}
-

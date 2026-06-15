@@ -14,14 +14,6 @@ TocOpen = true
 [params]
     author = 'Sebastian Zehner'
     ShowPageViews = true
-
-[cover]
-    image = '/img/title-paraiso-verde.webp'
-    alt = 'Imagen destacada de Título en El Paraíso Verde'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
 +++
 
 Después de varios años de rumores de que no teníamos título y que nunca conseguiríamos un título para nuestra propiedad, hoy me gustaría entrar en más detalles sobre nuestro título.
@@ -88,7 +80,7 @@ En julio de 2023, el Consejo Municipal de Maciel aprobó el procedimiento (proce
 
 ## ¿Cuál es la diferencia entre Cuentas Rurales y Cuentas Corrientes?
 
-En este punto, me gustaría entrar un poco más en detalle sobre cómo funciona el [Catastro](https://www.catastro.gov.py/) en Paraguay y cómo se dividen las respectivas parcelas de tierra en el país. Al menos como yo lo entiendo, porque he seguido este proceso un poco más de cerca en los últimos dos años. 
+En este punto, me gustaría entrar un poco más en detalle sobre cómo funciona el [Catastro](https://www.catastro.gov.py/) en Paraguay y cómo se dividen las respectivas parcelas de tierra en el país. Al menos como yo lo entiendo, porque he seguido este proceso un poco más de cerca en los últimos dos años.
 
 Fundamentalmente, El Paraíso Verde es un desarrollo urbano y por lo tanto el área de asentamiento tiene una cuenta corriente (Cuentas Corrientes) con el catastro nacional (Catastro) y no un número de Padrón como las cuentas rurales (Cuentas Rurales).
 
@@ -106,9 +98,9 @@ Como puede verse públicamente en el [Mapa de Catastro](https://www.catastro.gov
 
 Por lo tanto, toda la zona de asentamiento tiene siempre Zona 22, Manzana 54 y Lote 2. Piso/Nivel permanece en 00 y las respectivas parcelas (subcuentas) de los colonos se pueden llamar con el número correspondiente a través de Departamento/Salón.
 
-|             |              |
-|-------------|-------------:|
-|![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp)|![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp)|
+|                                                                                           |                                                                                     |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------: |
+| ![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp) | ![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp) |
 
 Después de solicitar el título ante el notario y firmar el traspaso junto con el Dr. Erwin Annau, también se registraron los nombres de ambos en Catastro para nuestra propiedad.
 
@@ -140,7 +132,7 @@ Aquí tenemos un terreno urbano que pertenece a una comunidad de propietarios y 
 
 Esto es posible gracias a la llamada propiedad horizontal, que se refiere a un conjunto de normas que regulan la división y organización de las diferentes propiedades como resultado de la separación de una propiedad común.
 
-La propiedad horizontal en sí no es un terreno concreto, sino un sistema que regula la forma en que se dividen las propiedades y la relación entre los propietarios de la propiedad privada y la propiedad común separada de un terreno. La propiedad horizontal permite la organización de los copropietarios y el mantenimiento de la propiedad común. [*Fuente*](https://es.wikipedia.org/wiki/Propiedad_horizontal)
+La propiedad horizontal en sí no es un terreno concreto, sino un sistema que regula la forma en que se dividen las propiedades y la relación entre los propietarios de la propiedad privada y la propiedad común separada de un terreno. La propiedad horizontal permite la organización de los copropietarios y el mantenimiento de la propiedad común. [_Fuente_](https://es.wikipedia.org/wiki/Propiedad_horizontal)
 
 Así que hay un título adecuado para cada propiedad, según lo prescrito por la ley paraguaya. Sólo tienes que tratar con él un poco, que por supuesto lleva tiempo, pero aquí por lo menos han recibido un pequeño resumen de mí.
 
@@ -166,4 +158,3 @@ Saludos cordiales
 Sebastián
 
 {{< chat titleparaisoverde >}}
-
