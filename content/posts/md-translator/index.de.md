@@ -14,19 +14,7 @@ tags:
 categories:
   - tech
 
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/md-translator.webp
-  alt: Blogger verwaltet mehrsprachigen Blog mit Deutsch, Englisch, Spanisch und Französisch am Laptop
-  hidden: false
-  relative: false
-  responsiveImages: false
+layoutBackgroundHeaderSpace: true
 ---
 
 Als Blogger mit einem mehrsprachigen Blog steht man vor einer ständigen Herausforderung: Jeder neue Artikel muss in mehrere Sprachen übersetzt werden. Manuelle Übersetzungen sind zeitaufwändig und teuer, automatische Tools zerstören oft die sorgfältig formatierte Markdown-Struktur. Was tun?
@@ -174,9 +162,7 @@ Die Translation-Metadaten sind nicht nur Dokumentation - sie sind auch praktisch
 Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden ist. Falls ja, wird automatisch ein Hinweis generiert:
 
 ```html
-# singles.html
-
-{{ if .Params.translation }}
+# singles.html {{ if .Params.translation }}
 <div class="translation-note-wrapper">
   {{ partial "translation-note.html" . }}
 </div>
@@ -184,29 +170,12 @@ Das Hugo-Template prüft, ob das `translation`-Feld im Front Matter vorhanden is
 ```
 
 ```html
-# translation-note.html
-
-{{ with .Params.translation }}
-
-  {{ $from := i18n (printf "lang_%s" .from) }}
-  {{ $to   := i18n (printf "lang_%s" .to) }}
-
-  {{ $toolPage := site.GetPage "posts/md-translator" }}
-
-  {{ $toolName := .tool }}
-
-  {{ if $toolPage }}
-    {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool | safeHTML }}
-  {{ end }}
-
-  {{ i18n "translation_note" (dict
-    "From" $from
-    "To" $to
-    "Tool" $toolName
-    "Version" .version
-  ) | safeHTML }}
-
-{{ end }}
+# translation-note.html {{ with .Params.translation }} {{ $from := i18n (printf
+"lang_%s" .from) }} {{ $to := i18n (printf "lang_%s" .to) }} {{ $toolPage :=
+site.GetPage "posts/md-translator" }} {{ $toolName := .tool }} {{ if $toolPage
+}} {{ $toolName = printf `<a href="%s">%s</a>` $toolPage.RelPermalink .tool |
+safeHTML }} {{ end }} {{ i18n "translation_note" (dict "From" $from "To" $to
+"Tool" $toolName "Version" .version ) | safeHTML }} {{ end }}
 ```
 
 **Für den Leser sieht das so aus:**
