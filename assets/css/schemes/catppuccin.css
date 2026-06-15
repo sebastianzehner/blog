@@ -87,6 +87,34 @@
   --catppuccin-color-mauve-800: #6b2bbe;
   --catppuccin-color-mauve-900: #5e25a7;
   --catppuccin-color-mauve-950: #4d1d8b;
+
+  /* Red (Latte) */
+  --catppuccin-color-red: #d20f39;
+  --catppuccin-color-red-500: #d20f39;
+  --catppuccin-color-red-400: #d55664;
+  --catppuccin-color-red-300: #d87680;
+  --catppuccin-color-red-200: #db8d95;
+  --catppuccin-color-red-100: #dea1a8;
+  --catppuccin-color-red-50: #e1b1b8;
+  --catppuccin-color-red-600: #c80e36;
+  --catppuccin-color-red-700: #b90c31;
+  --catppuccin-color-red-800: #a7092b;
+  --catppuccin-color-red-900: #930725;
+  --catppuccin-color-red-950: #7a051d;
+
+  /* Green (Latte) */
+  --catppuccin-color-green: #40a02b;
+  --catppuccin-color-green-500: #40a02b;
+  --catppuccin-color-green-400: #66aa5e;
+  --catppuccin-color-green-300: #7fb47c;
+  --catppuccin-color-green-200: #94bd93;
+  --catppuccin-color-green-100: #a5c6a6;
+  --catppuccin-color-green-50: #b4ceb6;
+  --catppuccin-color-green-600: #3d9929;
+  --catppuccin-color-green-700: #378c25;
+  --catppuccin-color-green-800: #317f20;
+  --catppuccin-color-green-900: #2a6f1b;
+  --catppuccin-color-green-950: #215b15;
 }
 
 /* Dark mode = Catppuccin Mocha */
@@ -177,4 +205,32 @@
   --catppuccin-color-mauve-800: #a285c7;
   --catppuccin-color-mauve-900: #8f75b0;
   --catppuccin-color-mauve-950: #786394;
+
+  /* Red (Mocha) */
+  --catppuccin-color-red: #f38ba8;
+  --catppuccin-color-red-500: #f38ba8;
+  --catppuccin-color-red-400: #f49cb3;
+  --catppuccin-color-red-300: #f5abbe;
+  --catppuccin-color-red-200: #f7b8c7;
+  --catppuccin-color-red-100: #f8c4d1;
+  --catppuccin-color-red-50: #f9d0d9;
+  --catppuccin-color-red-600: #e885a1;
+  --catppuccin-color-red-700: #d67b95;
+  --catppuccin-color-red-800: #c36f88;
+  --catppuccin-color-red-900: #ac6279;
+  --catppuccin-color-red-950: #905367;
+
+  /* Green (Mocha) */
+  --catppuccin-color-green: #a6e3a1;
+  --catppuccin-color-green-500: #a6e3a1;
+  --catppuccin-color-green-400: #b2e6ae;
+  --catppuccin-color-green-300: #bce9b9;
+  --catppuccin-color-green-200: #c6ecc4;
+  --catppuccin-color-green-100: #d0efcd;
+  --catppuccin-color-green-50: #d9f2d7;
+  --catppuccin-color-green-600: #9fd99a;
+  --catppuccin-color-green-700: #92c88f;
+  --catppuccin-color-green-800: #85b682;
+  --catppuccin-color-green-900: #75a074;
+  --catppuccin-color-green-950: #638663;
 }
