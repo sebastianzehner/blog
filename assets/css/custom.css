@@ -73,11 +73,16 @@ textarea:focus-visible {
 /* Blowfish sets the same color for normal and hover state (primary-600).
    This adds a visible color change on hover: darker in light mode,
    lighter in dark mode */
-.prose a:hover {
+.prose a:not(:has(.icon)):hover {
   color: rgba(var(--color-primary-900), 1);
 }
-:root.dark .prose a:hover {
+:root.dark .prose a:not(:has(.icon)):hover {
   color: rgba(var(--color-primary-200), 1);
+}
+
+/* More rounded corners on hover for sharing icon buttons */
+a:has(.icon):hover {
+  border-radius: 0.25rem;
 }
 
 html:not(.dark) {
