@@ -108,6 +108,7 @@ forgejoDefaultServer = "https://git.techlab.icu"
     "whatsapp",
     "telegram",
   ]
+  showComments = true
   showZenMode = true
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 

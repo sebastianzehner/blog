@@ -1,7 +1,11 @@
+{{- /* Cactus Comments */ -}} {{ $chatId := .Params.chatId | default .Slug }}
+<h2 id="comments" class="mt-8 text-2xl font-extrabold mb-10">
+  {{ i18n "comments_header" }}
+</h2>
 <script type="text/javascript" src="/cactus.js"></script>
 <link rel="stylesheet" href="/cactus.css" type="text/css" />
 <style>
-  /* === Cactus Chat – Blowfish Catppuccin === */
+  /* === Cactus Chat - Blowfish Catppuccin === */
   /* Fix avatar image distortion */
   .cactus-comment-avatar img {
     max-width: unset;
@@ -18,7 +22,7 @@
     --cactus-border-color: var(--catppuccin-color-surface0);
     --cactus-border-width: 1px;
     --cactus-border-radius: 0.5em;
-    --cactus-box-shadow-color: rgba(var(--color-neutral-900), 0.20);
+    --cactus-box-shadow-color: rgba(var(--color-neutral-900), 0.2);
     --cactus-button-text-color: var(--catppuccin-color-text);
     --cactus-button-color: var(--catppuccin-color-crust);
     --cactus-button-color--strong: var(--catppuccin-color-surface0);
@@ -52,6 +56,6 @@
     defaultHomeserverUrl: "https://matrix.techlab.icu",
     serverName: "matrix.techlab.icu",
     siteName: "sebastianzehner",
-    commentSectionId: "{{ index .Params 0 }}",
+    commentSectionId: "{{ $chatId }}",
   });
 </script>
