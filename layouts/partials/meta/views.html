@@ -1,0 +1,18 @@
+<span>
+  <span
+    id="{{ .File.UniqueID }}"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="{{ i18n "article.page_views" | default "views" }}"
+    >loading</span>
+  <span class="inline-block align-text-bottom">{{ partial "icon.html" "eye" }}</span>
+  <script>
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+      var el = document.getElementById('{{ .File.UniqueID }}');
+      el.classList.remove('animate-pulse', 'text-transparent', 'bg-neutral-300', 'dark:bg-neutral-400', 'max-h-3', 'rounded-full');
+      el.innerText = JSON.parse(this.responseText).count_unique;
+    });
+    r.open('GET', 'https://stats.sebastianzehner.com/counter/' + encodeURIComponent('{{ .RelPermalink }}'.replace(/(\/)?$/, '')) + '.json');
+    r.send();
+  </script>
+</span>

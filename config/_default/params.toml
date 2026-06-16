@@ -70,7 +70,7 @@ forgejoDefaultServer = "https://git.techlab.icu"
 
 [article]
   showDate = true
-  showViews = false
+  showViews = true
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = true
