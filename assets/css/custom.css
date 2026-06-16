@@ -1,3 +1,8 @@
+/* =============================================================================
+   Custom CSS for Blowfish – Catppuccin Theme
+   ============================================================================= */
+
+/* --- Typography: Cascadia Code Font --- */
 @font-face {
   font-family: "Cascadia Code";
   src: url("/fonts/CascadiaCode.woff2") format("woff2");
@@ -6,11 +11,20 @@
   font-display: swap;
 }
 
+/* Apply Cascadia Code as the default font for both sans and mono */
 :root {
   --font-sans: "Cascadia Code", monospace;
   --font-mono: "Cascadia Code", monospace;
 }
 
+/* Base font size (Blowfish example default was 13pt) */
+html {
+  font-size: 18px;
+}
+
+/* --- Focus Styles --- */
+/* Replace Tailwind's default blue (oklch 54.6% 0.245 262.881) with
+   Catppuccin primary blue at reduced opacity for a less aggressive focus ring */
 input:focus,
 input:focus-visible,
 textarea:focus,
@@ -20,10 +34,9 @@ textarea:focus-visible {
   border-color: rgba(var(--color-primary-500), 0.4);
 }
 
-html {
-  font-size: 18px;
-}
-
+/* --- Syntax Highlighting --- */
+/* Reset Blowfish's built-in Chroma styles before applying custom ones.
+   The actual styles follow below (generated via hugo gen chromastyles) */
 .chroma,
 .chroma *,
 .chroma:is(.dark *),
@@ -33,6 +46,8 @@ html {
   font-style: unset;
 }
 
+/* --- Footer: Copyright Icon --- */
+/* SVG icon rendered via CSS mask from /static/icons/copyright.svg */
 .custom-footer-icon {
   display: inline-block;
   width: 0.9rem;
@@ -46,8 +61,23 @@ html {
   margin-right: 0.3rem;
 }
 
+/* --- Homepage: Content Alignment --- */
+/* The background layout centers all child elements via text-center on the
+   parent container. This overrides that for the prose content block only,
+   keeping avatar/name/headline/icons centered while text is left-aligned */
 .prose.dark\:prose-invert.w-full {
   text-align: left;
+}
+
+/* --- Link Hover Colors --- */
+/* Blowfish sets the same color for normal and hover state (primary-600).
+   This adds a visible color change on hover: darker in light mode,
+   lighter in dark mode */
+.prose a:hover {
+  color: rgba(var(--color-primary-900), 1);
+}
+:root.dark .prose a:hover {
+  color: rgba(var(--color-primary-200), 1);
 }
 
 html:not(.dark) {
