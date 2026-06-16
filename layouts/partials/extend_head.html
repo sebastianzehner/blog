@@ -2,22 +2,12 @@
 {{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
 {{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Recursive:wght,CRSV,MONO@300..1000,0..1,0..1&display=swap" rel="stylesheet">
-
-{{/* Chroma syntax themes – driven by data-theme */}}
-{{ $chromaLight := resources.Get "css/includes/chroma-light.css" }}
-{{ $chromaDark := resources.Get "css/includes/chroma-dark.css" }}
-
-<style>
-  :root[data-theme="light"] {
-    {{ $chromaLight.Content | safeCSS }}
-  }
-
-  :root[data-theme="dark"] {
-    {{ $chromaDark.Content | safeCSS }}
-  }
-</style>
+{{- if not .Site.IsServer }}
+<script
+  data-goatcounter="https://stats.sebastianzehner.com/count"
+  async
+  src="//gc.zgo.at/count.js">
+</script>
+{{- end }}
 
 {{- /* Head custom content area end */ -}}
