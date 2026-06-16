@@ -38,8 +38,11 @@
 - article:
     page_views: "Aufrufe"
 
-- translation_note:
-    other: "Dieser Artikel wurde von {{ .From }} nach {{ .To }} mit {{ .Tool }} v{{ .Version }} übersetzt."
+- translation_note_badge:
+    other: "Dieser Artikel wurde von {{ .From }} nach {{ .To }} übersetzt mit"
+
+- translation_more_info:
+    other: "Mehr Informationen"
 
 - lang_de:
     other: "Deutsch"

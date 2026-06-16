@@ -38,8 +38,11 @@
 - article:
     page_views: "Vistas"
 
-- translation_note:
-    other: "Este artículo fue traducido de {{ .From }} a {{ .To }} usando {{ .Tool }} v{{ .Version }}."
+- translation_note_badge:
+    other: "Este artículo fue traducido de {{ .From }} a {{ .To }} usando"
+
+- translation_more_info:
+    other: "Más Información"
 
 - lang_de:
     other: "alemán"

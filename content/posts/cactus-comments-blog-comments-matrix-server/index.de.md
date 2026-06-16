@@ -15,12 +15,8 @@ tags:
 categories:
   - techlab
 
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
+showComments: true
+chatId: "self-hosting-matrix-homeserver-synapse"
 ---
 
 _Kommentarsysteme wie Disqus sind praktisch – aber sie laden Tracking, Werbung und externe Abhängigkeiten mit. Cactus Comments macht das anders: Kommentare landen direkt in Matrix-Räumen auf dem eigenen Homeserver._
@@ -335,6 +331,7 @@ Das ist das Web, wie es sein sollte.
 
 _Fragen oder Anmerkungen? Schreib mir direkt über Matrix: `@sebastian:matrix.techlab.icu` – oder hinterlasse einfach unten einen Kommentar. Der landet dann auch prompt in meiner Matrix._
 
-Liebe Grüße Sebastian
+Liebe Grüße  
+Sebastian
 
-{{< chat self-hosting-matrix-homeserver-synapse >}}
+{{< translation-note >}}

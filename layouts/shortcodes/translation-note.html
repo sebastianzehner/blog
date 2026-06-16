@@ -1,0 +1,31 @@
+{{ with .Page.Params.translation }}
+  {{ $from := i18n (printf "lang_%s" .from) }}
+  {{ $to   := i18n (printf "lang_%s" .to) }}
+  {{ $toolPage := site.GetPage "posts/md-translator" }}
+  {{ $toolName := .tool }}
+  {{ $text := i18n "translation_note_badge" (dict
+    "From" $from
+    "To" $to
+  ) }}
+  <div class="flex px-4 py-3 rounded-md shadow bg-neutral-100 dark:bg-neutral-900">
+    <span class="text-primary-400 pe-3 flex items-center">
+      {{ partial "icon.html" "language" }}
+    </span>
+    <span class="dark:text-neutral-300 flex flex-wrap items-center gap-2 text-sm">
+      {{ $text }}
+      <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        {{ $toolName }}
+      </span>
+      <span class="rounded-md border border-secondary-400 px-1 py-[1px] text-xs font-normal text-secondary-700 dark:border-secondary-600 dark:text-secondary-400">
+        v{{ .version }}
+      </span>
+      {{ if $toolPage }}
+        <span class="text-neutral-400 dark:text-neutral-500">|</span>
+        <a href="{{ $toolPage.RelPermalink }}"
+          class="text-sm text-primary-600 dark:text-primary-400 no-underline hover:text-primary-900 dark:hover:text-primary-200">
+          {{ i18n "translation_more_info" }}
+        </a>
+      {{ end }}
+    </span>
+  </div>
+{{ end }}

@@ -15,12 +15,8 @@ tags:
 categories:
   - techlab
 
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
+showComments: true
+chatId: "self-hosting-matrix-homeserver-synapse"
 
 translation:
   tool: md-translator
@@ -343,6 +339,7 @@ Así es como debería ser la web.
 
 ¿Preguntas o comentarios? Escríbeme directamente a través de Matrix: `@sebastian:matrix.techlab.icu`; o simplemente deja un comentario abajo. Este será enviado rápidamente a mi Matrix.
 
-Un cordial saludo de Sebastian.
+Un cordial saludo de  
+Sebastian
 
-{{< chat self-hosting-matrix-homeserver-synapse >}}
+{{< translation-note >}}
