@@ -1,7 +1,7 @@
 <script type="text/javascript" src="/cactus.js"></script>
 <link rel="stylesheet" href="/cactus.css" type="text/css" />
 <style>
-  /* === Cactus Chat – PaperMod Catppuccin === */
+  /* === Cactus Chat – Blowfish Catppuccin === */
   /* Fix avatar image distortion */
   .cactus-comment-avatar img {
     max-width: unset;
@@ -10,48 +10,38 @@
     object-fit: cover;
   }
   /* --- Light / Catppuccin Latte --- */
-  :root[data-theme="light"] {
-    --cactus-text-color: #4c4f69;
-    --cactus-text-color--soft: #6c6f85;
-
+  :root:not(.dark) {
+    --cactus-text-color: var(--catppuccin-color-text);
+    --cactus-text-color--soft: var(--catppuccin-color-subtext0);
     --cactus-background-color: transparent;
-    --cactus-background-color--strong: #e6e9ef;
-
-    --cactus-border-color: #ccd0da;
+    --cactus-background-color--strong: var(--catppuccin-color-mantle);
+    --cactus-border-color: var(--catppuccin-color-surface0);
     --cactus-border-width: 1px;
     --cactus-border-radius: 0.5em;
-
-    --cactus-box-shadow-color: rgba(30, 102, 245, 0.15);
-
-    --cactus-button-text-color: #4c4f69;
-    --cactus-button-color: #dce0e8;
-    --cactus-button-color--strong: #ccd0da;
-    --cactus-button-color--stronger: #bcc0cc;
-
-    --cactus-login-form-text-color: #4c4f69;
-
-    --cactus-error-color: #d20f39;
+    --cactus-box-shadow-color: rgba(var(--color-neutral-900), 0.20);
+    --cactus-button-text-color: var(--catppuccin-color-text);
+    --cactus-button-color: var(--catppuccin-color-crust);
+    --cactus-button-color--strong: var(--catppuccin-color-surface0);
+    --cactus-button-color--stronger: var(--catppuccin-color-surface1);
+    --cactus-login-form-text-color: var(--catppuccin-color-text);
+    --cactus-error-color: var(--catppuccin-color-red);
   }
   /* --- Dark / Catppuccin Mocha --- */
-  :root[data-theme="dark"] {
-    --cactus-text-color: #cdd6f4;
-    --cactus-text-color--soft: #a6adc8;
-
+  :root.dark {
+    --cactus-text-color: var(--catppuccin-color-text);
+    --cactus-text-color--soft: var(--catppuccin-color-subtext0);
     --cactus-background-color: transparent;
-    --cactus-background-color--strong: #313244;
-
-    --cactus-border-color: #45475a;
-
-    --cactus-box-shadow-color: rgba(137, 180, 250, 0.18);
-
-    --cactus-button-text-color: #cdd6f4;
-    --cactus-button-color: #45475a;
-    --cactus-button-color--strong: #585b70;
-    --cactus-button-color--stronger: #6c7086;
-
-    --cactus-login-form-text-color: #cdd6f4;
-
-    --cactus-error-color: #f38ba8;
+    --cactus-background-color--strong: var(--catppuccin-color-surface0);
+    --cactus-border-color: var(--catppuccin-color-surface1);
+    --cactus-border-width: 1px;
+    --cactus-border-radius: 0.5em;
+    --cactus-box-shadow-color: rgba(var(--color-neutral-50), 0.04);
+    --cactus-button-text-color: var(--catppuccin-color-text);
+    --cactus-button-color: var(--catppuccin-color-surface1);
+    --cactus-button-color--strong: var(--catppuccin-color-surface2);
+    --cactus-button-color--stronger: var(--catppuccin-color-overlay0);
+    --cactus-login-form-text-color: var(--catppuccin-color-text);
+    --cactus-error-color: var(--catppuccin-color-red);
   }
 </style>
 <br />

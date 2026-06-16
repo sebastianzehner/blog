@@ -11,6 +11,15 @@
   --font-mono: "Cascadia Code", monospace;
 }
 
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible {
+  --tw-ring-color: rgba(var(--color-primary-500), 0.8);
+  --tw-ring-offset-color: transparent;
+  border-color: rgba(var(--color-primary-500), 0.4);
+}
+
 html {
   font-size: 18px;
 }
