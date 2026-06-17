@@ -39,7 +39,7 @@
     page_views: "Vistas"
 
 - translation_note_badge:
-    other: "Este artículo fue traducido de {{ .From }} a {{ .To }} usando"
+    other: "Este artículo fue traducido de {{ .From }} a {{ .To }}"
 
 - translation_more_info:
     other: "Más Información"

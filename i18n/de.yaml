@@ -39,7 +39,7 @@
     page_views: "Aufrufe"
 
 - translation_note_badge:
-    other: "Dieser Artikel wurde von {{ .From }} nach {{ .To }} übersetzt mit"
+    other: "Dieser Artikel wurde von {{ .From }} nach {{ .To }} übersetzt"
 
 - translation_more_info:
     other: "Mehr Informationen"
