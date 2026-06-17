@@ -88,6 +88,34 @@
   --catppuccin-color-mauve-900: #5e25a7;
   --catppuccin-color-mauve-950: #4d1d8b;
 
+  /* Peach (Latte) */
+  --catppuccin-color-peach: #fab387;
+  --catppuccin-color-peach-500: #fab387;
+  --catppuccin-color-peach-400: #fbbc99;
+  --catppuccin-color-peach-300: #fbc5a8;
+  --catppuccin-color-peach-200: #fcceb6;
+  --catppuccin-color-peach-100: #fcd6c3;
+  --catppuccin-color-peach-50: #fdddcf;
+  --catppuccin-color-peach-600: #efab81;
+  --catppuccin-color-peach-700: #dd9e78;
+  --catppuccin-color-peach-800: #c88f6e;
+  --catppuccin-color-peach-900: #b17e63;
+  --catppuccin-color-peach-950: #946a55;
+
+  /* Yellow (Latte) */
+  --catppuccin-color-yellow: #f9e2af;
+  --catppuccin-color-yellow-500: #f9e2af;
+  --catppuccin-color-yellow-400: #fae5b9;
+  --catppuccin-color-yellow-300: #fae8c3;
+  --catppuccin-color-yellow-200: #fbebcb;
+  --catppuccin-color-yellow-100: #fbeed4;
+  --catppuccin-color-yellow-50: #fcf1dc;
+  --catppuccin-color-yellow-600: #eed8a7;
+  --catppuccin-color-yellow-700: #dcc79b;
+  --catppuccin-color-yellow-800: #c7b58d;
+  --catppuccin-color-yellow-900: #b0a07e;
+  --catppuccin-color-yellow-950: #93866b;
+
   /* Red (Latte) */
   --catppuccin-color-red: #d20f39;
   --catppuccin-color-red-500: #d20f39;
@@ -115,6 +143,95 @@
   --catppuccin-color-green-800: #317f20;
   --catppuccin-color-green-900: #2a6f1b;
   --catppuccin-color-green-950: #215b15;
+
+  /* Teal (Latte) */
+  --catppuccin-color-teal: #94e2d5;
+  --catppuccin-color-teal-500: #94e2d5;
+  --catppuccin-color-teal-400: #a3e5da;
+  --catppuccin-color-teal-300: #b1e8de;
+  --catppuccin-color-teal-200: #bdebe3;
+  --catppuccin-color-teal-100: #c8eee7;
+  --catppuccin-color-teal-50: #d3f1eb;
+  --catppuccin-color-teal-600: #8dd8cc;
+  --catppuccin-color-teal-700: #83c7bc;
+  --catppuccin-color-teal-800: #77b5ac;
+  --catppuccin-color-teal-900: #69a098;
+  --catppuccin-color-teal-950: #588681;
+
+  /* Sapphire (Latte) */
+  --catppuccin-color-sapphire: #74c7ec;
+  --catppuccin-color-sapphire-500: #74c7ec;
+  --catppuccin-color-sapphire-400: #8bceee;
+  --catppuccin-color-sapphire-300: #9ed4f0;
+  --catppuccin-color-sapphire-200: #aedaf2;
+  --catppuccin-color-sapphire-100: #bce0f4;
+  --catppuccin-color-sapphire-50: #c9e5f6;
+  --catppuccin-color-sapphire-600: #6fbee2;
+  --catppuccin-color-sapphire-700: #66b0d1;
+  --catppuccin-color-sapphire-800: #5d9fbe;
+  --catppuccin-color-sapphire-900: #538ca8;
+  --catppuccin-color-sapphire-950: #46768e;
+
+  /* Admonition Colors – Catppuccin Latte */
+  --adm-note-border: var(--catppuccin-color-blue);
+  --adm-note-bg: rgba(var(--color-neutral-100), 1);
+  --adm-note-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-tip-border: var(--catppuccin-color-green);
+  --adm-tip-bg: rgba(var(--color-neutral-100), 1);
+  --adm-tip-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-important-border: var(--catppuccin-color-mauve);
+  --adm-important-bg: rgba(var(--color-neutral-100), 1);
+  --adm-important-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-warning-border: var(--catppuccin-color-yellow-700);
+  --adm-warning-bg: rgba(var(--color-neutral-100), 1);
+  --adm-warning-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-caution-border: var(--catppuccin-color-red);
+  --adm-caution-bg: rgba(var(--color-neutral-100), 1);
+  --adm-caution-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-info-border: var(--catppuccin-color-sapphire);
+  --adm-info-bg: rgba(var(--color-neutral-100), 1);
+  --adm-info-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-success-border: var(--catppuccin-color-green);
+  --adm-success-bg: rgba(var(--color-neutral-100), 1);
+  --adm-success-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-bug-border: var(--catppuccin-color-red);
+  --adm-bug-bg: rgba(var(--color-neutral-100), 1);
+  --adm-bug-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-danger-border: var(--catppuccin-color-red);
+  --adm-danger-bg: rgba(var(--color-neutral-100), 1);
+  --adm-danger-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-example-border: var(--catppuccin-color-mauve);
+  --adm-example-bg: rgba(var(--color-neutral-100), 1);
+  --adm-example-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-abstract-border: var(--catppuccin-color-teal);
+  --adm-abstract-bg: rgba(var(--color-neutral-100), 1);
+  --adm-abstract-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-question-border: var(--catppuccin-color-yellow);
+  --adm-question-bg: rgba(var(--color-neutral-100), 1);
+  --adm-question-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-quote-border: var(--catppuccin-color-overlay0);
+  --adm-quote-bg: rgba(var(--color-neutral-100), 1);
+  --adm-quote-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-failure-border: var(--catppuccin-color-red);
+  --adm-failure-bg: rgba(var(--color-neutral-100), 1);
+  --adm-failure-text: rgba(var(--color-neutral-900), 1);
+
+  --adm-todo-border: var(--catppuccin-color-blue);
+  --adm-todo-bg: rgba(var(--color-neutral-100), 1);
+  --adm-todo-text: rgba(var(--color-neutral-900), 1);
 }
 
 /* Dark mode = Catppuccin Mocha */
@@ -206,6 +323,34 @@
   --catppuccin-color-mauve-900: #8f75b0;
   --catppuccin-color-mauve-950: #786394;
 
+  /* Peach (Mocha) */
+  --catppuccin-color-peach: #fab387;
+  --catppuccin-color-peach-500: #fab387;
+  --catppuccin-color-peach-400: #fbbc99;
+  --catppuccin-color-peach-300: #fbc5a8;
+  --catppuccin-color-peach-200: #fcceb6;
+  --catppuccin-color-peach-100: #fcd6c3;
+  --catppuccin-color-peach-50: #fdddcf;
+  --catppuccin-color-peach-600: #efab81;
+  --catppuccin-color-peach-700: #dd9e78;
+  --catppuccin-color-peach-800: #c88f6e;
+  --catppuccin-color-peach-900: #b17e63;
+  --catppuccin-color-peach-950: #946a55;
+
+  /* Yellow (Mocha) */
+  --catppuccin-color-yellow: #f9e2af;
+  --catppuccin-color-yellow-500: #f9e2af;
+  --catppuccin-color-yellow-400: #fae5b9;
+  --catppuccin-color-yellow-300: #fae8c3;
+  --catppuccin-color-yellow-200: #fbebcb;
+  --catppuccin-color-yellow-100: #fbeed4;
+  --catppuccin-color-yellow-50: #fcf1dc;
+  --catppuccin-color-yellow-600: #eed8a7;
+  --catppuccin-color-yellow-700: #dcc79b;
+  --catppuccin-color-yellow-800: #c7b58d;
+  --catppuccin-color-yellow-900: #b0a07e;
+  --catppuccin-color-yellow-950: #93866b;
+
   /* Red (Mocha) */
   --catppuccin-color-red: #f38ba8;
   --catppuccin-color-red-500: #f38ba8;
@@ -233,4 +378,78 @@
   --catppuccin-color-green-800: #85b682;
   --catppuccin-color-green-900: #75a074;
   --catppuccin-color-green-950: #638663;
+
+  /* Teal (Mocha) */
+  --catppuccin-color-teal: #94e2d5;
+  --catppuccin-color-teal-500: #94e2d5;
+  --catppuccin-color-teal-400: #a3e5da;
+  --catppuccin-color-teal-300: #b1e8de;
+  --catppuccin-color-teal-200: #bdebe3;
+  --catppuccin-color-teal-100: #c8eee7;
+  --catppuccin-color-teal-50: #d3f1eb;
+  --catppuccin-color-teal-600: #8dd8cc;
+  --catppuccin-color-teal-700: #83c7bc;
+  --catppuccin-color-teal-800: #77b5ac;
+  --catppuccin-color-teal-900: #69a098;
+  --catppuccin-color-teal-950: #588681;
+
+  /* Sapphire (Mocha) */
+  --catppuccin-color-sapphire: #74c7ec;
+  --catppuccin-color-sapphire-500: #74c7ec;
+  --catppuccin-color-sapphire-400: #8bceee;
+  --catppuccin-color-sapphire-300: #9ed4f0;
+  --catppuccin-color-sapphire-200: #aedaf2;
+  --catppuccin-color-sapphire-100: #bce0f4;
+  --catppuccin-color-sapphire-50: #c9e5f6;
+  --catppuccin-color-sapphire-600: #6fbee2;
+  --catppuccin-color-sapphire-700: #66b0d1;
+  --catppuccin-color-sapphire-800: #5d9fbe;
+  --catppuccin-color-sapphire-900: #538ca8;
+  --catppuccin-color-sapphire-950: #46768e;
+
+  /* Admonition Colors – Catppuccin Mocha */
+  --adm-note-bg: rgba(var(--color-neutral-700), 1);
+  --adm-note-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-tip-bg: rgba(var(--color-neutral-700), 1);
+  --adm-tip-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-important-bg: rgba(var(--color-neutral-700), 1);
+  --adm-important-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-warning-bg: rgba(var(--color-neutral-700), 1);
+  --adm-warning-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-caution-bg: rgba(var(--color-neutral-700), 1);
+  --adm-caution-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-info-bg: rgba(var(--color-neutral-700), 1);
+  --adm-info-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-success-bg: rgba(var(--color-neutral-700), 1);
+  --adm-success-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-bug-bg: rgba(var(--color-neutral-700), 1);
+  --adm-bug-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-danger-bg: rgba(var(--color-neutral-700), 1);
+  --adm-danger-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-example-bg: rgba(var(--color-neutral-700), 1);
+  --adm-example-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-abstract-bg: rgba(var(--color-neutral-700), 1);
+  --adm-abstract-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-question-bg: rgba(var(--color-neutral-700), 1);
+  --adm-question-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-quote-bg: rgba(var(--color-neutral-700), 1);
+  --adm-quote-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-failure-bg: rgba(var(--color-neutral-700), 1);
+  --adm-failure-text: rgba(var(--color-neutral-50), 1);
+
+  --adm-todo-bg: rgba(var(--color-neutral-700), 1);
+  --adm-todo-text: rgba(var(--color-neutral-50), 1);
 }
