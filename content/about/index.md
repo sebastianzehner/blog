@@ -6,28 +6,11 @@ date = 2023-02-06T12:21:42-04:00
 lastmod = 2024-07-08T00:37:47-04:00
 draft = false
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    ShowBreadCrumbs = false
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowPostNavLinks = false
-    ShowPageViews = true
-
-[cover]
-    image = '/img/about.webp'
-    alt = 'About Me'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = false
+chatId = "about"
 +++
 
-|   |   |
-|---|---|
-|Welcome to my personal blog. My name is Sebastian Zehner and I am the founder and owner of sebastianzehner.com|![Sebastian](/img/galleries/about/sebastian.webp)|
+Welcome to my personal blog. My name is Sebastian Zehner and I am the founder and owner of sebastianzehner.com
 
 I created a blog in 2014 for the following reasons: At that time, I was looking for a change and other people with motivation who wanted to share ideas about making money online, were tired of their usual job or simply wanted more from their life.
 
@@ -37,9 +20,16 @@ It all seemed very exciting to me, so I started with a ready-to-use blog system,
 
 In 2016, my girlfriend at this time (now wife) and I still enjoyed driving our small caravan through Germany and Europe quite a lot. If we didn't want to travel with the caravan, we could go to our small garden with a garden house. This was also a common project on which we had a lot of fun and spent our spare time.
 
-|             |              |
-|-------------|-------------:|
-|![Caravan 1](/img/galleries/about/wohnwagen-1.webp)![Garden 1](/img/galleries/about/garten-1.webp)|![Caravan 2](/img/galleries/about/wohnwagen-2.webp)![Garden 2](/img/galleries/about/garten-2.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="wohnwagen-1.webp" alt="T@b 320 Offroad in Füssen" caption="T@b 320 Offroad | Füssen" figureClass="grid-w50" >}}
+  {{< figure src="wohnwagen-2.webp" alt="T@b 320 Offroad in Cavallino" caption="T@b 320 Offroad | Cavallino" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="garten-1.webp" alt="Garden" caption="Garden | Breisach" figureClass="grid-w50" >}}
+  {{< figure src="garten-2.webp" alt="Grden House" caption="Garden House | Breisach" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 In the past, I wrote a few blog posts about our travels with the caravan, but also about our garden and how it was created. There was even a garden news series about it with 35 episodes.
 
@@ -80,9 +70,7 @@ However, there was another interesting opportunity for a job that I started in 2
 
 I got my first cryptocurrencies at the beginning of 2017 and have been very enthusiastic about them ever since. That was probably also the breakthrough for my lifestyle business and 2017 was also a very eventful year for me and my family. Our daughter was born, we got married after 16 years, we bought a large motorhome, we thought about emigrating and planned our first trip to South America.
 
-|             |              |
-|-------------|-------------:|
-|![Sofia 1](/img/galleries/about/sofia-1.webp)|![Sofia 2](/img/galleries/about/sofia-2.webp)|
+{{< carousel images="sofia-*" aspectRatio="16-9" interval="2500" >}}
 
 ## New plans for the future
 
@@ -101,9 +89,7 @@ Our plan at the beginning was perfect and we stayed on a campsite in Münster fo
 - [Camping with a motorhome through Spain and Portugal Part 3](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3/)
 - [Camping with a motorhome through Spain and Portugal Part 4](/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4/)
 
-|             |              |
-|-------------|-------------:|
-|![Camping 1](/img/galleries/about/camping-1.webp)![Camping 3](/img/galleries/about/camping-3.webp)![Camping 4](/img/galleries/about/camping-4.webp)|![Camping 2](/img/galleries/about/camping-2.webp)![Camping 5](/img/galleries/about/camping-5.webp)![Camping 6](/img/galleries/about/camping-6.webp)|
+{{< carousel images="camping-*" aspectRatio="16-9" interval="2500" >}}
 
 ## Move to Paraguay
 
@@ -117,16 +103,23 @@ Back in Germany, we sold our motorhome and flew to Paraguay. We have now been li
 
 We now have our own property and house here and Stefanie even has her own treatment room for pain therapy. I have a woodworking shop and build our own furniture. We have all the freedom we need here on site and I will be able to continue working online over the internet. Of course, I'm not going to sell you anything at this point, but maybe I'll inspire you and you'll pluck up the courage to change your life in a different and positive direction?
 
-|             |              |
-|-------------|-------------:|
-|![Airport](/img/galleries/about/flughafen.webp)![House](/img/galleries/about/haus.webp)|![Pira Tava](/img/galleries/about/pira-tava.webp)![Quincho](/img/galleries/about/quincho.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="flughafen.webp" alt="Airport Asuncion" figureClass="grid-w50" >}}
+  {{< figure src="pira-tava.webp" alt="Pira Tava" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="haus.webp" alt="House" figureClass="grid-w50" >}}
+  {{< figure src="quincho.webp" alt="Quincho" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 If you are already settled and everything is going perfectly in your life, then I am of course very glad if I can still inspire and above all entertain you with our articles. You can find all blog articles about our life in Paraguay here.
 
 - [El Paraiso Verde](/tags/el-paraiso-verde/)
 - [Paraguay](/categories/paraguay/)
 
-Kind regards
+Kind regards  
 Sebastian
 
-{{< chat about >}}
+{{< translation-note >}}

@@ -6,28 +6,11 @@ date = 2023-02-06T12:21:42-04:00
 lastmod = 2024-07-08T12:01:08-04:00
 draft = false
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    ShowBreadCrumbs = false
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowPostNavLinks = false
-    ShowPageViews = true
-
-[cover]
-    image = '/img/about.webp'
-    alt = 'Sobre Mí'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = false
+chatId = "about"
 +++
 
-|   |   |
-|---|---|
-|Bienvenido a mi blog personal. Me llamo Sebastian Zehner y soy el fundador y propietario de sebastianzehner.com|![Sebastian](/img/galleries/about/sebastian.webp)|
+Bienvenido a mi blog personal. Me llamo Sebastian Zehner y soy el fundador y propietario de sebastianzehner.com
 
 Creé un blog en 2014 por las siguientes razones: En ese momento buscaba un cambio y a otras personas con motivación que quisieran compartir ideas sobre cómo ganar dinero online, estuvieran cansadas de su trabajo habitual o simplemente quisieran más de su vida.
 
@@ -37,9 +20,16 @@ Todo me pareció muy emocionante, así que empecé con un sistema de blog listo 
 
 En 2016, mi novia en ese momento (ahora esposa) y yo todavía disfrutábamos bastante conduciendo nuestra pequeña caravana por Alemania y Europa. Si no queríamos viajar con la caravana, podíamos ir a nuestro pequeño jardín con una casa de jardín. Este era también un proyecto común en el que nos divertíamos mucho y pasábamos nuestro tiempo libre.
 
-|             |              |
-|-------------|-------------:|
-|![Caravana 1](/img/galleries/about/wohnwagen-1.webp)![Jardín 1](/img/galleries/about/garten-1.webp)|![Caravana 2](/img/galleries/about/wohnwagen-2.webp)![Jardín 2](/img/galleries/about/garten-2.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="wohnwagen-1.webp" alt="T@b 320 Offroad en Füssen" caption="T@b 320 Offroad | Füssen" figureClass="grid-w50" >}}
+  {{< figure src="wohnwagen-2.webp" alt="T@b 320 Offroad en Cavallino" caption="T@b 320 Offroad | Cavallino" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="garten-1.webp" alt="Jardín" caption="Jardín | Breisach" figureClass="grid-w50" >}}
+  {{< figure src="garten-2.webp" alt="Casa de Jardín" caption="Casa de Jardín | Breisach" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 Por aquel entonces, escribía algunas entradas en el blog sobre nuestros viajes con la caravana, pero también sobre nuestro jardín y cómo surgió. Incluso tuvimos nuestra propia serie de noticias sobre el jardín con 35 episodios.
 
@@ -80,9 +70,7 @@ Sin embargo, hubo otra oportunidad interesante para un trabajo que empecé en 20
 
 Conseguí mis primeras criptodivisas a principios de 2017 y desde entonces he estado muy entusiasmado con ellas. Ese fue probablemente también el gran avance para mi negocio de estilo de vida y 2017 fue también un año muy lleno de acontecimientos para mí y mi familia. Nació nuestra hija, nos casamos después de 16 años, compramos una autocaravana grande, pensamos en emigrar y planeamos nuestro primer viaje a Sudamérica.
 
-|             |              |
-|-------------|-------------:|
-|![Sofia 1](/img/galleries/about/sofia-1.webp)|![Sofia 2](/img/galleries/about/sofia-2.webp)|
+{{< carousel images="sofia-*" aspectRatio="16-9" interval="2500" >}}
 
 ## Nuevos planes para el futuro
 
@@ -101,9 +89,7 @@ Nuestro plan al principio fue perfecto y nos quedamos en un camping en Münster 
 - [Camping en autocaravana por España y Portugal Parte 3](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3)
 - [Camping en autocaravana por España y Portugal Parte 4](/es/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4)
 
-|             |              |
-|-------------|-------------:|
-|![Camping 1](/img/galleries/about/camping-1.webp)![Camping 3](/img/galleries/about/camping-3.webp)![Camping 4](/img/galleries/about/camping-4.webp)|![Camping 2](/img/galleries/about/camping-2.webp)![Camping 5](/img/galleries/about/camping-5.webp)![Camping 6](/img/galleries/about/camping-6.webp)|
+{{< carousel images="camping-*" aspectRatio="16-9" interval="2500" >}}
 
 ## Trasladarse a Paraguay
 
@@ -117,16 +103,23 @@ De vuelta en Alemania, vendimos nuestra autocaravana y volamos a Paraguay. Ahora
 
 Ahora tenemos nuestra propia propiedad y casa aquí y Stefanie incluso tiene su propia sala de tratamiento para la terapia del dolor. Tengo un taller de carpintería y construyo nuestros propios muebles. Tenemos toda la libertad que necesitamos aquí en el sitio y voy a ser capaz de seguir trabajando en línea a través de Internet. Por supuesto, no voy a venderte nada en este momento, pero tal vez te inspire y te armes de valor para cambiar tu vida en una dirección diferente y positiva?
 
-|             |              |
-|-------------|-------------:|
-|![Aeropuerto](/img/galleries/about/flughafen.webp)![Casa](/img/galleries/about/haus.webp)|![Pira Tava](/img/galleries/about/pira-tava.webp)![Quincho](/img/galleries/about/quincho.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="flughafen.webp" alt="Aeropuerto Asuncion" figureClass="grid-w50" >}}
+  {{< figure src="pira-tava.webp" alt="Pira Tava" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="haus.webp" alt="Casa" figureClass="grid-w50" >}}
+  {{< figure src="quincho.webp" alt="Quincho" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 Si ya estás establecido y todo va perfectamente en tu vida, entonces por supuesto me alegro mucho si todavía puedo inspirarte y sobre todo entretenerte con nuestros artículos. Puedes encontrar todos los artículos del blog sobre nuestra vida en Paraguay aquí.
 
 - [El Paraiso Verde](/es/tags/el-paraiso-verde/)
 - [Paraguay](/es/categories/paraguay/)
 
-Saludos cordiales
+Saludos cordiales  
 Sebastian
 
-{{< chat about >}}
+{{< translation-note >}}

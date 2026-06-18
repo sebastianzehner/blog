@@ -6,28 +6,11 @@ date = 2023-02-06T12:21:42-04:00
 lastmod = 2024-07-05T21:46:54-04:00
 draft = false
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    ShowBreadCrumbs = false
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowPostNavLinks = false
-    ShowPageViews = true
-
-[cover]
-    image = '/img/about.webp'
-    alt = 'Über mich'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = false
+chatId = "about"
 +++
 
-|   |   |
-|---|---|
-|Herzlich willkommen auf meinem persönlichen Blog. Mein Name ist Sebastian Zehner und ich bin der Gründer und Inhaber von sebastianzehner.com|![Sebastian](/img/galleries/about/sebastian.webp)|
+Herzlich willkommen auf meinem persönlichen Blog. Mein Name ist Sebastian Zehner und ich bin der Gründer und Inhaber von sebastianzehner.com
 
 Ich habe 2014 aus folgenden Gründen einen Blog erstellt: Ich war damals auf der Suche nach Veränderung und weiteren motivierten Menschen, welche Ideen austauschen möchten zum Thema Geld verdienen im Internet, die Nase voll von ihrem gewöhnlichen Job haben oder einfach mehr vom Leben erwarten.
 
@@ -37,9 +20,16 @@ Das klang für mich alles sehr spannend und daher bin ich damals mit einem ferti
 
 Meine damalige Freundin (inzwischen Ehefrau) und ich fuhren 2016 noch sehr oft und gerne mit unserem kleinen Wohnwagen durch Deutschland und Europa. Falls wir mal nicht mit dem Wohnwagen unterwegs sein wollten, konnten wir in unseren kleinen Garten mit Gartenhaus fahren. Das war ebenfalls ein gemeinsames Projekt an dem wir viel Spaß und unsere Freizeit verbracht hatten.
 
-|             |              |
-|-------------|-------------:|
-|![Wohnwagen 1](/img/galleries/about/wohnwagen-1.webp)![Garten 1](/img/galleries/about/garten-1.webp)|![Wohnwagen 2](/img/galleries/about/wohnwagen-2.webp)![Garten 2](/img/galleries/about/garten-2.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="wohnwagen-1.webp" alt="T@b 320 Offroad in Füssen" caption="T@b 320 Offroad | Füssen" figureClass="grid-w50" >}}
+  {{< figure src="wohnwagen-2.webp" alt="T@b 320 Offroad in Cavallino" caption="T@b 320 Offroad | Cavallino" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="garten-1.webp" alt="Garten" caption="Garten | Breisach" figureClass="grid-w50" >}}
+  {{< figure src="garten-2.webp" alt="Gartenhaus" caption="Gartenhaus | Breisach" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 Ich habe damals einige Blogbeiträge über unsere Reisen mit den Wohnwagen geschrieben aber auch von unserem Garten und wie dieser entstanden ist. Es gab darüber sogar eine eigene Garten News Serie mit 35 Folgen.
 
@@ -80,9 +70,7 @@ Es kam allerdings doch nochmal eine interessante Gelegenheit für einen Job, den
 
 Anfang 2017 bin ich zu meinen ersten Kryptowährungen gekommen und seitdem sehr begeistert davon. Das war wohl auch der Durchbruch für mein Lifestyle Business und 2017 war außerdem ein sehr ereignisreiches Jahr für mich und meine Familie. Unsere Tochter kam zur Welt, wir haben nach 16 Jahren geheiratet, wir haben uns ein großes Wohnmobil gekauft, wir haben über das Auswandern nachgedacht und unsere erste Reise nach Südamerika geplant.
 
-|             |              |
-|-------------|-------------:|
-|![Sofia 1](/img/galleries/about/sofia-1.webp)|![Sofia 2](/img/galleries/about/sofia-2.webp)|
+{{< carousel images="sofia-*" aspectRatio="16-9" interval="2500" >}}
 
 ## Neue Pläne für die Zukunft
 
@@ -101,9 +89,7 @@ Unser damaliger Plan war perfekt und wir blieben noch für einen Monat in Münst
 - [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3)
 - [Camping mit dem Wohnmobil durch Spanien und Portugal Teil 4](/de/posts/road-trip-trough-spain-and-portugal-in-a-motorhome-part-4)
 
-|             |              |
-|-------------|-------------:|
-|![Camping 1](/img/galleries/about/camping-1.webp)![Camping 3](/img/galleries/about/camping-3.webp)![Camping 4](/img/galleries/about/camping-4.webp)|![Camping 2](/img/galleries/about/camping-2.webp)![Camping 5](/img/galleries/about/camping-5.webp)![Camping 6](/img/galleries/about/camping-6.webp)|
+{{< carousel images="camping-*" aspectRatio="16-9" interval="2500" >}}
 
 ## Auswandern nach Paraguay
 
@@ -117,16 +103,23 @@ Zurück in Deutschland verkauften wir unser Wohnmobil und flogen nach Paraguay. 
 
 Wir haben hier nun ein eigenes Grundstück mit Haus und Stefanie hat sogar ihren eigenen Behandlungsraum für Schmerztherapie. Ich habe eine Holzwerkstatt und baue unsere Möbel selbst. Hier vor Ort leben wir alle Freiheiten und ich habe die Möglichkeit weiterhin Online über das Internet arbeiten zu können. Ich werde dir jetzt an dieser Stelle natürlich nichts verkaufen aber vielleicht inspiriere ich dich hiermit und Du packst deinen Mut, um dein Leben entsprechend in eine andere und positive Richtung zu lenken?
 
-|             |              |
-|-------------|-------------:|
-|![Flughafen](/img/galleries/about/flughafen.webp)![Haus](/img/galleries/about/haus.webp)|![Pira Tava](/img/galleries/about/pira-tava.webp)![Quincho](/img/galleries/about/quincho.webp)|
+<!-- prettier-ignore -->
+{{< gallery >}}
+  {{< figure src="flughafen.webp" alt="Flughafen Asuncion" figureClass="grid-w50" >}}
+  {{< figure src="pira-tava.webp" alt="Pira Tava" figureClass="grid-w50" >}}
+{{< /gallery >}}
+<br>
+{{< gallery >}}
+  {{< figure src="haus.webp" alt="Haus" figureClass="grid-w50" >}}
+  {{< figure src="quincho.webp" alt="Quincho" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 Solltest Du schon soweit sein und alles läuft perfekt in deinem Leben, dann freut es mich natürlich sehr, wenn ich dich mit unseren Beiträgen trotzdem inspirieren und vor allem unterhalten kann. Hier findest Du alle Blogartikel zu unserem Leben in Paraguay.
 
 - [El Paraiso Verde](/de/tags/el-paraiso-verde/)
 - [Paraguay](/de/categories/paraguay/)
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
-{{< chat about >}}
+{{< translation-note >}}
