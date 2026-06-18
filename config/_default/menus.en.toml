@@ -16,87 +16,67 @@
   weight = 10
 
 [[main]]
-  name = "Overview"
+  name = "Discover"
   weight = 20
 
 [[main]]
-  name = "Info"
-  parent = "Overview"
+  name = "Overview"
+  parent = "Discover"
   pageRef = "overview"
   weight = 16
 
 [[main]]
-  name = "Categories"
-  parent = "Overview"
-  pageRef = "categories"
+  name = "Posts"
+  parent = "Discover"
+  pageRef = "posts"
   weight = 17
 
 [[main]]
-  name = "Tags"
-  parent = "Overview"
-  pageRef = "tags"
+  name = "Categories"
+  parent = "Discover"
+  pageRef = "categories"
   weight = 18
 
 [[main]]
   name = "Series"
-  parent = "Overview"
+  parent = "Discover"
   pageRef = "series"
   weight = 19
 
 [[main]]
-  name = "Posts"
-  parent = "Overview"
-  pageRef = "posts"
+  name = "Tags"
+  parent = "Discover"
+  pageRef = "tags"
   weight = 20
 
 [[main]]
-  name = "About Me"
+  name = "Profile"
   pageRef = "about"
   weight = 30
 
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://mastodon.social/@sebastianzehner"
+  #[[main]]
+  #  identifier = "mastodon"
+  #  pre = "mastodon"
+  #  weight = 300
+  #  url = "https://mastodon.social/@sebastianzehner"
 
-#[[main]]
-#  identifier = "github"
-#  pre = "github"
-#  url = "https://github.com/sebastianzehner/blog"
-#  weight = 400
+  #[[main]]
+  #  identifier = "github"
+  #  pre = "github"
+  #  url = "https://github.com/sebastianzehner/blog"
+  #  weight = 400
 
 
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
+  # -- Footer Menu --
+  # The footer menu is displayed at the bottom of the page, just before
+  # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Overview"
-  pageRef = "overview"
+  name = "Weather & Livecam"
+  pageRef = "livecam"
   weight = 10
 
 [[footer]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Newsletter"
+  pageRef = "newsletter"
   weight = 20
-
-[[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[footer]]
-  name = "Series"
-  pageRef = "series"
-  weight = 40
-
-[[footer]]
-  name = "Posts"
-  pageRef = "posts"
-  weight = 50
-
-[[footer]]
-  name = "Authors"
-  pageRef = "authors"
-  weight = 60

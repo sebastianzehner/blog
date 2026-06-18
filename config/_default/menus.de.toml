@@ -11,21 +11,21 @@
   weight = 20
 
 [[main]]
-  name = "Info"
+  name = "Übersicht"
   parent = "Entdecken"
   pageRef = "overview"
   weight = 16
 
 [[main]]
-  name = "Kategorien"
+  name = "Beiträge"
   parent = "Entdecken"
-  pageRef = "categories"
+  pageRef = "posts"
   weight = 17
 
 [[main]]
-  name = "Tags"
+  name = "Kategorien"
   parent = "Entdecken"
-  pageRef = "tags"
+  pageRef = "categories"
   weight = 18
 
 [[main]]
@@ -35,9 +35,9 @@
   weight = 19
 
 [[main]]
-  name = "Beiträge"
+  name = "Tags"
   parent = "Entdecken"
-  pageRef = "posts"
+  pageRef = "tags"
   weight = 20
 
 [[main]]
@@ -45,47 +45,27 @@
   pageRef = "about"
   weight = 30
 
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://mastodon.social/@sebastianzehner"
+  #[[main]]
+  #  identifier = "mastodon"
+  #  pre = "mastodon"
+  #  weight = 300
+  #  url = "https://mastodon.social/@sebastianzehner"
 
-#[[main]]
-#  identifier = "github"
-#  pre = "github"
-#  url = "https://github.com/sebastianzehner/blog"
-#  weight = 400
+  #[[main]]
+  #  identifier = "github"
+  #  pre = "github"
+  #  url = "https://github.com/sebastianzehner/blog"
+  #  weight = 400
 
 
-# -- Fußzeilenmenü --
+  # -- Fußzeilenmenü --
 
 [[footer]]
-  name = "Entdecken"
-  pageRef = "overview"
+  name = "Wetter und Livecam"
+  pageRef = "livecam"
   weight = 10
 
 [[footer]]
-  name = "Kategorien"
-  pageRef = "categories"
+  name = "Newsletter"
+  pageRef = "newsletter"
   weight = 20
-
-[[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[footer]]
-  name = "Serien"
-  pageRef = "series"
-  weight = 40
-
-[[footer]]
-  name = "Beiträge"
-  pageRef = "posts"
-  weight = 50
-
-[[footer]]
-  name = "Autoren"
-  pageRef = "authors"
-  weight = 60

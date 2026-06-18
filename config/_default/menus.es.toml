@@ -7,85 +7,65 @@
   weight = 10
 
 [[main]]
-  name = "Visión general"
+  name = "Descubrir"
   weight = 20
 
 [[main]]
-  name = "Info"
-  parent = "Visión general"
+  name = "Visión general"
+  parent = "Descubrir"
   pageRef = "overview"
   weight = 16
 
 [[main]]
-  name = "Categorías"
-  parent = "Visión general"
-  pageRef = "categories"
+  name = "Entradas"
+  parent = "Descubrir"
+  pageRef = "posts"
   weight = 17
 
 [[main]]
-  name = "Tags"
-  parent = "Visión general"
-  pageRef = "tags"
+  name = "Categorías"
+  parent = "Descubrir"
+  pageRef = "categories"
   weight = 18
 
 [[main]]
   name = "Series"
-  parent = "Visión general"
+  parent = "Descubrir"
   pageRef = "series"
   weight = 19
 
 [[main]]
-  name = "Posts"
-  parent = "Visión general"
-  pageRef = "posts"
+  name = "Tags"
+  parent = "Descubrir"
+  pageRef = "tags"
   weight = 20
 
 [[main]]
-  name = "Sobre Mí"
+  name = "Perfil"
   pageRef = "about"
   weight = 30
 
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://mastodon.social/@sebastianzehner"
+  #[[main]]
+  #  identifier = "mastodon"
+  #  pre = "mastodon"
+  #  weight = 300
+  #  url = "https://mastodon.social/@sebastianzehner"
 
-#[[main]]
-#  identifier = "github"
-#  pre = "github"
-#  url = "https://github.com/sebastianzehner/blog"
-#  weight = 400
+  #[[main]]
+  #  identifier = "github"
+  #  pre = "github"
+  #  url = "https://github.com/sebastianzehner/blog"
+  #  weight = 400
 
 
-# -- Menú de Pie de Página --
+  # -- Menú de Pie de Página --
 
 [[footer]]
-  name = "Visión general"
-  pageRef = "overview"
+  name = "Clima y Livecam"
+  pageRef = "livecam"
   weight = 10
 
 [[footer]]
-  name = "Categorías"
-  pageRef = "categories"
+  name = "Newsletter"
+  pageRef = "newsletter"
   weight = 20
-
-[[footer]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
-
-[[footer]]
-  name = "Series"
-  pageRef = "series"
-  weight = 40
-
-[[footer]]
-  name = "Posts"
-  pageRef = "posts"
-  weight = 50
-
-[[footer]]
-  name = "Autores"
-  pageRef = "authors"
-  weight = 60
