@@ -1,0 +1,23 @@
+{{ if .HasShortcode "gallery" }}
+<script>
+  /**
+   * Trigger a resize event when Zen Mode or A11y font size changes,
+   * so the gallery grid recalculates its layout without requiring a page reload.
+   * - Zen Mode toggles the "zen-mode-enable" class on <body>
+   * - A11y font size changes the inline style on <html>
+   */
+  window.addEventListener("DOMContentLoaded", function () {
+    const observer = new MutationObserver(function () {
+      setTimeout(() => window.dispatchEvent(new Event("resize")), 0);
+    });
+    observer.observe(document.body, {
+      attributes: true,
+      attributeFilter: ["class"],
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["style"],
+    });
+  });
+</script>
+{{ end }}
