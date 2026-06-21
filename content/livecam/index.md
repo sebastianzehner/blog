@@ -16,7 +16,7 @@ Anastacia Circle 5A
 
 {{< weather >}}
 
-![Picture of weather station](/img/weather-station-300.webp)
+![Picture of weather station](/img/weather/ecowitt-300px.webp)
 
 ## Livecam
 
@@ -24,8 +24,7 @@ Anastacia Circle 5A
 Anastacia Circle 5A
 {{< /badge >}}
 
-A new snapshot of this livecam is uploaded every minute. The last current photo from Anastacia Circle 5A.
+A new snapshot of this livecam is uploaded every minute. The last current photo
+from Anastacia Circle 5A.
 
-**(webcam is currently not available!)**
-
-![Livecam at El Paraiso Verde](https://cdn.epv.one/cam_snapshots/epv_snapshot.jpeg)
+**_webcam is currently not available!_**

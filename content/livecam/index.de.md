@@ -16,7 +16,7 @@ Anastacia Circle 5A
 
 {{< weather >}}
 
-![Bild von Wetterstation](/img/weather-station-300.webp)
+![Bild von Wetterstation](/img/weather/ecowitt-300px.webp)
 
 ## Livecam
 
@@ -24,8 +24,7 @@ Anastacia Circle 5A
 Anastacia Circle 5A
 {{< /badge >}}
 
-Jede Minute wird ein neuer Snapshot von dieser Livecam hochgeladen. Das letzte aktuelle Foto vom Anastacia Circle 5A.
+Jede Minute wird ein neuer Snapshot von dieser Livecam hochgeladen. Das letzte
+aktuelle Foto vom Anastacia Circle 5A.
 
-**(Webcam ist aktuell nicht verfügbar!)**
-
-![Livecam Anastacia Circle 5A](https://cdn.epv.one/cam_snapshots/epv_snapshot.jpeg)
+**_Webcam ist aktuell nicht verfügbar!_**
