@@ -1,27 +1,14 @@
 +++
 title = 'Unser Quincho wird gebaut'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Vor einiger Zeit haben die Bauarbeiten begonnen und der Raum steht auch schon fast. Zuerst wurde eine verdichtete Lehmplattform hergestellt, damit unser Quincho auch einen festen Untergrund hat.'
-date = 2022-08-18T17:34:14-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2022-08-18T17:34:14-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2022-08-18T17:34:14-03:00
+lastmod = 2022-08-18T17:34:14-03:00
+
 tags = ['El Paraiso Verde', 'Quincho', 'Schmerztherapie', 'Simple Life', 'Auswandern', 'Garten']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/quincho-construction.webp'
-    alt = 'Beitragsbild von Unser Quincho wird gebaut'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "quinchounderconstruction"
 +++
 
 ## Der Behandlungsraum und unsere Außenküche
@@ -30,9 +17,9 @@ Vor einiger Zeit haben die Bauarbeiten begonnen und der Raum steht auch schon fa
 
 Er beinhaltet später eine Glasschiebetür und ein Schiebefenster. Auf der anderen Seite und am Ende der Betonplatte werden demnächst zwei Säulen aus Sichtziegel hochgezogen. Darauf kann man später mit der Dachkonstruktion aufbauen. Gemauert wird außerdem unsere Außenküche selbst mit einem Kamin, der durch die Dachkonstruktion ragen wird. Eingedeckt wird das Dach später mit Stroh, wir bekommen also ein schönes Strohdach, optisch passend zu der Sitzgelegenheit dahinter.
 
-|             |              |
-|-------------|-------------:|
-|![Garten](/img/galleries/quincho-construction/garden.webp)|![Quincho Baustelle 1](/img/galleries/quincho-construction/quincho-construction-1.webp)|
+|                                                            |                                                                                         |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------: |
+| ![Garten](/img/galleries/quincho-construction/garden.webp) | ![Quincho Baustelle 1](/img/galleries/quincho-construction/quincho-construction-1.webp) |
 
 ## Unser Garten in Paraguay wächst
 
@@ -54,26 +41,23 @@ Noch eine weitere Idee hatte ich neulich bei der Planung von dem neuen Weg. Auf 
 
 ## Mehr Videos auf Youtube?
 
-Ich hätte ziemlich Lust viel mehr Videos von unserem Leben im grünen Paradies zu machen. Ich muss das zeittechnisch irgendwie ausprobieren, damit ich das auch geregelt bekomme. Ich habe einen gewissen Anspruch an die zukünftigen Videos aber zu perfekt darf es auch nicht werden, denn ansonsten wird das erfahrungsgemäß nie etwas. Leider habe ich das in der Vergangenheit alles vernachlässigt und man hätte inzwischen schon eine richtig schöne Dokumentation von damals zu heute. 
+Ich hätte ziemlich Lust viel mehr Videos von unserem Leben im grünen Paradies zu machen. Ich muss das zeittechnisch irgendwie ausprobieren, damit ich das auch geregelt bekomme. Ich habe einen gewissen Anspruch an die zukünftigen Videos aber zu perfekt darf es auch nicht werden, denn ansonsten wird das erfahrungsgemäß nie etwas. Leider habe ich das in der Vergangenheit alles vernachlässigt und man hätte inzwischen schon eine richtig schöne Dokumentation von damals zu heute.
 
 Das wäre sicherlich sehr spannend. Ein paar wenige Videoclips habe ich als gemacht aber eher mehr Fotos. Ich muss mal schauen, ob ich da ein interessantes Video zusammenbekomme, was den Unterschied von heute zu damals schön darstellt. Es hat sich so vieles verändert in den letzten Jahren. Sehr viele neue Häuser in unserem Siedlungsgebiet sind entstanden, da wäre es vielleicht auch mal interessant eine Baustellen Tour zu machen und die aktuellen Fortschritte zu zeigen. Vielleicht werde ich das alles noch unter einen Hut bekommen, ich lass mir etwas einfallen.
 
-|             |              |
-|-------------|-------------:|
-|![Quincho Baustelle 2](/img/galleries/quincho-construction/quincho-construction-2.webp)|![Motocargo Anhänger](/img/galleries/quincho-construction/motocargo-trailer.webp)|
+|                                                                                         |                                                                                   |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------: |
+| ![Quincho Baustelle 2](/img/galleries/quincho-construction/quincho-construction-2.webp) | ![Motocargo Anhänger](/img/galleries/quincho-construction/motocargo-trailer.webp) |
 
 ## Möbelbau läuft auch noch nebenher
 
 Ich habe in der letzten Zeit unsere Küche nochmals etwas umgebaut. Wir warten aktuell noch auf ein Angebot für den Marmor, damit unsere temporäre Arbeitsplatte aus Holz ersetzt werden kann. Ansonsten habe ich alle Schubladen fertig gebaut. Es fehlen jetzt nur noch die Fronten und die Türen, die ich besonders schön bauen möchte. Weitere Schubladen muss ich noch für unser Schlafzimmer bauen und dann ebenfalls die ganzen Fronten und Türen. Eine Holzkiste für unser Dreirad habe ich erst gebaut, da muss nur noch der Deckel mit den Scharnieren befestigt werden und wir haben eine Sitzkiste mit Stauraum für die Ladefläche.
 
-Gestern und heute habe ich mir die Teile für eine hängende Kommode zurechtgesägt und schonmal angeschliffen. Nächste Woche möchte ich diese Teile zusammenbauen. Weitere Teile für unseren Schuhschrank sind ebenfalls zugesägt aber da fehlen noch welche, die ich hauptsächlich aus Reststücken zusägen werde. 
+Gestern und heute habe ich mir die Teile für eine hängende Kommode zurechtgesägt und schonmal angeschliffen. Nächste Woche möchte ich diese Teile zusammenbauen. Weitere Teile für unseren Schuhschrank sind ebenfalls zugesägt aber da fehlen noch welche, die ich hauptsächlich aus Reststücken zusägen werde.
 
 Aus Reststücken habe ich mir übrigens erst ein kleines Wandregal für die Werkstatt gebaut. Die Arbeit in der Holzwerkstatt geht mir demnach wirklich nicht aus und sobald ich dazu komme, möchte ich auch endlich mal meine CNC Fräse in Betrieb nehmen. Diese muss ich vorher allerdings noch selbst montieren und einen entsprechenden Tisch dafür bauen. Das kommt mit der Zeit noch alles auf mich zu.
 
 Jetzt lass ich es erstmal wieder mit diesem Update sein. Heute Nacht wird es regnen aber Morgen soll es trotzdem trocken sein, dann baue ich weiter an der Kommode, die später an einer Wand in unserem Haus hängen soll. Bis bald!
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat quinchounderconstruction >}}
-

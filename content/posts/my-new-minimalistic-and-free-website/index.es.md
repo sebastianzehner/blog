@@ -2,27 +2,14 @@
 title = 'Mi nuevo sitio web minimalista y gratuito'
 description = 'Este es mi primer nuevo post en este sitio web.'
 summary = 'Ayer pensé que algo tenía que cambiar en mi antigua página web. Tenía un blog wordpress desde hace años y mi último post fue escrito hace un año.'
-date = 2024-07-08T16:20:40-04:00
-lastmod = 2024-07-08T16:20:40-04:00
-draft = false
+date = 2024-07-08T16:20:40-03:00
+lastmod = 2024-07-08T16:20:40-03:00
+
 tags = ['hugo', 'PaperMod', 'sitio web', 'vida sencilla']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true 
-
-[cover]
-    image = '/img/first.webp'
-    alt = 'Un hombre sentado frente al ordenador para escribir algunos posts.'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
-
+showComments = true
+chatId = "firstpost"
 +++
 
 ## Menos cosas y más texto plano - hazlo simple y eficiente
@@ -41,8 +28,5 @@ Estoy contento con esta decisión porque ahora tengo un nuevo sitio web moderno 
 
 Tengo muchas más ideas para desarrollar este sitio web con un poco más de material técnico, pero mantenerlo simple todo el tiempo. En el futuro voy a escribir exactamente acerca de estas cosas técnicas y otros proyectos como el contenido Ai o nuestro sistema solar fuera de la red que tengo que construir en los próximos meses. También voy a escribir más sobre nuestra hermosa vida en Paraguay. Vivimos en una comunidad cerrada y segura llamada El Paraiso Verde. Estoy feliz de compartir todos mis conocimientos con la gente en la web. Esto es suficiente por hoy creo :grin:
 
-Saludos
+Saludos  
 Sebastian
-
-{{< chat firstpost >}}
-

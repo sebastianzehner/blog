@@ -1,25 +1,27 @@
 ---
-title: "Hugo: A series functionality for multi-part blog posts"
-summary: "In line with my planned blog series, I have integrated a series functionality into Hugo. In this tutorial, I will show you how to create multi-part posts with automatic numbering and navigation."
-date: 2026-01-04T21:35:10-03:00
-lastmod: 2026-01-04T21:35:10-03:00
-draft: false
+title: 'Hugo: A series functionality for multi-part blog posts'
+summary: >-
+  In line with my planned blog series, I have integrated a series functionality
+  into Hugo. In this tutorial, I will show you how to create multi-part posts
+  with automatic numbering and navigation.
+date: 2026-01-05T00:35:10.000Z
+lastmod: 2026-01-05T00:35:10.000Z
 tags:
   - hugo
   - blogging
   - markdown
 categories:
   - techlab
-
+showComments: true
+chatId: hugo-series-function
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: en
-  date: 2026-01-06
-  time: "11:07:52"
+  date: 2026-01-06T00:00:00.000Z
+  time: '11:07:52'
 ---
-
 Who doesn’t know this? Sometimes, a single blog post simply isn’t enough to cover a topic in depth. You might decide to write a series of articles, but how are readers supposed to keep track of them? Although Hugo comes with categories and tags by default, it doesn’t offer a built-in way to display the series visually, showing their progression or order.
 
 Recently, I solved this problem for my blog and implemented a series functionality. In this guide, I’ll show you how you can easily do the same using Hugo’s built-in tools.
@@ -167,4 +169,3 @@ What do you think? Do you also use series to create content for your blogs, or d
 
 I look forward to your feedback!
 
-{{< chat hugo-series-function >}}

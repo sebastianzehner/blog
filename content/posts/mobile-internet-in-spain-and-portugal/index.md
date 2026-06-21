@@ -1,25 +1,14 @@
 +++
 title = 'Mobile Internet in Spain and Portugal'
 summary = 'During our motorhome road trip to Spain and Portugal, we would of course also like to have access to fast and decent internet. I looked at a few options beforehand but did not know how and whether everything would run so well abroad.'
-date = 2019-07-08T16:33:59-04:00
-lastmod = 2019-07-08T16:33:59-04:00
-draft = false
+date = 2019-07-08T16:33:59-03:00
+lastmod = 2019-07-08T16:33:59-03:00
+
 tags = ['vanlife', 'roadtrip', 'travel']
 categories = ['roadtrip']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/mobile-internet-in-spain-and-portugal.webp'
-    alt = 'Mobile Internet in Spain and Portugal'
-    hidden = false
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "mobile-internet-in-spain-and-portugal"
 +++
 
 During our motorhome road trip to Spain :es: and Portugal 🇵🇹, we would of course also like to have access to fast and decent internet. I looked at a few options beforehand but didn't know how and whether everything would run so well abroad. In the end, we used a very good option in Spain :es: which we are now using.
@@ -60,8 +49,5 @@ So far, I am absolutely satisfied with this solution. The Internet is fast, chea
 
 What else could you want? Usually the WLAN on pitches or campsites is extremely slow and often expensive. That's why you are always flexible and have access to the Internet with your own mobile connection.
 
-Kind regards
+Kind regards  
 Sebastian
-
-{{< chat mobile-internet-in-spain-and-portugal >}}
-

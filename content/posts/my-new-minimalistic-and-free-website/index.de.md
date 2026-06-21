@@ -2,27 +2,14 @@
 title = 'Meine neue minimalistische und kostenlose Webseite'
 description = 'Dies ist mein erster neuer Beitrag auf dieser Webseite.'
 summary = 'Gestern dachte ich, dass sich an meiner alten Webseite etwas ändern muss. Ich hatte seit Jahren einen WordPress-Blog und mein letzter Beitrag wurde vor einem Jahr geschrieben.'
-date = 2024-07-08T16:20:40-04:00
-lastmod = 2024-07-08T16:20:40-04:00
-draft = false
+date = 2024-07-08T16:20:40-03:00
+lastmod = 2024-07-08T16:20:40-03:00
+
 tags = ['Hugo', 'PaperMod', 'Webseite', 'Simple Life']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/first.webp'
-    alt = 'Ein Mann sitzt vor dem Computer, um einige Beiträge zu schreiben.'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
-
+showComments = true
+chatId = "firstpost"
 +++
 
 ## Weniger Klimbim und mehr reinen Text - mach es einfach und effizient
@@ -41,8 +28,5 @@ Ich bin froh über diese Entscheidung, denn jetzt habe ich eine neue moderne und
 
 Ich habe noch viel mehr Ideen, um diese Webseite weiterzuentwickeln, mit ein bisschen mehr technischem Zeugs, aber ich werde sie immer einfach halten. In Zukunft werde ich genau über diesen technischen Bereich und andere Projekte wie KI-Inhalte oder unsere netzunabhängige Solaranlage schreiben, die ich in den nächsten Monaten bauen werde. Auch werde ich weiterhin über unser schönes Leben in Paraguay schreiben. Wir leben in einer sicheren Gated Community namens El Paraiso Verde. Seid sicher, dass ich gerne all mein Wissen mit den Menschen im World Wide Web teilen möchte. Das ist genug für heute, denke ich :grin:
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat firstpost >}}
-

@@ -1,9 +1,12 @@
 ---
 title: Acampar con autocaravana por España y Portugal (Parte 1)
-summary: El año pasado decidimos hacer un viaje más largo en nuestro autocaravana. Como a ambos nos gustaba mucho Portugal, rápidamente nos pusimos de acuerdo en que primero seguiríamos la costa del Atlántico hacia el sur y luego regresaríamos a Alemania por el Mediterráneo.
+summary: >-
+  El año pasado decidimos hacer un viaje más largo en nuestro autocaravana. Como
+  a ambos nos gustaba mucho Portugal, rápidamente nos pusimos de acuerdo en que
+  primero seguiríamos la costa del Atlántico hacia el sur y luego regresaríamos
+  a Alemania por el Mediterráneo.
 date: 2019-06-27T16:08:44.000Z
 lastmod: 2019-06-27T16:08:44.000Z
-draft: false
 series:
   - Roadtrip España y Portugal
 series_title: Acampar con autocaravana por España y Portugal
@@ -13,30 +16,16 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp
-  alt: Acampar con autocaravana por España y Portugal (Parte 1)
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-1
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-01-06
-  time: "11:53:27"
+  date: 2026-01-06T00:00:00.000Z
+  time: '11:53:27'
 ---
-
 El año pasado decidimos hacer un viaje largo en nuestro autocaravana. Como a ambos nos gustaba mucho Portugal, rápidamente nos pusimos de acuerdo en que primero seguiríamos la costa del Atlántico hacia el sur y luego regresaríamos a Alemania por el Mediterráneo.
 
 Lamentablemente, esta también será nuestro último viaje en autocaravana, ya que hemos decidido venderla. :cry: Con total seguridad, los motivos de nuestra decisión se publicarán algún día en mi blog.
@@ -115,6 +104,4 @@ Un cordial saludo,
 Sebastian
 
 P.D.: Mientras tanto, en mi [Perfil de Facebook](https://www.facebook.com/sebastianzehner83) publico los lugares y las fotos actuales de nuestro viaje.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-1 >}}
 

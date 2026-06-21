@@ -1,27 +1,16 @@
 +++
 title = 'Road Trip trough Spain and Portugal in a motorhome part 1'
 summary = 'Last year we decided to travel on a longer trip with our motorhome. As we both loved seeing Portugal, it quickly became clear to us that we would first drive south along the Atlantic and then back to Germany along the Mediterranean.'
-date = 2019-06-27T12:08:44-04:00 
-lastmod = 2019-06-27T12:08:44-04:00
-draft = false 
+date = 2019-06-27T12:08:44-03:00 
+lastmod = 2019-06-27T12:08:44-03:00
+
 series = ["Road trip Spain and Portugal"]
 series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
 tags = ['vanlife', 'roadtrip', 'travel']
 categories = ['roadtrip']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp'
-    alt = 'Road Trip trough Spain and Portugal in a Motorhome part 1'
-    hidden = false
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "road-trip-trough-spain-and-portugal-in-a-motorhome-part-1"
 +++
 
 Last year we decided to travel on a longer trip with our motorhome. As we both loved seeing Portugal, it quickly became clear to us that we would first drive south along the Atlantic and then back to Germany along the Mediterranean.
@@ -60,7 +49,7 @@ We are currently still at this relatively large campsite, mainly with permanent 
 
 I have taken the trouble to list all the campsites we have visited so far here:
 
-*In some cases the price includes a discount with the ACSI Card in the off-season*.
+_In some cases the price includes a discount with the ACSI Card in the off-season_.
 
 - [Netherlands 29.05.2019 Motorhome parking space Oirschot for 16.50 euros per night](https://park4night.com/lieu/63092/privater-wohnmobil-parkplatz/oirschot-de-rijt-1a/netherlands/oirschot#)
 
@@ -102,6 +91,3 @@ Best regards
 Sebastian
 
 PS: In the meantime, I'll be posting the latest locations and pictures from our trip on my [Facebook profile](https://www.facebook.com/sebastianzehner83).
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-1 >}}
-

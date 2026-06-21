@@ -1,26 +1,14 @@
 +++
 title = 'Frigate: Open Source NVR with Real-Time AI Object Detection'
 summary = 'Frigate is an open-source Network Video Recorder (NVR) that combines traditional video surveillance with AI-powered real-time detection of people, vehicles, animals, and other objects.'
-date = 2025-08-12T18:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-12T18:35:10-03:00
 lastmod = 2025-08-12T18:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'Frigate', 'AI', 'Coral', 'TPU', 'NVR', 'Docker', 'CCTV']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/frigate-open-source-nvr-real-time-ai-object-detection.webp'
-    alt = 'Featured image from Frigate: Open Source NVR with Real-Time AI Object Detection'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "frigate"
 +++
 
 **Frigate** is an open-source Network Video Recorder (NVR) specifically designed for real-time AI-based object detection. It not only offers traditional video recording and playback but also automatically detects people, vehicles, animals, and other objects using machine learning.
@@ -323,7 +311,7 @@ FRIGATE_RTSP_PASSWORD=secure_password
 
 The recordings should be as high quality as possible. For this, I needed to adjust some settings and, as mentioned before, use **go2rtc** to better manage the streams. Since switching, **go2rtc** has been working very well.
 
-Frigate is currently accessible via my Traefik proxy server at: https://frigate.techlab.icu
+Frigate is currently accessible via my Traefik proxy server at: <https://frigate.techlab.icu>
 
 ## Configuring the go2rtc Streaming Server
 
@@ -431,5 +419,3 @@ _Some of the above are affiliate links. As an Amazon Associate, I earn from qual
 - [Traefik](https://traefik.io/traefik)
 - [Pi-Hole](https://pi-hole.net/)
 - [Coral Edge TPU](https://coral.ai/products/)
-
-{{< chat Frigate >}}

@@ -1,27 +1,14 @@
 +++
 title = 'Construir una casa en Paraguay Parte 2'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Llevamos más de siete meses viviendo en Paraguay y hoy me gustaría escribir una actualización sobre la construcción de nuestra casa y también informar sobre cómo nos va con la situación actual.'
-date = 2020-06-14T17:30:58-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-06-14T17:30:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-06-14T17:30:58-03:00
+lastmod = 2020-06-14T17:30:58-03:00
+
 tags = ['Construcción de una casa', 'El Paraiso Verde', 'Simple Life', 'Emigrar']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-2.webp'
-    alt = 'Imagen destacada de Construir una casa en Paraguay Parte 2'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-2"
 +++
 
 Llevamos más de siete meses viviendo en Paraguay y hoy me gustaría escribir una actualización sobre la construcción de nuestra casa y también informar sobre cómo nos va con la situación actual.
@@ -103,6 +90,3 @@ En cuanto tengamos más tranquilidad y estemos en nuestra propiedad, espero pode
 Hasta pronto y saludos desde Paraguay de Sebastián
 
 {{< youtube MbUudyY5318 >}}
-
-{{< chat house-construction-in-paraguay-part-2 >}}
-

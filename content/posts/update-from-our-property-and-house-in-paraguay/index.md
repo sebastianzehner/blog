@@ -1,37 +1,25 @@
 ---
 title: Update on our property and house in Paraguay
-summary: We already have a lot to do again and are very busy. I’m working on various projects, and today I would like to share with you some updates about our life in Paraguay.
-date: 2021-03-26T15:09:01-03:00
-lastmod: 2021-03-26T15:09:01-03:00
-draft: false
+summary: >-
+  We already have a lot to do again and are very busy. I’m working on various
+  projects, and today I would like to share with you some updates about our life
+  in Paraguay.
+date: 2021-03-26T18:09:01.000Z
+lastmod: 2021-03-26T18:09:01.000Z
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/update-property-and-house.webp
-  alt: Update on our property and house in Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: update-property-and-house
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: en
-  date: 2025-12-15
-  time: "20:34:22"
+  date: 2025-12-15T00:00:00.000Z
+  time: '20:34:22'
 ---
-
 The time here in Paraguay is flying by, even though it’s actually a very peaceful and relaxing place. We already have a lot to do again and are quite busy.
 
 I’m working on several projects, and today I’d like to share with you another little update about our life in Paraguay. The last time I updated you was through [Moving into our new house in Paraguay](/posts/move-into-our-new-house-in-paraguay/).
@@ -70,11 +58,10 @@ I once again feel more motivated to help other people escape from that cycle of 
 
 We feel very comfortable here in El Paraiso Verde, Paraguay. I am extremely grateful that we took this step. Most of all, I am happy that we stood up for our rights and fought for our freedom.
 
-We took the plunge and seized the opportunities as they came along. We stopped making any excuses and just focused on moving forward with determination. Looking back on all the things we’ve experienced over the past few years… *it’s simply incredible and absolutely priceless.*
+We took the plunge and seized the opportunities as they came along. We stopped making any excuses and just focused on moving forward with determination. Looking back on all the things we’ve experienced over the past few years… _it’s simply incredible and absolutely priceless._
 
 I wish you a wonderful time and see you soon!
 
 Best regards,  
 Sebastian
 
-{{< chat update-property-and-house >}}

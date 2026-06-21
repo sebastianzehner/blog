@@ -1,9 +1,14 @@
 ---
-title: "Eigener Matrix-Homeserver mit Synapse – Warum du deine Chats selbst hosten solltest"
-summary: In diesem Artikel richte ich meinen eigenen Matrix-Homeserver mit Synapse und Docker Compose ein. Neben einer kurzen Einführung in das dezentrale Matrix-Protokoll zeige ich die vollständige Installation mit PostgreSQL, Traefik und Cloudflare Tunnel.
-date: 2026-04-08T11:00:00-03:00
-lastmod: 2026-04-08T11:00:00-03:00
-draft: false
+title: >-
+  Eigener Matrix-Homeserver mit Synapse – Warum du deine Chats selbst hosten
+  solltest
+summary: >-
+  In diesem Artikel richte ich meinen eigenen Matrix-Homeserver mit Synapse und
+  Docker Compose ein. Neben einer kurzen Einführung in das dezentrale
+  Matrix-Protokoll zeige ich die vollständige Installation mit PostgreSQL,
+  Traefik und Cloudflare Tunnel.
+date: 2026-04-08T14:00:00.000Z
+lastmod: 2026-04-08T14:00:00.000Z
 tags:
   - matrix
   - homeserver
@@ -12,15 +17,9 @@ tags:
   - self-hosting
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
+showComments: true
+chatId: self-hosting-matrix-homeserver-synapse
 ---
-
 _Dezentralisierung, Datenschutz und volle Kontrolle über deine Kommunikation – mit Synapse und Docker ist das einfacher als gedacht._
 
 ## Was ist Matrix – und warum ist es anders?
@@ -267,7 +266,7 @@ Der Befehl fragt interaktiv nach Benutzername, Passwort und ob der Account Admin
 
 Der bekannteste Matrix-Client ist **Element**. Er ist als Web-App unter [app.element.io](https://app.element.io) verfügbar sowie als Desktop-App für macOS, Windows und Linux.
 
-Beim ersten Login auf dem eigenen Server muss die Server-URL manuell auf https://matrix.techlab.icu gesetzt werden. Auf macOS kann es vorkommen, dass der Client erst nach einer Sicherheitsabfrage des Betriebssystems vollständig funktioniert – macOS fragt, ob die App auf das lokale Netzwerk zugreifen darf. Diese Freigabe erteilen und den Client neu starten.
+Beim ersten Login auf dem eigenen Server muss die Server-URL manuell auf <https://matrix.techlab.icu> gesetzt werden. Auf macOS kann es vorkommen, dass der Client erst nach einer Sicherheitsabfrage des Betriebssystems vollständig funktioniert – macOS fragt, ob die App auf das lokale Netzwerk zugreifen darf. Diese Freigabe erteilen und den Client neu starten.
 
 ### Geräte verifizieren
 
@@ -307,6 +306,6 @@ Ich nutze aktuell keine Bridges, überlege aber, eine E-Mail-Bridge einzurichten
 
 _Hast du Fragen zu deiner eigenen Synapse-Installation? Schreib mir gerne – am besten direkt über Matrix. Meine Adresse: `@sebastian:matrix.techlab.icu` oder schreibe einen Kommentar. Dieser landet am Ende auch in meiner Matrix._
 
-Liebe Grüße Sebastian
+Liebe Grüße  
+Sebastian
 
-{{< chat self-hosting-matrix-homeserver-synapse >}}

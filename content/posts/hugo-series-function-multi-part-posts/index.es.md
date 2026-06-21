@@ -1,25 +1,27 @@
 ---
-title: "Hugo: Función de serie para publicaciones de blog divididas en varias partes"
-summary: "En consonancia con la serie de blogs que he planeado, he integrado una función de serie en Hugo. En este tutorial te mostraré cómo crear publicaciones divididas en varias partes, con numeración y navegación."
-date: 2026-01-04T21:35:10-03:00
-lastmod: 2026-01-04T21:35:10-03:00
-draft: false
+title: 'Hugo: Función de serie para publicaciones de blog divididas en varias partes'
+summary: >-
+  En consonancia con la serie de blogs que he planeado, he integrado una función
+  de serie en Hugo. En este tutorial te mostraré cómo crear publicaciones
+  divididas en varias partes, con numeración y navegación.
+date: 2026-01-05T00:35:10.000Z
+lastmod: 2026-01-05T00:35:10.000Z
 tags:
   - hugo
   - blogging
   - markdown
 categories:
   - techlab
-
+showComments: true
+chatId: hugo-series-function
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-01-06
-  time: "11:08:16"
+  date: 2026-01-06T00:00:00.000Z
+  time: '11:08:16'
 ---
-
 ¿Quién no lo conoce? A veces, un solo artículo de blog no es suficiente para tratar un tema en profundidad. Entonces se escribe una serie de artículos dividida en varias partes, pero ¿cómo pueden los lectores orientarse? Aunque Hugo ofrece categorías y etiquetas de forma predeterminada, no cuenta con una función nativa que permita visualizar el progreso y el orden de la serie de artículos.
 
 Hace poco resolví este problema para mi blog e implementé una función de series. En esta guía te mostraré cómo puedes hacerlo tú mismo de manera muy sencilla utilizando los herramientas de Hugo.
@@ -167,4 +169,3 @@ Gracias a la nueva función de series, ¡con suerte podrán mantener siempre el 
 
 ¡Me alegro mucho de recibir vuestros comentarios!
 
-{{< chat hugo-series-function >}}

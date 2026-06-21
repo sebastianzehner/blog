@@ -1,19 +1,14 @@
 +++
 title = 'How I paid for my domain with cryptocurrency and why I recommend Hostinger'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''In today's digital world, domains are an essential part of any website. But what if you have the flexibility to pay for your domain with cryptocurrency?'''
-date = 2024-07-19T10:17:58-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-19T10:17:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-19T10:17:58-03:00
+lastmod = 2024-07-19T10:17:58-03:00
+
 tags = ['Hostinger', 'Cryptocurrency', 'Tron', 'Domain']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "how-I-paid-for-my-domain-with-cryptocurrency"
 +++
 
 In today's digital world, domains are an essential part of any website. But what if you have the flexibility to pay for your domain with cryptocurrency? In this blog post, I share my experience with Hostinger and why I can recommend this provider to you.
@@ -48,8 +43,5 @@ Click [here](https://bit.ly/3W9oyZG) to try Hostinger for yourself and benefit f
 
 The use of cryptocurrencies for everyday transactions is becoming increasingly popular. With providers like Hostinger supporting this trend, it's becoming easier and safer for all of us to manage our website or personal blog. Try it out and see for yourself!
 
-Best regards
+Best regards  
 Sebastian
-
-{{< chat how-I-paid-for-my-domain-with-cryptocurrency >}}
-

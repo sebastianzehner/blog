@@ -1,27 +1,14 @@
 +++
 title = 'IPO-Aktien: Deine einmalige Chance, Großanleger-Potenziale zu nutzen'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Jetzt aktiv werden – deine „Einmal-im-Leben-Chance“ wartet inkl. persönlicher Einladung zur streng vertraulichen Präsentation!'
-date = 2024-12-07T17:00:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-07T17:00:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-07T17:00:00-03:00
+lastmod = 2024-12-07T17:00:00-03:00
+
 tags = ['Aktien', 'Finanzen', 'Kryptowährung', 'Bitcoin']
-categories = ['Tech']
+categories = ['Investment']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/ipo-shares.webp'
-    alt = 'Beitragsbild von IPO-Aktien: Deine einmalige Chance, Großanleger-Potenziale zu nutzen'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "ipo-shares"
 +++
 
 **Jetzt aktiv werden – deine „Einmal-im-Leben-Chance“ wartet inkl. persönlicher Einladung zur streng vertraulichen Präsentation!**
@@ -104,9 +91,7 @@ Nimm an unserer vertraulichen Präsentation teil, bei welcher der Mitbegründer 
 
 Diese Chance könnte der Wendepunkt in deinem Leben sein. Wir sehen uns auf Zoom!
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
 PS: Beitragsbild ist Designed by [Freepik](https://www.freepik.com/)
-
-{{< chat ipo-shares >}}

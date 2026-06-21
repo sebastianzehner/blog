@@ -1,27 +1,14 @@
 +++
 title = 'El Paraíso Verde Paraguay – Actualización y análisis detallado del proyecto para expatriados'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Una visión general de El Paraíso Verde en Paraguay: desarrollos en la comunidad de expatriados, desafíos derivados de campañas en redes sociales, aspectos legales y preguntas abiertas sobre la gestión del asentamiento.'
-date = 2025-10-16T09:25:00-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-10-16T09:25:00-03:00
 lastmod = 2025-10-16T09:25:00-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Transparencia', 'Seguridad jurídica', 'El Paraíso Verde', 'Terreno', 'Comunidad de colonos', 'Expatriación', 'Título']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/el-paraiso-verde-paraguay-an-update-and-in-depth-look-at-the-expat-community-project.webp'
-    alt = 'Imagen destacada de El Paraíso Verde Paraguay – Actualización y análisis detallado del proyecto para expatriados'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "el-paraiso-verde-paraguay-update"
 +++
 
 Fue un momento simbólico: cuando se retiró y se llevó el antiguo cartel de El Paraiso Verde, terminó de manera visible un capítulo que había marcado nuestra vida en común durante muchos años. El video de este momento muestra más que solo la retirada de un cartel: representa un nuevo comienzo, la oportunidad de aprender de los errores y de sentar nuestra comunidad sobre una base nueva, honesta y transparente.
@@ -148,5 +135,3 @@ Sebastian
 Hasta la fecha (16 de octubre de 2025) no he recibido respuesta a las preguntas planteadas. Estas preguntas se publicaron tanto en el chat interno de colonos como públicamente bajo un video correspondiente con la intervención de un abogado.
 
 Varios colonos retomaron mis preguntas en el chat y también solicitaron aclaraciones, pero no hubo ninguna reacción por parte de los responsables. Aunque el silencio no constituye oficialmente una respuesta, en este contexto puede considerarse como una señal clara.
-
-{{< chat el-paraiso-verde-paraguay-update >}}

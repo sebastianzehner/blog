@@ -2,27 +2,14 @@
 title = 'My new minimalistic and free website'
 description = 'This is my first new post on this website.'
 summary = 'Yesterday, I thought that something has to change with my old website. I had a wordpress blog since years and my last post was written one year ago.'
-date = 2024-07-08T16:20:40-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-08T16:20:40-04:00 #If empty then GitHub Time will be used
-draft = false
+date = 2024-07-08T16:20:40-03:00
+lastmod = 2024-07-08T16:20:40-03:00
+
 tags = ['hugo', 'PaperMod', 'website', 'simple life']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/first.webp'
-    alt = 'A man sitting in front of the computer to write some posts.'
-    hidden = true
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
-
+showComments = true
+chatId = "firstpost"
 +++
 
 ## Less stuff and more plain text - make it simple and efficient
@@ -41,8 +28,5 @@ I am happy with this decision because now I have a new modern and minimalistic w
 
 I have much more ideas to develop this website with a little more technical stuff but keep it simple everytime. In future I will write exactly about this technical stuff and other projects like Ai content or our off-grid solar system which I have to build in the next few month. Also I will write furthermore about our beautiful life in Paraguay. We live in a secure Gated Community called El Paraiso Verde. Be sure I am happy to share all my knowledge with the people in the world wide web. This is enough for today I think :grin:
 
-Regards
+Regards  
 Sebastian
-
-{{< chat firstpost >}}
-

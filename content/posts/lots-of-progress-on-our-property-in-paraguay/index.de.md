@@ -1,27 +1,14 @@
 +++
 title = 'Viele Fortschritte auf unserem Grundstück in Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Hier mal eine kleine Zusammenfassung, was ich letztes Jahr alles für uns gebaut habe. Das größte Projekt war wohl unsere Küche. Da waren viele Details zu bearbeiten und wir können die Küche bereits nutzen aber sie ist noch nicht komplett fertig.'
-date = 2022-05-07T12:32:00-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2022-05-07T12:32:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2022-05-07T12:32:00-03:00
+lastmod = 2022-05-07T12:32:00-03:00
+
 tags = ['El Paraiso Verde', 'Quincho', 'Schmerztherapie', 'Holzwerkstatt', 'Küche', 'Auswandern', 'Garten']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/progress-on-our-property.webp'
-    alt = 'Beitragsbild von Viele Fortschritte auf unserem Grundstück in Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "progressonourproperty"
 +++
 
 Es ist lange her seit meinem letzten Blogartikel. Um genau zu sein ist tatsächlich schon wieder ein ganzes Jahr vergangen. Wie schnell doch die Zeit vergeht und anscheinend keine Zeit gefunden zum Schreiben. Es ist aber auch so viel passiert und wir haben sehr viele Fortschritte auf unserem Grundstück gemacht. Ich möchte dir heute mal ein kleines Update geben. Wahrscheinlich kann ich gar nicht alles aufzählen und es wird auch nicht tagesaktuell sein.
@@ -50,9 +37,9 @@ Den Kindern war der Spielplatz natürlich wichtiger als das Etagenbett, daher ha
 
 Für den Außenbereich habe ich zudem noch einen Pflanztisch mit Regal gebaut, sowie eine Kletterhilfe für unsere Rose. Alles immer wieder mal so nebenbei und nur so kommt man zum Ziel, jedesmal ein Stückchen weiter. Schaut hier mal ein paar Bilder vom Entstehungsprozess:
 
-|             |              |
-|-------------|-------------:|
-|![Regal](/img/galleries/progress-on-our-property/progress-on-our-property-3.webp)![Dach vom Spielturm](/img/galleries/progress-on-our-property/progress-on-our-property-7.webp)![Pflanztisch](/img/galleries/progress-on-our-property/progress-on-our-property-6.webp)![Etagenbett](/img/galleries/progress-on-our-property/progress-on-our-property-9.webp)|![Regal Rückwand](/img/galleries/progress-on-our-property/progress-on-our-property-4.webp)![Spielplatz](/img/galleries/progress-on-our-property/progress-on-our-property-8.webp)![Schreibtischtisch](/img/galleries/progress-on-our-property/progress-on-our-property-5.webp)![Treppe](/img/galleries/progress-on-our-property/progress-on-our-property-10.webp)|
+|                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Regal](/img/galleries/progress-on-our-property/progress-on-our-property-3.webp)![Dach vom Spielturm](/img/galleries/progress-on-our-property/progress-on-our-property-7.webp)![Pflanztisch](/img/galleries/progress-on-our-property/progress-on-our-property-6.webp)![Etagenbett](/img/galleries/progress-on-our-property/progress-on-our-property-9.webp) | ![Regal Rückwand](/img/galleries/progress-on-our-property/progress-on-our-property-4.webp)![Spielplatz](/img/galleries/progress-on-our-property/progress-on-our-property-8.webp)![Schreibtischtisch](/img/galleries/progress-on-our-property/progress-on-our-property-5.webp)![Treppe](/img/galleries/progress-on-our-property/progress-on-our-property-10.webp) |
 
 ## Was macht unser Garten?
 
@@ -64,9 +51,9 @@ Wir haben einige Hochbeete aus Steinen angelegt und es wachsen bei uns bereits T
 
 Einfach immer wieder ausprobieren und schauen wie es funktioniert, daraus lernen wir. Leider bekamen wir das in unserer Kindheit nicht beigebracht und müssen nun alles erstmal lernen. Ein großes spannendes Abenteuer und unsere Kinder sind von Anfang an mit dabei. Das ist ein wahres Paradies, die Möglichkeit zu haben, fast alles erdenkliche anpflanzen zu können.
 
-|             |              |
-|-------------|-------------:|
-|![Garten 1](/img/galleries/progress-on-our-property/progress-on-our-property-11.webp)![Garten 3](/img/galleries/progress-on-our-property/progress-on-our-property-13.webp)|![Garten 2](/img/galleries/progress-on-our-property/progress-on-our-property-12.webp)![Garten 4](/img/galleries/progress-on-our-property/progress-on-our-property-2.webp)|
+|                                                                                                                                                                            |                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Garten 1](/img/galleries/progress-on-our-property/progress-on-our-property-11.webp)![Garten 3](/img/galleries/progress-on-our-property/progress-on-our-property-13.webp) | ![Garten 2](/img/galleries/progress-on-our-property/progress-on-our-property-12.webp)![Garten 4](/img/galleries/progress-on-our-property/progress-on-our-property-2.webp) |
 
 ## Was ist bei uns als nächstes geplant?
 
@@ -80,8 +67,5 @@ Das sollte erstmal als Update reichen. Ich werde gleich noch einen weiteren Blog
 
 Außerdem werde ich dort mein Video vom Rundflug verlinken. Wir sind Anfang März 2022 in Caazapa vom Flughafen gestartet und etwa 20 Minuten bis zu unserer Siedlung und wieder zurück geflogen. Das war für uns ebenfalls ein tolles Erlebnis.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat progressonourproperty >}}
-

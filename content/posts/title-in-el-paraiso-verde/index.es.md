@@ -1,19 +1,14 @@
 +++
 title = 'Título en El Paraiso Verde'
-#description = 'Haben wir inzwischen einen Titel für unser Grundstück?'
 summary = 'Después de varios años de rumores de que no teníamos título y que nunca conseguiríamos un título para nuestra propiedad, hoy me gustaría entrar en más detalles sobre nuestro título.'
-date = 2024-07-10T22:04:08-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-10T22:04:08-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-10T22:04:08-03:00
+lastmod = 2024-07-10T22:04:08-03:00
+
 tags = ['Título', 'Propiedad', 'El Paraiso Verde', 'Registro de la Propiedad', 'Emigrar']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "titleparaisoverde"
 +++
 
 Después de varios años de rumores de que no teníamos título y que nunca conseguiríamos un título para nuestra propiedad, hoy me gustaría entrar en más detalles sobre nuestro título.
@@ -154,7 +149,5 @@ Sin embargo, también nos encanta vivir en El Paraíso Verde independientemente 
 
 ¡Puede ponerse en contacto con un asesor a través del sitio web de [El Paraíso Verde](https://paraiso-verde.com/kontakt/)!
 
-Saludos cordiales
+Saludos cordiales  
 Sebastián
-
-{{< chat titleparaisoverde >}}

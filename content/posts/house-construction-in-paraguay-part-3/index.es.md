@@ -1,27 +1,14 @@
 +++
 title = 'Construir una casa en Paraguay Parte 3'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''Hace más de nueve meses que vivimos en Paraguay y hoy hay otra actualización sobre la construcción de nuestra casa. Esta será probablemente la última actualización.'''
-date = 2020-08-16T17:06:45-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-08-16T17:06:45-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-08-16T17:06:45-03:00
+lastmod = 2020-08-16T17:06:45-03:00
+
 tags = ['Construcción de una casa', 'El Paraiso Verde', 'Simple Life', 'Emigrar']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-3.webp'
-    alt = 'Imagen destacada de Construir una casa en Paraguay Parte 3'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-3"
 +++
 
 Hace más de nueve meses que vivimos en Paraguay y hoy hay otra actualización sobre la construcción de nuestra casa. Esta será probablemente la última actualización, ya que estoy seguro de que la próxima entrada del blog se llamará "Mudándonos a nuestra nueva casa en Paraguay".
@@ -60,7 +47,7 @@ Hace mucho tiempo que no se podía venir a Paraguay, pero este mes se nos unen m
 
 Ahora empezarán a planificar su casa y a construirla lo antes posible. Estoy impaciente por saber cuándo podrán mudarse. Tendremos una obra en construcción que podremos ver desde la terraza todos los días.
 
-A finales de año, probablemente tendremos unos 100 colonos en nuestra zona de asentamiento, a pesar de este año de locos. En los últimos meses se han construido muchas casas nuevas aquí, en la zona de asentamiento, a pesar de que la construcción se ha paralizado y los materiales de construcción, como es natural, escasean.  
+A finales de año, probablemente tendremos unos 100 colonos en nuestra zona de asentamiento, a pesar de este año de locos. En los últimos meses se han construido muchas casas nuevas aquí, en la zona de asentamiento, a pesar de que la construcción se ha paralizado y los materiales de construcción, como es natural, escasean.
 
 Así que las obras siguen adelante, lo que, por supuesto, nos complace.
 
@@ -69,6 +56,3 @@ Como colofón a la jornada de hoy, tengo un vídeo de un vuelo de dron sobre nue
 Hasta pronto y saludos desde Paraguay de Sebastian
 
 {{< youtube kUyUOifeTUI >}}
-
-{{< chat house-construction-in-paraguay-part-3 >}}
-

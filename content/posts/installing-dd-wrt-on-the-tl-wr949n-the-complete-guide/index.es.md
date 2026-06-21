@@ -1,32 +1,28 @@
 ---
-title: "Instalación de DD-WRT en el TL-WR949N: la guía completa"
-summary: "Así es como actualicé el router brasileño TP-Link TL-WR949N con el firmware DD-WRT: incluyendo una solución para el problema relacionado con el SSID (Error 18005), una guía paso a paso y un procedimiento de recuperación mediante TFTP."
-date: 2026-03-31T19:57:00-03:00
-lastmod: 2026-03-31T19:57:00-03:00
-draft: false
+title: 'Instalación de DD-WRT en el TL-WR949N: la guía completa'
+summary: >-
+  Así es como actualicé el router brasileño TP-Link TL-WR949N con el firmware
+  DD-WRT: incluyendo una solución para el problema relacionado con el SSID
+  (Error 18005), una guía paso a paso y un procedimiento de recuperación
+  mediante TFTP.
+date: 2026-03-31T22:57:00.000Z
+lastmod: 2026-03-31T22:57:00.000Z
 tags:
   - router
   - firmware
   - dd-wrt
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
+showComments: true
+chatId: installing-dd-wrt-on-the-tl-wr949n
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-03-31
-  time: "21:07:33"
+  date: 2026-03-31T00:00:00.000Z
+  time: '21:07:33'
 ---
-
 He actualizado los routers TP-Link TL-WR949N, que son más económicos, con la firmware proporcionada por [dd-wrt.com](https://dd-wrt.com). A continuación, se describen los pasos que tuve que seguir para poder utilizar dicha firmware.
 
 Me hubiera gustado mucho usar [openwrt.org](https://openwrt.org) como router principal, al igual que hice con [OpenWrt One](https://openwrt.org/toh/openwrt/one), pero lamentablemente no se recomienda hacerlo para [este router](https://openwrt.org/toh/tp-link/tl-wr940n). Y la razón principal es [OpenWrt en dispositivos de tipo 4/32](https://openwrt.org/supported_devices/openwrt_on_432_devices).
@@ -69,13 +65,13 @@ Un intento directo de utilizar la versión oficial del firmware TL-WR940N (o DD-
 
 > **Nota:** Esta guía refleja mis propias experiencias. La instalación de firmware de terceros se realiza a propio riesgo; no asumo ninguna responsabilidad en caso de que el router se dañe o se produzcan otros problemas. En caso de duda, es mejor leer la información detalladamente antes de proceder.
 
-## Paso 1: Instalar la firmware correspondiente a la stock de TP-Link para la región UE.
+## Paso 1: Instalar la firmware correspondiente a la stock de TP-Link para la región UE
 
 La versión actual de firmware en mi router TL-WR949N v6 es la siguiente:
 
 ```text
-Versão de Firmware:	3.18.1 Build 171115 Rel.43350n
-Versão de Hardware:	WR949N v6 00000000
+Versão de Firmware: 3.18.1 Build 171115 Rel.43350n
+Versão de Hardware: WR949N v6 00000000
 ```
 
 El dispositivo WR949N bloquea la instalación de firmwares externos a través de la interfaz web mediante el código `Error 18005`, pero puedo evitar este problema utilizando el código [Con este método alternativo (workaround)](https://openwrt.org/toh/tp-link/tl-wa801nd) de la siguiente manera.
@@ -115,8 +111,8 @@ La interfaz ahora está en inglés en lugar de en portugués, lo que indica que 
 La firmware después de la actualización:
 
 ```text
-Firmware Version:	3.20.1 Build 250925 Rel.57536n (4555)
-Hardware Version:	WR940N v6 00000000
+Firmware Version: 3.20.1 Build 250925 Rel.57536n (4555)
+Hardware Version: WR940N v6 00000000
 ```
 
 Ahora puedo utilizar esta firmware, o bien pasar directamente al paso 2 e instalar DD-WRT.
@@ -180,6 +176,6 @@ La documentación de estos pasos ha valido la pena: la próxima vez que tenga qu
 
 ¿Has realizado el proceso de actualización del router TL-WR949N o de un modelo similar? ¿Notaste algo inusual durante el proceso, o encontraste alguna otra solución para el problema? Me gustaría recibir tus comentarios: puedes hacerlo directamente aquí abajo a través de Cactus Comments, utilizando tu cuenta de Matrix, o incluso sin cuenta como visitante. Probablemente este tema también sería adecuado para otro artículo en el blog.
 
-Un cordial saludo, Sebastian.
+Un cordial saludo,  
+Sebastian
 
-{{< chat installing-dd-wrt-on-the-tl-wr949n >}}

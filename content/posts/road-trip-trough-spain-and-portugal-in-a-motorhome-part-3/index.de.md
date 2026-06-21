@@ -1,9 +1,11 @@
 ---
 title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3
-summary: Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in Spanien angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben wir vor bis spätestens am 15. September 2019 wieder in Frankreich zu sein.
+summary: >-
+  Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in
+  Spanien angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben
+  wir vor bis spätestens am 15. September 2019 wieder in Frankreich zu sein.
 date: 2019-09-04T14:36:22.000Z
 lastmod: 2019-09-04T14:36:22.000Z
-draft: false
 series:
   - Roadtrip Spanien und Portugal
 series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
@@ -13,22 +15,9 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp
-  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 3
-  hidden: false
-  relative: false
-  responsiveImages: false
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-3
 ---
-
 Es ist nun einige Zeit vergangen und wir sind inzwischen bereits wieder in Spanien :es: angekommen, eigentlich auch schon fast in Frankreich. Zumindest haben wir vor bis spätestens 15. September 2019 wieder in Frankreich :fr: zu sein.
 
 Im Oktober wollen wir Deutschland :de: erreichen für unseren endgültigen Abschluss der tollen Wohnmobilreise. Nun erzähle ich Euch aber erst einmal was wir in der letzten Zeit alles so erlebt haben.
@@ -37,11 +26,11 @@ Im Oktober wollen wir Deutschland :de: erreichen für unseren endgültigen Absch
 
 Wir hatten uns noch Faro angeschaut aber leider keinen Platz zum Übernachten gefunden bzw. wollten wir auch nicht einfach so direkt an der Straße stehenbleiben zum Schlafen. Da wir zu spät von der Stadtbesichtigung zurückkamen, war der nächste geplante Stellplatz auch schon geschlossen und ich war mir nicht sicher, ob man trotzdem noch anreisen konnte.
 
-Also haben wir uns dafür entschieden auf dem *Lidl Parkplatz* ein paar Ortschaften weiter zu übernachten. Sie hatten dort extra 4 Stellplätze für Wohnmobile und wir waren die Nacht auch nicht alleine. Es war allerdings etwas laut und heiß. Am nächsten Morgen konnten wir im Lidl einkaufen und sind anschließend weiter nach Spanien gefahren.
+Also haben wir uns dafür entschieden auf dem _Lidl Parkplatz_ ein paar Ortschaften weiter zu übernachten. Sie hatten dort extra 4 Stellplätze für Wohnmobile und wir waren die Nacht auch nicht alleine. Es war allerdings etwas laut und heiß. Am nächsten Morgen konnten wir im Lidl einkaufen und sind anschließend weiter nach Spanien gefahren.
 
 ## Sevilla ist eine wunderschöne Stadt in Spanien
 
-In Spanien angekommen war unsere erste Station auf dem relativ neuen *Camper Park Playas de Luz* bei Isla Christina für zwei Nächte. Danach ging es für uns weiter nach Sevilla und geschlafen haben wir im *Hafen von Gelves.* Das war ein super Stellplatz mit Strom und Badezimmer sowie Ver- und Entsorgung inbegriffen.
+In Spanien angekommen war unsere erste Station auf dem relativ neuen _Camper Park Playas de Luz_ bei Isla Christina für zwei Nächte. Danach ging es für uns weiter nach Sevilla und geschlafen haben wir im _Hafen von Gelves._ Das war ein super Stellplatz mit Strom und Badezimmer sowie Ver- und Entsorgung inbegriffen.
 
 Mit dem Bus konnten wir nach Sevilla fahren und die Stadt ist tatsächlich ein Traum. Sehr schöne historische Gebäude verbunden mit den Modernen und es kam absolut kein Stress in der Stadt auf. Mir gefiel Sevilla sehr gut und dieser Aufenthalt hatte sich mehr als gelohnt.
 
@@ -93,7 +82,7 @@ Wir sind jeden Morgen nach dem Frühstück mit dem Bollerwagen zum Strand gelauf
 
 ![Strand El Campello bei Alicante](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3-4.webp)
 
-Als nächstes sind wir für drei Tage auf den *Camping Sol de Calpe* gefahren. Nebenan war ein Family Park, ähnlich einer Messe, mit entsprechender Lautstärke bis 1 Uhr nachts aber es war okay. Es gibt verschiedene Strände vor Ort, ein Lidl direkt ums Eck, den Naturschutzpark mit vielen Flamingos und natürlich dem kleinen Gibraltar Felsen namens Ifach auf den ich einmal hochklettern wollte.
+Als nächstes sind wir für drei Tage auf den _Camping Sol de Calpe_ gefahren. Nebenan war ein Family Park, ähnlich einer Messe, mit entsprechender Lautstärke bis 1 Uhr nachts aber es war okay. Es gibt verschiedene Strände vor Ort, ein Lidl direkt ums Eck, den Naturschutzpark mit vielen Flamingos und natürlich dem kleinen Gibraltar Felsen namens Ifach auf den ich einmal hochklettern wollte.
 
 Leider musste ich vorzeitig abbrechen, weil ich erst auf der falschen Seite war und dann nach dem korrekten Aufstieg 500 Meter vor dem Ziel umkehren musste, weil es für mich bei der Dunkelheit einfach zu gefährlich wurde. In Calpe haben wir uns auch unsere erste Paella de Verduras in Spanien gegönnt und sie war sehr lecker.
 
@@ -109,11 +98,11 @@ Er zeigte uns auch wieder etwas vom Hinterland in Denia, wie beispielsweise die 
 
 ## Weiter mit dem Wohnmobil Richtung Deutschland
 
-Die erste Anlaufstelle war ein *Stellplatz in Daimuz,* unweit von Gandia entfernt. Es gab wieder einen kilometerlangen Strand, wir waren diesmal aber nicht schwimmen. Wir waren nochmal Paella de Verduras essen und hatten eine große Pfanne für uns alleine.
+Die erste Anlaufstelle war ein _Stellplatz in Daimuz,_ unweit von Gandia entfernt. Es gab wieder einen kilometerlangen Strand, wir waren diesmal aber nicht schwimmen. Wir waren nochmal Paella de Verduras essen und hatten eine große Pfanne für uns alleine.
 
 Wir blieben zwei Nächte und waren sehr zufrieden. Die Betreiber sprachen hier Deutsch und waren ziemlich nett. Wir haben jetzt September und die Hauptsaison geht zu Ende, denn ab dem 01. September gilt auf einigen Plätzen wieder die ACSI Card.
 
-Aktuell stehen wir auf dem *Campingplatz Torre la Sal 2* und das ist alles sehr touristisch hier. Bei der Ankunft bin ich fast vom Glauben abgefallen, denn ich musste lange an der Rezeption anstehen, um uns überhaupt mal anmelden zu können. Der Verkehr musste geregelt werden, weil hier auch alles so eng ist und es schnell zur Verstopfung kommen kann.
+Aktuell stehen wir auf dem _Campingplatz Torre la Sal 2_ und das ist alles sehr touristisch hier. Bei der Ankunft bin ich fast vom Glauben abgefallen, denn ich musste lange an der Rezeption anstehen, um uns überhaupt mal anmelden zu können. Der Verkehr musste geregelt werden, weil hier auch alles so eng ist und es schnell zur Verstopfung kommen kann.
 
 Ich wollte eigentlich schon fast wieder abreisen aber wir hatten Sofia versprochen, dass sie auf diesem Campingplatz viele Möglichkeiten zum Spielen hat. Wir bleiben jetzt bis Sonntag hier aber es fühlt sich immer noch wie Hauptsaison an und die Disco geht hier bis 4 Uhr nachts, also ganz schön was los.
 
@@ -123,18 +112,16 @@ Unverschämt ist auch der Preis mit ACSI Card 20 Euro und für unsere zwei Jahre
 
 ## Wo fahren wir als nächstes hin?
 
-Als nächstes fahren wir definitiv noch einen Campingplatz in Spanien an, bleiben für maximal eine Woche und dann fahren wir weiter nach Frankreich. Vielleicht gibt es noch einen Zwischenstopp auf einem Stellplatz, das entscheiden wir dann spontan. 
+Als nächstes fahren wir definitiv noch einen Campingplatz in Spanien an, bleiben für maximal eine Woche und dann fahren wir weiter nach Frankreich. Vielleicht gibt es noch einen Zwischenstopp auf einem Stellplatz, das entscheiden wir dann spontan.
 
 In Frankreich werden wir wahrscheinlich die Schwester von Stefanie auf einem Campingplatz treffen und mit ihnen gemeinsam den Urlaub verbringen. Der geht bis Ende September und danach fahren wir zurück nach Deutschland, sicherlich nicht am Stück und mit ein oder zwei Zwischenstopps auf Stellplätzen.
 
 In Deutschland angekommen werden wir unser Wohnmobil verkaufen. Ich habe bereits die Anzeige auf mobile.de online. Sobald das Wohnmobil verkauft ist beginnt unsere nächste große Reise aber dazu später mehr. Ich werde sicherlich noch einen Teil 4 zum Abschluss unsere Spanien und Portugal Reise schreiben.
 
-*Bis dahin wünsche ich dir den maximalen Erfolg!* :chart_with_upwards_trend:
+_Bis dahin wünsche ich dir den maximalen Erfolg!_ :chart_with_upwards_trend:
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
 PS: Auf meinem [Facebook Profil](https://www.facebook.com/sebastianzehner83) poste ich in der Zwischenzeit die aktuellen Orte und Bilder von unserer Reise.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-3 >}}
 

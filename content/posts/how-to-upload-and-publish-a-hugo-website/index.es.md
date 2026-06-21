@@ -1,27 +1,14 @@
 +++
 title = 'Cómo cargar y publicar un sitio web Hugo'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'En la segunda parte de esta serie creamos algo de contenido para tu sitio web Hugo gratuito y hoy queremos subir y publicar este contenido en internet de forma gratuita.'
-date = 2024-12-06T15:00:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-06T15:00:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-06T15:00:00-03:00
+lastmod = 2024-12-06T15:00:00-03:00
+
 tags = ['Hugo', 'sitio web', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-upload-and-publish-a-hugo-website.webp'
-    alt = 'Imagen destacada de Cómo cargar y publicar un sitio web Hugo'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-upload-and-publish-a-hugo-website"
 +++
 
 En la [segunda parte de esta serie](/es/posts/how-to-create-content-for-your-free-hugo-website/) creamos algo de contenido para tu sitio web Hugo gratuito y hoy queremos subir y publicar este contenido en internet de forma gratuita.
@@ -44,8 +31,8 @@ El tema PaperMod debe ser un submódulo en el repositorio GitHub, así que escri
 
 ```
 [submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = "https://github.com/adityatelange/hugo-PaperMod.git"
+ path = themes/PaperMod
+ url = "https://github.com/adityatelange/hugo-PaperMod.git"
 ```
 
 ### Crear una cuenta gratuita en GitHub
@@ -113,7 +100,7 @@ El enlace ahora tiene otro número detrás de `tree` y funcionó para mí.
 
 Desplegar de nuevo con Netlify y ahora debería funcionar. **¡El sitio web está en línea!**
 
-👉 https://sebastianzehner.netlify.app
+👉 <https://sebastianzehner.netlify.app>
 
 ## Registrar y conectar un dominio al sitio web
 
@@ -131,7 +118,7 @@ Point A record to xx.x.xx.x for yourdomain.com
 
 Cambié la dirección IP para mi dominio en Hostinger en los registros DNS para el tipo A apuntado a xx.x.xx.x y guardé estos ajustes.
 
-Después de unos minutos Netlify registró estos cambios y ahora mi sitio web es accesible bajo http://sebastianzehner.com y http://www.sebastianzehner.com redirige a http://sebastianzehner.com. Pero esto no es seguro y tenemos que configurar un cifrado.
+Después de unos minutos Netlify registró estos cambios y ahora mi sitio web es accesible bajo <http://sebastianzehner.com> y <http://www.sebastianzehner.com> redirige a <http://sebastianzehner.com>. Pero esto no es seguro y tenemos que configurar un cifrado.
 
 ## Habilitar el certificado TLS: Let's Encrypt
 
@@ -170,5 +157,3 @@ Este gran video ayuda en la mayoría de los puntos. El submódulo era complicado
 - Menús multilingües [Link](https://gohugo.io/content-management/multilingual/#menus)
 - Front matter [Link](https://gohugo.io/content-management/front-matter/)
 - PaperMod Features [Link](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
-
-{{< chat how-to-upload-and-publish-a-hugo-website >}}

@@ -1,32 +1,27 @@
 ---
-title: "Installing DD-WRT on the TL-WR949N: The complete guide"
-summary: "How I flashed the Brazilian TP-Link TL-WR949N router with DD-WRT: including a workaround for the SSID issue related to Error 18005, a step-by-step guide, and information on using TFTP for recovery."
-date: 2026-03-31T19:57:00-03:00
-lastmod: 2026-03-31T19:57:00-03:00
-draft: false
+title: 'Installing DD-WRT on the TL-WR949N: The complete guide'
+summary: >-
+  How I flashed the Brazilian TP-Link TL-WR949N router with DD-WRT: including a
+  workaround for the SSID issue related to Error 18005, a step-by-step guide,
+  and information on using TFTP for recovery.
+date: 2026-03-31T22:57:00.000Z
+lastmod: 2026-03-31T22:57:00.000Z
 tags:
   - router
   - firmware
   - dd-wrt
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
+showComments: true
+chatId: installing-dd-wrt-on-the-tl-wr949n
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: en
-  date: 2026-03-31
-  time: "21:06:50"
+  date: 2026-03-31T00:00:00.000Z
+  time: '21:06:50'
 ---
-
 I flashed the cheaper TP-Link TL-WR949N routers with the firmware from [dd-wrt.com](https://dd-wrt.com). The following describes the steps I had to take in order to use this firmware.
 
 I would have preferred to use [openwrt.org](https://openwrt.org) as the main router, just like I did with [OpenWrt One](https://openwrt.org/toh/openwrt/one), but unfortunately this is not recommended for [this router](https://openwrt.org/toh/tp-link/tl-wr940n). And especially not because of [OpenWrt on 4/32 devices](https://openwrt.org/supported_devices/openwrt_on_432_devices).
@@ -74,8 +69,8 @@ Proven Builds:
 The current firmware version on my TL-WR949N v6 router is:
 
 ```text
-Versão de Firmware:	3.18.1 Build 171115 Rel.43350n
-Versão de Hardware:	WR949N v6 00000000
+Versão de Firmware: 3.18.1 Build 171115 Rel.43350n
+Versão de Hardware: WR949N v6 00000000
 ```
 
 The WR949N device prevents the installation of foreign firmware via the web interface using the `Error 18005` mechanism; however, I can bypass this restriction using [this workaround](https://openwrt.org/toh/tp-link/tl-wa801nd) in the following way.
@@ -115,8 +110,8 @@ The interface is now in English instead of Portuguese, which indicates that the 
 **The firmware after the update:**
 
 ```text
-Firmware Version:	3.20.1 Build 250925 Rel.57536n (4555)
-Hardware Version:	WR940N v6 00000000
+Firmware Version: 3.20.1 Build 250925 Rel.57536n (4555)
+Hardware Version: WR940N v6 00000000
 ```
 
 I can now use this firmware, or I can move on to Step 2 and install DD-WRT.
@@ -180,6 +175,6 @@ Documenting these steps was definitely worth it; next time I won’t have to sta
 
 Have you flashed the TL-WR949N or a similar router? Did you notice anything unusual during the process, or did you find another way to achieve your goal? I’d be interested in hearing your comments—either right here via Cactus Comments using your Matrix account, or as a guest without an account at all. This topic could also make for another great blog post.
 
-Best regards, Sebastian
+Best regards,  
+Sebastian
 
-{{< chat installing-dd-wrt-on-the-tl-wr949n >}}

@@ -1,9 +1,11 @@
 ---
 title: El desafío de los blogs multilingües
-summary: Los blogs multilingües implican un esfuerzo de traducción. Las traducciones manuales son costosas y las herramientas automáticas suelen dañar el formato Markdown. ¿Cómo mantener la eficiencia y conservar el formato?
-date: 2025-12-17T17:00:00-03:00
-lastmod: 2025-12-17T17:00:00-03:00
-draft: false
+summary: >-
+  Los blogs multilingües implican un esfuerzo de traducción. Las traducciones
+  manuales son costosas y las herramientas automáticas suelen dañar el formato
+  Markdown. ¿Cómo mantener la eficiencia y conservar el formato?
+date: 2025-12-17T20:00:00.000Z
+lastmod: 2025-12-17T20:00:00.000Z
 tags:
   - hugo
   - markdown
@@ -12,19 +14,18 @@ tags:
   - llm
   - claude
 categories:
-  - tech
-
+  - techlab
 layoutBackgroundHeaderSpace: true
-
+showComments: true
+chatId: md-translator
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2025-12-17
-  time: "18:08:11"
+  date: 2025-12-17T00:00:00.000Z
+  time: '18:08:11'
 ---
-
 Como blogger que tiene un blog multilingüe, uno se enfrenta a un reto constante: cada nuevo artículo debe ser traducido a varios idiomas. Las traducciones manuales son laboriosas y costosas, mientras que las herramientas automáticas a menudo dañan la estructura del texto (formatada con Markdown) que se ha creado con cuidado. ¿Qué hacer?
 
 Precisamente frente a este problema me encontré cuando comencé a publicar mi blog en alemán, inglés y español. La solución: un traductor inteligente de Markdown que mantiene la estructura original de los textos y ofrece traducciones de alta calidad.
@@ -317,4 +318,3 @@ Si lees este artículo en inglés o español, al final verás una indicación so
 - Licencia: MIT
 - Repositorio: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
 
-{{< chat md-translator >}}

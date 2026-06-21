@@ -1,27 +1,14 @@
 +++
 title = 'Cómo crear un sitio web sencillo y autoalojado gratis'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''Estás aquí en mi nueva web minimalista y gratuita. Construí este sitio web hace algunas semanas porque me gusta lo simple y reemplacé WordPress con Hugo y PaperMod Theme para mi blog personal en Internet.'''
-date = 2024-07-22T10:29:42-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-22T10:29:42-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-22T10:29:42-03:00
+lastmod = 2024-07-22T10:29:42-03:00
+
 tags = ['sitio web', 'Hugo', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-build-a-minimalistic-and-self-hosted-website-for-free.webp'
-    alt = 'Imagen destacada de Cómo crear un sitio web sencillo y autoalojado gratis'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-build-a-minimalistic-and-self-hosted-website-for-free"
 +++
 
 Estás aquí en mi nueva web minimalista y gratuita. Construí este sitio web hace algunas semanas porque me gusta lo simple y reemplacé WordPress con Hugo y PaperMod Theme para mi blog personal en Internet. Trasladé algunas entradas antiguas del blog y escribí algunas entradas nuevas en esta plataforma. Es realmente agradable y me gusta esto - es gratis y de código abierto.
@@ -117,6 +104,5 @@ Ahora mi sitio web se ejecuta localmente en mi Mac Studio como un servicio de se
 
 En mi próxima entrada del blog te mostraré cómo crear contenido para tu nuevo sitio web. Cómo añadir un menú, etiquetas y categorías, algunos ajustes especiales, etc.
 
-Saludos cordiales Sebastian
-
-{{< chat how-to-build-a-minimalistic-and-self-hosted-website-for-free >}}
+Saludos cordiales  
+Sebastian

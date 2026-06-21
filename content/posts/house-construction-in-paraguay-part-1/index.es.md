@@ -1,27 +1,14 @@
 +++
 title = 'Construir una casa en Paraguay Parte 1'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Llevamos cuatro meses viviendo en Paraguay y nos hemos instalado muy bien, no queremos volver a Alemania. En los últimos meses hemos estado muy ocupados con el paisajismo y la planificación de la construcción de la casa.'
-date = 2020-03-08T18:13:29-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-03-08T18:13:29-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-03-08T18:13:29-03:00
+lastmod = 2020-03-08T18:13:29-03:00
+
 tags = ['Construcción de una casa', 'El Paraiso Verde', 'Simple Life', 'Emigrar']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-1.webp'
-    alt = 'Imagen destacada de Construir una casa en Paraguay Parte 1'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-1"
 +++
 
 Llevamos cuatro meses viviendo en Paraguay y nos hemos instalado muy bien, no queremos volver a Alemania. En los últimos meses hemos estado muy ocupados con el paisajismo y la planificación de la construcción de la casa.
@@ -76,8 +63,5 @@ Hace tiempo que no llueve, así que hay mucho polvo y estamos limpiando casi tod
 
 Estamos deseando que llegue el invierno en Paraguay, será nuestro primer invierno en Paraguay. Seguramente voy a escribir otra actualización sobre la construcción de nuestra casa en Paraguay pronto, así que revisa mi blog de vez en cuando para asegurarte de que no te pierdas nada. Hasta pronto.
 
-Saludos cordiales
+Saludos cordiales  
 Sebastián
-
-{{< chat house-construction-in-paraguay-part-1 >}}
-

@@ -1,27 +1,14 @@
 +++
 title = 'House construction in Paraguay Part 3'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''We have been living in Paraguay for more than nine months now and today there is another update on our house construction. This will probably be the last update.'''
-date = 2020-08-16T17:06:45-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-08-16T17:06:45-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-08-16T17:06:45-03:00
+lastmod = 2020-08-16T17:06:45-03:00
+
 tags = ['House Construction', 'El Paraiso Verde', 'Simple Life', 'Emigrate']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-3.webp'
-    alt = 'Featured image from House construction in Paraguay Part 3'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-3"
 +++
 
 We have been living in Paraguay for more than nine months now and today there is another update on our house construction. This will probably be the last update, as I'm sure the next blog post will be called "Moving into our new house in Paraguay".
@@ -60,7 +47,7 @@ It has not been possible to come to Paraguay for a long time, but this month ove
 
 They will now start planning their house and getting it built as soon as possible. I can't wait to see when they will be able to move in. We will have a construction site that we can watch from the terrace every day.
 
-By the end of the year, we will probably have around 100 settlers in our settlement area, despite this crazy year. So many new houses have been built here in the settlement area over the last few months, even though construction has been halted and building materials have naturally become scarce.  
+By the end of the year, we will probably have around 100 settlers in our settlement area, despite this crazy year. So many new houses have been built here in the settlement area over the last few months, even though construction has been halted and building materials have naturally become scarce.
 
 So the building sites here are still going ahead, which of course makes us pleased.
 
@@ -69,6 +56,3 @@ To round things off for today, I have a video of a drone flight over our house w
 See you soon and best wishes from Paraguay by Sebastian
 
 {{< youtube kUyUOifeTUI >}}
-
-{{< chat house-construction-in-paraguay-part-3 >}}
-

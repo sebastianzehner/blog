@@ -1,37 +1,25 @@
 ---
 title: Nos mudamos a nuestra nueva casa en Paraguay
-summary: Ya ha pasado mucho tiempo desde entonces, y desde hace unos meses vivimos en nuestra propia casa en Paraguay. Realmente contamos con electricidad, agua e internet en nuestra propiedad.
-date: 2021-01-14T20:22:50-03:00
-lastmod: 2021-01-14T20:22:50-03:00
-draft: false
+summary: >-
+  Ya ha pasado mucho tiempo desde entonces, y desde hace unos meses vivimos en
+  nuestra propia casa en Paraguay. Realmente contamos con electricidad, agua e
+  internet en nuestra propiedad.
+date: 2021-01-14T23:22:50.000Z
+lastmod: 2021-01-14T23:22:50.000Z
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/move-into-our-new-house-in-paraguay.webp
-  alt: Nos mudamos a nuestra nueva casa en Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: move-into-our-new-house-in-paraguay
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2025-12-15
-  time: "20:52:30"
+  date: 2025-12-15T00:00:00.000Z
+  time: '20:52:30'
 ---
-
 Ya ha pasado mucho tiempo desde entonces, y llevamos viviendo en nuestra propia casa de Paraguay desde hace unos meses. Realmente contamos con electricidad, agua e internet en la propiedad. La electricidad comenzó a funcionar el 7 de octubre de 2020, y poco después pasamos la primera noche en nuestro nuevo hogar.
 
 El apartamento en el que vivimos durante 11 meses pudimos devolverlo poco después. Es una sensación indescriptible vivir aquí, en el tranquilo campo, en nuestra propia casa y en nuestro propio terreno.
@@ -62,7 +50,7 @@ Ahora tengo que terminar de preparar los armarios para que podamos amueblar las 
 
 ![Nuestro salón de estar](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-3.webp)
 
-## Plantar árboles en el terreno.
+## Plantar árboles en el terreno
 
 Al mismo tiempo, hemos comenzado con los trabajos en el jardín. Pedimos cuatro cargas más de humus para la zona delante de la casa, con el objetivo de alcanzar el nivel del camino y distribuirlo de manera descendente hacia la carretera. El humus ya ha sido parcialmente repartido; también queremos agradecer la ayuda del operador de la excavadora.
 
@@ -95,4 +83,3 @@ Ya es hora de que haga construir un muro para cerrar el taller que se encuentra 
 Un cordial saludo,  
 Sebastian
 
-{{< chat move-into-our-new-house-in-paraguay >}}

@@ -1,27 +1,14 @@
 +++
 title = 'Self-hosted Social Media Management with Mixpost'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'I had the idea to simplify my social media engagement but without paying a lot of money or even monthly subscription fees. I found Mixpost as a self-hosted social media management solution. Today I share my experience.'
-date = 2024-08-25T18:07:53-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-08-25T18:07:53-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-08-25T18:07:53-03:00
+lastmod = 2024-08-25T18:07:53-03:00
+
 tags = ['Social Media', 'Mixpost', 'Simple Life']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/self-hosted-social-media-management-with-mixpost.webp'
-    alt = 'Featured image from Self-hosted Social Media Management with Mixpost'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "self-hosted-social-media-management-with-mixpost"
 +++
 
 I had the idea to simplify my social media engagement but without paying a lot of money or even monthly subscription fees. I found Mixpost as a self-hosted social media management solution. Therefore I set this hole thing up and tested the last days. Today I want to share my experience with Mixpost on a local machine at my home in Paraguay.
@@ -259,6 +246,5 @@ Later I will move to another local server and run my Mixpost installation as a p
 
 If you have any questions please let me know in the comments.
 
-Regards Sebastian
-
-{{< chat self-hosted-social-media-management-with-mixpost >}}
+Regards  
+Sebastian

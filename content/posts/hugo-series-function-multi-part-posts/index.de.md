@@ -1,17 +1,20 @@
 ---
-title: "Hugo: Serien-Funktion für mehrteilige Blogposts"
-summary: "Passend zu meiner geplanten Blog-Serie habe ich eine Serien-Funktion in Hugo integriert. In diesem Tutorial zeige ich dir, wie du mehrteilige Beiträge mit automatischer Nummerierung und Navigation erstellst."
-date: 2026-01-04T21:35:10-03:00
-lastmod: 2026-01-04T21:35:10-03:00
-draft: false
+title: 'Hugo: Serien-Funktion für mehrteilige Blogposts'
+summary: >-
+  Passend zu meiner geplanten Blog-Serie habe ich eine Serien-Funktion in Hugo
+  integriert. In diesem Tutorial zeige ich dir, wie du mehrteilige Beiträge mit
+  automatischer Nummerierung und Navigation erstellst.
+date: 2026-01-05T00:35:10.000Z
+lastmod: 2026-01-05T00:35:10.000Z
 tags:
   - hugo
   - blogging
   - markdown
 categories:
   - techlab
+showComments: true
+chatId: hugo-series-function
 ---
-
 Wer kennt das nicht? Manchmal reicht ein einziger Blogpost einfach nicht aus, um ein Thema in der Tiefe zu behandeln. Man schreibt eine mehrteilige Artikelserie – doch wie finden sich die Leser zurecht? Standardmäßig bietet Hugo zwar Kategorien und Tags, aber keine native Anzeige für Artikelserien, die den Fortschritt und die Reihenfolge visualisiert.
 
 Kürzlich habe ich dieses Problem für meinen Blog gelöst und eine Serien-Funktion implementiert. In dieser Anleitung zeige ich dir, wie du das mit Hugo-Bordmitteln ganz einfach selbst umsetzen kannst.
@@ -159,4 +162,3 @@ Dank der neuen Serien-Funktion behaltet ihr dabei hoffentlich immer den Überbli
 
 Ich freue mich auf euer Feedback!
 
-{{< chat hugo-series-function >}}

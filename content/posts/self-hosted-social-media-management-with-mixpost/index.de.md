@@ -1,27 +1,14 @@
 +++
 title = 'Selbst gehostetes Social Media Management mit Mixpost'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Ich hatte die Idee, mein Engagement in den sozialen Medien zu vereinfachen und das ohne viel Geld oder gar monatliche Abonnementgebühren zu bezahlen. Dabei fand ich Mixpost als eine selbst gehostete Lösung.'
-date = 2024-08-25T18:07:53-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-08-25T18:07:53-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-08-25T18:07:53-03:00
+lastmod = 2024-08-25T18:07:53-03:00
+
 tags = ['Social Media', 'Mixpost', 'Simple Life']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/self-hosted-social-media-management-with-mixpost.webp'
-    alt = 'Beitragsbild von Selbst gehostetes Social Media Management mit Mixpost'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "self-hosted-social-media-management-with-mixpost"
 +++
 
 Ich hatte die Idee, mein Engagement in den sozialen Medien zu vereinfachen und das ohne viel Geld oder gar monatliche Abonnementgebühren zu bezahlen. Ich fand Mixpost als selbst gehostete Lösung für die Verwaltung sozialer Medien. Also habe ich das ganze mal aufgesetzt und die letzten Tage getestet. Heute möchte ich meine Erfahrungen mit Mixpost auf einem lokalen Rechner bei mir zu Hause in Paraguay teilen.
@@ -259,6 +246,5 @@ Später werde ich auf einen anderen lokalen Server umziehen und meine Mixpost In
 
 Wenn du irgendwelche Fragen hast, lass es mich bitte in den Kommentaren wissen.
 
-Liebe Grüße Sebastian
-
-{{< chat self-hosted-social-media-management-with-mixpost >}}
+Liebe Grüße  
+Sebastian

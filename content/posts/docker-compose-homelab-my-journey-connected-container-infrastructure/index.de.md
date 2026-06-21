@@ -1,26 +1,14 @@
 +++
 title = 'Docker Compose im Homelab: Mein Weg zu einer vernetzten Container-Infrastruktur'
 summary = 'Mit klar strukturierten Volumes, eigenen Netzwerken und etwas Automatisierung laufen meine Dienste zuverlässig über mehrere Linux-Systeme. Sie sind schnell einsatzbereit, leicht aktualisierbar und stabil.'
-date = 2025-08-15T09:04:00-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-15T09:04:00-03:00
 lastmod = 2025-08-15T09:04:00-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'Docker', 'Compose', 'Container', 'Homelab', 'IPvlan', 'Networking']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/docker-compose-homelab-my-journey-connected-container-infrastructure.webp'
-    alt = 'Beitragsbild von Docker Compose im Homelab: Mein Weg zu einer vernetzten Container-Infrastruktur'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "docker"
 +++
 
 Ob man ein kleines Heimnetzwerk betreibt oder ein ausgewachsenes Homelab - Docker bietet mit Docker Compose eine flexible und saubere Möglichkeit, Dienste zu betreiben, zu vernetzen und zu verwalten.
@@ -296,5 +284,3 @@ _Da es sich teilweise um Affiliate-Links handelt, hier der Hinweis: Als Amazon-P
 - [Docker](https://www.docker.com/)
 - [Traefik](https://traefik.io/traefik)
 - [Komodo](https://komo.do/)
-
-{{< chat Docker >}}

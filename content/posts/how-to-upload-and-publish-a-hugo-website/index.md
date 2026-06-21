@@ -1,27 +1,14 @@
 +++
 title = 'How to upload and publish a Hugo website'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'In the second part of this series we created some content for your free Hugo website and today we want to upload and publish this content to the internet for free.'
-date = 2024-12-06T15:00:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-06T15:00:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-06T15:00:00-03:00
+lastmod = 2024-12-06T15:00:00-03:00
+
 tags = ['Hugo', 'Website', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-upload-and-publish-a-hugo-website.webp'
-    alt = 'Featured image from How to upload and publish a Hugo website'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-upload-and-publish-a-hugo-website"
 +++
 
 In the [second part of this series](/posts/how-to-create-content-for-your-free-hugo-website/) we created some content for your free Hugo website and today we want to upload and publish this content to the internet for free.
@@ -44,8 +31,8 @@ The PaperMod theme should be a submodule at the GitHub repository, so write to t
 
 ```
 [submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = "https://github.com/adityatelange/hugo-PaperMod.git"
+ path = themes/PaperMod
+ url = "https://github.com/adityatelange/hugo-PaperMod.git"
 ```
 
 ### Create a free account on GitHub
@@ -113,7 +100,7 @@ The link now has another number behind `tree` and it worked for me.
 
 Deploy again with Netlify and now it should work. **The website is online!**
 
-👉 https://sebastianzehner.netlify.app
+👉 <https://sebastianzehner.netlify.app>
 
 ## Register and connect a domain to the website
 
@@ -131,7 +118,7 @@ Point A record to xx.x.xx.x for yourdomain.com
 
 I changed the IP address for my domain at Hostinger in the DNS records for the type A pointed to xx.x.xx.x and saved these settings.
 
-After a few minutes later Netlify registered this changes and now my website is reachable under http://sebastianzehner.com and http://www.sebastianzehner.com redirects to http://sebastianzehner.com. But this is not secure and we have to set up an encryption.
+After a few minutes later Netlify registered this changes and now my website is reachable under <http://sebastianzehner.com> and <http://www.sebastianzehner.com> redirects to <http://sebastianzehner.com>. But this is not secure and we have to set up an encryption.
 
 ## Enable the TLS certificate: Let’s Encrypt
 
@@ -170,5 +157,3 @@ This great video helps for the most points. The submodule was tricky and cost me
 - Multilingual Menus [Link](https://gohugo.io/content-management/multilingual/#menus)
 - Front matter [Link](https://gohugo.io/content-management/front-matter/)
 - PaperMod Features [Link](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
-
-{{< chat how-to-upload-and-publish-a-hugo-website >}}

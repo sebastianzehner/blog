@@ -1,27 +1,14 @@
 +++
 title = 'Wie man eine einfache und selbst gehostete Webseite kostenlos erstellt'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Du bist hier auf meiner neuen minimalistischen und kostenlosen Webseite. Ich habe diese Webseite vor einigen Wochen erstellt, weil ich es gerne einfach habe und daher WordPress durch Hugo und das PaperMod Theme für meinen persönlichen Blog im Internet ersetzt.'
-date = 2024-07-22T10:29:42-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-22T10:29:42-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-22T10:29:42-03:00
+lastmod = 2024-07-22T10:29:42-03:00
+
 tags = ['Webseite', 'Hugo', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-build-a-minimalistic-and-self-hosted-website-for-free.webp'
-    alt = 'Beitragsbild von Wie man eine einfache und selbst gehostete Webseite kostenlos erstellt'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-build-a-minimalistic-and-self-hosted-website-for-free"
 +++
 
 Du bist hier auf meiner neuen minimalistischen und kostenlosen Webseite. Ich habe diese Webseite vor einigen Wochen erstellt, weil ich es gerne einfach habe und daher WordPress durch Hugo und das PaperMod Theme für meinen persönlichen Blog im Internet ersetzt. Ich habe einige ältere Blogbeiträge umgezogen und bereits neue Beiträge auf dieser Plattform geschrieben. Es ist wirklich schön und ich mag es - es ist kostenlos und Open Source.
@@ -115,6 +102,5 @@ Nun läuft meine Webseite lokal auf meinem Mac Studio als Serverdienst und aktua
 
 In meinem nächsten Blogbeitrag werde ich dir zeigen, wie du Inhalte für deine neue Webseite erstellen kannst. Wie man ein Menü hinzufügt, Tags und Kategorien, einige spezielle Einstellungen usw.
 
-Liebe Grüße Sebastian
-
-{{< chat how-to-build-a-minimalistic-and-self-hosted-website-for-free >}}
+Liebe Grüße  
+Sebastian

@@ -1,37 +1,25 @@
 ---
 title: Actualización sobre nuestra propiedad y casa en Paraguay
-summary: Ahora mismo tenemos mucho que hacer y estamos muy ocupados. Estoy trabajando en varios proyectos, y hoy quiero compartir contigo una pequeña actualización sobre nuestra vida en Paraguay.
-date: 2021-03-26T15:09:01-03:00
-lastmod: 2021-03-26T15:09:01-03:00
-draft: false
+summary: >-
+  Ahora mismo tenemos mucho que hacer y estamos muy ocupados. Estoy trabajando
+  en varios proyectos, y hoy quiero compartir contigo una pequeña actualización
+  sobre nuestra vida en Paraguay.
+date: 2021-03-26T18:09:01.000Z
+lastmod: 2021-03-26T18:09:01.000Z
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/update-property-and-house.webp
-  alt: Actualización sobre nuestra propiedad y casa en Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: update-property-and-house
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2025-12-15
-  time: "20:34:43"
+  date: 2025-12-15T00:00:00.000Z
+  time: '20:34:43'
 ---
-
 El tiempo que pasamos aquí en Paraguay vuela, aunque en realidad el lugar es muy tranquilo y relajado. Ya tenemos mucho que hacer y estamos muy ocupados.
 
 Estoy trabajando en varios proyectos y hoy quiero compartir contigo un pequeño update sobre nuestra vida en Paraguay. La última vez que escribí fue a través del [Nos mudamos a nuestra nueva casa en Paraguay](/es/posts/move-into-our-new-house-in-paraguay/).
@@ -46,7 +34,7 @@ Hemos plantado también la franja de terreno que se encuentra entre la casa y el
 
 ![Hibisco](/img/galleries/update-property-and-house/hibiscus-plant.webp)
 
-## Fabricación de muebles en Paraguay, con taller propio.
+## Fabricación de muebles en Paraguay, con taller propio
 
 Nuestro garaje está en proceso de remodelación. En las últimas semanas he realizado los planos para mi taller y los he presentado el lunes; desde el martes, los trabajadores han comenzado a construir el espacio que se encuentra debajo del garaje.
 
@@ -77,4 +65,3 @@ Te deseo que pases un buen rato y hasta la próxima vez.
 Un cordial saludo,  
 Sebastian
 
-{{< chat update-property-and-house >}}

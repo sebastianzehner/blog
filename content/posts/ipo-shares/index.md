@@ -1,34 +1,21 @@
 +++
 title = 'IPO shares: Your unique opportunity to exploit large investor potential'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Take action - Seize your “once-in-a-lifetime opportunity” now! Invitation to our confidential presentation.'
-date = 2024-12-07T17:00:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-07T17:00:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-07T17:00:00-03:00
+lastmod = 2024-12-07T17:00:00-03:00
+
 tags = ['Shares', 'Finances', 'Cryptocurrency', 'Bitcoin']
-categories = ['Tech']
+categories = ['Investment']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/ipo-shares.webp'
-    alt = 'Featured image of IPO shares: Your unique opportunity to exploit large investor potential'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "ipo-shares"
 +++
 
 **Take action - Seize your “once-in-a-lifetime opportunity” now! Invitation to our confidential presentation.**
 
 Have you ever imagined turning an investment of 30,000 USD into 450,000 USD in just 18 months? This is not unusual for large investors, but for everyone else it is a world closed off. That's changing now!
 
-## Why act now? The financial world of today:
+## Why act now? The financial world of today
 
 The euro is falling and falling:
 
@@ -49,7 +36,7 @@ If you invested at the right time, congratulations, but do you really believe th
 **Are you invested in stocks?**
 Good idea if you were just lucky enough to be in a stock like Facebook, Google or Amazon at the very beginning, because the highest profits are made at the beginning. And on today's basis, even with Facebook and Co, a 10-15x price increase in 18 months is illusory.
 
-## What to do? Here is the alternative:
+## What to do? Here is the alternative
 
 PRE- IPO stocks of “brick and mortar” companies, meaning companies that produce real goods (not digital).
 
@@ -84,7 +71,7 @@ What are you going to do with these high revenues if they are being paid out fro
 - Invest into a valuable real estate?
 - Realize your dream home or your life's dream, whatever it might be?
 
-## Important message to **all** Bitcoin investors!
+## Important message to **all** Bitcoin investors
 
 Particularly exciting: These stocks can be bought with Bitcoin. An investment that combines traditional and modern approaches to offer you maximum flexibility.
 
@@ -110,9 +97,7 @@ Join our confidential presentation where the co-founder of this technology compa
 
 This opportunity could be the turning point in your life. See you soon - on Zoom!
 
-Best regards
+Best regards  
 Sebastian
 
 PS: Featured image is Designed by [Freepik](https://www.freepik.com/)
-
-{{< chat ipo-shares >}}

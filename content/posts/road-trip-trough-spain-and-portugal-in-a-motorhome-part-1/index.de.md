@@ -1,9 +1,12 @@
 ---
 title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1
-summary: Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.
+summary: >-
+  Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere
+  Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch
+  schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am
+  Mittelmeer wieder zurück nach Deutschland.
 date: 2019-06-27T16:08:44.000Z
 lastmod: 2019-06-27T16:08:44.000Z
-draft: false
 series:
   - Roadtrip Spanien und Portugal
 series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
@@ -13,22 +16,9 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1.webp
-  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 1
-  hidden: false
-  relative: false
-  responsiveImages: false
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-1
 ---
-
 Wir haben uns letztes Jahr dazu entschieden mit unserem Wohnmobil eine längere Reise zu machen. Da wir beide gerne Portugal sehen wollten, war für uns auch schnell klar, wir fahren zuerst am Atlantik entlang in den Süden und später am Mittelmeer wieder zurück nach Deutschland.
 
 Es wird allerdings leider auch unsere letzte Reise mit dem Wohnmobil sein, da wir uns dazu entschieden haben es anschließend zu verkaufen. :cry: Die Gründe für unsere Entscheidung werden ziemlich sicher auch irgendwann hier auf meinem Blog zu lesen sein.
@@ -65,7 +55,7 @@ Wir stehen aktuell noch auf diesem relativ großen Campingplatz, hauptsächlich 
 
 Ich habe mir die Mühe gemacht, alle bisher besuchten Campingplätze hier aufzulisten:
 
-*Teilweise beinhaltet die Angabe einen Rabatt mit der ACSI Card in der Nebensaison*
+_Teilweise beinhaltet die Angabe einen Rabatt mit der ACSI Card in der Nebensaison_
 
 - [Holland 29.05.2019 Wohnmobilstellplatz Oirschot für 16,50 Euro die Nacht](https://park4night.com/lieu/63092/privater-wohnmobil-parkplatz/oirschot-de-rijt-1a/netherlands/oirschot#)
 
@@ -103,10 +93,8 @@ Es ist jedenfalls total schön, dass wir diese Reise machen dürfen und sie wird
 
 Wir haben uns vorgenommen noch bis Ende Oktober 2019 unterwegs zu sein. Also sei gespannt und bis zum nächsten Mal.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
 PS: Auf meinem [Facebook Profil](https://www.facebook.com/sebastianzehner83) poste ich in der Zwischenzeit die aktuellen Orte und Bilder von unserer Reise.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-1 >}}
 

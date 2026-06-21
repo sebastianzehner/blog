@@ -1,27 +1,14 @@
 +++
 title = 'Construcción de un pequeño carpinterio en nuestra propiedad de Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Actualmente estamos construyendo un pequeño taller. Ya lo había tenido en cuenta al construir nuestra cochera, porque se suponía que en algún momento habría una habitación en la parte trasera que podría utilizar como taller.'
-date = 2021-05-04T12:42:25-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2021-05-04T12:42:25-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2021-05-04T12:42:25-03:00
+lastmod = 2021-05-04T12:42:25-03:00
+
 tags = ['El Paraiso Verde', 'Carpintería', 'Emigrar']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/construction-wood-workshop.webp'
-    alt = 'Imagen destacada de Construcción de un pequeño carpinterio en nuestra propiedad de Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "constructionwoodworkshop"
 +++
 
 Actualmente estamos construyendo un pequeño taller. Ya lo había tenido en cuenta al construir nuestra cochera, porque se suponía que en algún momento habría una habitación en la parte trasera que podría utilizar como taller. Se hizo antes de lo previsto porque realmente quería tener una habitación para poder construir nuestros muebles de una forma más relajada. Así que, hace unas semanas, planifiqué este pequeño taller de madera bajo nuestra cochera y realicé el pedido después de recibir el presupuesto correspondiente.
@@ -52,8 +39,5 @@ Tenemos varios sistemas de alimentación ininterrumpida con baterías (SAI) en c
 
 Me pondré en contacto contigo en cuanto el taller esté listo para funcionar. La electricidad ya está instalada, los enchufes colocados y el aire acondicionado también funciona. Aún tengo que comprar algo de iluminación para el interior y dos focos LED con detector de movimiento para el exterior. Después ordenaré el taller y podremos seguir adelante.
 
-Saludos cordiales
+Saludos cordiales  
 Sebastian
-
-{{< chat constructionwoodworkshop >}}
-

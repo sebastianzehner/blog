@@ -1,9 +1,10 @@
 ---
 title: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2
-summary: Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen.
+summary: >-
+  Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit
+  dem Wohnmobil zurück nach Vila do Conde zum Einkaufen.
 date: 2019-07-21T15:22:06.000Z
 lastmod: 2019-07-21T15:22:06.000Z
-draft: false
 series:
   - Roadtrip Spanien und Portugal
 series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
@@ -13,22 +14,9 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp
-  alt: Camping mit dem Wohnmobil durch Spanien und Portugal Teil 2
-  hidden: false
-  relative: false
-  responsiveImages: false
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-2
 ---
-
 Nachdem wir den Campingplatz in Árvore verlassen haben, ging es erst mal mit dem Wohnmobil zurück nach Vila do Conde zum Einkaufen. Den Kühlschrank haben wir voll gemacht, da wir für die nächsten Tage irgendwo frei stehen wollten und da haben wir gerne ausreichend Essen und Trinken dabei.
 
 Vorausgesetzt wir bekommen unsere deutsche Gasflasche in Portugal aufgefüllt, denn wenn wir frei stehen brauchen wir das Gas für den Kühlschrank und zum Kochen.
@@ -111,9 +99,9 @@ Generell ist hier in der Hauptsaison nirgends das Übernachten an den Parkplätz
 
 Da war es für uns gut einen Rückzugsort beim Wohnmobilpark zu haben. Wir hatten übrigens auch alles inklusive für nur 9 Euro am Tag. Direkt am Eingang befindet sich eine Bushaltestelle und wir machten an einem Tag einen Ausflug nach Albufeira.
 
-|             |              |
-|-------------|-------------:|
-|![Algarve in Portugal 1](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-6.webp)![Algarve in Portugal 3](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-8.webp)|![Algarve in Portugal 2](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-5.webp)![Algarve in Portugal 4](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-7.webp)|
+|                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Algarve in Portugal 1](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-6.webp)![Algarve in Portugal 3](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-8.webp) | ![Algarve in Portugal 2](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-5.webp)![Algarve in Portugal 4](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-7.webp) |
 
 ## Bald geht es mit dem Wohnmobil wieder nach Spanien
 
@@ -121,10 +109,8 @@ Bis Spanien ist es nun nicht mehr weit und mal schauen, wie lange wir ab Morgen 
 
 Da gibt es sicherlich einige schöne Campingplätze in Spanien und Frankreich zur Nachsaison mit der ACSI Card, die wir auf unserer Reise besuchen werden. Ich werde daher sehr wahrscheinlich noch einen dritten Teil zu unserer Reise durch Spanien und Portugal schreiben.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
 PS: Auf meinem [Facebook Profil](https://www.facebook.com/sebastianzehner83) poste ich in der Zwischenzeit die aktuellen Orte und Bilder von unserer Reise.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-2 >}}
 

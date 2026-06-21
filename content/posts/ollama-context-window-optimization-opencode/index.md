@@ -1,9 +1,14 @@
 ---
-title: "Optimizing the Ollama Context Window: The key to a successful integration of OpenCode"
-summary: The Context Window is the “invisible bottleneck” in many Ollama setups. Here are three approaches to optimize its performance, practical tests using various models, and specific recommendations for successfully integrating OpenCode with LLMs.
-date: 2026-01-10T19:20:00-03:00
-lastmod: 2026-01-10T19:20:00-03:00
-draft: false
+title: >-
+  Optimizing the Ollama Context Window: The key to a successful integration of
+  OpenCode
+summary: >-
+  The Context Window is the “invisible bottleneck” in many Ollama setups. Here
+  are three approaches to optimize its performance, practical tests using
+  various models, and specific recommendations for successfully integrating
+  OpenCode with LLMs.
+date: 2026-01-10T22:20:00.000Z
+lastmod: 2026-01-10T22:20:00.000Z
 tags:
   - ollama
   - llm
@@ -12,30 +17,16 @@ tags:
   - terminal
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/ollama-context-cover.webp
-  alt: Ollama Context Window
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+howComments: true
+chatId: ollama-context
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: en
-  date: 2026-01-10
-  time: "21:17:26"
+  date: 2026-01-10T00:00:00.000Z
+  time: '21:17:26'
 ---
-
 The Ollama hat emerged as a popular solution for running Large Language Models (LLMs) locally on one’s own hardware. However, many users encounter mysterious issues when trying to integrate it with tools like OpenCode.
 
 “Tool Calls” don’t work properly, agents lose context, and code generation falls far short of expectations. The cause is usually not the model itself, but a frequently overlooked setting: the “Context Window”.
@@ -119,6 +110,7 @@ ollama run qwen3:32b
 ```
 
 In the chat:
+
 ```bash
 /set parameter num_ctx 12288
 ```
@@ -155,13 +147,13 @@ A higher level of performance (or “higher context”) is not an unlimited feat
 
 In my tests with an RTX 4090 (24 GB of VRAM), the following optimal values were obtained:
 
-| Model | More relevant context | Maximum Context | VRAM usage |
-|--------|-------------------|-------------------|--------------|
-| qwen2.5-coder:7b | 32k | 32k | 8.2 GB |
-| ministral-3:14b | 64k | 256k | 20 GB |
-| qwen3-coder:30b | 32k | 256k | 22 GB |
-| deepseek-r1:32b | 10k | 128k | 22 GB |
-| gpt-oss:20b | 128k | 128k | 17 GB |
+| Model            | More relevant context | Maximum Context | VRAM usage |
+| ---------------- | --------------------- | --------------- | ---------- |
+| qwen2.5-coder:7b | 32k                   | 32k             | 8.2 GB     |
+| ministral-3:14b  | 64k                   | 256k            | 20 GB      |
+| qwen3-coder:30b  | 32k                   | 256k            | 22 GB      |
+| deepseek-r1:32b  | 10k                   | 128k            | 22 GB      |
+| gpt-oss:20b      | 128k                  | 128k            | 17 GB      |
 
 A too high value for `num_ctx` results in:
 
@@ -191,7 +183,7 @@ With a context window size of 32k, this model performs optimally on the RTX 4090
 
 Based on a provided template, this model creates files and adjusts them according to the specified requirements. Occasionally, there are minor issues with context handling, but overall, it performs stably with up to 32k contexts.
 
-### gpt-oss:20b – The champion of analysis.
+### gpt-oss:20b – The champion of analysis
 
 The real highlight is the 128k of context available without any performance impacts. This makes it perfect for code reviews, documentation analysis, and large-scale projects. Even if some tool calls fail, the model will correct itself automatically.
 
@@ -205,11 +197,11 @@ Despite having a context of 32k tokens: With only 7 billion parameters, the mode
 
 Based on my own tests, my current recommendation for these models is:
 
-| Use Case | Model | Context |
-|----------|--------|--------|
-| Coding / Tools | Qwen3-Coder-30B | 16–32k |
-| Review/Analysis | GPT-OSS-20B | 64–128k |
-| Long documents/knowledge bases… | Ministral-14B | 32–64k |
+| Use Case                        | Model           | Context |
+| ------------------------------- | --------------- | ------- |
+| Coding / Tools                  | Qwen3-Coder-30B | 16–32k  |
+| Review/Analysis                 | GPT-OSS-20B     | 64–128k |
+| Long documents/knowledge bases… | Ministral-14B   | 32–64k  |
 
 ## Model file management: Organization is everything
 
@@ -245,4 +237,3 @@ I can now also allow one of the mentioned large language models (LLMs) to access
 
 What experiences do you have with Ollama and OpenCode? Which model works best for you? Please share your recommendations and setup tips in the comments; I’m really interested in your feedback!
 
-{{< chat ollama-context >}}

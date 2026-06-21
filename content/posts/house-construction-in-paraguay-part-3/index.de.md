@@ -1,27 +1,14 @@
 +++
 title = 'Hausbau in Paraguay Teil 3'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Wir leben nun schon mehr als neun Monate in Paraguay und heute gibt es nochmal ein Update zu unserem Hausbau. Das wird vermutlich auch das letzte Update sein, denn den nächsten Blogartikel werde ich sicherlich „Einzug in unser neues Haus in Paraguay“ nennen.'
-date = 2020-08-16T17:06:45-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-08-16T17:06:45-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-08-16T17:06:45-03:00
+lastmod = 2020-08-16T17:06:45-03:00
+
 tags = ['Hausbau', 'El Paraiso Verde', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-3.webp'
-    alt = 'Beitragsbild von Hausbau in Paraguay Teil 3'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-3"
 +++
 
 Wir leben nun schon mehr als neun Monate in Paraguay und heute gibt es nochmal ein Update zu unserem Hausbau. Das wird vermutlich auch das letzte Update sein, denn den nächsten Blogartikel werde ich sicherlich „Einzug in unser neues Haus in Paraguay“ nennen.
@@ -60,7 +47,7 @@ Es war nun längere Zeit nicht möglich nach Paraguay zu kommen aber in diesem M
 
 Sie werden sich nun um die Planung für ihr Haus kümmern und den Bau schnellstmöglich beauftragen. Ich bin gespannt, wann sie einziehen können. Wir haben dadurch einen Bau, den wir von der Terrasse aus Tag für Tag beobachten können.
 
-Bis Ende des Jahres werden wir wahrscheinlich um die 100 Siedler in unserem Siedlungsgebiet sein und das trotz diesem verrückten Jahr. Seit den letzten Monaten entstehen hier so viele neue Häuser im Siedlungsgebiet und das obwohl es einen Baustopp gab und die Baumaterialien natürlich knapp geworden sind.  
+Bis Ende des Jahres werden wir wahrscheinlich um die 100 Siedler in unserem Siedlungsgebiet sein und das trotz diesem verrückten Jahr. Seit den letzten Monaten entstehen hier so viele neue Häuser im Siedlungsgebiet und das obwohl es einen Baustopp gab und die Baumaterialien natürlich knapp geworden sind.
 
 Hier geht’s also munter weiter auf den Baustellen, das freut uns natürlich.
 
@@ -69,6 +56,3 @@ Zum Abschluss für heute habe ich für dich noch ein Video von einem Drohnenflug
 Bis bald und liebe Grüße aus Paraguay von Sebastian
 
 {{< youtube kUyUOifeTUI >}}
-
-{{< chat house-construction-in-paraguay-part-3 >}}
-

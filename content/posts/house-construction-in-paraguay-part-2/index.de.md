@@ -1,27 +1,14 @@
 +++
 title = 'Hausbau in Paraguay Teil 2'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Wir leben inzwischen seit über sieben Monate in Paraguay und heute möchte ich ein Update zu unserem Hausbau schreiben und außerdem berichten, wie es uns mit der aktuellen Situation geht.'
-date = 2020-06-14T17:30:58-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-06-14T17:30:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-06-14T17:30:58-03:00
+lastmod = 2020-06-14T17:30:58-03:00
+
 tags = ['Hausbau', 'El Paraiso Verde', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-2.webp'
-    alt = 'Beitragsbild von Hausbau in Paraguay Teil 2'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-2"
 +++
 
 Wir leben inzwischen seit über sieben Monate in Paraguay und heute möchte ich ein Update zu unserem Hausbau schreiben und außerdem berichten, wie es uns mit der aktuellen Situation geht.
@@ -103,6 +90,3 @@ Sobald wir mehr Ruhe haben und auf unserem Grundstück sind, werde ich dies hoff
 Bis bald und liebe Grüße aus Paraguay von Sebastian
 
 {{< youtube MbUudyY5318 >}}
-
-{{< chat house-construction-in-paraguay-part-2 >}}
-

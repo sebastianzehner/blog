@@ -1,27 +1,14 @@
 +++
 title = 'House construction in Paraguay Part 1'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'We have been living in Paraguay for four months now and have settled in well, we do not want to go back to Germany. The last few months have been very busy with our landscaping and planning for the house construction.'
-date = 2020-03-08T18:13:29-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2020-03-08T18:13:29-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2020-03-08T18:13:29-03:00
+lastmod = 2020-03-08T18:13:29-03:00
+
 tags = ['House Construction', 'El Paraiso Verde', 'Simple Life', 'Emigrate']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/house-construction-in-paraguay-part-1.webp'
-    alt = 'Featured image from House construction in Paraguay Part 1'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "house-construction-in-paraguay-part-1"
 +++
 
 We have been living in Paraguay for four months now and have settled in well, we don't want to go back to Germany. The last few months have been very busy with our landscaping and planning for the house construction.
@@ -76,8 +63,5 @@ It hasn't rained for a while, so it's very dusty at the moment and we are cleani
 
 We are looking forward to the winter in Paraguay, it will be our first winter in this country. I will certainly write another update about our house construction in Paraguay soon, so check my blog from time to time to make sure you don't miss anything. See you soon!
 
-Best regards
+Best regards  
 Sebastian
-
-{{< chat house-construction-in-paraguay-part-1 >}}
-

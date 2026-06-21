@@ -1,19 +1,14 @@
 +++
 title = 'Cómo firmamos nuestros certificados SSL con OpenSSL para servicios web locales'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'En esta entrada de blog, documento cómo creamos certificados SSL autofirmados y los usamos de forma segura en la red local. Un servidor web local se ejecuta en un viejo Raspberry Pi en mi Homelab.'
-date = 2024-07-31T20:53:58-04:00
-lastmod = 2024-07-31T20:53:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-31T20:53:58-03:00
+lastmod = 2024-07-31T20:53:58-03:00
+
 tags = ['OpenSSL', 'HTTPS', 'Certificados', 'LAN']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services"
 +++
 
 Estoy documentando cómo podemos crear certificados SSL autofirmados y utilizarlos de forma segura en la red local. He instalado un servidor web local en mi Homelab en un viejo Raspberry Pi y me gustaría que estos sitios web para mostrar una conexión segura a través de HTTPS en el navegador.
@@ -491,5 +486,3 @@ Los siguientes enlaces fueron útiles para mi autoridad de certificación:
 - Instalar certificados MacOS - [Enlace](https://flaviocopes.com/macos-install-ssl-local/)
 - Resolver problemas de Android - [Enlace](https://stackoverflow.com/questions/57565665/one-self-signed-cert-to-rule-them-all-chrome-android-and-ios/57684211#57684211)
 - Autoridad de certificación raíz en la LAN - [Enlace](https://www.markjunghanns.de/de_DE/index.php/2016/08/18/eine-eigene-root-zertifizierungsstelle-fuer-die-nutzung-im-lan-erstellen/)
-
-{{< chat how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services >}}

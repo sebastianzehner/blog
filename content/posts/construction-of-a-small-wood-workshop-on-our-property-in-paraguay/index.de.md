@@ -1,27 +1,14 @@
 +++
 title = 'Bau einer kleinen Holzwerkstatt auf unserem Grundstück in Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Wir lassen uns aktuell eine kleine Werkstatt bauen. Ich hatte das bereits berücksichtigt beim Bau unseres Carports, denn dort sollte im hinteren Bereich irgendwann einmal ein Raum entstehen, welchen ich als Werkstatt nutzen kann.'
-date = 2021-05-04T12:42:25-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2021-05-04T12:42:25-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2021-05-04T12:42:25-03:00
+lastmod = 2021-05-04T12:42:25-03:00
+
 tags = ['El Paraiso Verde', 'Holzwerkstatt', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/construction-wood-workshop.webp'
-    alt = 'Beitragsbild von Bau einer kleinen Holzwerkstatt auf unserem Grundstück in Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "constructionwoodworkshop"
 +++
 
 Wir lassen uns aktuell eine kleine Werkstatt bauen. Ich hatte das bereits berücksichtigt beim Bau unseres Carports, denn dort sollte im hinteren Bereich irgendwann einmal ein Raum entstehen, welchen ich als Werkstatt nutzen kann. Es kam jetzt doch schneller als geplant, weil ich unbedingt einen Raum haben wollte, um unsere Möbel einfach entspannter bauen zu können. Deswegen plante ich vor ein paar Wochen diese kleine Holzwerkstatt unter unserem Carport und gab den Auftrag frei, nachdem ich das Angebot dafür erhalten hatte.
@@ -52,8 +39,5 @@ Im Haus haben wir einige unterbrechungsfreie Stromversorgungen mit Akku (USV), d
 
 Ich melde mich wieder zurück, sobald die Werkstatt einsatzbereit ist. Strom ist inzwischen verlegt, die Steckdosen montiert und die Klimaanlage funktioniert ebenfalls. Ich muss mir noch eine Beleuchtung für innen kaufen und für außen zwei LED Strahler mit Bewegungsmelder. Die Werkstatt werde ich dann anschließend einräumen und es kann weitergehen.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat constructionwoodworkshop >}}
-

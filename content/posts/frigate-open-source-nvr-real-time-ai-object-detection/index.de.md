@@ -1,26 +1,14 @@
 +++
 title = 'Frigate: Open Source NVR mit Echtzeit-KI-Objekterkennung'
 summary = 'Frigate ist ein Open Source Network Video Recorder (NVR), der klassische Videoüberwachung mit KI-gestützter Echtzeiterkennung von Personen, Fahrzeugen, Tieren und anderen Objekten kombiniert.'
-date = 2025-08-12T18:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-12T18:35:10-03:00
 lastmod = 2025-08-12T18:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'Frigate', 'AI', 'Coral', 'TPU', 'NVR', 'Docker', 'Videoüberwachung']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/frigate-open-source-nvr-real-time-ai-object-detection.webp'
-    alt = 'Beitragsbild von Frigate: Open Source NVR mit Echtzeit-KI-Objekterkennung'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "frigate"
 +++
 
 **Frigate** ist ein Open Source Network Video Recorder (NVR), der speziell für die Echtzeit-KI-Objekterkennung entwickelt wurde. Die Software ermöglicht nicht nur klassisches Aufzeichnen und Abspielen von Kamerastreams, sondern auch die automatische Erkennung von Personen, Fahrzeugen, Tieren und weiteren Objekten mithilfe von Machine Learning.
@@ -323,7 +311,7 @@ FRIGATE_RTSP_PASSWORD=secure_password
 
 Die Aufnahmen sollten möglichst in hoher Qualität erfolgen. Dafür musste ich noch einige Einstellungen anpassen und wie bereits beschrieben **go2rtc** nutzen, um die Streams besser zu verwalten. Nach der Umstellung funktioniert das mit **go2rtc** inzwischen sehr gut.
 
-Frigate ist aktuell über meinen Traefik Proxy Server unter folgender Adresse erreichbar: https://frigate.techlab.icu
+Frigate ist aktuell über meinen Traefik Proxy Server unter folgender Adresse erreichbar: <https://frigate.techlab.icu>
 
 ## Streaming Server go2rtc konfigurieren
 
@@ -431,5 +419,3 @@ _Da es sich teilweise um Affiliate-Links handelt, hier der Hinweis: Als Amazon-P
 - [Traefik](https://traefik.io/traefik)
 - [Pi-Hole](https://pi-hole.net/)
 - [Coral Edge TPU](https://coral.ai/products/)
-
-{{< chat Frigate >}}

@@ -1,26 +1,14 @@
 +++
 title = 'NUT en el Homelab: Control centralizado y monitoreo de sistemas UPS'
 summary = 'En mi homelab utilizo varias unidades de alimentación ininterrumpida (SAI), incluyendo modelos de **Eaton** y **CyberPower**. Estas protegen de forma fiable mis servidores, sistemas NAS y dispositivos de red durante un apagón.'
-date = 2025-08-06T20:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-06T20:35:10-03:00
 lastmod = 2025-08-06T20:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'SAI', 'NUT', 'Docker', 'Apagón']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/nut-in-the-homelab-central-ups-monitoring-and-automation.webp'
-    alt = 'Imagen destacada de NUT en el Homelab: Control centralizado y monitoreo de sistemas UPS'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "nut"
 +++
 
 ## Cómo automatizo mi homelab en caso de un corte de energía?
@@ -405,7 +393,7 @@ sudo nano /etc/nut/ups.conf
 
 Aquí se cambia `bus = "003"` a `bus = "004"` y se guarda el archivo. Ahora la UPS vuelve a estar accesible, lo que se puede verificar con `upsc ups`.
 
-También aparece nuevamente como **online** en https://usv.techlab.icu
+También aparece nuevamente como **online** en <https://usv.techlab.icu>
 
 Estos errores no deben pasar desapercibidos — especialmente durante un corte eléctrico. Se recomienda encarecidamente implementar una supervisión automatizada que cubra los siguientes puntos:
 
@@ -418,8 +406,8 @@ La siguiente sección del artículo explicará cómo implementar estos mecanismo
 
 Superviso el estado de mis dispositivos UPS utilizando **Uptime Kuma**, consultando la API JSON de **PeaNUT**. Para cada UPS existen dos monitores que realizan solicitudes HTTPS a los siguientes endpoints:
 
-- https://usv.techlab.icu/api/v1/devices/ups
-- https://usv.techlab.icu/api/v1/devices/server-room-rack
+- <https://usv.techlab.icu/api/v1/devices/ups>
+- <https://usv.techlab.icu/api/v1/devices/server-room-rack>
 
 Para cada uno utilizo dos criterios de búsqueda:
 
@@ -480,7 +468,7 @@ networks:
     external: true
 ```
 
-La interfaz web estará disponible en https://usv.techlab.icu – protegida con TLS a través de Traefik.
+La interfaz web estará disponible en <https://usv.techlab.icu> – protegida con TLS a través de Traefik.
 
 En el archivo `settings.yml` dentro del directorio de configuración se definen los servidores NUT. En mi caso, la configuración se ve así:
 
@@ -742,5 +730,3 @@ Con esto llegamos al final de este artículo: los SAIs ya no funcionan de manera
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)
 - [Gotify](https://gotify.net/)
 - [Home Assistant](https://www.home-assistant.io/)
-
-{{< chat NUT >}}

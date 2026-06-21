@@ -1,19 +1,14 @@
 +++
 title = 'Titel im El Paraiso Verde'
-#description = 'Haben wir inzwischen einen Titel für unser Grundstück?'
 summary = 'Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.'
-date = 2024-07-10T22:04:08-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-10T22:04:08-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-10T22:04:08-03:00
+lastmod = 2024-07-10T22:04:08-03:00
+
 tags = ['Titel', 'Grundstück', 'El Paraiso Verde', 'Grundbuch', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "titleparaisoverde"
 +++
 
 Nachdem seit einigen Jahren schon das Gerücht kursierte, dass wir keinen Titel hätten und wir auch nie einen Titel für unser Grundstück bekommen würden, möchte ich heute noch einmal im Detail auf unseren Titel eingehen.
@@ -154,7 +149,5 @@ Wir leben allerdings auch unabhängig davon sehr gerne im El Paraiso Verde und s
 
 Du kannst über die Webseite vom [El Paraiso Verde](https://paraiso-verde.com/kontakt/) mit einem Berater Kontakt aufnehmen!
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat titleparaisoverde >}}

@@ -1,19 +1,14 @@
 +++
 title = 'How we sign our SSL certificates with OpenSSL for local web services'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'In this blog post, I document how we create self-signed SSL certificates and use them securely in the local network. A local web server is running on an older Raspberry Pi in my Homelab.'
-date = 2024-07-31T20:53:58-04:00
-lastmod = 2024-07-31T20:53:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-31T20:53:58-03:00
+lastmod = 2024-07-31T20:53:58-03:00
+
 tags = ['OpenSSL', 'HTTPS', 'Certificates', 'LAN']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services"
 +++
 
 I am documenting how we can create self-signed SSL certificates and use them securely on the local network. I have installed a local web server in my Homelab on an older Raspberry Pi and would like these websites to display a secure connection via HTTPS in the browser.
@@ -491,5 +486,3 @@ The following links were helpful for my certification authority:
 - Install MacOS certificates - [Link](https://flaviocopes.com/macos-install-ssl-local/)
 - Solving Android problems - [Link](https://stackoverflow.com/questions/57565665/one-self-signed-cert-to-rule-them-all-chrome-android-and-ios/57684211#57684211)
 - Root certificate authority in the LAN - [Link](https://www.markjunghanns.de/de_DE/index.php/2016/08/18/eine-eigene-root-zertifizierungsstelle-fuer-die-nutzung-im-lan-erstellen/)
-
-{{< chat how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services >}}

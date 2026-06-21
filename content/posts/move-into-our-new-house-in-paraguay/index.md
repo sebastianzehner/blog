@@ -1,37 +1,25 @@
 ---
 title: Moving into our new house in Paraguay
-summary: A lot of time has passed since then, and we have been living in our own house in Paraguay for a few months now. We actually have electricity, water, and internet at our property.
-date: 2021-01-14T20:22:50-03:00
-lastmod: 2021-01-14T20:22:50-03:00
-draft: false
+summary: >-
+  A lot of time has passed since then, and we have been living in our own house
+  in Paraguay for a few months now. We actually have electricity, water, and
+  internet at our property.
+date: 2021-01-14T23:22:50.000Z
+lastmod: 2021-01-14T23:22:50.000Z
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/move-into-our-new-house-in-paraguay.webp
-  alt: Moving into our new house in Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: move-into-our-new-house-in-paraguay
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: en
-  date: 2025-12-15
-  time: "20:51:59"
+  date: 2025-12-15T00:00:00.000Z
+  time: '20:51:59'
 ---
-
 A lot of time has passed since then; we have been living in our own house in Paraguay for a few months now. We actually have electricity, water, and internet at our property. The electricity supply started on October 7, 2020, and shortly after that, we spent our first night in our new home.
 
 The apartment we lived in for 11 months was able to be returned shortly thereafter. It’s an indescribable feeling to live in your own house, on your own land, in this peaceful rural area.
@@ -95,4 +83,3 @@ It’s time for me to have the workshop under the carport built into the wall; t
 Best regards,  
 Sebastian
 
-{{< chat move-into-our-new-house-in-paraguay >}}

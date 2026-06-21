@@ -1,27 +1,14 @@
 +++
 title = 'Wie man eine Hugo Webseite hochlädt und veröffentlicht'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Im zweiten Teil dieser Serie haben wir einige Inhalte für deine kostenlose Hugo Webseite erstellt und heute wollen wir diese Inhalte hochladen und kostenlos im Internet veröffentlichen.'
-date = 2024-12-06T15:00:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-06T15:00:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-06T15:00:00-03:00
+lastmod = 2024-12-06T15:00:00-03:00
+
 tags = ['Hugo', 'Webseite', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-upload-and-publish-a-hugo-website.webp'
-    alt = 'Beitragsbild von Wie man eine Hugo Webseite hochlädt und veröffentlicht'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-upload-and-publish-a-hugo-website"
 +++
 
 Im [zweiten Teil dieser Serie](/de/posts/how-to-create-content-for-your-free-hugo-website/) haben wir einige Inhalte für deine kostenlose Hugo Webseite erstellt und heute wollen wir diese Inhalte hochladen und kostenlos im Internet veröffentlichen.
@@ -46,8 +33,8 @@ Das PaperMod Thema sollte ein Submodul im GitHub-Repository sein, also schreibe 
 
 ```
 [submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = "https://github.com/adityatelange/hugo-PaperMod.git"
+ path = themes/PaperMod
+ url = "https://github.com/adityatelange/hugo-PaperMod.git"
 ```
 
 ### Erstelle ein kostenloses Benutzerkonto auf GitHub
@@ -117,7 +104,7 @@ Der Link hat jetzt eine andere Nummer hinter `tree` und bei mir hat es funktioni
 
 Nochmals mit Netlify bereitstellen und jetzt sollte es funktionieren. **Die Webseite ist online!**
 
-👉 https://sebastianzehner.netlify.app
+👉 <https://sebastianzehner.netlify.app>
 
 ## Registrierung und Verknüpfung einer Domain mit der Webseite
 
@@ -135,7 +122,7 @@ Point A record to xx.x.xx.x for yourdomain.com
 
 Ich änderte die IP-Adresse für meine Domain bei Hostinger in den DNS-Einträgen für den Typ A auf xx.x.xx.x und speicherte diese Einstellungen.
 
-Nach ein paar Minuten hat Netlify diese Änderungen registriert und nun ist meine Webseite unter http://sebastianzehner.com erreichbar und http://www.sebastianzehner.com leitet auf http://sebastianzehner.com um. Dies ist jedoch nicht sicher und wir müssen eine Verschlüsselung einrichten.
+Nach ein paar Minuten hat Netlify diese Änderungen registriert und nun ist meine Webseite unter <http://sebastianzehner.com> erreichbar und <http://www.sebastianzehner.com> leitet auf <http://sebastianzehner.com> um. Dies ist jedoch nicht sicher und wir müssen eine Verschlüsselung einrichten.
 
 ## Aktiviere das TLS-Zertifikat: Let's Encrypt
 
@@ -176,5 +163,3 @@ Dieses tolle Video hilft bei den meisten Punkten. Das Submodul war knifflig und 
 - Mehrsprachige Menüs [Link](https://gohugo.io/content-management/multilingual/#menus)
 - Front matter [Link](https://gohugo.io/content-management/front-matter/)
 - PaperMod Features [Link](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
-
-{{< chat how-to-upload-and-publish-a-hugo-website >}}

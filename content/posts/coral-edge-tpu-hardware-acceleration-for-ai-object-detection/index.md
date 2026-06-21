@@ -1,26 +1,14 @@
 +++
 title = 'Coral Edge TPU: Hardware Acceleration for AI Object Detection'
 summary = 'For my Frigate Docker container, I wanted to enable AI object detection with hardware acceleration. Therefore, I bought an M.2 Accelerator Coral Edge TPU chip with an A+E key and installed it in my home server.'
-date = 2025-08-13T09:15:00-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-13T09:15:00-03:00
 lastmod = 2025-08-13T09:15:00-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'Frigate', 'AI', 'Coral', 'TPU', 'NVR', 'Docker', 'CCTV']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/coral-edge-tpu-hardware-acceleration-for-ai-object-detection.webp'
-    alt = 'Featured image from Coral Edge TPU: Hardware Acceleration for AI Object Detection'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "CoralTPU"
 +++
 
 For my **Frigate Docker container**, I wanted to enable AI object detection with hardware acceleration. Therefore, I bought an M.2 Accelerator Coral Edge TPU chip with an A+E key and installed it in my home server.
@@ -251,5 +239,3 @@ _Some of the above are affiliate links. As an Amazon Associate, I earn from qual
 - [Docker](https://www.docker.com/)
 - [GitHub](https://github.com/sebastianzehner/alpine-coral-tpu)
 - [Coral Edge TPU](https://coral.ai/products/)
-
-{{< chat CoralTPU >}}

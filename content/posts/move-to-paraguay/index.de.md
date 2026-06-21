@@ -1,27 +1,14 @@
 +++
 title = 'Umzug nach Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Wir haben uns am 06.11.2019 von Deutschland abgemeldet und sind nach Paraguay umgezogen. Jetzt leben wir schon seit fast einem Monat hier und haben uns so langsam aber sicher eingelebt.'
-date = 2019-12-06T19:07:01-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2019-12-06T19:07:01-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2019-12-06T19:07:01-03:00
+lastmod = 2019-12-06T19:07:01-03:00
+
 tags = ['El Paraiso Verde', 'Simple Life', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/move-to-paraguay.webp'
-    alt = 'Beitragsbild von Umzug nach Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "move-to-paraguay"
 +++
 
 Wir haben uns am 06. November 2019 von Deutschland abgemeldet und sind nach Paraguay umgezogen. Jetzt leben wir schon seit fast einem Monat hier und haben uns so langsam aber sicher eingelebt.
@@ -50,7 +37,7 @@ Wir mieteten uns einen Kleinbus und meldeten uns in Deutschland ab. Am 06. Novem
 
 ## Endlich in Südamerika gelandet
 
-In Asuncion gelandet waren wir sehr froh, endlich angekommen zu sein aber es gab für uns noch ein paar wichtige Dinge in der Hauptstadt zu erledigen. 
+In Asuncion gelandet waren wir sehr froh, endlich angekommen zu sein aber es gab für uns noch ein paar wichtige Dinge in der Hauptstadt zu erledigen.
 
 Anschließend fuhren wir weiter und kamen am Abend in unserem Appartement an. Wir wohnen aktuell in einem kleinen Appartement, bis wir dann später unser eigenes Haus bauen werden. In dem einen Monat, den wir bereits hier sind, haben wir wieder einiges erledigen können.
 
@@ -66,20 +53,17 @@ Stefanie hat vor ein paar Tagen natürlich ebenfalls ein Motorrad bekommen, somi
 
 ## Noch eine weitere Daueraufenthaltsgenehmigung
 
-Liam kam erst später auf die Welt und er war daher bei unserer ersten Reise nicht dabei, also hat er auch noch keine Daueraufenthaltsgenehmigung in Paraguay. Diese haben wir vor kurzem aber beantragt und das geht jetzt alles seinen offiziellen Weg. Irgendwann wird auch er seine Cedula erhalten. 
+Liam kam erst später auf die Welt und er war daher bei unserer ersten Reise nicht dabei, also hat er auch noch keine Daueraufenthaltsgenehmigung in Paraguay. Diese haben wir vor kurzem aber beantragt und das geht jetzt alles seinen offiziellen Weg. Irgendwann wird auch er seine Cedula erhalten.
 
 Tranquilo :relaxed:
 
 Die Planung der Landschaftsgestaltung für unser Grundstück haben wir heute abgeschlossen. Ich denke da werden bald die Bagger anrollen und ich kann ein paar interessante Bilder vom Baubeginn machen. Anschließend darf unser Haus gebaut werden, da haben wir auch schon genaue Vorstellungen. Ich werde dich gerne weiter auf dem Laufenden halten.
 
-Ansonsten genießen wir unsere Zeit in Paraguay. Es ist schön warm bei über 30°C und während in Deutschland der Winter Einzug hält haben wir hier Sommer. 
+Ansonsten genießen wir unsere Zeit in Paraguay. Es ist schön warm bei über 30°C und während in Deutschland der Winter Einzug hält haben wir hier Sommer.
 
 Außerdem werde ich weiter an meinem Online Business arbeiten, welches uns diese Freiheit überhaupt erst ermöglicht hat. Ich werde weitere Beiträge auf meinem Blog veröffentlichen und solltest du Fragen dazu haben, darfst du mich natürlich auch gerne kontaktieren.
 
 Ich wünsche dir den maximalen Erfolg und das all deine Träume und Wünsche in Erfüllung gehen mögen.
 
-Viele Grüße
+Viele Grüße  
 Sebastian
-
-{{< chat move-to-paraguay >}}
-

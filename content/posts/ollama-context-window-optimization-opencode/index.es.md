@@ -1,9 +1,13 @@
 ---
-title: "Optimización de la ventana de contexto de Ollama: la clave para una integración exitosa de OpenCode"
-summary: El Context Window limita muchos setups de Ollama. Tres métodos de optimización, pruebas prácticas y recomendaciones concretas para usar OpenCode con LLMs locales.
-date: 2026-01-10T19:20:00-03:00
-lastmod: 2026-01-10T19:20:00-03:00
-draft: false
+title: >-
+  Optimización de la ventana de contexto de Ollama: la clave para una
+  integración exitosa de OpenCode
+summary: >-
+  El Context Window limita muchos setups de Ollama. Tres métodos de
+  optimización, pruebas prácticas y recomendaciones concretas para usar OpenCode
+  con LLMs locales.
+date: 2026-01-10T22:20:00.000Z
+lastmod: 2026-01-10T22:20:00.000Z
 tags:
   - ollama
   - llm
@@ -12,30 +16,16 @@ tags:
   - terminal
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/ollama-context-cover.webp
-  alt: Ventana de contexto de Ollama
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+howComments: true
+chatId: ollama-context
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-01-10
-  time: "21:18:08"
+  date: 2026-01-10T00:00:00.000Z
+  time: '21:18:08'
 ---
-
 Ollama se ha establecido como una solución popular para ejecutar modelos de lenguaje de gran tamaño (Large Language Models, LLMs) de forma local en la propia hardware. Sin embargo, muchos usuarios se encuentran con problemas misteriosos al integrarlo con herramientas como OpenCode.
 
 Las funciones de tipo “Tool Calls” no funcionan correctamente; los agentes pierden el contexto necesario para llevar a cabo sus tareas, y la generación de código queda muy por debajo de las expectativas. La causa de estos problemas suele no residir en el modelo en sí, sino en un parámetro a menudo pasado por alto: la **ventana de contexto** (Context Window).
@@ -119,11 +109,12 @@ ollama run qwen3:32b
 ```
 
 En el chat:
+
 ```bash
 /set parameter num_ctx 12288
 ```
 
-**Sugerencia:** Con el comando ``/save qwen3-12k:32b``, incluso es posible guardar una nueva variante del modelo utilizando ese contexto. La próxima vez que se utilice ``ollama list``, dicha nueva variante estará disponible.
+**Sugerencia:** Con el comando `/save qwen3-12k:32b`, incluso es posible guardar una nueva variante del modelo utilizando ese contexto. La próxima vez que se utilice `ollama list`, dicha nueva variante estará disponible.
 
 ## Solución 3: Archivos de modelo: el método profesional
 
@@ -155,13 +146,13 @@ Un contexto más amplio no representa una posibilidad ilimitada, sino que está 
 
 En mis pruebas con una RTX 4090 (24 GB de RAM), se obtuvieron los siguientes valores óptimos:
 
-| Modelo | Contexto más relevante | Contexto Máximo | Uso de la VRAM |
-|--------|-------------------|-------------------|--------------|
-| qwen2.5-coder:7b | 32k | 32k | 8,2 GB |
-| ministral-3:14b | 64k | 256k | 20 GB |
-| qwen3-coder:30b | 32k | 256k | 22 GB |
-| deepseek-r1:32b | 10k | 128k | 22 GB |
-| GPT-OSS:20B | 128k | 128k | 17 GB |
+| Modelo           | Contexto más relevante | Contexto Máximo | Uso de la VRAM |
+| ---------------- | ---------------------- | --------------- | -------------- |
+| qwen2.5-coder:7b | 32k                    | 32k             | 8,2 GB         |
+| ministral-3:14b  | 64k                    | 256k            | 20 GB          |
+| qwen3-coder:30b  | 32k                    | 256k            | 22 GB          |
+| deepseek-r1:32b  | 10k                    | 128k            | 22 GB          |
+| GPT-OSS:20B      | 128k                   | 128k            | 17 GB          |
 
 Un valor demasiado alto para `num_ctx` conduce a lo siguiente:
 
@@ -205,11 +196,11 @@ A pesar de contar con un contexto de 32k, el modelo es demasiado simplificado (c
 
 Mi recomendación actual, basada en mis propios ensayos, recae en estos modelos:
 
-| Caso de Uso | Modelo | Contexto |
-|----------|--------|---------|
-| Programación/Herramientas | Qwen3-Coder-30B | 16–32k |
-| Revisión/Análisis | GPT-OSS-20B | 64–128k |
-| Documentos extensos / Conocimientos | Ministral-14B | 32–64k |
+| Caso de Uso                         | Modelo          | Contexto |
+| ----------------------------------- | --------------- | -------- |
+| Programación/Herramientas           | Qwen3-Coder-30B | 16–32k   |
+| Revisión/Análisis                   | GPT-OSS-20B     | 64–128k  |
+| Documentos extensos / Conocimientos | Ministral-14B   | 32–64k   |
 
 ## Gestión de archivos de modelo: La organización lo es todo
 
@@ -245,4 +236,3 @@ Ahora también puedo permitir que uno de los modelos de lenguaje largo mencionad
 
 ¿Qué experiencias has tenido con Ollama y OpenCode? ¿Cuál de estos modelos funciona mejor para ti? No dudes en escribirme tus recomendaciones y consejos de configuración en los comentarios; estoy muy interesado en tu opinión.
 
-{{< chat ollama-context >}}

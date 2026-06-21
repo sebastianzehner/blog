@@ -1,9 +1,11 @@
 ---
 title: Acampar con autocaravana por España y Portugal (Parte 3)
-summary: Ya ha pasado un tiempo, y hemos vuelto a España; de hecho, casi estamos en Francia. Al menos, tenemos previsto estar de nuevo en Francia para el 15 de septiembre de 2019, como muy tarde.
+summary: >-
+  Ya ha pasado un tiempo, y hemos vuelto a España; de hecho, casi estamos en
+  Francia. Al menos, tenemos previsto estar de nuevo en Francia para el 15 de
+  septiembre de 2019, como muy tarde.
 date: 2019-09-04T14:36:22.000Z
 lastmod: 2019-09-04T14:36:22.000Z
-draft: false
 series:
   - Roadtrip España y Portugal
 series_title: Acampar con autocaravana por España y Portugal
@@ -13,30 +15,16 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp
-  alt: Acampar con autocaravana por España y Portugal (Parte 3)
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-3
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-01-06
-  time: "12:06:18"
+  date: 2026-01-06T00:00:00.000Z
+  time: '12:06:18'
 ---
-
 Ya ha pasado un tiempo y hemos vuelto a España :es: de hecho, casi estamos en Francia. Al menos, planeamos estar de nuevo en Francia :fr: para el 15 de septiembre de 2019, como muy tarde.
 
 En octubre queremos llegar a Alemania :de: para completar de manera definitiva este maravilloso viaje en autocaravana. Pero primero os contaré todo lo que hemos vivido en los últimos tiempos.
@@ -49,7 +37,7 @@ También decidimos pasar la noche en el aparcamiento de Lidl, que se encuentra a
 
 ## Sevilla es una ciudad maravillosa de España
 
-Al llegar a España, nuestra primera parada fue el recién inaugurado *Camper Park Playas de Luz*, ubicado cerca de Isla Christina, donde pasamos dos noches. Después continuamos nuestro viaje hacia Sevilla y nos alojamos en el *Hafen von Gelves*. Fue un lugar excelente para acampar: disponía de electricidad, baño, así como servicios de suministro y eliminación de residuos.
+Al llegar a España, nuestra primera parada fue el recién inaugurado _Camper Park Playas de Luz_, ubicado cerca de Isla Christina, donde pasamos dos noches. Después continuamos nuestro viaje hacia Sevilla y nos alojamos en el _Hafen von Gelves_. Fue un lugar excelente para acampar: disponía de electricidad, baño, así como servicios de suministro y eliminación de residuos.
 
 En autobús pudimos ir a Sevilla, y la ciudad realmente es un sueño. Hay edificios históricos muy hermosos que se combinan con los elementos modernos; además, en absoluto no hubo ningún tipo de estrés durante nuestra estancia. Me gustó mucho Sevilla, y este viaje ha valido más que la pena.
 
@@ -101,7 +89,7 @@ Cada mañana, después del desayuno, corríamos hacia la playa en el carrito de 
 
 ![Playa El Campello, cerca de Alicante](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3-4.webp)
 
-A continuación, fuimos al camping *Camping Sol de Calpe* durante tres días. Al lado había un parque familiar, similar a una feria, con un nivel de ruido considerable hasta la 1 de la madrugada; pero no fue un problema. Hay varias playas en la zona, un Lidl justo al lado, un parque natural con muchos flamencos, y, por supuesto, el pequeño acantilado de Gibraltar llamado Ifach, al que alguna vez quise subir.
+A continuación, fuimos al camping _Camping Sol de Calpe_ durante tres días. Al lado había un parque familiar, similar a una feria, con un nivel de ruido considerable hasta la 1 de la madrugada; pero no fue un problema. Hay varias playas en la zona, un Lidl justo al lado, un parque natural con muchos flamencos, y, por supuesto, el pequeño acantilado de Gibraltar llamado Ifach, al que alguna vez quise subir.
 
 Lamentablemente tuve que interrumpir la actividad antes de lo previsto: primero estaba en el lugar equivocado, y luego, después de haber emprendido el ascenso correcto, tuve que dar la vuelta a 500 metros del objetivo porque se volvió demasiado peligroso para mí debido a la oscuridad. En Calpe también disfrutamos de nuestra primera paella de verduras en España, y estuvo deliciosa.
 
@@ -143,6 +131,4 @@ Un cordial saludo,
 Sebastian
 
 P.D.: Mientras tanto, en mi [Perfil de Facebook](https://www.facebook.com/sebastianzehner83) estoy publicando los lugares y las fotos actuales de nuestro viaje.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-3 >}}
 

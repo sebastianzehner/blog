@@ -1,19 +1,14 @@
 +++
 title = 'Wie wir unsere SSL Zertifikate mit OpenSSL für lokale Webdienste signieren'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Ich dokumentiere in diesem Blogbeitrag, wie wir selbst signierte SSL-Zertifikate erstellen und sie sicher im lokalen Netzwerk verwenden. In meinem Homelab läuft auf einem älteren Raspberry Pi ein lokaler Webserver.'
-date = 2024-07-31T20:53:58-04:00
-lastmod = 2024-07-31T20:53:58-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-31T20:53:58-03:00
+lastmod = 2024-07-31T20:53:58-03:00
+
 tags = ['OpenSSL', 'HTTPS', 'Zertifikate', 'LAN']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
+showComments = true
+chatId = "how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services"
 +++
 
 Ich dokumentiere hiermit, wie wir selbst signierte SSL-Zertifikate erstellen und sie sicher im lokalen Netzwerk verwenden können. Ich habe in meinem Homelab auf einem älteren Raspberry Pi einen lokalen Webserver installiert und möchte gerne, dass diese Webseiten eine sichere Verbindung über HTTPS im Browser anzeigen.
@@ -491,5 +486,3 @@ Folgende Links haben mir für meine Zertifizierungsstelle geholfen:
 - MacOS Zertifikate installieren - [Link](https://flaviocopes.com/macos-install-ssl-local/)
 - Android Problematik lösen - [Link](https://stackoverflow.com/questions/57565665/one-self-signed-cert-to-rule-them-all-chrome-android-and-ios/57684211#57684211)
 - Root Zertifizierungsstelle im LAN - [Link](https://www.markjunghanns.de/de_DE/index.php/2016/08/18/eine-eigene-root-zertifizierungsstelle-fuer-die-nutzung-im-lan-erstellen/)
-
-{{< chat how-do-we-sign-our-ssl-certificates-with-openssl-for-local-web-services >}}

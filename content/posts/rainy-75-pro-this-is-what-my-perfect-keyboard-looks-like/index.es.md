@@ -3,24 +3,12 @@ title = 'Rainy 75 Pro: Así es mi teclado perfecto'
 summary = 'En abril de 2025 la encontré: mi teclado perfecto. El Rainy 75 Pro de Wobkey no solo es de alta calidad, sino que me conquistó desde la primera pulsación.'
 date = 2025-08-05T09:35:10-03:00
 lastmod = 2026-05-20T10:07:13-03:00
-draft = false
+
 tags = ['linux', 'keyboard', 'Rainy75Pro', 'keyd', 'setxkbmap']
 categories = ['techlab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/rainy-75-pro-this-is-what-my-perfect-keyboard-looks-like.webp'
-    alt = 'Publicar imagen por Rainy 75 Pro: Así es mi teclado perfecto'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "Rainy75Pro"
 +++
 
 ## Mi teclado perfecto para macOS y Linux
@@ -224,5 +212,3 @@ En futuros artículos profundizaré en mis configuraciones de Linux, incluyendo 
 - [Keyd GitHub Repo](https://github.com/rvaiya/keyd)
 - [Setxkbmap Linux man page](https://linux.die.net/man/1/setxkbmap)
 - [Via Web App](https://www.usevia.app/)
-
-{{< chat Rainy75Pro >}}

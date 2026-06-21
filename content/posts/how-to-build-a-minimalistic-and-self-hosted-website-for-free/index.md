@@ -1,27 +1,14 @@
 +++
 title = 'How to build a simple and self-hosted website for free'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = '''You're here on my new minimalistic and free website. I built this website some weeks ago because I like it simple and replaced WordPress with Hugo and PaperMod Theme for my personal blog on the Internet.'''
-date = 2024-07-22T10:29:42-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2024-07-22T10:29:42-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-07-22T10:29:42-03:00
+lastmod = 2024-07-22T10:29:42-03:00
+
 tags = ['Website', 'Hugo', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-build-a-minimalistic-and-self-hosted-website-for-free.webp'
-    alt = 'Featured image from How to build a simple and self-hosted website for free'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-build-a-minimalistic-and-self-hosted-website-for-free"
 +++
 
 You're here on my new minimalistic and free website. I built this website some weeks ago because I like it simple and replaced WordPress with Hugo and PaperMod Theme for my personal blog on the Internet. I moved some older blog posts and wrote some new posts on this platform. It's really nice and I like this - it's free and open source.
@@ -115,6 +102,5 @@ Now my website ist running locally on my Mac Studio as a server service and upda
 
 In my next blog post I will show you how to create content for your new website. How to add a menu, tags and categories, some special setting etc.
 
-Kind regards Sebastian
-
-{{< chat how-to-build-a-minimalistic-and-self-hosted-website-for-free >}}
+Kind regards  
+Sebastian

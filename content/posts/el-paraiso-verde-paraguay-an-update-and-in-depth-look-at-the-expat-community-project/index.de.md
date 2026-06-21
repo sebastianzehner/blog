@@ -1,27 +1,14 @@
 +++
 title = 'El Paraiso Verde Paraguay – Aktuelles Update und Hintergrundbericht zum Auswandererprojekt'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Ein Überblick über El Paraiso Verde in Paraguay: Entwicklungen in der Auswanderergemeinschaft, Herausforderungen durch soziale Medienkampagnen, rechtliche Aspekte und offene Fragen zur Verwaltung der Siedlung.'
-date = 2025-10-16T09:25:00-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-10-16T09:25:00-03:00
 lastmod = 2025-10-16T09:25:00-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Transparenz', 'Rechtssicherheit', 'El Paraiso Verde', 'Grundstück', 'Siedlergemeinschaft', 'Auswandern', 'Titel']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/el-paraiso-verde-paraguay-an-update-and-in-depth-look-at-the-expat-community-project.webp'
-    alt = 'Beitragsbild von El Paraiso Verde Paraguay – Aktuelles Update und Hintergrundbericht zum Auswandererprojekt'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "el-paraiso-verde-paraguay-update"
 +++
 
 Es war ein symbolischer Moment: Als das alte Schild von El Paraiso Verde abgebaut und weggetragen wurde, endete damit sichtbar ein Kapitel, das viele Jahre lang unser gemeinsames Leben geprägt hatte. Das Video dieses Augenblicks zeigt mehr als nur den Abbau eines Schildes – es steht für einen Neuanfang, für die Chance, aus Fehlern zu lernen und unsere Gemeinschaft auf eine neue, ehrliche und transparente Basis zu stellen.
@@ -148,5 +135,3 @@ Sebastian
 Bis zum heutigen Tag (Stand: 16. Oktober 2025) habe ich auf meine gestellten Fragen keine Antwort erhalten. Diese Fragen wurden sowohl im internen Siedlerchat als auch öffentlich unter einem passenden Video mit einer Ansprache eines Rechtsanwalts veröffentlicht.
 
 Mehrere Siedler griffen meine Fragen im Chat erneut auf und baten ebenfalls um eine Klärung – doch es erfolgte keinerlei Reaktion seitens der Verantwortlichen. Auch wenn Schweigen nicht offiziell als Antwort gilt, kann es in diesem Zusammenhang durchaus als ein deutliches Zeichen gewertet werden.
-
-{{< chat el-paraiso-verde-paraguay-update >}}

@@ -1,9 +1,10 @@
 ---
 title: Acampar con una caravana por España y Portugal (Parte 2)
-summary: Tras dejar el camping en Árvore, regresamos primero al pueblo de Vila do Conde en autocaravana para hacer compras.
+summary: >-
+  Tras dejar el camping en Árvore, regresamos primero al pueblo de Vila do Conde
+  en autocaravana para hacer compras.
 date: 2019-07-21T15:22:06.000Z
 lastmod: 2019-07-21T15:22:06.000Z
-draft: false
 series:
   - Roadtrip España y Portugal
 series_title: Acampar con una caravana por España y Portugal
@@ -13,30 +14,16 @@ tags:
   - travel
 categories:
   - roadtrip
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2.webp
-  alt: Acampar con una autocaravana por España y Portugal (Parte 2)
-  hidden: false
-  relative: false
-  responsiveImages: false
-
+showComments: true
+chatId: road-trip-trough-spain-and-portugal-in-a-motorhome-part-2
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-01-06
-  time: "11:58:20"
+  date: 2026-01-06T00:00:00.000Z
+  time: '11:58:20'
 ---
-
 Tras dejar el camping en Árvore, regresamos primero al vehículo de alojamiento para ir a Vila do Conde y hacer compras. Llenamos el frigorífico, ya que teníamos planeado quedarnos en algún lugar durante los próximos días y queríamos asegurarnos de tener suficiente comida y bebida a mano.
 
 Supongamos que llenan nuestra botella de gas alemana en Portugal, ya que cuando estemos en un lugar fijo necesitaremos el gas para el frigorífico y para cocinar.
@@ -119,8 +106,8 @@ En general, durante la temporada alta no se permite pernoctar en los aparcamient
 
 Fue muy conveniente para nosotros contar con un lugar donde refugiarnos mientras estábamos en el parque de caravanas. Por cierto, todo lo necesario estaba incluido, y el precio era de solo 9 euros al día. Justo en la entrada hay una parada de autobús; un día hicimos un viaje a Albufeira.
 
-|             |              |
-|-------------|-------------:|
+|                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ![El Algarve, en Portugal.](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-6.webp)![El Algarve en Portugal 3](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-8.webp) | ![El Algarve en Portugal 2](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-5.webp)![El Algarve en Portugal 4](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2/road-trip-trough-spain-and-portugal-in-a-motorhome-part-2-7.webp) |
 
 ## Después de afeitarse la cabeza, se vuelve a España en el autocaravana
@@ -133,6 +120,4 @@ Un cordial saludo,
 Sebastian
 
 P.D.: Mientras tanto, en mi [Perfil de Facebook](https://www.facebook.com/sebastianzehner83) estoy publicando los lugares y las fotos actuales de nuestro viaje.
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-2 >}}
 

@@ -1,25 +1,14 @@
 +++
 title = 'Mobiles Internet in Spanien und Portugal'
 summary = 'Während unserer Reise mit dem Wohnmobil nach Spanien und Portugal möchten wir natürlich auch auf ein schnelles und vernünftiges Internet zugreifen können. Ich habe mir im Vorfeld ein paar Möglichkeiten angesehen und wusste aber noch nicht, wie und ob das im Ausland alles so wunderbar funktioniert.'
-date = 2019-07-08T16:33:59-04:00
-lastmod = 2019-07-08T16:33:59-04:00
-draft = false
+date = 2019-07-08T16:33:59-03:00
+lastmod = 2019-07-08T16:33:59-03:00
+
 tags = ['vanlife', 'roadtrip', 'travel']
 categories = ['roadtrip']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/mobile-internet-in-spain-and-portugal.webp'
-    alt = 'Mobiles Internet in Spanien und Portugal'
-    hidden = false
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "mobile-internet-in-spain-and-portugal"
 +++
 
 Während unserer Reise mit dem Wohnmobil nach Spanien :es: und Portugal 🇵🇹 möchten wir natürlich auch auf ein schnelles und vernünftiges Internet zugreifen können. Ich habe mir im Vorfeld ein paar Möglichkeiten angesehen und wusste aber noch nicht, wie und ob das im Ausland alles so wunderbar funktioniert. Letztendlich haben wir in Spanien :es: eine sehr gute Möglichkeit genutzt, die jetzt bei uns zum Einsatz kommt.
@@ -60,8 +49,5 @@ Bis jetzt bin ich mit dieser Lösung absolut zufrieden. Das Internet ist schnell
 
 Was will man mehr? Meistens ist das WLAN auf den Stell- oder Campingplätzen extrem langsam und nicht selten genug auch noch teuer. Von daher ist man mit dem eigenen mobilen Internet auf jeden Fall flexibel und ausreichend versorgt.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat mobile-internet-in-spain-and-portugal >}}
-

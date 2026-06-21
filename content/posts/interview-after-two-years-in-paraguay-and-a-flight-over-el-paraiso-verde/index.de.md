@@ -1,27 +1,14 @@
 +++
 title = 'Interview nach zwei Jahren in Paraguay und Rundflug über El Paraiso Verde'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'In diesem Blogartikel möchte ich nochmal über mein Interview vom letzten Jahr berichten und auch von unserem Rundflug über das Siedlungsgebiet im März 2022.'
-date = 2022-05-08T23:20:50-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2022-05-08T23:20:50-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2022-05-08T23:20:50-03:00
+lastmod = 2022-05-08T23:20:50-03:00
+
 tags = ['El Paraiso Verde', 'Rundflug', 'Interview', 'Auswandern']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/flight-over-el-paraiso-verde.webp'
-    alt = 'Beitragsbild von Interview nach zwei Jahren in Paraguay und Rundflug über El Paraiso Verde'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "flightoverparaisoverde"
 +++
 
 In diesem Blogartikel möchte ich nochmal über mein Interview vom letzten Jahr berichten und auch von unserem Rundflug über das Siedlungsgebiet im März 2022. Das Interview habe ich im November 2021 gegeben, nachdem wir bereits zwei Jahre in Paraguay lebten. Inzwischen ist ein weiteres halbes Jahr vergangen. Die Zeit vergeht hier wirklich wie im Flug und dazu möchte ich dir gerne auch mein Video vom Rundflug mit einer Cessna 210 zeigen.
@@ -52,8 +39,5 @@ Ich hatte mehr oder weniger spontan meine kleine DJI Osmo Pocket Kamera dabei. L
 
 Ich hoffe dir haben beide Videos gefallen und du hattest Spaß beim Schauen. Schreib mir gerne etwas darüber in die Kommentare. Falls ich weitere Videos produzieren soll, lass mich ruhig wissen was dich interessiert. Vielen Dank!
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
-
-{{< chat flightoverparaisoverde >}}
-

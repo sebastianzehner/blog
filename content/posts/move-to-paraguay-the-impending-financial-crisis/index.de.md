@@ -1,27 +1,14 @@
 +++
 title = 'Auswandern Paraguay – Die drohende Finanzkrise'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Uns geht es hier ausgezeichnet. Wir haben in Paraguay sommerliche Temperaturen, die zum Schwimmen einladen. Jetzt hatten wir erst einen ergiebigen Regenguss, der unser Grundstück in Paraguay immer grüner werden lässt.'
-date = 2023-03-26T18:39:41-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2023-03-26T18:39:41-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2023-03-26T18:39:41-03:00
+lastmod = 2023-03-26T18:39:41-03:00
+
 tags = ['El Paraiso Verde', 'Auswandern', 'Finanzen']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/el-paraiso-verde-drone-1.webp'
-    alt = 'Beitragsbild von Auswandern Paraguay – Die drohende Finanzkrise'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "movetoparaguayfinancialcrisis"
 +++
 
 ## Welche Chancen haben wir noch?
@@ -54,24 +41,24 @@ Das funktioniert auf unserem Grundstück glücklicherweise besonders gut. Man mu
 
 Leider habe ich immer wieder feststellen müssen, dass es in Deutschland mit der Zeit deutlich schwieriger wird eine Immobilie zum gewünschten Preis zu verkaufen. Der Markt geht seit Mitte 2020 nach Süden. Viele können heute nur wesentlich unter dem Spitzenmarktpreis verkaufen.
 
-Wir hatten unsere Immobilie bereits Ende 2018 zu einem Toppreis verkaufen können und unser Kapital sofort nach Paraguay überwiesen. Ein dickes *Dankeschön* hiermit nochmals an unsere wundervollen Makler [„Die Hausers“](https://die-hausers.de/). Sie haben unsere Immobilie sehr schön präsentiert und in kürzester Zeit zu einem höheren Wunschpreis verkauft.
+Wir hatten unsere Immobilie bereits Ende 2018 zu einem Toppreis verkaufen können und unser Kapital sofort nach Paraguay überwiesen. Ein dickes _Dankeschön_ hiermit nochmals an unsere wundervollen Makler [„Die Hausers“](https://die-hausers.de/). Sie haben unsere Immobilie sehr schön präsentiert und in kürzester Zeit zu einem höheren Wunschpreis verkauft.
 
 Heute wäre dies vermutlich nicht mehr ganz so einfach gewesen und wir hätten Abstriche hinnehmen müssen. Glücklicherweise war unser Kapital schnell in Paraguay und hat darauf gewartet, dass wir nachkommen. Wir kamen erst im November 2019 nach, da wir noch eine [lange Wohnmobilreise](https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/) als Abschiedstour durch Europa gemacht haben.
 
 Anfang 2020 konnten wir mit unserem Hausbau in Paraguay beginnen und die weitere Geschichte habe ich ab [hier](https://meinlifestylebusiness.com/hausbau-in-paraguay/) auf meinem Blog dokumentiert.
 
-Ein weiterer Punkt ist die drohende Finanzkrise oder ist sie schon da? Wie sicher ist unser Geld auf dem Konto? Erst kürzlich kamen Meldungen über die Silicon Valley Bank und das ist keine kleine Bank. *Wegen Insolvenz geschlossen!* Danach haben auch die europäischen Bankinstitute einen ordentlichen *Kursverlust an einem Tag hingelegt.* Wie können wir unser Bankenguthaben retten?
+Ein weiterer Punkt ist die drohende Finanzkrise oder ist sie schon da? Wie sicher ist unser Geld auf dem Konto? Erst kürzlich kamen Meldungen über die Silicon Valley Bank und das ist keine kleine Bank. _Wegen Insolvenz geschlossen!_ Danach haben auch die europäischen Bankinstitute einen ordentlichen _Kursverlust an einem Tag hingelegt._ Wie können wir unser Bankenguthaben retten?
 
 ## Sichere Kapitalanlage in unsicheren Zeiten
 
-Wir haben mehrere Möglichkeiten einer Beteiligung in das größte „Plan B-Projekt“ der Welt und das ist die Lösung für die jetzt anstehenden Krisen. Seit nunmehr sechs Jahren wird daran hart gearbeitet und *genau zur richtigen Zeit haben wir die Lösungen für gefährdete Bankenguthaben:*
+Wir haben mehrere Möglichkeiten einer Beteiligung in das größte „Plan B-Projekt“ der Welt und das ist die Lösung für die jetzt anstehenden Krisen. Seit nunmehr sechs Jahren wird daran hart gearbeitet und _genau zur richtigen Zeit haben wir die Lösungen für gefährdete Bankenguthaben:_
 
 1. Problemloser Transfer nach Paraguay
-2. *Absicherung des Vermögens durch ein Grundstück in unserem Siedlungsgebiet* (werthaltige Immobilie)
-3. *Flexibilität bei der Verwendung des Vermögens innerhalb des Siedlungsprojekts* für zum Beispiel:
-    - eigenes Grundstück mit eigenem Haus oder Plan B Haus (vermietbar wenn oder solange man noch nicht bei uns lebt)
-    - Appartements: Wir hatten erst kürzlich 22 Anfragen von Menschen, die bei uns Dauermiete suchen.
-    - *Anlagen in den Wirtschaftsbetrieb unserer Siedlung:* Diversifikation in verschiedene Einkunftsarten, von Landwirtschaft, Viehzucht bis zu hochmodernen Technologien (neue -Energiegewinnung, 3D Druck für Häuser, Häuser und Ziegel aus gestampfter Erde usw.)
+2. _Absicherung des Vermögens durch ein Grundstück in unserem Siedlungsgebiet_ (werthaltige Immobilie)
+3. _Flexibilität bei der Verwendung des Vermögens innerhalb des Siedlungsprojekts_ für zum Beispiel:
+   - eigenes Grundstück mit eigenem Haus oder Plan B Haus (vermietbar wenn oder solange man noch nicht bei uns lebt)
+   - Appartements: Wir hatten erst kürzlich 22 Anfragen von Menschen, die bei uns Dauermiete suchen.
+   - _Anlagen in den Wirtschaftsbetrieb unserer Siedlung:_ Diversifikation in verschiedene Einkunftsarten, von Landwirtschaft, Viehzucht bis zu hochmodernen Technologien (neue -Energiegewinnung, 3D Druck für Häuser, Häuser und Ziegel aus gestampfter Erde usw.)
 
 Dabei werden Renditen von bis zu 8-12% pro Jahr erzielt, viele erzielen inflationsgeschützte Renditen durch die Vermietung von Appartements und Häusern.
 
@@ -89,15 +76,13 @@ Du kannst auch erstmal nur [hier](https://paraiso-verde.com/newsletter-eintragen
 
 Eine Immobilie in unserem Siedlungsgebiet zur Eigennutzung oder zum Vermieten sichert dein Kapital und bietet ein Vielfaches der in Europa normalerweise üblichen, inflationsgeschützten Mietrenditen. Wir haben uns genauso abgesichert und unsere Kinder werden es uns heute und auch in Zukunft danken.
 
-Für alle, *die noch nicht ans Auswandern denken,* ist der Bau von kleinen Häusern in unserem Siedlungsgebiet eine ausgezeichnete Kapitalanlage und als „Plan B“ ein sicherer Ort zum Leben, falls die Welt da draußen einmal nicht mehr sicher und nicht mehr lebenswert sein sollte.
+Für alle, _die noch nicht ans Auswandern denken,_ ist der Bau von kleinen Häusern in unserem Siedlungsgebiet eine ausgezeichnete Kapitalanlage und als „Plan B“ ein sicherer Ort zum Leben, falls die Welt da draußen einmal nicht mehr sicher und nicht mehr lebenswert sein sollte.
 
 Wir sind sehr froh darüber uns keine Gedanken mehr machen zu müssen. Wir haben unsere Hausaufgaben früh genug erledigt und können heute unser Leben in vollen Zügen genießen. Du wirst wieder von mir lesen oder sehen. Ich plane nämlich gerade ein neues Update Video von unserem Hausbau in Paraguay.
 
 Es hat sich schon wieder einiges an unserem Grundstück verändert. Sei gespannt auf den nächsten Blogartikel. Bis bald und vielleicht sehen wir uns sogar demnächst hier in Paraguay und ich kann dir unser Grundstück einmal persönlich zeigen.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
 PS: Lese [hier](/de/about/) mehr über mich.
-
-{{< chat movetoparaguayfinancialcrisis >}}

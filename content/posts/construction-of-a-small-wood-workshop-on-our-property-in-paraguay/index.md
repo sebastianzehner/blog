@@ -1,27 +1,14 @@
 +++
 title = 'Construction of a small wood workshop on our property in Paraguay'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'We are currently having a small workshop built. I had already taken this into account when building our carport, because at some point there was supposed to be a small room at the back that I could use as a workshop.'
-date = 2021-05-04T12:42:25-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2021-05-04T12:42:25-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2021-05-04T12:42:25-03:00
+lastmod = 2021-05-04T12:42:25-03:00
+
 tags = ['El Paraiso Verde', 'Wood Workshop', 'Emigrate']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/construction-wood-workshop.webp'
-    alt = 'Featured image from Construction of a small wood workshop on our property in Paraguay'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "constructionwoodworkshop"
 +++
 
 We are currently having a small workshop built. I had already taken this into account when building our carport, because at some point there was supposed to be a small room at the back that I could use as a workshop. It came sooner than planned because I really wanted to have a room where I could build our furniture in a more comfortable environment. A few weeks ago, I planned this small wooden workshop under our carport and placed the order after receiving the proposal.
@@ -52,8 +39,5 @@ We have several uninterruptible power supplies with batteries (UPS) in the house
 
 I'll get in touch again as soon as the workshop is ready for use. The electricity has now been installed, the power sockets installed and the air conditioning is also working. I still need to buy some lighting for inside and two LED spotlights with motion detectors for outside. I'll then furnish the workshop and we can continue.
 
-Kind regards
+Kind regards  
 Sebastian
-
-{{< chat constructionwoodworkshop >}}
-

@@ -1,9 +1,11 @@
 ---
 title: Die Herausforderung mehrsprachiger Blogs
-summary: Mehrsprachige Blogs bringen Übersetzungsaufwand mit sich. Manuelle Übersetzungen sind teuer, automatische Tools beschädigen oft die Markdown-Struktur. Wie bleibt man trotzdem effizient und behält das Format?
-date: 2025-12-17T17:00:00-03:00
-lastmod: 2025-12-17T17:00:00-03:00
-draft: false
+summary: >-
+  Mehrsprachige Blogs bringen Übersetzungsaufwand mit sich. Manuelle
+  Übersetzungen sind teuer, automatische Tools beschädigen oft die
+  Markdown-Struktur. Wie bleibt man trotzdem effizient und behält das Format?
+date: 2025-12-17T20:00:00.000Z
+lastmod: 2025-12-17T20:00:00.000Z
 tags:
   - hugo
   - markdown
@@ -12,11 +14,11 @@ tags:
   - llm
   - claude
 categories:
-  - tech
-
+  - techlab
 layoutBackgroundHeaderSpace: true
+showComments: true
+chatId: md-translator
 ---
-
 Als Blogger mit einem mehrsprachigen Blog steht man vor einer ständigen Herausforderung: Jeder neue Artikel muss in mehrere Sprachen übersetzt werden. Manuelle Übersetzungen sind zeitaufwändig und teuer, automatische Tools zerstören oft die sorgfältig formatierte Markdown-Struktur. Was tun?
 
 Genau vor diesem Problem stand ich, als ich begann, meinen Blog in Deutsch, Englisch und Spanisch zu veröffentlichen. Die Lösung: Ein intelligenter Markdown-Übersetzer, der die Struktur bewahrt und hochwertige Übersetzungen liefert.
@@ -304,9 +306,11 @@ Wenn du diesen Artikel auf Englisch oder Spanisch liest, wirst du am Ende des Ar
 
 - Sprache: Python 3.12
 - Framework: PyTorch 2.5.0 mit CUDA 12.4
-- Modell: [Tencent Hunyuan-MT-7B](https://github.com/Tencent-Hunyuan/Hunyuan-MT) (7B Parameter, FP16)
+- Modell: [Tencent
+  Hunyuan-MT-7B](https://github.com/Tencent-Hunyuan/Hunyuan-MT) (7B Parameter,
+  FP16)
 - Unterstützte Sprachen: derzeit 38 Sprachen
 - Lizenz: MIT
-- Repository: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
+- Repository:
+  [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
 
-{{< chat md-translator >}}

@@ -1,27 +1,14 @@
 +++
 title = 'Cómo crear contenidos para su sitio web gratuito Hugo'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Hoy te mostraré cómo crear contenido con un sitio web Hugo, cómo añadir menús, etiquetas y categorías y cómo realizar algunos ajustes especiales.'
-date = 2024-08-13T16:05:39-04:00
-lastmod = 2024-08-13T16:05:39-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-08-13T16:05:39-03:00
+lastmod = 2024-08-13T16:05:39-03:00
+
 tags = ['sitio web', 'Hugo', 'PaperMod']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/how-to-create-content-for-your-free-hugo-website.webp'
-    alt = 'Imagen destacada de Cómo crear contenidos para su sitio web gratuito Hugo'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "how-to-create-content-for-your-free-hugo-website"
 +++
 
 En la [primera parte de esta serie](/es/posts/how-to-build-a-minimalistic-and-self-hosted-website-for-free/) instalamos nuestro sitio web Hugo con el tema PaperMod localmente en nuestro ordenador y configuramos todo para que ahora podamos añadir algo de contenido a nuestro nuevo sitio web.
@@ -208,6 +195,5 @@ Ahora hemos hecho algunas configuraciones básicas y añadido algunos contenidos
 
 En el próximo blogpost te mostraré cómo lo hice con GitHub y Netlify de forma gratuita. Estad atentos y nos vemos pronto.
 
-Saludos Sebastian
-
-{{< chat how-to-create-content-for-your-free-hugo-website >}}
+Saludos  
+Sebastian

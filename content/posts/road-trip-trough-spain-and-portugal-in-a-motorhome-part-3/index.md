@@ -1,27 +1,16 @@
 +++
 title = 'Road Trip trough Spain and Portugal in a motorhome part 3'
 summary = 'Some time has now passed and we have already arrived back in Spain and are almost back in France. At least we plan to be back in France by September 15, 2019 at the latest.'
-date = 2019-09-04T10:36:22-04:00
-lastmod = 2019-09-04T10:36:22-04:00
-draft = false
+date = 2019-09-04T10:36:22-03:00
+lastmod = 2019-09-04T10:36:22-03:00
+
 series = ["Road trip Spain and Portugal"]
 series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
 tags = ['vanlife', 'roadtrip', 'travel']
 categories = ['roadtrip']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3.webp'
-    alt = 'Road Trip trough Spain and Portugal in a Motorhome part 3'
-    hidden = false
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "road-trip-trough-spain-and-portugal-in-a-motorhome-part-3"
 +++
 
 Some time has now passed and we have already arrived back in Spain :es: and are almost back in France. At least we plan to be back in France :fr: by September 15, 2019 at the latest.
@@ -32,11 +21,11 @@ In October we want to reach Germany :de: for our final conclusion to this great 
 
 We had looked around Faro but unfortunately we hadn't found a place to spend the night and didn't want to stay right next to the road to sleep. As we came back too late from the city tour, the next planned motorhome pitch was already closed and I wasn't sure whether we could still arrive.
 
-So we decided to spend the night at the *Lidl parking lot* a few villages away. They had 4 pitches there especially for motorhomes and we weren't alone that night. It was a bit noisy and hot there too. The next morning we did some shopping at Lidl and then drove on to Spain.
+So we decided to spend the night at the _Lidl parking lot_ a few villages away. They had 4 pitches there especially for motorhomes and we weren't alone that night. It was a bit noisy and hot there too. The next morning we did some shopping at Lidl and then drove on to Spain.
 
 ## Seville is a beautiful city in Spain
 
-When we arrived in Spain, our first stop was at the recently built *Camper Park Playas de Luz* near Isla Christina for two nights. We then went on to Seville and slept in the *Port of Gelves*, which was a great pitch with electricity and bathrooms as well as supply and disposal included.
+When we arrived in Spain, our first stop was at the recently built _Camper Park Playas de Luz_ near Isla Christina for two nights. We then went on to Seville and slept in the _Port of Gelves_, which was a great pitch with electricity and bathrooms as well as supply and disposal included.
 
 We were able to take the bus to Seville and the city really is a dream. Very beautiful historical buildings combined with modern ones and there was absolutely no stress in the city. I liked Seville very much and this stay was more than worth it.
 
@@ -88,7 +77,7 @@ We walked to the beach every morning after breakfast with the handcart and were 
 
 ![El Campello beach near Alicante](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3/road-trip-trough-spain-and-portugal-in-a-motorhome-part-3-4.webp)
 
-Next we went to *Camping Sol de Calpe* for three days. There was a family park next door, similar to a fair, with a correspondingly loud noise level until 1am, but it was okay. There are various beaches on site, a Lidl supermarket just around the corner, the nature reserve with lots of flamingos and of course the small Gibraltar rock called Ifach, which I wanted to climb up once.
+Next we went to _Camping Sol de Calpe_ for three days. There was a family park next door, similar to a fair, with a correspondingly loud noise level until 1am, but it was okay. There are various beaches on site, a Lidl supermarket just around the corner, the nature reserve with lots of flamingos and of course the small Gibraltar rock called Ifach, which I wanted to climb up once.
 
 Unfortunately, I had to stop early because I was first on the wrong path and then had to turn back 500 meters before my destination after the correct climb because it was simply too dangerous for me in the dark. We also had our first paella de verduras in Spain in Calpe and it was delicious.
 
@@ -104,11 +93,11 @@ He also showed us some of the backcountry in Denia, such as the bodega in Jalon 
 
 ## Continue with the motorhome towards Germany
 
-Our first port of call was a *pitch in Daimuz,* not far from Gandia. There was another kilometer-long beach, but this time we didn't go swimming. We ate paella de verduras again and had a large pan to ourselves.
+Our first port of call was a _pitch in Daimuz,_ not far from Gandia. There was another kilometer-long beach, but this time we didn't go swimming. We ate paella de verduras again and had a large pan to ourselves.
 
 We stayed for two nights and were very happy. The owners here spoke German and were quite friendly. It's now September and the high season is coming to an end, because from September 1st the ACSI Card will be valid again on some campsites.
 
-We are currently staying at *Camping Torre la Sal 2* and it's all very touristy here. I almost lost faith when we arrived because I had to queue at reception for a long time to be able to register. The traffic had to be regulated because everything is so narrow here and it can quickly become congested.
+We are currently staying at _Camping Torre la Sal 2_ and it's all very touristy here. I almost lost faith when we arrived because I had to queue at reception for a long time to be able to register. The traffic had to be regulated because everything is so narrow here and it can quickly become congested.
 
 I almost wanted to leave, but we had promised Sofia that she would have lots of opportunities to play on this campsite. We're staying here until Sunday but it still feels like high season and the disco goes on until 4am, so there's a lot going on.
 
@@ -118,18 +107,15 @@ The price with the ACSI Card is also outrageous at 20 euros and we pay an extra 
 
 ## Where are we going next?
 
-Our next stop will definitely be a campsite in Spain, where we'll stay for a maximum of a week and then we'll drive on to France. Maybe there will be a stopover at a pitch, we'll decide that spontaneously. 
+Our next stop will definitely be a campsite in Spain, where we'll stay for a maximum of a week and then we'll drive on to France. Maybe there will be a stopover at a pitch, we'll decide that spontaneously.
 
 In France, we'll probably meet Stefanie's sister at a campsite and spend our vacation with them. It will last until the end of September and then we'll drive back to Germany, certainly not in one go and with one or two stopovers at campsites.
 
 Once we arrive in Germany, we will sell our motorhome. I already have the ad online on mobile.de. As soon as the motorhome is sold, our next big adventure will begin, but more on that later. I will certainly write a part 4 at the end of our trip to Spain and Portugal.
 
-*Until then, I wish you maximum success!* :chart_with_upwards_trend:
+_Until then, I wish you maximum success!_ :chart_with_upwards_trend:
 
-Best regards
+Best regards  
 Sebastian
 
 PS: In the meantime, I'll be posting the latest locations and pictures from our trip on my [Facebook profile](https://www.facebook.com/sebastianzehner83).
-
-{{< chat road-trip-trough-spain-and-portugal-in-a-motorhome-part-3 >}}
-

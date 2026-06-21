@@ -1,27 +1,14 @@
 +++
 title = 'Entrevista tras dos años en Paraguay y un vuelo sobre El Paraíso Verde'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'En esta entrada del blog, me gustaría informar de nuevo sobre mi entrevista del año pasado y también sobre nuestro vuelo turístico sobre la zona de asentamiento en marzo de 2022.'
-date = 2022-05-08T23:20:50-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2022-05-08T23:20:50-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2022-05-08T23:20:50-03:00
+lastmod = 2022-05-08T23:20:50-03:00
+
 tags = ['El Paraiso Verde', 'Vuelo turístico', 'Entrevista', 'Emigración']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/flight-over-el-paraiso-verde.webp'
-    alt = 'Imagen destacada de la entrevista tras dos años en Paraguay y un vuelo sobre El Paraíso Verde'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "flightoverparaisoverde"
 +++
 
 En esta entrada del blog, me gustaría informar de nuevo sobre mi entrevista del año pasado y también sobre nuestro vuelo turístico sobre la zona de asentamiento en marzo de 2022. La entrevista la hice en noviembre de 2021, cuando ya llevábamos dos años viviendo en Paraguay. Ahora han pasado otros seis meses. El tiempo realmente pasa volando aquí y me gustaría mostrarles mi video del vuelo turístico en un Cessna 210.
@@ -52,8 +39,5 @@ De forma más o menos espontánea, llevaba conmigo mi pequeña cámara DJI Osmo 
 
 Espero que te hayan gustado ambos vídeos y que te hayas divertido viéndolos. No dudes en escribirme algo al respecto en los comentarios. Si quieres ver más vídeos, indícame qué te interesa. Muchas gracias.
 
-Saludos cordiales
+Saludos cordiales  
 Sebastian
-
-{{< chat flightoverparaisoverde >}}
-

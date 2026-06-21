@@ -1,27 +1,13 @@
 +++
 title = 'Grundstücke im El Paraiso Verde mit Bitcoin kaufen – Eine neue Ära der Investition'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'In einer Welt, die zunehmend von Kryptowährungen geprägt wird, bietet El Paraiso Verde in Paraguay eine wegweisende Möglichkeit: Jetzt Grundstücke mit Bitcoin zu kaufen.'
-date = 2024-12-01T08:11:00-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-12-01T11:10:00-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-12-01T08:11:00-03:00
+lastmod = 2024-12-01T11:10:00-03:00
 tags = ['Bitcoin', 'Kryptowährung', 'El Paraiso Verde', 'Grundstück', 'Finanzen', 'Auswandern', 'Titel']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/buying_land_in_el_paraiso_verde_with_bitcoin-a_new_era_of_investment.webp'
-    alt = 'Beitragsbild von Grundstücke im El Paraiso Verde mit Bitcoin kaufen – Eine neue Ära der Investition'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "buying-land-in-el-paraiso-verde-with-bitcoin"
 +++
 
 ## Eine neue Ära: Grundstücke mit Bitcoin kaufen
@@ -100,5 +86,3 @@ Sebastian
 ## Kontaktformular
 
 {{< epv_form_de >}}
-
-{{< chat buying-land-in-el-paraiso-verde-with-bitcoin >}}

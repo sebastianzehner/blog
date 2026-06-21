@@ -1,9 +1,11 @@
 ---
-title: "Tu propio servidor Matrix con Synapse: ¿Por qué deberías alojarlo tú mismo?"
-summary: En este artículo configuro mi propio servidor Matrix con Synapse y Docker Compose. Junto a una breve introducción al protocolo descentralizado, muestro la instalación completa con PostgreSQL, Traefik y Cloudflare Tunnel.
-date: 2026-04-08T11:00:00-03:00
-lastmod: 2026-04-08T11:00:00-03:00
-draft: false
+title: 'Tu propio servidor Matrix con Synapse: ¿Por qué deberías alojarlo tú mismo?'
+summary: >-
+  En este artículo configuro mi propio servidor Matrix con Synapse y Docker
+  Compose. Junto a una breve introducción al protocolo descentralizado, muestro
+  la instalación completa con PostgreSQL, Traefik y Cloudflare Tunnel.
+date: 2026-04-08T14:00:00.000Z
+lastmod: 2026-04-08T14:00:00.000Z
 tags:
   - matrix
   - homeserver
@@ -12,23 +14,16 @@ tags:
   - self-hosting
 categories:
   - techlab
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
+showComments: true
+chatId: self-hosting-matrix-homeserver-synapse
 translation:
   tool: md-translator
   version: 1.2.3
   from: de
   to: es
-  date: 2026-04-08
-  time: "12:53:02"
+  date: 2026-04-08T00:00:00.000Z
+  time: '12:53:02'
 ---
-
 **Descentralización, protección de datos y control total sobre tu comunicación: con Synapse y Docker, todo es más sencillo de lo que parece.**
 
 ## ¿Qué es la Matrix y por qué es diferente?
@@ -315,6 +310,6 @@ Actualmente no utilizo ningún tipo de Bridges (servicios que permiten la comuni
 
 ¿Tienes alguna pregunta sobre la instalación de tus propias Synapse? No dudes en escribirme; lo mejor es hacerlo directamente a través de Matrix. Mi dirección es `@sebastian:matrix.techlab.icu` o puedes dejar un comentario; este también llegará a mi cuenta en Matrix al final.
 
-Un cordial saludo, Sebastian.
+Un cordial saludo,  
+Sebastian.
 
-{{< chat self-hosting-matrix-homeserver-synapse >}}

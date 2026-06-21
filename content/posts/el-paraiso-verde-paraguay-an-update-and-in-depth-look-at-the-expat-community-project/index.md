@@ -1,27 +1,14 @@
 +++
 title = 'El Paraiso Verde Paraguay – An Update and In-Depth Look at the Expat Community Project'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'An overview of El Paraiso Verde in Paraguay: developments within the expat community, challenges arising from social media campaigns, legal aspects, and unresolved questions concerning the management of the settlement.'
-date = 2025-10-16T09:25:00-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-10-16T09:25:00-03:00
 lastmod = 2025-10-16T09:25:00-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Transparency', 'Legal Security', 'El Paraiso Verde', 'Property', 'Expat Community', 'Emigration', 'Title']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/el-paraiso-verde-paraguay-an-update-and-in-depth-look-at-the-expat-community-project.webp'
-    alt = 'Featured image of El Paraiso Verde Paraguay – An Update and In-Depth Look at the Expat Community Project'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "el-paraiso-verde-paraguay-update"
 +++
 
 It was a symbolic moment: When the old El Paraiso Verde sign was taken down and removed, a chapter that had shaped our shared life for many years visibly came to an end. This video of the moment shows more than just the removal of a sign – it represents a fresh start, an opportunity to learn from past mistakes, and a chance to rebuild our community on a new, honest, and transparent foundation.
@@ -149,5 +136,3 @@ Sebastian
 As of today (October 16, 2025), I have not received any response to the questions I raised. These questions were shared both in the internal settlers’ chat and publicly under a related video that included a statement from a lawyer.
 
 Several settlers repeated my questions in the chat and also requested clarification — yet there has been no reaction from those responsible. While silence may not officially count as a response, in this context it can certainly be seen as a telling sign.
-
-{{< chat el-paraiso-verde-paraguay-update >}}

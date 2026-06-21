@@ -1,27 +1,14 @@
 +++
 title = 'Gestión autónoma de redes sociales con Mixpost'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'Tuve la idea de simplificar mi participación en las redes sociales sin pagar mucho dinero ni cuotas mensuales de suscripción. Encontré Mixpost como solución autoalojada.'
-date = 2024-08-25T18:07:53-04:00 #Ctrl+Shift+I to insert date and time or dts in nvim
-lastmod = 2024-08-25T18:07:53-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2024-08-25T18:07:53-03:00
+lastmod = 2024-08-25T18:07:53-03:00
+
 tags = ['Social Media', 'Mixpost', 'Simple Life']
-categories = ['Tech']
+categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/self-hosted-social-media-management-with-mixpost.webp'
-    alt = 'Imagen principal de Gestión autónoma de redes sociales con Mixpost'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "self-hosted-social-media-management-with-mixpost"
 +++
 
 Tuve la idea de simplificar mi participación en las redes sociales sin tener que pagar mucho dinero ni cuotas de suscripción mensuales. Encontré Mixpost como una solución autoalojada para la gestión de redes sociales. Así que lo configuré y lo he estado probando durante los últimos días. Hoy quiero compartir mi experiencia con Mixpost en un equipo local en mi casa en Paraguay.
@@ -259,6 +246,5 @@ Más tarde, me trasladaré a otro servidor local y ejecutaré mi instalación de
 
 Si tienes alguna pregunta, por favor házmelo saber en los comentarios.
 
-Saludos Sebastian
-
-{{< chat self-hosted-social-media-management-with-mixpost >}}
+Saludos  
+Sebastian

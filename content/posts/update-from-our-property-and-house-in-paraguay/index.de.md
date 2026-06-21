@@ -1,29 +1,18 @@
 ---
 title: Update von unserem Grundstück und Haus in Paraguay
-summary: Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt. Ich arbeite an verschiedenen Projekten und heute möchte ich mal wieder ein kleines Update von unserem Leben in Paraguay mit dir teilen.
-date: 2021-03-26T15:09:01-03:00
-lastmod: 2021-03-26T15:09:01-03:00
-draft: false
+summary: >-
+  Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt. Ich arbeite
+  an verschiedenen Projekten und heute möchte ich mal wieder ein kleines Update
+  von unserem Leben in Paraguay mit dir teilen.
+date: 2021-03-26T18:09:01.000Z
+lastmod: 2021-03-26T18:09:01.000Z
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/update-property-and-house.webp
-  alt: Update von unserem Grundstück und Haus in Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
+showComments: true
+chatId: update-property-and-house
 ---
-
 Die Zeit hier in Paraguay vergeht wie im Flug, obwohl es hier doch eigentlich sehr ruhig und entspannt ist. Wir haben inzwischen wieder viel zu tun und sind sehr beschäftigt.
 
 Ich arbeite an verschiedenen Projekten und heute möchte ich mal wieder ein kleines Update von unserem Leben in Paraguay mit dir teilen. Letztes Mal habe ich über den [Einzug in unser neues Haus in Paraguay](/de/posts/move-into-our-new-house-in-paraguay/) berichtet.
@@ -62,11 +51,10 @@ Ich habe wieder mehr Motivation anderen Menschen zu helfen aus dem Hamsterrad he
 
 Wir fühlen uns hier in Paraguay im El Paraiso Verde sehr wohl. Ich bin sehr dankbar, dass wir diesen Schritt gewagt haben. Vor allem aber auch glücklich darüber, dass wir uns durchgesetzt und für unsere Freiheit gekämpft haben.
 
-Wir haben uns darauf eingelassen und die Chancen genutzt als sie da waren. Keine Ausreden mehr gefunden und einfach strikt nach vorne geschaut zu haben. Wenn ich zurückblicke, was wir in den letzten Jahren alles erleben durften. *Einfach unglaublich und unbezahlbar.*
+Wir haben uns darauf eingelassen und die Chancen genutzt als sie da waren. Keine Ausreden mehr gefunden und einfach strikt nach vorne geschaut zu haben. Wenn ich zurückblicke, was wir in den letzten Jahren alles erleben durften. _Einfach unglaublich und unbezahlbar._
 
 Ich wünsche dir eine schöne Zeit und bis demnächst!
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
-{{< chat update-property-and-house >}}

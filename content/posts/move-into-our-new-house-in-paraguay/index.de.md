@@ -1,29 +1,19 @@
 ---
 title: Einzug in unser neues Haus in Paraguay
-summary: Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück.
-date: 2021-01-14T20:22:50-03:00
-lastmod: 2021-01-14T20:22:50-03:00
+summary: >-
+  Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar
+  Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom,
+  Wasser und Internet am Grundstück.
+date: 2021-01-14T23:22:50.000Z
+lastmod: 2021-01-14T23:22:50.000Z
 draft: false
 tags:
   - El Paraiso Verde
 categories:
   - Paraguay
-
-ShowToc: true
-TocOpen: true
-
-params:
-  author: Sebastian Zehner
-  ShowPageViews: true
-
-cover:
-  image: /img/move-into-our-new-house-in-paraguay.webp
-  alt: Einzug in unser neues Haus in Paraguay
-  hidden: false
-  relative: false
-  responsiveImages: false
+showComments: true
+chatId: move-into-our-new-house-in-paraguay
 ---
-
 Es ist inzwischen schon wieder viel Zeit vergangen und wir leben seit ein paar Monaten in unserem eigenen Haus in Paraguay. Wir haben tatsächlich Strom, Wasser und Internet am Grundstück. Der Strom fließt seit dem 07. Oktober 2020 und kurz darauf haben wir zum ersten Mal in unserem neuen Zuhause übernachtet.
 
 Das Appartement, in welchem wir 11 Monate zuvor gelebt haben, konnten wir kurz darauf zurückgeben. Ein unbeschreibliches Gefühl hier auf dem ruhigen Land im eigenen Haus und auf dem eigenen Grundstück zu leben.
@@ -84,7 +74,6 @@ In der nächsten Zeit geht es weiter an die Arbeit, damit unsere Möbel fertig w
 
 Es wird Zeit, dass ich die Werkstatt unter dem Carport zumauern lasse, dann habe ich einen eigenen Raum und könnte bei jedem Wetter arbeiten.
 
-Liebe Grüße
+Liebe Grüße  
 Sebastian
 
-{{< chat move-into-our-new-house-in-paraguay >}}

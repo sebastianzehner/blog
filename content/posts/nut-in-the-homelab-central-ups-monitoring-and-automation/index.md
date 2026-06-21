@@ -1,27 +1,14 @@
 +++
 title = 'NUT in the Homelab: Central UPS Monitoring and Automation'
-#description = 'How I keep my systems safe when the power goes out'
 summary = 'My homelab uses several uninterruptible power supplies (UPS) – including models from **Eaton** and **CyberPower** – to protect servers, NAS devices, and network equipment during power outages.'
-date = 2025-08-07T20:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-07T20:35:10-03:00
 lastmod = 2025-08-07T20:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'UPS', 'NUT', 'Docker', 'Blackout']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/nut-in-the-homelab-central-ups-monitoring-and-automation.webp'
-    alt = 'Featured from NUT in the Homelab: Centralized Management and Monitoring of UPS Systems'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "nut"
 +++
 
 ## How Do I Automate My Homelab During a Power Outage?
@@ -412,7 +399,7 @@ Change `bus = "003"` to `bus = "004"` and save the file. After restarting the se
 upsc ups
 ```
 
-You should also see its status back to **online** on https://usv.techlab.icu
+You should also see its status back to **online** on <https://usv.techlab.icu>
 
 Such issues should never go unnoticed – especially not during a power outage. It’s highly recommended to set up automated monitoring that includes:
 
@@ -425,8 +412,8 @@ The next section of this article will cover how to implement such monitoring and
 
 I monitor the status of my UPS devices using **Uptime Kuma**, by querying the JSON API provided by **PeaNUT**. For each UPS, I’ve set up two HTTPS monitors that check the following endpoints:
 
-- https://usv.techlab.icu/api/v1/devices/ups
-- https://usv.techlab.icu/api/v1/devices/server-room-rack
+- <https://usv.techlab.icu/api/v1/devices/ups>
+- <https://usv.techlab.icu/api/v1/devices/server-room-rack>
 
 Each monitor looks for two key indicators:
 
@@ -489,7 +476,7 @@ networks:
     external: true
 ```
 
-The web interface will then be accessible at https://usv.techlab.icu – secured via Traefik with TLS.
+The web interface will then be accessible at <https://usv.techlab.icu> – secured via Traefik with TLS.
 
 To connect to NUT servers, edit the `settings.yml` file inside the configuration directory. My setup looks like this:
 
@@ -757,5 +744,3 @@ With that, we've reached the end of this article. The UPS units are no longer is
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)
 - [Gotify](https://gotify.net/)
 - [Home Assistant](https://www.home-assistant.io/)
-
-{{< chat NUT >}}

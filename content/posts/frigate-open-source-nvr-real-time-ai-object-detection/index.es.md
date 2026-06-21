@@ -1,26 +1,14 @@
 +++
 title = 'Frigate: NVR Open Source con Detección de Objetos por IA en Tiempo Real'
 summary = 'Frigate es un grabador de video en red (NVR) de código abierto que combina la videovigilancia tradicional con detección en tiempo real, impulsada por inteligencia artificial, de personas, vehículos, animales y otros objetos.'
-date = 2025-08-12T18:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-12T18:35:10-03:00
 lastmod = 2025-08-12T18:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'Frigate', 'AI', 'Coral', 'TPU', 'NVR', 'Docker', 'Videovigilancia']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/frigate-open-source-nvr-real-time-ai-object-detection.webp'
-    alt = 'Imagen destacada de Frigate: Open Source NVR with Real-Time AI Object Detection'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "frigate"
 +++
 
 **Frigate** es un Network Video Recorder (NVR) de código abierto, diseñado específicamente para la detección de objetos en tiempo real mediante inteligencia artificial. No solo ofrece grabación y reproducción de video tradicional, sino que también detecta automáticamente personas, vehículos, animales y otros objetos utilizando aprendizaje automático.
@@ -323,7 +311,7 @@ FRIGATE_RTSP_PASSWORD=secure_password
 
 Las grabaciones deben ser de la mejor calidad posible. Para ello, tuve que ajustar algunas configuraciones y, como mencioné antes, usar **go2rtc** para manejar mejor los streams. Desde el cambio, **go2rtc** funciona muy bien.
 
-Actualmente, Frigate es accesible a través de mi servidor proxy Traefik en: https://frigate.techlab.icu
+Actualmente, Frigate es accesible a través de mi servidor proxy Traefik en: <https://frigate.techlab.icu>
 
 ## Configuración del servidor de streaming go2rtc
 
@@ -431,5 +419,3 @@ _Algunos de los enlaces anteriores son enlaces de afiliados. Como asociado de Am
 - [Traefik](https://traefik.io/traefik)
 - [Pi-Hole](https://pi-hole.net/)
 - [Coral Edge TPU](https://coral.ai/products/)
-
-{{< chat Frigate >}}

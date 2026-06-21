@@ -1,27 +1,14 @@
 +++
 title = 'Interview after two years in Paraguay and a flight over El Paraiso Verde'
-#description = 'Eine kurze Beschreibung unter dem Titel.'
 summary = 'In this blog post, I would like to report again on my interview from last year and also on our sightseeing flight over the settlement area in March 2022.'
-date = 2022-05-08T23:20:50-04:00 #Ctrl+Shift+I to insert date and time
-lastmod = 2022-05-08T23:20:50-04:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+date = 2022-05-08T23:20:50-03:00
+lastmod = 2022-05-08T23:20:50-03:00
+
 tags = ['El Paraiso Verde', 'Sightseeing Flight', 'Interview', 'Emigration']
 categories = ['Paraguay']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/flight-over-el-paraiso-verde.webp'
-    alt = 'Featured image from interview after two years in Paraguay and a flight over El Paraiso Verde'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "flightoverparaisoverde"
 +++
 
 In this blog post, I would like to report again on my interview from last year and also on our sightseeing flight over the settlement area in March 2022. I gave the interview in November 2021, after we had already been living in Paraguay for two years. Another six months have now passed. Time really does fly by here and I would like to show you my video of the sightseeing flight in a Cessna 210.
@@ -52,8 +39,5 @@ More or less spontaneously, I had my little DJI Osmo Pocket camera with me. Unfo
 
 I hope you enjoyed both videos and had fun watching them. Feel free to write me something about it in the comments. If you would like to see more videos, please let me know what you are interested in. Many thanks!
 
-Best regards
+Best regards  
 Sebastian
-
-{{< chat flightoverparaisoverde >}}
-

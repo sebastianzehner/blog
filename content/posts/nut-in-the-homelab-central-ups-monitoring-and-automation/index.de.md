@@ -1,27 +1,14 @@
 +++
 title = 'NUT im Homelab: Zentrale Steuerung und Überwachung von USV-Systemen'
-#description = 'So automatisiere ich mein Homelab bei Stromausfall'
 summary = 'In meinem Homelab kommen mehrere unterbrechungsfreie Stromversorgungen (USV) zum Einsatz – darunter Modelle von **Eaton** und **CyberPower**. Sie schützen meine Server, NAS-Systeme und Netzwerkgeräte zuverlässig.'
-date = 2025-08-06T20:35:10-03:00 #Ctrl+Shift+I to insert date and time or dts in nvim
+date = 2025-08-06T20:35:10-03:00
 lastmod = 2025-08-06T20:35:10-03:00
-draft = false #Entwurf wird noch nicht veröffentlicht
+
 tags = ['Linux', 'USV', 'NUT', 'Docker', 'Notstrom']
 categories = ['TechLab']
 
-ShowToc = true
-TocOpen = true
-
-[params]
-    author = 'Sebastian Zehner'
-    ShowPageViews = true
-
-[cover]
-    image = '/img/nut-in-the-homelab-central-ups-monitoring-and-automation.webp'
-    alt = 'Beitragsbild von NUT im Homelab: Zentrale Steuerung und Überwachung von USV-Systemen'
-    hidden = false
-    #caption = 'This is the caption'
-    relative = false
-    responsiveImages = false
+showComments = true
+chatId = "nut"
 +++
 
 ## Wie automatisiere ich mein Homelab bei Stromausfall?
@@ -406,7 +393,7 @@ sudo nano /etc/nut/ups.conf
 
 Hier den `bus = "003"` ändern zu `bus = "004"` und die Datei speichern. Jetzt ist die USV wieder erreichbar, was mit `upsc ups` überprüft werden kann.
 
-Auch unter https://usv.techlab.icu/ wird sie wieder als **online** angezeigt.
+Auch unter <https://usv.techlab.icu/> wird sie wieder als **online** angezeigt.
 
 Solche Fehler sollten nicht unbemerkt bleiben – besonders nicht bei einem Stromausfall. Es empfiehlt sich dringend, eine automatisierte Überwachung einzurichten, die folgende Punkte abdeckt:
 
@@ -419,8 +406,8 @@ Der nächste Abschnitt des Artikels wird genau darauf eingehen, wie sich solche 
 
 Ich überwache den Status meiner USV-Geräte mit **Uptime Kuma**, indem ich die JSON-API von **PeaNUT** abfrage. Für jede USV existieren zwei Monitore mit HTTPS-Abfragen auf die folgenden Endpunkte:
 
-- https://usv.techlab.icu/api/v1/devices/ups
-- https://usv.techlab.icu/api/v1/devices/server-room-rack
+- <https://usv.techlab.icu/api/v1/devices/ups>
+- <https://usv.techlab.icu/api/v1/devices/server-room-rack>
 
 Dabei verwende ich jeweils zwei Suchbegriffe:
 
@@ -481,7 +468,7 @@ networks:
     external: true
 ```
 
-Das Webinterface ist anschließend über https://usv.techlab.icu erreichbar – gesichert via Traefik mit TLS.
+Das Webinterface ist anschließend über <https://usv.techlab.icu> erreichbar – gesichert via Traefik mit TLS.
 
 In der Datei `settings.yml` im Konfigurationsverzeichnis werden die NUT-Server eingetragen. Bei mir sieht die Konfiguration so aus:
 
@@ -743,5 +730,3 @@ Damit sind wir nun am Ende dieses Artikels angelangt und die USVs arbeiten jetzt
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)
 - [Gotify](https://gotify.net/)
 - [Home Assistant](https://www.home-assistant.io/)
-
-{{< chat NUT >}}
