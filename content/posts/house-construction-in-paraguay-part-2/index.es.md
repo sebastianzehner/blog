@@ -23,7 +23,7 @@ Aproveché el buen tiempo del viernes y sobrevolé nuestra obra con el dron. Que
 
 Aquí hay una foto actual de nuestra propiedad y voy a mostrar el vuelo del drone a continuación. Creo que la película salió bastante bien. Hacía un poco de viento ese día, pero se puede ver nuestra casa muy bien desde arriba. :grin:
 
-![Vista aerea sitio de construccion](/img/galleries/house-construction-in-paraguay-part-2/house-construction-in-paraguay-part-2-1.webp)
+![Vista aerea sitio de construccion](house-construction-in-paraguay-part-2-1.webp)
 
 A pesar de todo, todavía queda mucho por hacer en nuestra obra y estamos deseando que llegue la semana que viene, porque en cuanto se instale el tejado quiero estar allí para verlo. La imagen actual de nuestra casa cambiará por completo en cuanto esté puesto el tejado.
 

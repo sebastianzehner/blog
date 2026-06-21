@@ -427,7 +427,7 @@ So erkenne ich sofort, wenn entweder eine USV **offline** ist oder der Netzstrom
 
 [PeaNUT](https://github.com/Brandawg93/PeaNUT) ist ein leichtgewichtiges Web-Dashboard für Network UPS Tools (NUT) – ideal zur Visualisierung des USV-Status. Die Anwendung kann einfach per Docker bereitgestellt werden.
 
-![Image PeaNUT Dashboard](/img/galleries/nut-in-the-homelab-central-ups-monitoring-and-automation/peanut-dashboard.webp)
+![Image PeaNUT Dashboard](peanut-dashboard.webp)
 
 Hier ist meine `docker-compose.yaml`-Datei zur Installation von PeaNUT:
 

@@ -56,7 +56,7 @@ A continuación, cruzamos el puente y nos dirigimos a Portugal; nos detuvimos a 
 
 Actualmente todavía estamos en este camping bastante grande, donde predominan los campistas permanentes y hay muy pocas plazas destinadas al turismo, al menos hasta el lunes 1 de julio de 2019. Después de eso, me gustaría que llenaran nuestra botella de gas y poder estacionar de nuevo en un lugar libre, en plena naturaleza.
 
-![Nuestro autocaravana en un camping.](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
+![Nuestro autocaravana en un camping.](road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
 
 ## Lista de los campings y lugares de estacionamiento visitados
 

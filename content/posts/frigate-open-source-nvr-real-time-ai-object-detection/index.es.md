@@ -356,7 +356,7 @@ Comprobé y comparé la configuración de video y audio de las cámaras. El prob
 
 La detección de objetos en Frigate se basa en reconocimiento impulsado por IA. Para la aceleración por hardware, uso un chip Coral Edge TPU con 4 TOPS (operaciones tera por segundo). Cómo instalar este chip y sus controladores ya está descrito [aquí](/posts/coral-edge-tpu-hardware-acceleration-for-ai-object-detection/).
 
-![Image Frigate Object Detection Coral Edge TPU](/img/galleries/frigate-open-source-nvr-real-time-ai-object-detection/frigate-object-detection-coral-edge-tpu.webp)
+![Image Frigate Object Detection Coral Edge TPU](frigate-object-detection-coral-edge-tpu.webp)
 
 ### Ajuste de Docker Compose
 

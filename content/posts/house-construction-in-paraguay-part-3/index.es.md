@@ -25,7 +25,7 @@ También hemos seleccionado la grifería de los baños y el programa de interrup
 
 Nuestro sistema de aguas residuales, un biodigestor, ya está instalado en nuestra propiedad y conectado a la casa. También hemos conectado el suministro de agua a la casa. Sin embargo, nos gustaría añadir un filtro grueso en el medio, por lo que la conexión se cambiará de nuevo tan pronto como comience la construcción de la cochera.
 
-![Obras](/img/galleries/house-construction-in-paraguay-part-3/house-construction-in-paraguay-part-3-1.webp)
+![Obras](house-construction-in-paraguay-part-3-1.webp)
 
 ## Construir nuestros propios muebles en Paraguay
 

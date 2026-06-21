@@ -39,7 +39,7 @@ Nos enteramos de esta nueva posibilidad en Alemania. Nos enviaron un boletín in
 
 Cuando finalmente emigramos en noviembre de 2019, todavía no habíamos visto nuestra propiedad. Sin embargo, pudimos visitarla ahora porque había una carretera que conducía a ella. Vaya, un gran campo verde :sweat_smile:
 
-![Nuestra propiedad a la derecha](/img/galleries/title-paraiso-verde/property.webp)
+![Nuestra propiedad a la derecha](property.webp)
 
 En aquel momento, no había casas terminadas en la zona del asentamiento, sólo dos frente a nuestra propiedad estaban en construcción. Pensamos que sin duda podríamos crear nuestro propio paraíso verde en cualquier propiedad de aquí.
 
@@ -49,7 +49,7 @@ Así que seguimos adelante. Queríamos quedarnos con esta propiedad y sólo ento
 
 Esto también nos pareció bien, porque confiábamos en que todo estaría en orden. Desgraciadamente, también había mucha gente que seguía diciendo que ese papel no valía nada. A pesar de todo, empezamos a construir nuestra casa.
 
-![Nuestra obra](/img/galleries/title-paraiso-verde/construction.webp)
+![Nuestra obra](construction.webp)
 
 ## La división de la zona de asentamiento
 
@@ -83,7 +83,7 @@ Este es el caso de todas las ciudades de Paraguay. Se puede reconocer esto por l
 
 Las parcelas rurales simples sólo tienen un número de Padrón y se muestran siempre en verde en el mapa de Catastro.
 
-![El Paraíso Verde en Catastro](/img/galleries/title-paraiso-verde/catastro-paraiso-verde.webp)
+![El Paraíso Verde en Catastro](catastro-paraiso-verde.webp)
 
 ## ¿Cómo se numeran las Cuentas Corrientes?
 
@@ -93,9 +93,10 @@ Como puede verse públicamente en el [Mapa de Catastro](https://www.catastro.gov
 
 Por lo tanto, toda la zona de asentamiento tiene siempre Zona 22, Manzana 54 y Lote 2. Piso/Nivel permanece en 00 y las respectivas parcelas (subcuentas) de los colonos se pueden llamar con el número correspondiente a través de Departamento/Salón.
 
-|                                                                                           |                                                                                     |
-| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------: |
-| ![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp) | ![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp) |
+{{< gallery >}}
+{{< figure src="filtros-cuentas-corrientes.webp" alt="Cuentas Corrientes" figureClass="grid-w50" >}}
+{{< figure src="filtros-cuentas-rurales.webp" alt="Cuentas Rurales" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 Después de solicitar el título ante el notario y firmar el traspaso junto con el Dr. Erwin Annau, también se registraron los nombres de ambos en Catastro para nuestra propiedad.
 

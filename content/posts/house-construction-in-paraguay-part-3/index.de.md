@@ -25,7 +25,7 @@ Außerdem haben wir die Armaturen für die Bäder ausgewählt, sowie das Schalte
 
 Unser Abwassersystem, ein Biodigestor, wurde bereits auf unserem Grundstück installiert und mit dem Haus verbunden. Den Wasseranschluss haben wir auch schon am Haus angeschlossen. Wir möchten allerdings noch einen groben Filter dazwischen schalten, daher wird der Anschluss nochmals verändert, sobald der Bau mit dem Carport beginnt.
 
-![Baustelle](/img/galleries/house-construction-in-paraguay-part-3/house-construction-in-paraguay-part-3-1.webp)
+![Baustelle](house-construction-in-paraguay-part-3-1.webp)
 
 ## Eigene Möbel in Paraguay selbst bauen
 

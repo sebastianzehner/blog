@@ -33,7 +33,7 @@ Las obras empezaron hace poco más de una semana. El forjado está terminado des
 
 Es muy interesante ver cómo se construye tu propia casa, que sólo has visto en papel o en la pantalla. Sigue siendo emocionante y seguiré y documentaré los progresos.
 
-![Nuestra losa de hormigón](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-1.webp)
+![Nuestra losa de hormigón](house-construction-in-paraguay-part-1-1.webp)
 
 Seguiremos viviendo en nuestro piso hasta entonces. Ahora también tenemos una cocina mínimamente equipada y podemos cocinar nosotros mismos. Solemos ir a comprar a Caazapá y unas dos veces al mes a Villarrica, a un supermercado más grande.
 
@@ -45,7 +45,7 @@ Nuestro sistema de aguas residuales, una fosa séptica de tres cámaras, se inst
 
 A nuestros hijos probablemente también les gustaría tener un pequeño parque infantil con tobogán, columpios e instalaciones para trepar. ¿Quizá papá tenga algo para trepar en el jardín?
 
-![Vista aérea de las obras](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-2.webp)
+![Vista aérea de las obras](house-construction-in-paraguay-part-1-2.webp)
 
 ## Haga construir sus propios muebles en Paraguay
 

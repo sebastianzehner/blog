@@ -25,7 +25,7 @@ We have also selected the fittings for the bathrooms and the switch program for 
 
 Our waste water system, a Biodigestor, has already been installed on our property and connected to the house. We have also connected the water supply to the house. However, we would like to add a coarse filter in between, so the connection will be changed again as soon as the construction of the carport begins.
 
-![Construction site](/img/galleries/house-construction-in-paraguay-part-3/house-construction-in-paraguay-part-3-1.webp)
+![Construction site](house-construction-in-paraguay-part-3-1.webp)
 
 ## Build our own furniture in Paraguay
 

@@ -427,7 +427,7 @@ De este modo, puedo ver de inmediato si una UPS está **fuera de línea**, si ha
 
 [PeaNUT](https://github.com/Brandawg93/PeaNUT) es un panel web ligero para Network UPS Tools (NUT), ideal para visualizar el estado de los sistemas UPS. La aplicación se puede implementar fácilmente con Docker.
 
-![Image PeaNUT Dashboard](/img/galleries/nut-in-the-homelab-central-ups-monitoring-and-automation/peanut-dashboard.webp)
+![Image PeaNUT Dashboard](peanut-dashboard.webp)
 
 A continuación, se muestra mi archivo `docker-compose.yaml` para instalar PeaNUT:
 

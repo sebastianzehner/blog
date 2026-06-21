@@ -23,7 +23,7 @@ I took advantage of the good weather on Friday and flew over our construction si
 
 Here is a current photo of our property and below I will show the drone flight. I think the video turned out quite well. It was a bit windy that day but you can see into our house very clearly from above. :grin:
 
-![Aerial view construction site](/img/galleries/house-construction-in-paraguay-part-2/house-construction-in-paraguay-part-2-1.webp)
+![Aerial view construction site](house-construction-in-paraguay-part-2-1.webp)
 
 Nevertheless, there is still a lot to do on our construction site and we are particularly looking forward to next week, because as soon as the roof is installed I want to be there to see it. The current picture of our house will change completely as soon as the roof is on.
 

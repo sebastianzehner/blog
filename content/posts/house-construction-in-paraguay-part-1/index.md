@@ -33,7 +33,7 @@ Construction started just over a week ago. The floor slab has been finished sinc
 
 It's very interesting to see your own house being built, which you've only seen on paper or on screen so far. It remains exciting and I will monitor and document the progress.
 
-![Our concrete floor slab](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-1.webp)
+![Our concrete floor slab](house-construction-in-paraguay-part-1-1.webp)
 
 Until then, we will continue to live in our apartment. We now also have a minimally equipped kitchen and can cook for ourselves. We usually go shopping in Caazapá and about twice a month to Villarrica to a larger supermarket.
 
@@ -45,7 +45,7 @@ Our wastewater system, a three-chamber septic tank, will be installed in front o
 
 Our children would probably also like to have a small playground with a slide, swings and climbing facilities. Maybe dad will have something to climb on in the garden too?
 
-![Aerial view construction site](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-2.webp)
+![Aerial view construction site](house-construction-in-paraguay-part-1-2.webp)
 
 ## Have your own furniture built in Paraguay
 

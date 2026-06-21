@@ -23,7 +23,7 @@ Ich habe das gute Wetter am Freitag ausgenutzt und bin mit der Drohne über unse
 
 Hier gibt es gleich ein aktuelles Foto von unserem Grundstück und weiter unten werde ich den Drohnenflug einblenden. Ich denke, der Film ist ganz gut geworden. Es war etwas windig an dem Tag aber man kann sehr schön von oben in unser Haus hineinschauen. :grin:
 
-![Luftbild Baustelle](/img/galleries/house-construction-in-paraguay-part-2/house-construction-in-paraguay-part-2-1.webp)
+![Luftbild Baustelle](house-construction-in-paraguay-part-2-1.webp)
 
 Trotzdem gibt es noch einiges zu tun auf unsere Baustelle und auf die nächste Woche freuen wir uns besonders, denn sobald das Dach montiert wird möchte ich dabei sein und zuschauen. Das aktuelle Bild von unserem Haus wird sich nämlich total verändern, sobald das Dach drauf ist.
 

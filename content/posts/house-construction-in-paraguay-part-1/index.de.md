@@ -33,7 +33,7 @@ Der Bau hat vor gut einer Woche begonnen. Die Bodenplatte ist seit Freitag ferti
 
 Es ist sehr interessant zu sehen, wenn das eigene Haus gebaut wird, welches man bisher nur auf dem Papier oder Bildschirm gesehen hat. Es bleibt spannend und ich werde die Fortschritte kontrollieren und dokumentieren.
 
-![Unsere Betonbodenplatte](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-1.webp)
+![Unsere Betonbodenplatte](house-construction-in-paraguay-part-1-1.webp)
 
 Solange wohnen wir weiterhin in unserem Appartement. Inzwischen haben wir auch eine minimal ausgestattete Küche und können selbst kochen. Wir gehen meistens in Caazapá einkaufen und etwa zweimal im Monat nach Villarrica in einen größeren Supermarkt.
 
@@ -45,7 +45,7 @@ Vor dem Carport wird unser Abwassersystem, eine Drei-Kammer-Klärgrube, installi
 
 Unsere Kinder möchten wahrscheinlich auch einen kleinen Spielplatz mit Rutsche, Schaukel und Klettermöglichkeit haben. Vielleicht hat der Papa dann auch etwas zum Klettern im Garten?
 
-![Luftbild Baustelle](/img/galleries/house-construction-in-paraguay-part-1/house-construction-in-paraguay-part-1-2.webp)
+![Luftbild Baustelle](house-construction-in-paraguay-part-1-2.webp)
 
 ## Eigene Möbel in Paraguay bauen lassen
 

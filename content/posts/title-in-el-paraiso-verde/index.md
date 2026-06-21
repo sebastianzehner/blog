@@ -39,7 +39,7 @@ We found out about this new possibility in Germany. There was a newsletter from 
 
 When we finally emigrated in November 2019, we still hadn't seen our property. However, we were able to visit it now because there was a road leading to it. Wow, a big green field :sweat_smile:
 
-![Our property on the right](/img/galleries/title-paraiso-verde/property.webp)
+![Our property on the right](property.webp)
 
 At that time, there were no finished houses in the settlement area, only two opposite our property were under construction. We thought to ourselves that we could certainly create our own green paradise on any property here.
 
@@ -49,7 +49,7 @@ So we went ahead with it. We wanted to keep this property and only then did we g
 
 This was also fine for us, because we were confident that everything would be in order. Unfortunately, there were also many people who kept saying that this paper was not worth anything. Nevertheless, we started to build our house.
 
-![Our construction site](/img/galleries/title-paraiso-verde/construction.webp)
+![Our construction site](construction.webp)
 
 ## The division of the settlement area
 
@@ -83,7 +83,7 @@ This is the case for every city in Paraguay. You can recognize this by the speci
 
 The simple rural plots only have a Padrón number and are always shown in green on the Catastro map.
 
-![El Paraiso Verde at Catastro](/img/galleries/title-paraiso-verde/catastro-paraiso-verde.webp)
+![El Paraiso Verde at Catastro](catastro-paraiso-verde.webp)
 
 ## How is the Cuentas Corrientes numbered?
 
@@ -93,9 +93,10 @@ As can be seen publicly on the [Map of Catastro](https://www.catastro.gov.py/vis
 
 The entire settlement area therefore always has Zona 22, Manzana 54 and Lote 2. Piso/Nivel remains at 00 and the respective plots (sub-accounts) of the settlers can be called up with the corresponding number via Departamento/Salon.
 
-|                                                                                           |                                                                                     |
-| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------: |
-| ![Cuentas Corrientes](/img/galleries/title-paraiso-verde/filtros-cuentas-corrientes.webp) | ![Cuentas Rurales](/img/galleries/title-paraiso-verde/filtros-cuentas-rurales.webp) |
+{{< gallery >}}
+{{< figure src="filtros-cuentas-corrientes.webp" alt="Cuentas Corrientes" figureClass="grid-w50" >}}
+{{< figure src="filtros-cuentas-rurales.webp" alt="Cuentas Rurales" figureClass="grid-w50" >}}
+{{< /gallery >}}
 
 After we applied to the notary for our title and signed for the transfer together with Dr. Erwin Annau, both of our names were also registered with Catastro for our property.
 

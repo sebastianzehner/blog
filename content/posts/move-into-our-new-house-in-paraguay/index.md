@@ -28,7 +28,7 @@ Since my last blog post, the driveway, carport, and path around the house on our
 
 The electrical wires for the lighting all came from above the walls. I had to extend and install them accordingly according to the final position of the lamps. I installed all the lamps and light fixtures myself, first on the terrace, then around the house, and finally in all the rooms.
 
-![House and carport](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-2.webp)
+![House and carport](move-into-our-new-house-in-paraguay-2.webp)
 
 I even installed the network cables myself. The cables were already run for me, and I then wired all the junction boxes myself. On the other end, I installed a network distribution cabinet with a patch panel for us.
 
@@ -48,7 +48,7 @@ Currently, we are using the sink next to the washing machine in the storage room
 
 Now I need to finish installing the cabinets so we can set up the bathrooms accordingly. At least I installed curtain rods in all the rooms and hung curtains before moving in, which already makes the atmosphere much more cozy.
 
-![Our living room](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-3.webp)
+![Our living room](move-into-our-new-house-in-paraguay-3.webp)
 
 ## Planting trees on the property
 
@@ -56,7 +56,7 @@ Meanwhile, we started working in the garden. We ordered another four loads of co
 
 The rest can be done by me now. Additionally, we received two loads of gravel to fill the area between the house and the road. It looks quite neat already, but it really took a lot of effort (and some sweat) to complete.
 
-![Our way to the carport](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-4.webp)
+![Our way to the carport](move-into-our-new-house-in-paraguay-4.webp)
 
 Of course, we wanted to start planting as soon as possible, because it will take some time for the trees to grow to the appropriate size. I think after a year, you should be able to see considerable growth.
 
@@ -66,7 +66,7 @@ We’ve only prepared the vegetable bed yet; we haven’t actually planted much 
 
 We currently have two butternut squash plants that are producing quite large and delicious squash. We also have two large cassava plants that we will be able to harvest soon, as well as two sunflowers. Stephanie recently planted watermelons in the garden; let’s see when they start to bear fruit.
 
-![Our garden](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-5.webp)
+![Our garden](move-into-our-new-house-in-paraguay-5.webp)
 
 I plan to upload another video about our trees and the property soon. After that, I will keep posting new updates regularly to monitor the progress. I check on the trees every day, and I’m very sad when the leaf-cutting ants eat all the leaves.
 
@@ -74,7 +74,7 @@ Unfortunately, we’ve already lost three papayas and five eucalyptus trees due 
 
 Before planting, I used a motorized lawn mower to cut down the entire area of our land, and then I continued to tidy it up with a manual garden fork several times. I will keep doing this until the end of the year; of course, now I’ll work around the trees as well. Once everything looks just the way I want it, we can plant grass in between the plants. That’s all for today’s update. I’ll be back in touch soon.
 
-![Our terrace](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-1.webp)
+![Our terrace](move-into-our-new-house-in-paraguay-1.webp)
 
 In the coming days, we’ll continue with the work to finish making our furniture. The weather will be unpredictable, and I won’t always be able to work outdoors. Of course, I do all the cutting and sanding of the wood outside under the carport; but when it rains (and it usually rains here quite heavily), everything gets wet anyway. :sweat_smile:
 

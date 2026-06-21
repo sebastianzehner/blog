@@ -28,7 +28,7 @@ Desde que publiqué mi último artículo en el blog, se han completado las obras
 
 Todos los cables de electricidad destinados a la iluminación salían de las paredes por la parte superior; tuve que prolongarlos y colocarlos de acuerdo con la posición final de las lámparas. Las lámparas y los focos los instalé yo mismo: primero en la terraza, luego alrededor de toda la casa, y finalmente en todas las habitaciones.
 
-![Casa y cochera](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-2.webp)
+![Casa y cochera](move-into-our-new-house-in-paraguay-2.webp)
 
 Incluso la instalación de los cables de red la he realizado yo mismo. Los cables me fueron suministrados ya preparados, y luego he conectado los cables en todos los conectores correspondientes. En el otro extremo, hemos montado un armario de distribución de red equipado con un panel de conexión (patchpanel).
 
@@ -48,7 +48,7 @@ Actualmente utilizamos el lavabo que se encuentra junto a la lavadora, en el cua
 
 Ahora tengo que terminar de preparar los armarios para que podamos amueblar las bañeras adecuadamente. Al menos, antes de mudarnos, ya había instalado barras para cortinas en todas las habitaciones y colgado las cortinas, lo que ya contribuye a crear una atmósfera muy acogedora.
 
-![Nuestro salón de estar](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-3.webp)
+![Nuestro salón de estar](move-into-our-new-house-in-paraguay-3.webp)
 
 ## Plantar árboles en el terreno
 
@@ -56,7 +56,7 @@ Al mismo tiempo, hemos comenzado con los trabajos en el jardín. Pedimos cuatro 
 
 El resto ya puedo encargármelo yo mismo. Además, hemos recibido dos cargas de grava para rellenar el espacio entre la casa y el camino. El resultado es realmente impresionante… aunque me ha costado un buen esfuerzo y bastante sudor.
 
-![Nuestro camino hacia el garaje…](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-4.webp)
+![Nuestro camino hacia el garaje…](move-into-our-new-house-in-paraguay-4.webp)
 
 Por supuesto, queríamos comenzar a plantar lo antes posible, ya que los árboles también necesitarán tiempo para crecer hasta alcanzar el tamaño adecuado. Creo que después de un año ya se podrá observar un crecimiento considerable.
 
@@ -66,7 +66,7 @@ Por el momento, solo hemos preparado el huerto de hortalizas, pero aún no hemos
 
 Actualmente tenemos dos plantas de calabaza butternut que nos proporcionan calabazas de buen tamaño y deliciosas. También tenemos dos grandes plantas de maníoc, que pronto podremos cosechar, así como dos plantas de girasol. Stefanie plantó melones de agua hace poco; veremos cuándo darán fruto.
 
-![Nuestro jardín](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-5.webp)
+![Nuestro jardín](move-into-our-new-house-in-paraguay-5.webp)
 
 Pronto subiré un video de nuestros árboles y del terreno. Después, seguiré publicando actualizaciones periódicas para poder observar los progresos que se realicen. Cuido de los árboles todos los días y me siento muy triste cuando las hormigas cortadoras de hojas se las comen.
 
@@ -74,7 +74,7 @@ Lamentablemente, hemos perdido tres papayas y cinco eucaliptos por esta razón. 
 
 Antes de plantar, corté todo el terreno con una segadora eléctrica y luego lo trabajé repetidamente con una pala mecánica. Continuaré haciendo esto hasta finales de año; por supuesto, ahora lo haré alrededor de los árboles, hasta que todo esté tan bien organizado que podamos ver césped en ese espacio. Por lo pronto, eso es todo por lo que respecta a la actualización de hoy. Me pondré en contacto de nuevo en breve.
 
-![Nuestra terraza](/img/galleries/move-into-our-new-house-in-paraguay/move-into-our-new-house-in-paraguay-1.webp)
+![Nuestra terraza](move-into-our-new-house-in-paraguay-1.webp)
 
 En los próximos días continuaremos trabajando para que nuestros muebles estén listos. El clima será variable, y no siempre podré trabajar al aire libre. Por supuesto, todas las tareas de serrado y pulido del madera las realizo afuera, bajo el carport; pero cuando llueve… generalmente lo hace de manera torcida, lo que hace que todo se moje de todos modos. :sweat_smile:
 

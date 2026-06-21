@@ -43,7 +43,7 @@ Next, we drove over the bridge to Portugal and stayed a few kilometers further o
 
 We are currently still at this relatively large campsite, mainly with permanent campers and only a few tourist pitches, until probably Monday, July 1, 2019. After that, I would like to have our gas bottle refilled and stand in a free parking area in nature again.
 
-![Our motorhome on a campsite](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
+![Our motorhome on a campsite](road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
 
 ## List of the campsites and pitches visited
 

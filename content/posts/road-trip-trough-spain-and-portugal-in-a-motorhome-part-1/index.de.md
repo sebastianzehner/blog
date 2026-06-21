@@ -49,7 +49,7 @@ Als nächstes fuhren wir über die Brücke nach Portugal und blieben einige Kilo
 
 Wir stehen aktuell noch auf diesem relativ großen Campingplatz, hauptsächlich mit Dauercamper und nur wenige Touristikstellplätze bis voraussichtlich Montag, den 01. Juli 2019. Danach würde ich gerne unsere Gasflasche füllen lassen und wieder an einem freien Parkplatz in der Natur stehen.
 
-![Unser Wohnmobil auf einem Campingplatz](/img/galleries/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1/road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
+![Unser Wohnmobil auf einem Campingplatz](road-trip-trough-spain-and-portugal-in-a-motorhome-part-1-1.webp)
 
 ## Auflistung der besuchten Camping- und Stellplätze
 

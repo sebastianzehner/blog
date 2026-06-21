@@ -435,7 +435,7 @@ Notifications are sent from **Uptime Kuma** to **Gotify**. Both services are run
 
 [PeaNUT](https://github.com/Brandawg93/PeaNUT) is a lightweight web dashboard for Network UPS Tools (NUT) – perfect for visualizing UPS status. The application is easy to deploy using Docker.
 
-![Image PeaNUT Dashboard](/img/galleries/nut-in-the-homelab-central-ups-monitoring-and-automation/peanut-dashboard.webp)
+![Image PeaNUT Dashboard](peanut-dashboard.webp)
 
 Here’s my `docker-compose.yaml` file for deploying PeaNUT:
 
