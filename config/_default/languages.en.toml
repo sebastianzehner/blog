@@ -17,7 +17,7 @@ title = "Sebastian Zehner"
   [params.author]
     name = "Sebastian Zehner"
     email = "blog@techlab.icu"
-    image = "img/galleries/about/sebastian.webp"
+    image = "img/avatar/sebastian.webp"
     imageQuality = 96
     headline = "Tech minimalist from 🇵🇾"
     bio = "Originally from 🇩🇪, now in 🇵🇾. Lives in the terminal, self-hosts everything with Docker, and builds AI workflows in his tech lab."
