@@ -85,3 +85,5 @@ We have already left Germany. More about what we are doing now and where we are 
 
 Best regards  
 Sebastian
+
+{{< translation-note >}}

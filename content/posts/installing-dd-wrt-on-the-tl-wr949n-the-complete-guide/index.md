@@ -178,3 +178,5 @@ Have you flashed the TL-WR949N or a similar router? Did you notice anything unus
 Best regards,  
 Sebastian
 
+{{< translation-note >}}
+

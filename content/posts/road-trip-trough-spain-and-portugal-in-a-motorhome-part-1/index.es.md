@@ -105,3 +105,5 @@ Sebastian
 
 P.D.: Mientras tanto, en mi [Perfil de Facebook](https://www.facebook.com/sebastianzehner83) publico los lugares y las fotos actuales de nuestro viaje.
 
+{{< translation-note >}}
+

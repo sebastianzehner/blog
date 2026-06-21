@@ -169,3 +169,5 @@ Gracias a la nueva función de series, ¡con suerte podrán mantener siempre el 
 
 ¡Me alegro mucho de recibir vuestros comentarios!
 
+{{< translation-note >}}
+

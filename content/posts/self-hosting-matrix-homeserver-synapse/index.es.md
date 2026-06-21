@@ -313,3 +313,5 @@ Actualmente no utilizo ningún tipo de Bridges (servicios que permiten la comuni
 Un cordial saludo,  
 Sebastian.
 
+{{< translation-note >}}
+

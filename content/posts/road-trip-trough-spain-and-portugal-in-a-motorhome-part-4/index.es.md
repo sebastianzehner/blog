@@ -98,3 +98,5 @@ Ya hemos dejado Alemania. En cuanto a lo que estamos haciendo exactamente y dón
 Un cordial saludo,  
 Sebastian
 
+{{< translation-note >}}
+

@@ -237,3 +237,5 @@ I can now also allow one of the mentioned large language models (LLMs) to access
 
 What experiences do you have with Ollama and OpenCode? Which model works best for you? Please share your recommendations and setup tips in the comments; I’m really interested in your feedback!
 
+{{< translation-note >}}
+

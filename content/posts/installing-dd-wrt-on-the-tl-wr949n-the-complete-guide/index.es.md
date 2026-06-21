@@ -179,3 +179,5 @@ La documentación de estos pasos ha valido la pena: la próxima vez que tenga qu
 Un cordial saludo,  
 Sebastian
 
+{{< translation-note >}}
+

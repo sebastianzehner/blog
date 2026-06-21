@@ -316,3 +316,5 @@ Do you have any questions regarding your own Synapse installation? Feel free to 
 Best regards,  
 Sebastian
 
+{{< translation-note >}}
+

@@ -83,3 +83,5 @@ It’s time for me to have the workshop under the carport built into the wall; t
 Best regards,  
 Sebastian
 
+{{< translation-note >}}
+

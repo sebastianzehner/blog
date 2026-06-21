@@ -119,3 +119,5 @@ Best regards
 Sebastian
 
 PS: In the meantime, I'll be posting the latest locations and pictures from our trip on my [Facebook profile](https://www.facebook.com/sebastianzehner83).
+
+{{< translation-note >}}

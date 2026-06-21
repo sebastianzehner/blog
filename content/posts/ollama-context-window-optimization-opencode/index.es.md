@@ -236,3 +236,5 @@ Ahora también puedo permitir que uno de los modelos de lenguaje largo mencionad
 
 ¿Qué experiencias has tenido con Ollama y OpenCode? ¿Cuál de estos modelos funciona mejor para ti? No dudes en escribirme tus recomendaciones y consejos de configuración en los comentarios; estoy muy interesado en tu opinión.
 
+{{< translation-note >}}
+

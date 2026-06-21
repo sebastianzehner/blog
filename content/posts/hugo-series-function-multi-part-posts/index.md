@@ -169,3 +169,5 @@ What do you think? Do you also use series to create content for your blogs, or d
 
 I look forward to your feedback!
 
+{{< translation-note >}}
+
