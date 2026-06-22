@@ -69,6 +69,19 @@ textarea:focus-visible {
   text-align: left;
 }
 
+/* Improve article meta contrast in dark mode */
+:root.dark .dark\:text-neutral-400 {
+  color: rgba(var(--color-neutral-200), 1);
+}
+
+/* Improve contrast for Show More button in dark mode */
+:root.dark a > button.border.border-primary-500 {
+  color: rgba(var(--color-neutral-100), 1);
+}
+:root.dark a > button.border.border-primary-500:hover {
+  color: rgba(var(--color-primary-500), 1);
+}
+
 /* --- Link Hover Colors --- */
 /* Blowfish sets the same color for normal and hover state (primary-600).
    This adds a visible color change on hover: darker in light mode,
