@@ -55,7 +55,7 @@ bereits aus Natursteinen gebaut.
 
 ![Quincho Baustelle 3](quincho-construction-3.webp)
 
-## Nächste Projekte stehen auch schon wieder an
+## Nächste Projekte stehen schon wieder an
 
 Ich möchte gerne unser Carport seitlich verlängern, zumindest die Überdachung.
 Damit sollen all unsere Fahrzeuge geschützt unter dem Dach stehen können. Mit
