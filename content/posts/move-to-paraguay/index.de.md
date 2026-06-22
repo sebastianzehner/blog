@@ -118,4 +118,4 @@ Erfüllung gehen mögen.
 Viele Grüße  
 Sebastian
 
-[1]: https://meinlifestylebusiness.com/camping-mit-dem-wohnmobil-durch-spanien-und-portugal/
+[1]: /series/road-trip-spain-and-portugal/
