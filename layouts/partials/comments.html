@@ -6,8 +6,9 @@
     <a class="text-primary-300 dark:text-neutral-700 !no-underline hover:text-primary-500 dark:hover:text-primary-400" href="#{{ $commentsId }}" aria-label="{{ i18n "article.anchor_label" }}">#</a>
   </span>
 </h2>
-<script type="text/javascript" src="/cactus.js"></script>
-<link rel="stylesheet" href="/cactus.css" type="text/css" />
+<link rel="stylesheet" href="/cactus/style.css" type="text/css">
+<script type="text/javascript" src="/cactus/cactus.js"></script>
+<script type="text/javascript" src="/cactus/cactus-lang.js"></script>
 <style>
   /* === Cactus Chat - Blowfish Catppuccin === */
   /* Fix avatar image distortion */
@@ -61,5 +62,8 @@
     serverName: "matrix.techlab.icu",
     siteName: "sebastianzehner",
     commentSectionId: "{{ $chatId }}",
+    isAuthenticated: true,
+    language: '{{ .Page.Language.Lang }}',
+    translationsData: cactusTranslations,
   });
 </script>
