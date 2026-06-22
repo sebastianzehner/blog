@@ -13,9 +13,9 @@ read OUTPUT
 OUTPUT="${OUTPUT:-$AUTO_FILENAME}"
 
 # Catppuccin Mocha Colors
-BG_COLOR='#45475a'      # Surface1
+BG_COLOR='#181825'      # Mantle
 TEXT1_COLOR='#89b4fa'   # Blue
-TEXT2_COLOR='#fab387'   # Peach
+TEXT2_COLOR='#cba6f7'   # Mauve
 
 magick -size 1280x720 xc:"$BG_COLOR" \
   -font "/usr/share/fonts/TTF/CaskaydiaCoveNerdFontMono-Regular.ttf" \
