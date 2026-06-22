@@ -11,6 +11,7 @@ tags:
   ssh: {}
   script: {}
   open-source: {}
+  catppuccin: {}
 
   # --- Systems & Infrastructure ---
   homelab: {}
@@ -52,6 +53,8 @@ tags:
   hugo: {}
   markdown: {}
   blogging: {}
+  blowfish: {}
+  website: {}
 
   # --- Hardware / Projects ---
   raspberry-pi: {}
