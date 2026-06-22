@@ -165,4 +165,4 @@ zeigen.
 Liebe Grüße  
 Sebastian
 
-PS: Lese [hier](about) mehr über mich.
+PS: Lese mehr über mich im [Profil](about).
