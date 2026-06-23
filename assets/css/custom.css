@@ -94,6 +94,11 @@ textarea:focus-visible {
   color: rgba(var(--color-primary-500), 1);
 }
 
+/* Fix series summary text contrast */
+summary.bg-primary-200 {
+  color: rgba(var(--color-neutral-800), 1);
+}
+
 /* --- Link Hover Colors --- */
 /* Blowfish sets the same color for normal and hover state (primary-600).
    This adds a visible color change on hover: darker in light mode,
