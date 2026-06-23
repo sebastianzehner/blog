@@ -11,6 +11,13 @@
   font-display: swap;
 }
 
+/* Reduce H1 font size on mobile */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
 /* Apply Cascadia Code as the default font for both sans and mono */
 :root {
   --font-sans: "Cascadia Code", monospace;
