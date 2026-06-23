@@ -53,6 +53,11 @@ textarea:focus-visible {
   font-style: unset;
 }
 
+/* Fix copy button text color on hover */
+.copy-button:hover {
+  color: rgba(var(--color-neutral-800), 1);
+}
+
 /* --- Footer: Copyright Icon --- */
 /* SVG icon rendered via CSS mask from /static/icons/copyright.svg */
 .custom-footer-icon {
