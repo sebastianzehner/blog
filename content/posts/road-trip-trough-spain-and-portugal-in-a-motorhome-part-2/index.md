@@ -5,7 +5,8 @@ date = 2019-07-21T11:22:06-03:00
 lastmod = 2019-07-21T11:22:06-03:00
 
 series = ["Road trip Spain and Portugal"]
-series_title = 'Road Trip trough Spain and Portugal in a motorhome' 
+series_order = 2
+series_title = 'Road Trip trough Spain and Portugal in a motorhome'
 tags = ['vanlife', 'roadtrip', 'travel']
 categories = ['roadtrip']
 

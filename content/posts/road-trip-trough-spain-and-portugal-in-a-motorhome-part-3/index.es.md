@@ -1,5 +1,5 @@
 ---
-title: Acampar con autocaravana por España y Portugal (Parte 3)
+title: Acampar con autocaravana por España y Portugal Parte 3
 summary: >-
   Ya ha pasado un tiempo, y hemos vuelto a España; de hecho, casi estamos en
   Francia. Al menos, tenemos previsto estar de nuevo en Francia para el 15 de
@@ -8,6 +8,7 @@ date: 2019-09-04T14:36:22.000Z
 lastmod: 2019-09-04T14:36:22.000Z
 series:
   - Roadtrip España y Portugal
+series_order: 3
 series_title: Acampar con autocaravana por España y Portugal
 tags:
   - vanlife

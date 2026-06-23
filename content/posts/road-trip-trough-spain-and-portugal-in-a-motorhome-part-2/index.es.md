@@ -1,5 +1,5 @@
 ---
-title: Acampar con una caravana por España y Portugal (Parte 2)
+title: Acampar con una caravana por España y Portugal Parte 2
 summary: >-
   Tras dejar el camping en Árvore, regresamos primero al pueblo de Vila do Conde
   en autocaravana para hacer compras.
@@ -7,6 +7,7 @@ date: 2019-07-21T15:22:06.000Z
 lastmod: 2019-07-21T15:22:06.000Z
 series:
   - Roadtrip España y Portugal
+series_order: 2
 series_title: Acampar con una caravana por España y Portugal
 tags:
   - vanlife

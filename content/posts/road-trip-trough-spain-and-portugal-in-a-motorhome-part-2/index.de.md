@@ -7,6 +7,7 @@ date: 2019-07-21T15:22:06.000Z
 lastmod: 2019-07-21T15:22:06.000Z
 series:
   - Roadtrip Spanien und Portugal
+series_order: 2
 series_title: Camping mit dem Wohnmobil durch Spanien und Portugal
 tags:
   - vanlife

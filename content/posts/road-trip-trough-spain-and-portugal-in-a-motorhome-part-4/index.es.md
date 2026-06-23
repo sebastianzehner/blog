@@ -1,5 +1,5 @@
 ---
-title: Acampar con autocaravana por España y Portugal (Parte 4)
+title: Acampar con autocaravana por España y Portugal Parte 4
 summary: >-
   Hoy escribo la última parte de nuestro viaje en autocaravana por España y
   Portugal. La etapa final en Francia más bien se asemejó a unas vacaciones, ya
@@ -8,6 +8,7 @@ date: 2019-11-26T13:58:23.000Z
 lastmod: 2019-11-26T13:58:23.000Z
 series:
   - Roadtrip España y Portugal
+series_order: 4
 series_title: Acampar con autocaravana por España y Portugal
 tags:
   - vanlife
