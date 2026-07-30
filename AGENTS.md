@@ -214,11 +214,40 @@ git -c user.name="Pi Agent" -c user.email="pi@techlab.icu" commit -m "..."
   - `content: fix typo in X`
   - `chore: update hugo.toml`
 
+## Local Preview
+
+When asked to preview the blog, start Hugo in a detached tmux session:
+
+```bash
+tmux new-session -d -s hugo-preview "hugo server --baseURL http://localhost:1313"
+```
+
+Then open it in the browser:
+
+```bash
+brave "http://localhost:1313"
+```
+
+To check the preview status:
+
+```bash
+tmux list-sessions
+```
+
+If `hugo-preview` is listed, the preview is running. If not, offer to start it.
+
+To stop the preview:
+
+```bash
+tmux send-keys -t hugo-preview C-c
+tmux kill-session -t hugo-preview
+```
+
 ## Useful Shortcuts
 
 | Task                   | Command                                                   |
 | ---------------------- | --------------------------------------------------------- |
 | New post (DE)          | Create `content/posts/<slug>/index.de.md`, then translate |
 | Check for broken links | `hugo --minify` (Hugo reports missing references)         |
-| Preview                | `hugo server -b http://localhost:1313`                    |
+| Local preview          | See **Local Preview** section above                       |
 | Deploy                 | Push to `main`, Netlify auto-deploys                      |
