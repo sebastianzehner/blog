@@ -129,6 +129,9 @@ complexity — tutorials may run longer (1,500–2,000), opinion pieces shorter
 - **Additional images**: Place in the post directory with descriptive
   lowercase-kebab-case names
 - **Format**: Prefer WebP for web delivery; Hugo can convert if needed
+- **Background image**: Always copy `static/backgrounds/default.svg` into the
+  new post directory as `background.svg`. Use this as the default background
+  unless a different one is explicitly requested.
 
 ### Creating a Featured Image
 
