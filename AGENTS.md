@@ -64,6 +64,36 @@ chatId = 'unique-slug-for-comments'
   the same post. Can be reused for posts on the same topic to avoid creating too
   many Matrix rooms.
 
+### Translation Frontmatter (EN and ES only)
+
+Translated versions (`index.en.md`, `index.es.md`) must include a `[translation]`
+section in the frontmatter:
+
+```toml
+[translation]
+  tool = 'Pi Agent - <model-name>'
+  version = '<pi-version>'
+  from = 'de'
+  to = 'en'
+  date = <translation-datetime-ISO8601>
+```
+
+- **`tool`**: Read the current model from the `PI_MODEL` environment variable,
+  capitalize the first letter (e.g., `qwen3.6-27B` → `Qwen3.6-27B`), formatted
+  as `Pi Agent - <model>`
+- **`version`**: Output of `pi --version`
+- **`from`**: Source language (`de` for German primary)
+- **`to`**: Target language (`en` or `es`)
+- **`date`**: Translation date/time in ISO 8601 with `-03:00` timezone
+
+At the **end of every translated article** (after the sign-off), add the shortcode:
+
+```html
+{{< translation-note >}}
+```
+
+This shortcode renders the translation metadata on the blog page for reader transparency.
+
 ## Writing Conventions
 
 ### Language Rules
