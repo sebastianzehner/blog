@@ -5,8 +5,9 @@ date = 2024-12-07T17:00:00-03:00
 lastmod = 2024-12-07T17:00:00-03:00
 
 tags = ['Aktien', 'Finanzen', 'Kryptowährung', 'Bitcoin']
-categories = ['Investment']
+categories = ['TechLab']
 
+[params]
 showComments = true
 chatId = "ipo-shares"
 +++
