@@ -294,6 +294,6 @@ git push github main
 | Task                   | Command                                                   |
 | ---------------------- | --------------------------------------------------------- |
 | New post (DE)          | Create `content/posts/<slug>/index.de.md`, then translate |
-| Check for broken links | `hugo --minify` (Hugo reports missing references)         |
+| Check for broken links | Run `hugo --minify` — fast (~1s), no tmux needed          |
 | Local preview          | See **Local Preview** section above                       |
 | Push to remotes        | See **Pushing to Remotes** section above                  |
