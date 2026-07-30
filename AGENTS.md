@@ -276,6 +276,19 @@ tmux send-keys -t hugo-preview C-c
 tmux kill-session -t hugo-preview
 ```
 
+## Pushing to Remotes
+
+Do **not** push automatically after committing. Only push when explicitly asked.
+When pushing, always push to **both** remotes:
+
+```bash
+git push origin main
+git push github main
+```
+
+- `origin` → Forgejo (`git.techlab.icu`) — local backup
+- `github` → GitHub (`github.com`) — triggers automatic Netlify deployment
+
 ## Useful Shortcuts
 
 | Task                   | Command                                                   |
@@ -283,4 +296,4 @@ tmux kill-session -t hugo-preview
 | New post (DE)          | Create `content/posts/<slug>/index.de.md`, then translate |
 | Check for broken links | `hugo --minify` (Hugo reports missing references)         |
 | Local preview          | See **Local Preview** section above                       |
-| Deploy                 | Push to `main`, Netlify auto-deploys                      |
+| Push to remotes        | See **Pushing to Remotes** section above                  |
