@@ -260,8 +260,39 @@ hugo server -D          # Include drafts
 ```
 
 - Site is deployed via **Netlify** (see `netlify.toml`)
-- Hugo version pinned to `0.163.3` extended in Netlify config
+- Hugo version pinned to `0.164.0` extended in Netlify config
 - `public/` is the build output — never edit directly
+
+### Theme & Hugo Updates
+
+Check for updates regularly using the following workflow:
+
+**1. Check Blowfish version:**
+```bash
+git submodule status                    # current version
+cd themes/blowfish && git fetch origin # fetch remote tags
+git tag --sort=-version:refname | head # latest available
+```
+
+**2. Update Blowfish (if newer version exists):**
+```bash
+cd themes/blowfish
+git checkout v<X.Y.Z>                  # target version
+cd ..
+git add themes/blowfish
+```
+
+**3. Align Hugo version with theme requirements:**
+- Check `themes/blowfish/config.toml` for `[module.hugoVersion]` min/max
+- Update `netlify.toml` `HUGO_VERSION` to match the theme's `max` version
+- Verify local `hugo version` matches (update via `pacman` if needed)
+
+**4. Verify, commit, and push:**
+```bash
+hugo --minify           # ensure build passes
+git commit -m "chore: update blowfish to vX.Y.Z"
+git push origin main && git push github main
+```
 
 ## Theme Configuration
 
