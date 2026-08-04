@@ -26,7 +26,8 @@ content/posts/my-post-slug/
 
 - The **slug** (directory name) is always English, lowercase, kebab-case
 - Files are named `index.<lang>.md` — Hugo resolves language from the file extension
-- Always create all three language versions; never publish a single-language post
+- Every published post must have all three language versions (DE, EN, ES)
+- **Workflow:** Create only the German version (`index.de.md`) first. Translate to EN and ES **only after** the German version has been reviewed, optimized, and explicitly approved by the author
 
 ### Frontmatter
 
@@ -293,7 +294,7 @@ git push github main
 
 | Task                   | Command                                                   |
 | ---------------------- | --------------------------------------------------------- |
-| New post (DE)          | Create `content/posts/<slug>/index.de.md`, then translate |
+| New post (DE)          | Create `content/posts/<slug>/index.de.md` only — translate after approval |
 | Check for broken links | Run `hugo --minify` — fast (~1s), no tmux needed          |
 | Local preview          | See **Local Preview** section above                       |
 | Push to remotes        | See **Pushing to Remotes** section above                  |
