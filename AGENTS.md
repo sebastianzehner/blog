@@ -140,6 +140,20 @@ Sebastian
 - Link to external resources where helpful (official docs, project repositories,
   references)
 - Code blocks always specify language (bash, toml, properties, etc.)
+- **Use reference-style links in body text, not inline links.** Inline links
+  break MD013 (line-length) whenever the URL is long, and render awkwardly
+  with render-markdown.nvim. Use numbered references instead, defined at the
+  end of the section:
+
+```markdown
+I switched from Ollama to [llama.cpp][1], using [llama-swap][2] as a proxy.
+
+[1]: https://github.com/ggml-org/llama.cpp
+[2]: https://github.com/mostlygeek/llama-swap
+```
+
+Number sequentially within the document. Short links unlikely to exceed
+the line limit (e.g. `[Hugo](https://gohugo.io)`) may stay inline.
 
 ### Fact-Checking & Technical Accuracy
 
