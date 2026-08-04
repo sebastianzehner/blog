@@ -27,7 +27,9 @@ content/posts/my-post-slug/
 - The **slug** (directory name) is always English, lowercase, kebab-case
 - Files are named `index.<lang>.md` — Hugo resolves language from the file extension
 - Every published post must have all three language versions (DE, EN, ES)
-- **Workflow:** Create only the German version (`index.de.md`) first. Translate to EN and ES **only after** the German version has been reviewed, optimized, and explicitly approved by the author
+- **Workflow:** Create only the German version (`index.de.md`) first.
+  Translate to EN and ES **only after** the German version has been reviewed,
+  optimized, and explicitly approved by the author
 
 ### Frontmatter
 
@@ -112,8 +114,23 @@ This shortcode renders the translation metadata on the blog page for reader tran
 - First-person perspective (`ich` / `I` / `yo`)
 - Technical but accessible — assume reader knows Linux basics
 - No filler introductions; start with the hook
-- End with a personal sign-off (DE: `Liebe Grüße / Sebastian`, EN: `Best
-regards, / Sebastian`, ES: `Un saludo, / Sebastian`)
+- End with a personal sign-off using a Markdown hard line break (two trailing
+  spaces after the greeting, then the name on the next line):
+
+```markdown
+Liebe Grüße  
+Sebastian
+```
+
+```markdown
+Best regards,  
+Sebastian
+```
+
+```markdown
+Un saludo,  
+Sebastian
+```
 
 ### Content Guidelines
 
@@ -123,6 +140,42 @@ regards, / Sebastian`, ES: `Un saludo, / Sebastian`)
 - Link to external resources where helpful (official docs, project repositories,
   references)
 - Code blocks always specify language (bash, toml, properties, etc.)
+
+### Fact-Checking & Technical Accuracy
+
+Articles on this blog frequently make claims about specific tools, CLI flags,
+APIs, or feature availability (Ollama, llama.cpp, Hugo, self-hosting tools,
+etc.). This kind of information changes fast and is a common source of
+outdated or simply wrong claims if written from memory alone.
+
+**Before publishing, verify — don't just recall:**
+
+- Any categorical claim ("X does not support Y", "there is no way to Z",
+  "X is limited to Y") is the highest-risk pattern for being outdated. Treat
+  these as claims to verify via web search before writing them, not after.
+- Any specific technical detail: CLI flags, API parameters, config options,
+  version numbers, benchmark figures, or "current state" of a tool/project.
+- Any claim used as a _reason_ for a recommendation (e.g. "switch from A to
+  B because A can't do X") — these get quoted and challenged by readers more
+  than any other sentence in the post.
+
+**How to verify:**
+
+- Use the web search skill to check the tool's current official docs,
+  changelog, or GitHub repo — prefer these over blog posts or forum threads,
+  which may reflect an old version without saying so.
+- When citing a specific number (benchmark, percentage, performance claim),
+  check whether it's a general, reproducible fact or a one-off/context-bound
+  result (e.g. tied to a specific version, bug, or incident). If context-bound,
+  say so explicitly in the text instead of presenting it as a general fact.
+- If a claim can't be verified with confidence, either drop it, soften it
+  ("in my experience...", "as of writing..."), or flag it for the author to
+  check manually — never state it as settled fact.
+
+**After drafting:** do a pass over the finished article and re-check every
+categorical or comparative technical claim individually before considering
+the draft done. This is a required step for any post that makes claims about
+a specific tool, library, or service, not just for comparison/opinion pieces.
 
 ### Target Word Count
 
@@ -292,9 +345,9 @@ git push github main
 
 ## Useful Shortcuts
 
-| Task                   | Command                                                   |
-| ---------------------- | --------------------------------------------------------- |
+| Task                   | Command                                                                   |
+| ---------------------- | ------------------------------------------------------------------------- |
 | New post (DE)          | Create `content/posts/<slug>/index.de.md` only — translate after approval |
-| Check for broken links | Run `hugo --minify` — fast (~1s), no tmux needed          |
-| Local preview          | See **Local Preview** section above                       |
-| Push to remotes        | See **Pushing to Remotes** section above                  |
+| Check for broken links | Run `hugo --minify` — fast (~1s), no tmux needed                          |
+| Local preview          | See **Local Preview** section above                                       |
+| Push to remotes        | See **Pushing to Remotes** section above                                  |
