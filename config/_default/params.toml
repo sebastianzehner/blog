@@ -47,7 +47,7 @@ forgejoDefaultServer = "https://git.techlab.icu"
   metaDescriptionOrder = ["summary", "description", "site"]
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "floating" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur, floating
 
 [footer]
   showMenu = true
