@@ -133,6 +133,32 @@ article.article-link--shortcode header a:hover {
   color: rgba(var(--color-primary-200), 1);
 }
 
+/* --- Mobile Menu: Dropdown Overflow ---
+   The v3 dropdown menu is an absolute child of the fixed header without
+   max-height, so in landscape it overflows the viewport bottom and can't be
+   scrolled into view (fixed elements don't extend document overflow).
+   Cap the height so the built-in overflow-y-auto takes over. The fullscreen
+   variant uses .fixed and is intentionally untouched */
+#mobile-menu-dialog.absolute {
+  max-height: calc(100vh - 6rem);
+  max-height: calc(100dvh - 6rem);
+  /* align with the header card border: 1px border + 0.75rem card padding
+     + 0.25rem .main-menu p-1 sit between the card edge and the dialog */
+  inset-inline-end: calc(-1rem - 1px);
+}
+
+/* Dropdown scrollbar: theme default is neutral gray and square; match
+   Catppuccin Mocha and round the thumb to fit the rounded-2xl container */
+#mobile-menu-dialog {
+  --scrollbar-thumb: #9399b2;
+  --scrollbar-track: transparent;
+  --scrollbar-thumb-radius: 4px;
+  --scrollbar-track-radius: 4px;
+}
+:root.dark #mobile-menu-dialog {
+  --scrollbar-thumb: #585b70;
+}
+
 html:not(.dark) {
   /* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
