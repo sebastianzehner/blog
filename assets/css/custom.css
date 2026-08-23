@@ -115,6 +115,24 @@ a:has(.icon):hover {
   border-radius: 0.25rem;
 }
 
+/* Article-link titles (card, related, simple): suppress the theme's
+   hover:underline utility (article-link/*.html). The thumbnail zoom already
+   signals interactivity. Hover color mirrors the .prose link scheme
+   (related links sit inside .prose, the others don't, so set it explicitly) */
+article.article-link--card header a:hover,
+article.article-link--related header a:hover,
+article.article-link--simple header a:hover,
+article.article-link--shortcode header a:hover {
+  text-decoration-line: none;
+  color: rgba(var(--color-primary-900), 1);
+}
+:root.dark article.article-link--card header a:hover,
+:root.dark article.article-link--related header a:hover,
+:root.dark article.article-link--simple header a:hover,
+:root.dark article.article-link--shortcode header a:hover {
+  color: rgba(var(--color-primary-200), 1);
+}
+
 html:not(.dark) {
   /* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
