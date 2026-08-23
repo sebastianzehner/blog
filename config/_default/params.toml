@@ -90,6 +90,7 @@ forgejoDefaultServer = "https://git.techlab.icu"
   showPagination = true
   invertPagination = false
   showReadingTime = true
+  showReadingProgress = true
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 6
@@ -114,6 +115,7 @@ forgejoDefaultServer = "https://git.techlab.icu"
 
 [list]
   showHero = true
+  featureImageHover = true            # subtle zoom on card thumbnails (homepage + lists)
   heroStyle = "background"            # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true         # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
