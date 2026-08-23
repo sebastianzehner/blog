@@ -147,16 +147,26 @@ article.article-link--shortcode header a:hover {
   inset-inline-end: calc(-1rem - 1px);
 }
 
-/* Dropdown scrollbar: theme default is neutral gray and square; match
-   Catppuccin Mocha and round the thumb to fit the rounded-2xl container */
-#mobile-menu-dialog {
-  --scrollbar-thumb: #9399b2;
+/* --- Scrollbars (bf-scrollbar: page, ToC, mobile menu) ---
+   Catppuccin surface0 thumb, transparent track */
+.bf-scrollbar {
+  --scrollbar-thumb: #bcc0cc;
   --scrollbar-track: transparent;
-  --scrollbar-thumb-radius: 4px;
-  --scrollbar-track-radius: 4px;
 }
-:root.dark #mobile-menu-dialog {
-  --scrollbar-thumb: #585b70;
+:root.dark .bf-scrollbar {
+  --scrollbar-thumb: #313244;
+}
+
+/* Touch devices get the standard scrollbar-* properties, which produce a
+   slim, auto-hiding overlay in our thumb color. */
+@media (pointer: coarse) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #bcc0cc transparent;
+  }
+  html.dark {
+    scrollbar-color: #313244 transparent;
+  }
 }
 
 html:not(.dark) {
