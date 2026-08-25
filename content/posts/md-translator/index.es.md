@@ -5,7 +5,7 @@ summary: >-
   manuales son costosas y las herramientas automáticas suelen dañar el formato
   Markdown. ¿Cómo mantener la eficiencia y conservar el formato?
 date: 2025-12-17T20:00:00.000Z
-lastmod: 2025-12-17T20:00:00.000Z
+lastmod: 2026-08-25T13:10:00.000Z
 tags:
   - hugo
   - markdown
@@ -24,11 +24,32 @@ translation:
   from: de
   to: es
   date: 2025-12-17T00:00:00.000Z
-  time: '18:08:11'
+  time: "18:08:11"
 ---
+
 Como blogger que tiene un blog multilingüe, uno se enfrenta a un reto constante: cada nuevo artículo debe ser traducido a varios idiomas. Las traducciones manuales son laboriosas y costosas, mientras que las herramientas automáticas a menudo dañan la estructura del texto (formatada con Markdown) que se ha creado con cuidado. ¿Qué hacer?
 
 Precisamente frente a este problema me encontré cuando comencé a publicar mi blog en alemán, inglés y español. La solución: un traductor inteligente de Markdown que mantiene la estructura original de los textos y ofrece traducciones de alta calidad.
+
+> [!NOTE] Actualización
+> Desde la publicación de este artículo, mi flujo de trabajo para las
+> traducciones del blog ha cambiado: ya no uso md-translator. Mi agente Pi
+> traduce ahora cada artículo con Qwen3.8-27B, un LLM local que funciona
+> a través de llama.cpp y llama-swap. Después, una pasada de proofreading
+> comprueba cada traducción en busca de texto incompleto y formulaciones
+> torpes antes de que yo mismo revise el resultado.
+>
+> La calidad de las traducciones es ahora claramente superior a la que
+> podía ofrecer el modelo de traducción dedicado. Además, el nuevo flujo
+> de trabajo es más sencillo de usar: no hay que mantener una herramienta
+> adicional ni cargar un modelo separado solo para las traducciones. Por
+> eso md-translator ya no forma parte de mi flujo de trabajo.
+>
+> Lo que no cambia es la visualización: cada versión traducida de un
+> artículo sigue terminando con la misma nota de traducción, que indica
+> de qué idioma a qué se tradujo y qué herramienta se utilizó. El enlace
+> «Más Información» de la nota también apunta a este artículo, el lugar
+> central donde se explica cómo nacen mis traducciones.
 
 ## El proceso de creación de md-translator
 
@@ -318,3 +339,4 @@ Si lees este artículo en inglés o español, al final verás una indicación so
 - Licencia: MIT
 - Repositorio: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
 
+{{< translation-note >}}

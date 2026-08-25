@@ -5,7 +5,7 @@ summary: >-
   Übersetzungen sind teuer, automatische Tools beschädigen oft die
   Markdown-Struktur. Wie bleibt man trotzdem effizient und behält das Format?
 date: 2025-12-17T20:00:00.000Z
-lastmod: 2025-12-17T20:00:00.000Z
+lastmod: 2026-08-25T12:53:54.000Z
 tags:
   - hugo
   - markdown
@@ -19,9 +19,32 @@ layoutBackgroundHeaderSpace: true
 showComments: true
 chatId: md-translator
 ---
+
 Als Blogger mit einem mehrsprachigen Blog steht man vor einer ständigen Herausforderung: Jeder neue Artikel muss in mehrere Sprachen übersetzt werden. Manuelle Übersetzungen sind zeitaufwändig und teuer, automatische Tools zerstören oft die sorgfältig formatierte Markdown-Struktur. Was tun?
 
 Genau vor diesem Problem stand ich, als ich begann, meinen Blog in Deutsch, Englisch und Spanisch zu veröffentlichen. Die Lösung: Ein intelligenter Markdown-Übersetzer, der die Struktur bewahrt und hochwertige Übersetzungen liefert.
+
+> [!NOTE] Update
+> Seit der Veröffentlichung dieses Artikels hat sich mein Workflow für die
+> Übersetzungen des Blogs geändert: Ich nutze md-translator nicht mehr. Mein
+> Pi-Agent übersetzt jeden Artikel inzwischen mit Qwen3.8-27B, einem lokalen
+> LLM, das über llama.cpp und llama-swap läuft. Ein Proofreading-Durchgang
+> prüft jede Übersetzung anschließend auf Fragmente und holprige
+> Formulierungen, bevor ich das Ergebnis selbst noch einmal durchsehe.
+>
+> Die Qualität der Übersetzungen liegt damit deutlich über dem, was das
+> dedizierte Übersetzungsmodell liefern konnte. Gleichzeitig ist der neue
+> Workflow in der Handhabung einfacher: Es gibt kein weiteres Tool, das
+> gepflegt werden muss, und kein separates Modell, das nur für die
+> Übersetzung geladen werden müsste. Genau deshalb ist md-translator aus
+> meinem Workflow herausgefallen.
+>
+> Unverändert bleibt die Anzeige: Jede übersetzte Version eines Artikels
+> endet weiterhin mit dem gleichen Übersetzungs-Hinweis, der zeigt, aus
+> welcher Sprache in welche übersetzt wurde und welches Tool zum Einsatz
+> kam. Auch der "Mehr Informationen"-Link im Hinweis verweist weiter auf
+> diesen Artikel. Damit bleibt er der zentrale Ort, an dem erklärt wird,
+> wie meine Übersetzungen entstehen.
 
 ## Die Entstehung von md-translator
 
@@ -313,4 +336,3 @@ Wenn du diesen Artikel auf Englisch oder Spanisch liest, wirst du am Ende des Ar
 - Lizenz: MIT
 - Repository:
   [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
-

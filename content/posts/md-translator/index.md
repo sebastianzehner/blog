@@ -5,7 +5,7 @@ summary: >-
   while automated tools often damage the Markdown format. How can one still
   remain efficient and preserve the original format?
 date: 2025-12-17T20:00:00.000Z
-lastmod: 2025-12-17T20:00:00.000Z
+lastmod: 2026-08-25T13:10:00.000Z
 tags:
   - hugo
   - markdown
@@ -24,11 +24,32 @@ translation:
   from: de
   to: en
   date: 2025-12-17T00:00:00.000Z
-  time: '18:07:15'
+  time: "18:07:15"
 ---
+
 As a blogger with a multilingual blog, you face a constant challenge: every new article needs to be translated into several languages. Manual translations are time-consuming and expensive, while automated tools often ruin the carefully formatted Markdown structure. What to do?
 
 That’s exactly the problem I faced when I started publishing my blog in German, English, and Spanish. The solution? An intelligent Markdown translator that preserves the structure of the text and provides high-quality translations.
+
+> [!NOTE] Update
+> Since the publication of this article, my workflow for translating the
+> blog has changed: I no longer use md-translator. My Pi agent now
+> translates every article with Qwen3.8-27B, a local LLM served via
+> llama.cpp and llama-swap. A proofreading pass then checks each
+> translation for sentence fragments and awkward phrasing before I
+> review the result myself.
+>
+> The translation quality is now clearly above what the dedicated
+> translation model could deliver. At the same time, the new workflow is
+> easier to handle: there is no additional tool to maintain and no
+> separate model that has to be loaded just for translation. That is
+> exactly why md-translator dropped out of my workflow.
+>
+> What doesn’t change is the display: every translated version of an
+> article still ends with the same translation note, showing the source
+> and target language, and the tool that was used. The “More Information”
+> link in the note still points to this article, which remains the
+> central place explaining how my translations are made.
 
 ## The creation of md-translator
 
@@ -318,3 +339,4 @@ If you read this article in English or Spanish, you will see a notice indicating
 - License: MIT
 - Repository: [github.com/sebastianzehner/md-translator](https://github.com/sebastianzehner/md-translator)
 
+{{< translation-note >}}
