@@ -147,19 +147,6 @@ article.article-link--shortcode header a:hover {
   inset-inline-end: calc(-1rem - 1px);
 }
 
-/* --- A11y Panel: Containing Block Fix ---
-   The floating header's backdrop blur makes the pill a containing block
-   for position:fixed descendants, so the a11y panel centers on the pill
-   (~60px tall) instead of the viewport and gets clipped at the top. Lift
-   the filter while a panel is open. Mirrors the theme's own fix for the
-   fullscreen mobile menu (v3.2.0, commit ca56ac78). Upstream v3.4.0 still
-   ships the bug - remove this override once a fixed theme version lands */
-header .backdrop-blur-xl:has(#desktop-a11y-panel:not(.hidden)),
-header .backdrop-blur-xl:has(#mobile-menu-a11y-panel:not(.hidden)) {
-  -webkit-backdrop-filter: none;
-  backdrop-filter: none;
-}
-
 /* --- Scrollbars (bf-scrollbar: page, ToC, mobile menu) ---
    Catppuccin surface0 thumb, transparent track */
 .bf-scrollbar {
