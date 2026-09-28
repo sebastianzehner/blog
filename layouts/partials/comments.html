@@ -58,7 +58,7 @@
 <script>
   initComments({
     node: document.getElementById("comment-section"),
-    defaultHomeserverUrl: "https://matrix.techlab.icu",
+    defaultHomeserverUrl: "https://comments.techlab.icu",
     serverName: "matrix.techlab.icu",
     siteName: "sebastianzehner",
     commentSectionId: "{{ $chatId }}",
@@ -66,5 +66,6 @@
     language: '{{ .Page.Language.Lang }}',
     translationsData: cactusTranslations,
     guestPostingEnabled: false,
+    readerLoginUrl: "https://sebastianzehner.com/cactus/reader-login.json",
   });
 </script>
