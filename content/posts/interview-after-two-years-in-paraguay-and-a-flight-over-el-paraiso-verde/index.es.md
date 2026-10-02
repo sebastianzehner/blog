@@ -2,7 +2,7 @@
 title = 'Entrevista tras dos años en Paraguay y un vuelo sobre El Paraíso Verde'
 summary = 'En esta entrada del blog, me gustaría informar de nuevo sobre mi entrevista del año pasado y también sobre nuestro vuelo turístico sobre la zona de asentamiento en marzo de 2022.'
 date = 2022-05-08T23:20:50-03:00
-lastmod = 2022-05-08T23:20:50-03:00
+lastmod = 2026-10-02T17:55:00-03:00
 
 tags = ['El Paraiso Verde', 'Vuelo turístico', 'Entrevista', 'Emigración']
 categories = ['Paraguay']
@@ -25,7 +25,7 @@ Por supuesto, esto nos llevó un tiempo, dependiendo de la situación inicial, e
 
 Ciertamente puedo entrar en un poco más de detalle cuando tenga la oportunidad y tal vez escribir mi propio artículo de blog al respecto si estás interesado. Pero por ahora, echa un vistazo a mi entrevista, donde te cuento mucho sobre nuestra historia y también puedes descubrir un poco sobre la vida en el lugar.
 
-{{< youtube _nzyjaOXQyY >}}
+{{< rumble id="v79benq" title="Interview 2021 Sebastian" >}}
 
 ## Nuestro vuelo turístico desde el aeropuerto de Caazapa sobre El Paraiso Verde
 
@@ -34,8 +34,6 @@ Tuvimos la oportunidad de participar en un vuelo turístico. Hay algunos pilotos
 De forma más o menos espontánea, llevaba conmigo mi pequeña cámara DJI Osmo Pocket. Por desgracia, sólo grabé con el micrófono interno, así que pido disculpas por la mala calidad del audio en algunos puntos. Sin embargo, para ser un vídeo espontáneo, la película :tv: resultó bastante interesante.
 
 {{< youtube vJEiIUoIzVk >}}
-
----
 
 Espero que te hayan gustado ambos vídeos y que te hayas divertido viéndolos. No dudes en escribirme algo al respecto en los comentarios. Si quieres ver más vídeos, indícame qué te interesa. Muchas gracias.
 

@@ -2,7 +2,7 @@
 title = 'Interview nach zwei Jahren in Paraguay und Rundflug über El Paraiso Verde'
 summary = 'In diesem Blogartikel möchte ich nochmal über mein Interview vom letzten Jahr berichten und auch von unserem Rundflug über das Siedlungsgebiet im März 2022.'
 date = 2022-05-08T23:20:50-03:00
-lastmod = 2022-05-08T23:20:50-03:00
+lastmod = 2026-10-02T17:55:00-03:00
 
 tags = ['El Paraiso Verde', 'Rundflug', 'Interview', 'Auswandern']
 categories = ['Paraguay']
@@ -25,7 +25,7 @@ Dies hatte bei uns natürlich noch eine Weile gedauert, je nach Ausgangssituatio
 
 Ich kann bei Gelegenheit sicherlich noch etwas mehr ins Detail gehen und vielleicht auch einen eigenen Blogartikel darüber schreiben, falls dich dies interessieren würde. Schau dir aber erstmal mein Interview an, denn dort erzähle ich schon sehr viel über unsere Geschichte und du erfährst auch ein wenig über das Leben vor Ort.
 
-{{< youtube _nzyjaOXQyY >}}
+{{< rumble id="v79benq" title="Interview 2021 Sebastian" >}}
 
 ## Unser Rundflug vom Flughafen Caazapa über das El Paraiso Verde
 
@@ -34,8 +34,6 @@ Wir hatten die Möglichkeit an einem Rundflug teilzunehmen. Es gibt nämlich ein
 Ich hatte mehr oder weniger spontan meine kleine DJI Osmo Pocket Kamera dabei. Leider nur mit dem internen Mikrofon aufgenommen, daher bitte um Entschuldigung für die teilweise schlechte Audioqualität. Für ein spontanes Video ist der Film :tv: jedoch ganz interessant geworden.
 
 {{< youtube vJEiIUoIzVk >}}
-
----
 
 Ich hoffe dir haben beide Videos gefallen und du hattest Spaß beim Schauen. Schreib mir gerne etwas darüber in die Kommentare. Falls ich weitere Videos produzieren soll, lass mich ruhig wissen was dich interessiert. Vielen Dank!
 

@@ -2,7 +2,7 @@
 title = 'Interview after two years in Paraguay and a flight over El Paraiso Verde'
 summary = 'In this blog post, I would like to report again on my interview from last year and also on our sightseeing flight over the settlement area in March 2022.'
 date = 2022-05-08T23:20:50-03:00
-lastmod = 2022-05-08T23:20:50-03:00
+lastmod = 2026-10-02T17:55:00-03:00
 
 tags = ['El Paraiso Verde', 'Sightseeing Flight', 'Interview', 'Emigration']
 categories = ['Paraguay']
@@ -25,7 +25,7 @@ Of course, this took a while for us, depending on the initial situation, it is d
 
 I can certainly go into a bit more detail when I get the chance and maybe write my own blog article about it if you're interested. But for now, take a look at my interview, where I tell you a lot about our story and you can also find out a bit about life on site.
 
-{{< youtube _nzyjaOXQyY >}}
+{{< rumble id="v79benq" title="Interview 2021 Sebastian" >}}
 
 ## Our sightseeing flight from Caazapa airport over El Paraiso Verde
 
@@ -34,8 +34,6 @@ We had the opportunity to take part in a sightseeing flight. There are a few pil
 More or less spontaneously, I had my little DJI Osmo Pocket camera with me. Unfortunately, I only recorded with the internal microphone, so I apologize for the poor audio quality in places. For a spontaneous video, however, the movie :tv: turned out quite interesting.
 
 {{< youtube vJEiIUoIzVk >}}
-
----
 
 I hope you enjoyed both videos and had fun watching them. Feel free to write me something about it in the comments. If you would like to see more videos, please let me know what you are interested in. Many thanks!
 

@@ -1,0 +1,14 @@
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" | default (printf "Rumble video %s" $id) -}}
+{{- if not $id -}}
+  {{- errorf "rumble shortcode: id is required: %s" .Position -}}
+{{- end -}}
+<div class="relative w-full aspect-video overflow-hidden rounded-md">
+  <iframe
+    src="https://rumble.com/embed/{{ $id }}/"
+    title="{{ $title }}"
+    class="absolute inset-0 w-full h-full border-0"
+    loading="lazy"
+    allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+    allowfullscreen></iframe>
+</div>
